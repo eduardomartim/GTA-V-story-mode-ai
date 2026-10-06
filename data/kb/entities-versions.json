@@ -1,0 +1,71 @@
+[
+  {
+    "id": "version:editions-overview",
+    "type": "version",
+    "name": "GTA V versions and editions",
+    "aliases": [
+      "versions",
+      "versões",
+      "plataformas",
+      "PC Enhanced",
+      "PC Legacy",
+      "PS5",
+      "Xbox Series",
+      "PS4",
+      "Xbox One",
+      "PS3",
+      "Xbox 360",
+      "original",
+      "next-gen",
+      "enhanced edition",
+      "diferenças entre versões"
+    ],
+    "summary": "GTA V launched on PS3 and Xbox 360 (2013), then PS4/Xbox One (2014), PC (2015), PS5/Xbox Series (2022) and an Enhanced PC edition alongside the Legacy PC edition. Some Story Mode content is version-scoped: Peyote Plants and Monkey Mosaics are not in the PS3/Xbox 360 versions.",
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.75
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/monkey-mosaics-images/z2716d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Peyote_Plants",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7,
+    "sections": [
+      {
+        "kind": "versions",
+        "title": "Version-scoped Story Mode content",
+        "status": "curated",
+        "versions": [
+          "PS4/Xbox One",
+          "PS5/Xbox Series",
+          "PC"
+        ],
+        "text": "Peyote Plants (27) exist only on PS4, Xbox One, PC and later. Monkey Mosaics (50) are described as part of the re-release on newer consoles and PC. 100% completion does not require enhanced-edition exclusives (GTABase)."
+      },
+      {
+        "kind": "versions",
+        "title": "Stock market and Railgun",
+        "status": "unverified",
+        "text": "Stock returns from Lester's contracts differ between versions (one guide: about +80% on older versions vs about +21% on next-gen for the first contract). Whether the Railgun is available in Story Mode may also depend on the version; sources disagree."
+      },
+      {
+        "kind": "versions",
+        "title": "Not validated",
+        "status": "unverified",
+        "text": "Detailed PC Legacy versus PC Enhanced differences, mod compatibility and per-platform cheat availability are not validated; do not assume compatibility."
+      }
+    ]
+  }
+]

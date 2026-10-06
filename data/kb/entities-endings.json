@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ending:ending-a-something-sensible",
+    "type": "ending",
+    "name": "Ending A — Something Sensible",
+    "aliases": [
+      "Ending A",
+      "final A",
+      "Kill Trevor",
+      "matar o Trevor"
+    ],
+    "summary": "Franklin follows Steve Haines and Dave Norton's plan, resulting in Trevor's death.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Something_Sensible",
+        "confidence": 0.85
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Something_Sensible",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "spoiler_level": 3,
+    "attrs": {
+      "choice": "Kill Trevor",
+      "mission": "Something Sensible"
+    },
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "mission:something-sensible"
+      }
+    ]
+  },
+  {
+    "id": "ending:ending-b-the-times-come",
+    "type": "ending",
+    "name": "Ending B — The Time's Come",
+    "aliases": [
+      "Ending B",
+      "final B",
+      "Kill Michael",
+      "matar o Michael"
+    ],
+    "summary": "Franklin follows Devin Weston's plan, resulting in Michael's death.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/The_Time%27s_Come",
+        "confidence": 0.85
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Time%27s_Come",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "spoiler_level": 3,
+    "attrs": {
+      "choice": "Kill Michael",
+      "mission": "The Time's Come"
+    },
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "mission:the-times-come"
+      }
+    ]
+  },
+  {
+    "id": "ending:ending-c-the-third-way",
+    "type": "ending",
+    "name": "Ending C — The Third Way (Deathwish)",
+    "aliases": [
+      "Ending C",
+      "final C",
+      "Deathwish",
+      "The Third Way",
+      "terceiro final",
+      "salvar todos"
+    ],
+    "summary": "The three protagonists unite against their enemies and all survive. It is the only ending that keeps all three protagonists alive.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/The_Third_Way",
+        "confidence": 0.85
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Third_Way",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "spoiler_level": 3,
+    "attrs": {
+      "choice": "Deathwish",
+      "mission": "The Third Way"
+    },
+    "sections": [
+      {
+        "kind": "guidance",
+        "title": "Which ending is best?",
+        "text": "Ending C is the one that keeps all three protagonists alive, so it is the common recommendation if you want to continue with all of them. Endings A and B each result in the death of a protagonist. Treat this as guidance, not a rule: the choice is yours."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "mission:the-third-way"
+      }
+    ]
+  }
+]

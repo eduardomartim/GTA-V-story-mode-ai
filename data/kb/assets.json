@@ -1,0 +1,71 @@
+[
+  {
+    "id": "asset:map-san-andreas",
+    "title": "Schematic map of San Andreas (project artwork)",
+    "asset_type": "map",
+    "url": "/maps/san-andreas.svg",
+    "source": "GTA V Story AI project",
+    "license": "Original artwork, project-owned (not extracted from the game)",
+    "attribution": "Positions are approximate."
+  },
+  {
+    "id": "asset:gallery-michael",
+    "title": "Michael — image gallery (external link)",
+    "asset_type": "character",
+    "url": "https://gta.fandom.com/wiki/Michael_De_Santa",
+    "source": "GTA Wiki",
+    "source_url": "https://gta.fandom.com/wiki/Michael_De_Santa",
+    "entity_type": "character",
+    "entity_id": "character:michael-de-santa",
+    "license": "Link only — images belong to Rockstar Games / respective owners; not redistributed",
+    "attribution": "GTA Wiki contributors"
+  },
+  {
+    "id": "asset:gallery-franklin",
+    "title": "Franklin — image gallery (external link)",
+    "asset_type": "character",
+    "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+    "source": "GTA Wiki",
+    "source_url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+    "entity_type": "character",
+    "entity_id": "character:franklin-clinton",
+    "license": "Link only — images belong to Rockstar Games / respective owners; not redistributed",
+    "attribution": "GTA Wiki contributors"
+  },
+  {
+    "id": "asset:gallery-trevor",
+    "title": "Trevor — image gallery (external link)",
+    "asset_type": "character",
+    "url": "https://gta.fandom.com/wiki/Trevor_Philips",
+    "source": "GTA Wiki",
+    "source_url": "https://gta.fandom.com/wiki/Trevor_Philips",
+    "entity_type": "character",
+    "entity_id": "character:trevor-philips",
+    "license": "Link only — images belong to Rockstar Games / respective owners; not redistributed",
+    "attribution": "GTA Wiki contributors"
+  },
+  {
+    "id": "asset:gallery-space-docker",
+    "title": "Space Docker — image gallery (external link)",
+    "asset_type": "vehicle",
+    "url": "https://gta.fandom.com/wiki/Space_Docker",
+    "source": "GTA Wiki",
+    "source_url": "https://gta.fandom.com/wiki/Space_Docker",
+    "entity_type": "vehicle",
+    "entity_id": "vehicle:space-docker",
+    "license": "Link only — images belong to Rockstar Games / respective owners; not redistributed",
+    "attribution": "GTA Wiki contributors"
+  },
+  {
+    "id": "asset:gallery-vangelico",
+    "title": "Vangelico — image gallery (external link)",
+    "asset_type": "location",
+    "url": "https://gta.fandom.com/wiki/Vangelico",
+    "source": "GTA Wiki",
+    "source_url": "https://gta.fandom.com/wiki/Vangelico",
+    "entity_type": "location",
+    "entity_id": "location:vangelico-jewelry-store",
+    "license": "Link only — images belong to Rockstar Games / respective owners; not redistributed",
+    "attribution": "GTA Wiki contributors"
+  }
+]

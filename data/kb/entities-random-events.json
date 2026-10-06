@@ -1,0 +1,54 @@
+[
+  {
+    "id": "random_event:random-events-overview",
+    "type": "random_event",
+    "name": "Random Events",
+    "aliases": [
+      "random events",
+      "eventos aleatórios",
+      "eventos randômicos"
+    ],
+    "summary": "About 60 random events can happen around San Andreas; any 14 count toward 100% completion. GamePressure documents them by name; per-event locations, rewards and protagonist restrictions are mostly not documented.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/random-events-1/z28d1e",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "counts_for_100": true,
+      "required_for_100": 14,
+      "total": 60
+    },
+    "sections": [
+      {
+        "kind": "catalog",
+        "title": "Event names documented by GamePressure",
+        "status": "curated",
+        "text": "Getaway driver; Bike thief; Sport bike thief; Construction site accident; Mugging; Countryside robbery; Prisoner lift; Crash rescue; Drunk driver; Deal gone wrong; Border patrol; Car theft; Chase thieves (city and country); Gang intimidation; Store robbery; Hitchhiker (4 variants); Security vans (10); Drug shootout; Altruist cult shootout; and others such as domestic dispute, ATM robbery, burial, snatched, bus tour and stag do."
+      },
+      {
+        "kind": "details",
+        "title": "Specifics that are documented",
+        "status": "curated",
+        "text": "The Altruist cult shootout is Trevor-specific. The hitchhiker events have an alternative outcome where you deliver hitchhikers to the Altruist cult; one hidden package requires bringing three hitchhikers there. Whether each event repeats is not documented."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "completion:100-percent"
+      }
+    ]
+  }
+]

@@ -1,0 +1,811 @@
+[
+  {
+    "id": "location:del-perro-pier",
+    "type": "location",
+    "name": "Del Perro Pier",
+    "aliases": [
+      "Pier",
+      "Del Perro",
+      "pier de Del Perro",
+      "roda-gigante",
+      "ferris wheel"
+    ],
+    "summary": "The famous pier at Del Perro Beach in western Los Santos, with a ferris wheel and a roller coaster. A defining landmark of the city.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Del_Perro_Pier",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Del Perro Beach",
+      "game_x": -1850,
+      "game_y": -1235,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:vangelico-jewelry-store",
+    "type": "location",
+    "name": "Vangelico Jewelry Store",
+    "aliases": [
+      "Vangelico",
+      "jewelry store",
+      "Vangelico store",
+      "loja Vangelico"
+    ],
+    "summary": "The Vangelico jewellery store at Rockford Plaza in Rockford Hills, target of The Jewel Store Job.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Vangelico",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "heist target"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Rockford Hills",
+      "game_x": -622,
+      "game_y": -232,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:rockford-hills"
+      },
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:rockford-hills",
+    "type": "location",
+    "name": "Rockford Hills",
+    "aliases": [
+      "Rockford"
+    ],
+    "summary": "An affluent district of Los Santos where Michael lives and where the Vangelico store is located.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Rockford_Hills",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "district"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Rockford Hills",
+      "game_x": -850,
+      "game_y": -100,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:michaels-house",
+    "type": "location",
+    "name": "Michael's House",
+    "aliases": [
+      "Michael's mansion",
+      "casa do Michael",
+      "Michael's home"
+    ],
+    "summary": "Michael De Santa's residence in Rockford Hills, Los Santos. Michael's safehouse.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Michael_De_Santa",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "residence"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Rockford Hills",
+      "game_x": -813,
+      "game_y": 178,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:rockford-hills"
+      },
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:franklins-strawberry-house",
+    "type": "location",
+    "name": "Franklin's House in Strawberry",
+    "aliases": [
+      "Franklin's first house",
+      "Franklin's old house",
+      "casa do Franklin em Strawberry"
+    ],
+    "summary": "Franklin Clinton's first residence, in Strawberry, South Los Santos.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "residence"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Strawberry",
+      "game_x": -14,
+      "game_y": -1442,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:franklins-vinewood-hills-house",
+    "type": "location",
+    "name": "Franklin's House in Vinewood Hills",
+    "aliases": [
+      "Franklin's mansion",
+      "Franklin's new house",
+      "casa do Franklin em Vinewood Hills"
+    ],
+    "summary": "Franklin's later residence in the Vinewood Hills overlooking Los Santos.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "residence"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Vinewood Hills",
+      "game_x": 7,
+      "game_y": 540,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:trevors-trailer",
+    "type": "location",
+    "name": "Trevor's Trailer",
+    "aliases": [
+      "Trevor's home",
+      "Sandy Shores trailer",
+      "trailer do Trevor"
+    ],
+    "summary": "Trevor Philips' trailer in Sandy Shores, Blaine County.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Trevor_Philips",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "residence"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Sandy Shores",
+      "game_x": 1975,
+      "game_y": 3815,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:trevor-philips-industries-hangar",
+    "type": "location",
+    "name": "Trevor Philips Industries Hangar",
+    "aliases": [
+      "TPI",
+      "Trevor Philips Industries",
+      "Sandy Shores Airfield hangar"
+    ],
+    "summary": "Trevor's hangar at Sandy Shores Airfield, base of Trevor Philips Industries.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Trevor_Philips_Industries",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "base"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Sandy Shores Airfield",
+      "game_x": 1745,
+      "game_y": 3265,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:paleto-bank",
+    "type": "location",
+    "name": "Blaine County Savings Bank (Paleto Bay)",
+    "aliases": [
+      "Paleto Bank",
+      "Paleto Bay bank",
+      "banco de Paleto"
+    ],
+    "summary": "The bank in Paleto Bay robbed during The Paleto Score.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Blaine_County_Savings_Bank",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "heist target"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Paleto Bay",
+      "game_x": -105,
+      "game_y": 6470,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:union-depository",
+    "type": "location",
+    "name": "Union Depository",
+    "aliases": [
+      "Union Depository vault",
+      "depósito da Union"
+    ],
+    "summary": "The vault in Los Santos that is the target of The Big Score.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Union_Depository",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "heist target"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Downtown Los Santos",
+      "game_x": -3,
+      "game_y": -682,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:fib-building",
+    "type": "location",
+    "name": "FIB Building",
+    "aliases": [
+      "FIB",
+      "Bureau",
+      "Federal Investigation Bureau"
+    ],
+    "summary": "The FIB headquarters in Downtown Los Santos, infiltrated during The Bureau Raid.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/FIB_Building",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "heist target"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Downtown Los Santos",
+      "game_x": 136,
+      "game_y": -749,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:los-santos-international-airport",
+    "type": "location",
+    "name": "Los Santos International Airport",
+    "aliases": [
+      "LSIA",
+      "airport",
+      "aeroporto de Los Santos"
+    ],
+    "summary": "The main airport of Los Santos, in the south-west of the city.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Los_Santos_International_Airport",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Los Santos International Airport",
+      "game_x": -1336,
+      "game_y": -3044,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:port-of-los-santos",
+    "type": "location",
+    "name": "Port of Los Santos",
+    "aliases": [
+      "Port",
+      "porto de Los Santos",
+      "Elysian Island"
+    ],
+    "summary": "The commercial port on Elysian Island; location of the Merryweather Heist setup.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Port_of_Los_Santos",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Elysian Island",
+      "game_x": 1100,
+      "game_y": -3000,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:fort-zancudo",
+    "type": "location",
+    "name": "Fort Zancudo",
+    "aliases": [
+      "Zancudo",
+      "military base",
+      "base militar"
+    ],
+    "summary": "A military base in north-west San Andreas. Entering it triggers a wanted level and it is where military vehicles can be found.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Fort_Zancudo",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "military"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Fort Zancudo",
+      "game_x": -2047,
+      "game_y": 3132,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:mount-chiliad",
+    "type": "location",
+    "name": "Mount Chiliad",
+    "aliases": [
+      "Chiliad",
+      "Monte Chiliad"
+    ],
+    "summary": "The tallest mountain in San Andreas, in northern Blaine County.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Mount_Chiliad",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Mount Chiliad",
+      "game_x": 450,
+      "game_y": 5600,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:vinewood-sign",
+    "type": "location",
+    "name": "Vinewood Sign",
+    "aliases": [
+      "Vinewood letters",
+      "letreiro de Vinewood"
+    ],
+    "summary": "The giant Vinewood sign in the hills above Los Santos.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Vinewood_Sign",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Vinewood Hills",
+      "game_x": 710,
+      "game_y": 1204,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:galileo-observatory",
+    "type": "location",
+    "name": "Galileo Observatory",
+    "aliases": [
+      "Observatory",
+      "observatório"
+    ],
+    "summary": "An observatory in the Vinewood Hills, in the hills of Los Santos.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Galileo_Observatory",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Vinewood Hills",
+      "game_x": -411,
+      "game_y": 1172,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:sandy-shores",
+    "type": "location",
+    "name": "Sandy Shores",
+    "aliases": [
+      "Sandy"
+    ],
+    "summary": "A desert town on the shores of the Alamo Sea in Blaine County. Trevor's base.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Sandy_Shores",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "town"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Sandy Shores",
+      "game_x": 1850,
+      "game_y": 3700,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:paleto-bay",
+    "type": "location",
+    "name": "Paleto Bay",
+    "aliases": [
+      "Paleto"
+    ],
+    "summary": "A small coastal town at the north end of San Andreas.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Paleto_Bay",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "town"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Paleto Bay",
+      "game_x": -150,
+      "game_y": 6300,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:grapeseed",
+    "type": "location",
+    "name": "Grapeseed",
+    "aliases": [],
+    "summary": "A farming town in north-central Blaine County.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Grapeseed",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "town"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Grapeseed",
+      "game_x": 1700,
+      "game_y": 4800,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  },
+  {
+    "id": "location:maze-bank-tower",
+    "type": "location",
+    "name": "Maze Bank Tower",
+    "aliases": [
+      "Maze Bank",
+      "Maze Bank Building"
+    ],
+    "summary": "The tallest skyscraper in Los Santos, in Pillbox Hill.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Maze_Bank_Tower",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "landmark"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Pillbox Hill",
+      "game_x": -75,
+      "game_y": -819,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:humane-labs",
+    "type": "location",
+    "name": "Humane Labs and Research",
+    "aliases": [
+      "Humane Labs",
+      "Humane"
+    ],
+    "summary": "A research facility in the east of San Andreas.",
+    "verification": "curated",
+    "confidence": 0.8,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Humane_Labs_and_Research",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "kind": "facility"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Tataviam Mountains",
+      "game_x": 3619,
+      "game_y": 3737,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:blaine-county"
+      }
+    ]
+  }
+]

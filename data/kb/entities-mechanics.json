@@ -1,0 +1,101 @@
+[
+  {
+    "id": "game_mechanic:special-abilities",
+    "type": "game_mechanic",
+    "name": "Protagonist special abilities",
+    "aliases": [
+      "special abilities",
+      "habilidades especiais",
+      "Rage",
+      "special ability"
+    ],
+    "summary": "Each protagonist has a special ability: Michael slows down time while aiming in shootouts, Franklin slows down time while driving, and Trevor enters Rage, dealing more damage and taking less damage for a short time.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Special_Abilities_in_GTA_V",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.9
+  },
+  {
+    "id": "game_mechanic:heist-crew",
+    "type": "game_mechanic",
+    "name": "Heist crew system",
+    "aliases": [
+      "crew",
+      "equipe de assalto",
+      "tripulação",
+      "crew members",
+      "hacker driver gunman"
+    ],
+    "summary": "Heists use hired crew (Gunman, Driver, Hacker). Better-skilled crew members take a bigger cut of the payout but make fewer mistakes; cheaper crew members take a smaller cut but may cause complications.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Heists",
+        "confidence": 0.8
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "sections": [
+      {
+        "kind": "strategy",
+        "title": "Crew choice",
+        "text": "Crew roster names, skills and cut percentages per heist are not validated yet in the knowledge base. The general trade-off is skill versus cut."
+      }
+    ]
+  },
+  {
+    "id": "game_mechanic:mission-replay-and-gold",
+    "type": "game_mechanic",
+    "name": "Replaying missions and Gold Medal",
+    "aliases": [
+      "replay mission",
+      "repetir missão",
+      "gold medal",
+      "medalha de ouro",
+      "Gold Medal objectives"
+    ],
+    "summary": "Completed missions can be replayed from the Pause menu (Replay Mission option). Missions have optional objectives for a Gold Medal. The Gold Medal objectives of each mission are not validated yet in the knowledge base.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Missions_in_GTA_V",
+        "confidence": 0.7
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.6
+  },
+  {
+    "id": "easter_egg:mount-chiliad-mystery",
+    "type": "easter_egg",
+    "name": "Mount Chiliad Mystery",
+    "aliases": [
+      "Chiliad mystery",
+      "mural de Chiliad",
+      "Mount Chiliad mural",
+      "mistério de Mount Chiliad"
+    ],
+    "summary": "A well-known puzzle centred on a mural at the summit of Mount Chiliad. Details and the community's findings are not validated yet in the knowledge base.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Mount_Chiliad_Mystery",
+        "confidence": 0.7
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.6,
+    "relations": [
+      {
+        "predicate": "located_at",
+        "to": "location:mount-chiliad"
+      }
+    ]
+  }
+]

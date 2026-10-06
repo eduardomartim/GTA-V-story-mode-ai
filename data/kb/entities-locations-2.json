@@ -1,0 +1,397 @@
+[
+  {
+    "id": "location:los-santos",
+    "type": "location",
+    "name": "Los Santos",
+    "aliases": [
+      "Los Santos city",
+      "cidade de Los Santos"
+    ],
+    "summary": "The main city of San Andreas, in the south: home to Michael's and Franklin's residences, downtown, the port and the airport.",
+    "verification": "curated",
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Los_Santos",
+        "confidence": 0.7
+      }
+    ],
+    "attrs": {
+      "kind": "region"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Los Santos",
+      "game_x": 0,
+      "game_y": -1000,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    }
+  },
+  {
+    "id": "location:blaine-county",
+    "type": "location",
+    "name": "Blaine County",
+    "aliases": [
+      "Blaine",
+      "condado de Blaine"
+    ],
+    "summary": "The rural county north of Los Santos: Sandy Shores, Grapeseed, Paleto Bay, Mount Chiliad and Fort Zancudo.",
+    "verification": "curated",
+    "confidence": 0.7,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Blaine_County",
+        "confidence": 0.7
+      }
+    ],
+    "attrs": {
+      "kind": "region"
+    },
+    "location": {
+      "region": "Blaine County",
+      "district": "Blaine County",
+      "game_x": 500,
+      "game_y": 4500,
+      "coord_precision": "approximate",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    }
+  },
+  {
+    "id": "location:premium-deluxe-motorsport",
+    "type": "location",
+    "name": "Premium Deluxe Motorsport",
+    "aliases": [
+      "Simeon's dealership",
+      "concessionária do Simeon"
+    ],
+    "summary": "Simeon Yetarian's car dealership in Pillbox Hill where Franklin works; a location of the mission Complications.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Pillbox Hill",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:lifeinvader-offices",
+    "type": "location",
+    "name": "Lifeinvader offices",
+    "aliases": [
+      "Lifeinvader"
+    ],
+    "summary": "The Lifeinvader offices, location of the mission Friend Request.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Los Santos",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:darnell-bros-garment-factory",
+    "type": "location",
+    "name": "Darnell Bros. garment factory",
+    "aliases": [
+      "Lester's factory",
+      "fábrica do Lester"
+    ],
+    "summary": "Lester's garment factory on Popular Street in La Mesa, used in Casing the Jewel Store and several heist setups.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "La Mesa",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:maze-bank-arena",
+    "type": "location",
+    "name": "Maze Bank Arena",
+    "aliases": [
+      "Maze Bank Arena"
+    ],
+    "summary": "The arena where Tracey's audition takes place in the mission Fame or Shame.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Los Santos",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:von-crastenburg-hotel",
+    "type": "location",
+    "name": "Von Crastenburg Hotel",
+    "aliases": [
+      "Von Crastenburg"
+    ],
+    "summary": "The hotel in Rockford Hills where Franklin makes the Hotel Assassination hit.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Rockford Hills",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:richards-majestic",
+    "type": "location",
+    "name": "Richards Majestic film studio",
+    "aliases": [
+      "Richards Majestic",
+      "Backlot City"
+    ],
+    "summary": "Solomon Richards' film studio in Rockford Hills, used in Deep Inside, Mr. Richards and The Ballad of Rocco.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Rockford Hills",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:vanilla-unicorn",
+    "type": "location",
+    "name": "Vanilla Unicorn",
+    "aliases": [
+      "Vanilla Unicorn strip club"
+    ],
+    "summary": "The strip club in Strawberry that Trevor takes over in Hang Ten; Lester plans the Big Score there.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Strawberry",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:mile-high-club-site",
+    "type": "location",
+    "name": "Mile High Club construction site",
+    "aliases": [
+      "Mile High Club"
+    ],
+    "summary": "The construction site in Pillbox Hill where Franklin gets the FIB blueprints in Architect's Plans.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Pillbox Hill",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:kortz-center",
+    "type": "location",
+    "name": "Kortz Center",
+    "aliases": [
+      "Kortz"
+    ],
+    "summary": "The location of The Wrap Up, a late-game mission.",
+    "verification": "curated",
+    "confidence": 0.65,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "mission location"
+    },
+    "location": {
+      "region": "Los Santos",
+      "district": "Los Santos",
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    },
+    "relations": [
+      {
+        "predicate": "located_in",
+        "to": "location:los-santos"
+      }
+    ]
+  },
+  {
+    "id": "location:sonar-collections-dock",
+    "type": "location",
+    "name": "Sonar Collections Dock",
+    "aliases": [
+      "Sonar dock location"
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "summary": "The dock business (about $250,000) where the Story Mode submarine and the underwater collectibles are unlocked. Its exact district and map position are not validated yet.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "kind": "property site"
+    },
+    "location": {
+      "coord_precision": "unknown",
+      "external_map_url": "https://www.ign.com/wikis/gta-5/GTA_5_Interactive_Map%3A_All_Quests%2C_Collectibles%2C_Locations_and_More"
+    }
+  }
+]

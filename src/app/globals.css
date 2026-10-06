@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #09090a;
+  --color-char: #111113;
+  --color-panel: #17171a;
+  --color-raise: #1e1e22;
+  --color-line: #2b2b30;
+  --color-bone: #ece7df;
+  --color-mute: #a39e95;
+  --color-ember: #f08a3c;
+  --color-ember-dim: #c9702a;
+  --color-tide: #5ec0b4;
+  --color-danger: #ee6b57;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-bebas), "Arial Narrow", Impact, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+  --cycle: 96s;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--color-ink);
+  color: var(--color-bone);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-ember) 45%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* ───────────── scrollbars ───────────── */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3a40 transparent;
+}
+
+/* ───────────── background: Del Perro Pier, day cycle (CSS only) ───────────── */
+.bg-root {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: var(--color-ink);
+  contain: strict;
+}
+.sky {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: skyfade var(--cycle) linear infinite;
+  will-change: opacity;
+}
+.sky-morning { background: radial-gradient(60% 40% at 18% 62%, #ffe3b8aa, transparent 70%), linear-gradient(#7fb0c6 0%, #f1cfa7 52%, #f6dfc0 62%, #cf9a6d 100%); animation-delay: 0s; }
+.sky-afternoon { background: radial-gradient(40% 30% at 72% 20%, #fff7d6aa, transparent 70%), linear-gradient(#2c78b2 0%, #78b9de 50%, #e6f1f0 62%, #b9c9c4 100%); animation-delay: calc(var(--cycle) * .25); }
+.sky-evening { background: radial-gradient(55% 34% at 60% 58%, #ffcf8acc, transparent 72%), linear-gradient(#181540 0%, #7e3868 36%, #f08a3c 60%, #ffcf8a 68%, #6a3a42 100%); animation-delay: calc(var(--cycle) * .5); }
+.sky-night {
+  background:
+    radial-gradient(1.4px 1.4px at 12% 18%, #fff, transparent 60%), radial-gradient(1.2px 1.2px at 28% 9%, #dfe8ff, transparent 60%),
+    radial-gradient(1.6px 1.6px at 44% 22%, #fff, transparent 60%), radial-gradient(1.2px 1.2px at 61% 12%, #dfe8ff, transparent 60%),
+    radial-gradient(1.4px 1.4px at 77% 26%, #fff, transparent 60%), radial-gradient(1.2px 1.2px at 90% 10%, #dfe8ff, transparent 60%),
+    radial-gradient(30% 22% at 82% 18%, #9db4ff33, transparent 70%),
+    linear-gradient(#04050b 0%, #0a1230 52%, #1a2a52 64%, #0d1428 100%);
+  animation-delay: calc(var(--cycle) * .75);
+}
+@keyframes skyfade {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}
+.scene {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(2.2px) saturate(.9);
+  opacity: .9;
+}
+.scene .sil { fill: #0a0b0e; }
+.scene .sea-line { stroke: #ffffff; stroke-opacity: .07; }
+.pier-lights circle {
+  fill: #ffd9a0;
+  opacity: 0;
+  animation: skyfade var(--cycle) linear infinite;
+  animation-delay: calc(var(--cycle) * .5);
+}
+.pier-lights.late circle { animation-delay: calc(var(--cycle) * .75); }
+.wheel-spin { transform-origin: 1180px 440px; animation: spin 140s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.bg-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 80% at 50% 110%, rgba(240, 138, 60, .10), transparent 60%),
+    linear-gradient(180deg, rgba(9, 9, 10, .40) 0%, rgba(9, 9, 10, .60) 55%, rgba(9, 9, 10, .86) 100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .sky, .pier-lights circle, .wheel-spin { animation: none; }
+  .sky-evening { opacity: 1; }
+  .pier-lights circle { opacity: .8; }
+}
+
+/* ───────────── chat polish ───────────── */
+.msg-in { animation: msgin .28s ease-out both; }
+@keyframes msgin { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.dot-typing span { animation: blink 1.2s infinite both; }
+.dot-typing span:nth-child(2) { animation-delay: .18s; }
+.dot-typing span:nth-child(3) { animation-delay: .36s; }
+@keyframes blink { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-2px); } }
+.shimmer { background: linear-gradient(90deg, #1b1b1f 25%, #26262b 37%, #1b1b1f 63%); background-size: 400% 100%; animation: shimmer 1.4s ease infinite; }
+@keyframes shimmer { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+@media (prefers-reduced-motion: reduce) {
+  .msg-in, .dot-typing span, .shimmer { animation: none; }
+}
+
+/* ───────────── markdown (assistant) ───────────── */
+.prose-gta { line-height: 1.65; font-size: .95rem; }
+.prose-gta > * + * { margin-top: .7rem; }
+.prose-gta h1, .prose-gta h2, .prose-gta h3, .prose-gta h4 { font-family: var(--font-display); letter-spacing: .04em; color: var(--color-bone); font-size: 1.15rem; margin-top: 1.1rem; }
+.prose-gta strong { color: #fff; font-weight: 650; }
+.prose-gta ul { list-style: none; padding-left: 0; }
+.prose-gta ul > li { position: relative; padding-left: 1.1rem; }
+.prose-gta ul > li::before { content: ""; position: absolute; left: .15rem; top: .72em; width: 5px; height: 5px; border-radius: 1px; background: var(--color-ember); transform: rotate(45deg); }
+.prose-gta ol { list-style: none; counter-reset: step; padding-left: 0; }
+.prose-gta ol > li { counter-increment: step; position: relative; padding-left: 2rem; margin-top: .35rem; }
+.prose-gta ol > li::before { content: counter(step); position: absolute; left: 0; top: .1rem; width: 1.4rem; height: 1.4rem; border-radius: 6px; background: var(--color-raise); border: 1px solid var(--color-line); color: var(--color-ember); font-size: .75rem; font-weight: 700; display: grid; place-items: center; }
+.prose-gta blockquote { border-left: 3px solid var(--color-ember); padding: .35rem .8rem; background: color-mix(in srgb, var(--color-ember) 8%, transparent); border-radius: 0 8px 8px 0; color: #e8dccd; }
+.prose-gta table { width: 100%; border-collapse: collapse; font-size: .85rem; display: block; overflow-x: auto; }
+.prose-gta th, .prose-gta td { border: 1px solid var(--color-line); padding: .4rem .6rem; text-align: left; }
+.prose-gta th { background: var(--color-raise); }
+.prose-gta code { background: var(--color-raise); border: 1px solid var(--color-line); border-radius: 5px; padding: .05rem .35rem; font-size: .85em; }
+.prose-gta a.ext { color: var(--color-ember); text-decoration: underline; text-underline-offset: 3px; }
+.prose-gta hr { border-color: var(--color-line); }

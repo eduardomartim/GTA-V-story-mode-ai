@@ -1,0 +1,79 @@
+[
+  {
+    "id": "rockstar",
+    "name": "Rockstar Games",
+    "base_url": "https://www.rockstargames.com",
+    "source_type": "official",
+    "authority": 10,
+    "notes": "Primary source for game facts, versions and Online/Story separation."
+  },
+  {
+    "id": "rockstar-support",
+    "name": "Rockstar Support",
+    "base_url": "https://support.rockstargames.com",
+    "source_type": "official-support",
+    "authority": 10,
+    "notes": "Primary source for technical troubleshooting."
+  },
+  {
+    "id": "gta-wiki",
+    "name": "GTA Wiki",
+    "base_url": "https://gta.fandom.com",
+    "source_type": "wiki",
+    "authority": 7,
+    "notes": "Community wiki. Not treated as absolute authority."
+  },
+  {
+    "id": "gta5wiki",
+    "name": "GTA5Wiki",
+    "base_url": "https://gta5wiki.com",
+    "source_type": "wiki",
+    "authority": 6
+  },
+  {
+    "id": "ign",
+    "name": "IGN",
+    "base_url": "https://www.ign.com",
+    "source_type": "guide",
+    "authority": 5
+  },
+  {
+    "id": "gamepressure",
+    "name": "GamePressure",
+    "base_url": "https://www.gamepressure.com",
+    "source_type": "guide",
+    "authority": 4
+  },
+  {
+    "id": "grandtheftwiki",
+    "name": "Grand Theft Wiki",
+    "base_url": "https://www.grandtheftwiki.com",
+    "source_type": "wiki",
+    "authority": 3,
+    "notes": "Reachable from automated tooling, so used to cross-check facts at curation time."
+  },
+  {
+    "id": "gtabase",
+    "name": "GTABase",
+    "base_url": "https://www.gtabase.com",
+    "source_type": "guide",
+    "authority": 3,
+    "notes": "Community database/guides; used to cross-check heist payouts, 100% checklist, stock strategy. Reachable by automated fetch."
+  },
+  {
+    "id": "destructoid",
+    "name": "Destructoid",
+    "base_url": "https://www.destructoid.com",
+    "source_type": "guide",
+    "authority": 2,
+    "notes": "Gaming news/guide site; used only to cross-check heist payouts."
+  },
+  {
+    "id": "gtaintel",
+    "name": "GTAIntel",
+    "base_url": "https://gtaintel.com",
+    "source_type": "community",
+    "authority": 2,
+    "notes": "Fan site; heist crew opinions (treated as opinion)."
+  }
+]

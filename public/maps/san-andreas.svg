@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1000" role="img" aria-label="Schematic map of San Andreas" preserveAspectRatio="xMidYMid meet">
+  <style>
+    .sea{fill:#0e1a22}.land{fill:#23252a;stroke:#3b3d44;stroke-width:2;stroke-linejoin:round}.city{fill:#2e3036}.lake{fill:#0e1a22}
+    .mtn{fill:#33353b}.grid line{stroke:#ffffff;stroke-opacity:.05;stroke-width:1}
+    .lbl{font:600 15px system-ui,sans-serif;letter-spacing:.22em;fill:#8d8a83;opacity:.8}.sea-lbl{fill:#5b7f91;opacity:.55}
+    .dot{fill:#f08a3c;stroke:#0b0b0c;stroke-width:2}.core{fill:#fff3e6}.pulse{fill:#f08a3c;opacity:.22}
+    .pin-label{font:700 17px system-ui,sans-serif;fill:#ece7df;paint-order:stroke;stroke:#0b0b0c;stroke-width:5px;stroke-linejoin:round}
+  </style>
+  <rect class="sea" width="720" height="1000" />
+  <g class="grid"><line x1="16.4" y1="0" x2="16.4" y2="1000" /><line x1="98.2" y1="0" x2="98.2" y2="1000" /><line x1="180.0" y1="0" x2="180.0" y2="1000" /><line x1="261.8" y1="0" x2="261.8" y2="1000" /><line x1="343.6" y1="0" x2="343.6" y2="1000" /><line x1="425.5" y1="0" x2="425.5" y2="1000" /><line x1="507.3" y1="0" x2="507.3" y2="1000" /><line x1="589.1" y1="0" x2="589.1" y2="1000" /><line x1="670.9" y1="0" x2="670.9" y2="1000" /><line x1="0" y1="918.0" x2="720" y2="918.0" /><line x1="0" y1="836.1" x2="720" y2="836.1" /><line x1="0" y1="754.1" x2="720" y2="754.1" /><line x1="0" y1="672.1" x2="720" y2="672.1" /><line x1="0" y1="590.2" x2="720" y2="590.2" /><line x1="0" y1="508.2" x2="720" y2="508.2" /><line x1="0" y1="426.2" x2="720" y2="426.2" /><line x1="0" y1="344.3" x2="720" y2="344.3" /><line x1="0" y1="262.3" x2="720" y2="262.3" /><line x1="0" y1="180.3" x2="720" y2="180.3" /><line x1="0" y1="98.4" x2="720" y2="98.4" /><line x1="0" y1="16.4" x2="720" y2="16.4" /></g>
+  <polygon class="land" points="57.3,950.8 302.7,963.1 507.3,963.1 654.5,918.0 695.5,795.1 695.5,508.2 662.7,344.3 646.4,221.3 589.1,131.1 425.5,90.2 261.8,49.2 163.6,98.4 98.2,221.3 57.3,385.2 49.1,590.2 73.6,713.1 114.5,819.7 98.2,893.4" />
+  <polygon class="city" points="180.0,901.6 466.4,901.6 466.4,573.8 180.0,573.8" opacity=".85" />
+  <polygon class="lake" points="417.3,368.9 466.4,385.2 519.5,364.8 515.5,303.3 466.4,278.7 417.3,311.5" />
+  <polygon class="mtn" points="364.1,233.6 380.5,188.5 400.9,233.6" />
+  <text x="323.2" y="737.7" text-anchor="middle" class="lbl">LOS SANTOS</text>
+  <text x="400.9" y="266.4" text-anchor="middle" class="lbl">BLAINE COUNTY</text>
+  <text x="24.5" y="836.1" text-anchor="start" class="lbl sea-lbl">PACIFIC OCEAN</text>
+  <text x="468.0" y="333.6" text-anchor="middle" class="lbl sea-lbl" style="font-size:11px">ALAMO SEA</text>
+  
+</svg>

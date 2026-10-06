@@ -1,0 +1,761 @@
+[
+  {
+    "id": "cheat:invincibility",
+    "type": "cheat",
+    "name": "Cheat: Invincibility",
+    "aliases": [
+      "Invincibility",
+      "Invincibility cheat",
+      "código Invincibility",
+      "código painkiller",
+      "invencibilidade",
+      "invencível",
+      "ficar invencível"
+    ],
+    "summary": "Makes the player invincible for about five minutes. PC code: painkiller. Phone: 1-999-7246545537. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Makes the player invincible for about five minutes.",
+      "pc_code": "painkiller",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-7246545537"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-7246545537. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'painkiller' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:health-and-armor",
+    "type": "cheat",
+    "name": "Cheat: Health and Armor",
+    "aliases": [
+      "Health and Armor",
+      "Health and Armor cheat",
+      "código Health and Armor",
+      "código turtle",
+      "vida e armadura",
+      "vida cheia"
+    ],
+    "summary": "Refills health and armor. PC code: turtle. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Refills health and armor.",
+      "pc_code": "turtle",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:fast-run",
+    "type": "cheat",
+    "name": "Cheat: Fast Run",
+    "aliases": [
+      "Fast Run",
+      "Fast Run cheat",
+      "código Fast Run",
+      "código catchme",
+      "correr rápido"
+    ],
+    "summary": "Makes the player run faster. PC code: catchme. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Makes the player run faster.",
+      "pc_code": "catchme",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:fast-swim",
+    "type": "cheat",
+    "name": "Cheat: Fast Swim",
+    "aliases": [
+      "Fast Swim",
+      "Fast Swim cheat",
+      "código Fast Swim",
+      "código gotgills",
+      "nadar rápido"
+    ],
+    "summary": "Makes the player swim faster. PC code: gotgills. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Makes the player swim faster.",
+      "pc_code": "gotgills",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:super-jump",
+    "type": "cheat",
+    "name": "Cheat: Super Jump",
+    "aliases": [
+      "Super Jump",
+      "Super Jump cheat",
+      "código Super Jump",
+      "código hoptoit",
+      "super pulo",
+      "pulo alto"
+    ],
+    "summary": "Lets the player jump very high. PC code: hoptoit. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Lets the player jump very high.",
+      "pc_code": "hoptoit",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:weapons-and-ammo",
+    "type": "cheat",
+    "name": "Cheat: Weapons and Ammo",
+    "aliases": [
+      "Weapons and Ammo",
+      "Weapons and Ammo cheat",
+      "código Weapons and Ammo",
+      "código toolup",
+      "armas e munição"
+    ],
+    "summary": "Gives weapons and ammo. PC code: toolup. Phone: 1-999-866587. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Gives weapons and ammo.",
+      "pc_code": "toolup",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-866587"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-866587. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'toolup' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:explosive-bullets",
+    "type": "cheat",
+    "name": "Cheat: Explosive Bullets",
+    "aliases": [
+      "Explosive Bullets",
+      "Explosive Bullets cheat",
+      "código Explosive Bullets",
+      "código highex"
+    ],
+    "summary": "Bullets explode on impact. PC code: highex. Phone: 1-999-444439. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Bullets explode on impact.",
+      "pc_code": "highex",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-444439"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-444439. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'highex' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:flaming-bullets",
+    "type": "cheat",
+    "name": "Cheat: Flaming Bullets",
+    "aliases": [
+      "Flaming Bullets",
+      "Flaming Bullets cheat",
+      "código Flaming Bullets",
+      "código incendiary"
+    ],
+    "summary": "Bullets set targets on fire. PC code: incendiary. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Bullets set targets on fire.",
+      "pc_code": "incendiary",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:explosive-melee-attacks",
+    "type": "cheat",
+    "name": "Cheat: Explosive Melee Attacks",
+    "aliases": [
+      "Explosive Melee Attacks",
+      "Explosive Melee Attacks cheat",
+      "código Explosive Melee Attacks",
+      "código hothands"
+    ],
+    "summary": "Melee attacks cause explosions. PC code: hothands. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Melee attacks cause explosions.",
+      "pc_code": "hothands",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:lower-wanted-level",
+    "type": "cheat",
+    "name": "Cheat: Lower Wanted Level",
+    "aliases": [
+      "Lower Wanted Level",
+      "Lower Wanted Level cheat",
+      "código Lower Wanted Level",
+      "código lawyerup",
+      "diminuir nível de procurado"
+    ],
+    "summary": "Reduces the wanted level. PC code: lawyerup. Phone: 1-999-52993787. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Reduces the wanted level.",
+      "pc_code": "lawyerup",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-52993787"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-52993787. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'lawyerup' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:raise-wanted-level",
+    "type": "cheat",
+    "name": "Cheat: Raise Wanted Level",
+    "aliases": [
+      "Raise Wanted Level",
+      "Raise Wanted Level cheat",
+      "código Raise Wanted Level",
+      "código fugitive",
+      "aumentar nível de procurado"
+    ],
+    "summary": "Raises the wanted level. PC code: fugitive. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Raises the wanted level.",
+      "pc_code": "fugitive",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:change-weather",
+    "type": "cheat",
+    "name": "Cheat: Change Weather",
+    "aliases": [
+      "Change Weather",
+      "Change Weather cheat",
+      "código Change Weather",
+      "código makeitrain"
+    ],
+    "summary": "Cycles the weather. PC code: makeitrain. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Cycles the weather.",
+      "pc_code": "makeitrain",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:slow-motion",
+    "type": "cheat",
+    "name": "Cheat: Slow Motion",
+    "aliases": [
+      "Slow Motion",
+      "Slow Motion cheat",
+      "código Slow Motion",
+      "código slowmo",
+      "câmera lenta"
+    ],
+    "summary": "Slows down time (can be toggled). PC code: slowmo. Phone: 1-999-756966. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Slows down time (can be toggled).",
+      "pc_code": "slowmo",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-756966"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-756966. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'slowmo' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:moon-gravity",
+    "type": "cheat",
+    "name": "Cheat: Moon Gravity",
+    "aliases": [
+      "Moon Gravity",
+      "Moon Gravity cheat",
+      "código Moon Gravity",
+      "código floater",
+      "gravidade da lua"
+    ],
+    "summary": "Low-gravity mode. PC code: floater. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Low-gravity mode.",
+      "pc_code": "floater",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:drunk-mode",
+    "type": "cheat",
+    "name": "Cheat: Drunk Mode",
+    "aliases": [
+      "Drunk Mode",
+      "Drunk Mode cheat",
+      "código Drunk Mode",
+      "código liquor",
+      "modo bêbado"
+    ],
+    "summary": "The player becomes drunk. PC code: liquor. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "The player becomes drunk.",
+      "pc_code": "liquor",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:spawn-buzzard",
+    "type": "cheat",
+    "name": "Cheat: Spawn Buzzard",
+    "aliases": [
+      "Spawn Buzzard",
+      "Spawn Buzzard cheat",
+      "código Spawn Buzzard",
+      "código buzzoff"
+    ],
+    "summary": "Spawns a Buzzard helicopter. PC code: buzzoff. Phone: 1-999-2899633. PlayStation and Xbox button sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Spawns a Buzzard helicopter.",
+      "pc_code": "buzzoff",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "1-999-2899633"
+    },
+    "sections": [
+      {
+        "kind": "phone",
+        "title": "Phone cheat",
+        "status": "verified",
+        "src": 1,
+        "text": "Phone number 1-999-2899633. Two sources agree: GTA5Wiki quotes this number and it equals the keypad spelling of the PC code 'buzzoff' documented by Grand Theft Wiki. Phone cheats are entered on the in-game phone."
+      }
+    ]
+  },
+  {
+    "id": "cheat:spawn-comet",
+    "type": "cheat",
+    "name": "Cheat: Spawn Comet",
+    "aliases": [
+      "Spawn Comet",
+      "Spawn Comet cheat",
+      "código Spawn Comet",
+      "código comet"
+    ],
+    "summary": "Spawns a Comet sports car. PC code: comet. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Spawns a Comet sports car.",
+      "pc_code": "comet",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:spawn-pcj-600",
+    "type": "cheat",
+    "name": "Cheat: Spawn PCJ-600",
+    "aliases": [
+      "Spawn PCJ-600",
+      "Spawn PCJ-600 cheat",
+      "código Spawn PCJ-600",
+      "código rocket"
+    ],
+    "summary": "Spawns a PCJ-600 motorcycle. PC code: rocket. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Spawns a PCJ-600 motorcycle.",
+      "pc_code": "rocket",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:spawn-sanchez",
+    "type": "cheat",
+    "name": "Cheat: Spawn Sanchez",
+    "aliases": [
+      "Spawn Sanchez",
+      "Spawn Sanchez cheat",
+      "código Spawn Sanchez",
+      "código offroad"
+    ],
+    "summary": "Spawns a Sanchez motorcycle. PC code: offroad. PlayStation and Xbox button sequences and the phone number are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.9,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "versions": [
+      "PC"
+    ],
+    "attrs": {
+      "effect": "Spawns a Sanchez motorcycle.",
+      "pc_code": "offroad",
+      "playstation": "backlog",
+      "xbox": "backlog",
+      "phone": "backlog"
+    },
+    "sections": []
+  },
+  {
+    "id": "cheat:skyfall",
+    "type": "cheat",
+    "name": "Cheat: Skyfall",
+    "aliases": [
+      "Skyfall",
+      "Skyfall cheat",
+      "cair do céu"
+    ],
+    "summary": "Teleports the player high into the sky for a free fall. Phone: 1-999-759-3255 (single source, GTA5Wiki; consistent with the word SKYFALL on the keypad). The PC code, PlayStation and Xbox sequences are not recorded (backlog).",
+    "sources": [
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/cheats/",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.55,
+    "versions": [
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "attrs": {
+      "effect": "Teleports the player into the sky for a free fall",
+      "phone": "1-999-759-3255",
+      "pc_code": "backlog",
+      "playstation": "backlog",
+      "xbox": "backlog"
+    }
+  }
+]

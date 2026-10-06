@@ -1,0 +1,501 @@
+[
+  {
+    "id": "collectible:letter-scraps",
+    "type": "collectible",
+    "name": "Letter Scraps",
+    "aliases": [
+      "Letter Scrap",
+      "pedaços de carta",
+      "cartas rasgadas"
+    ],
+    "summary": "50 letter scraps (pieces of a torn letter) are scattered around San Andreas. They tie into the Franklin stranger mission A Starlet in Vinewood. Collecting all 50 is one of the required miscellaneous activities for 100%.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Letter_Scraps",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.85,
+    "attrs": {
+      "kind": "Letter Scraps",
+      "total": 50,
+      "counts_for_100": true,
+      "related_mission": "A Starlet in Vinewood",
+      "character": "Franklin",
+      "reward": "Unlocks the mission A Starlet in Vinewood's resolution; no direct cash reward documented"
+    },
+    "sections": [
+      {
+        "kind": "completion",
+        "title": "100% relevance",
+        "status": "curated",
+        "text": "GTABase lists 'Collect 50 letter scraps' among the 16 required miscellaneous activities."
+      },
+      {
+        "kind": "reward",
+        "title": "Reward (single source)",
+        "status": "unverified",
+        "text": "GTA5Wiki lists a $50,000 reward tied to completing the murder-mystery strand; Grand Theft Wiki and GamePressure state no reward, so this is unconfirmed."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "completion:100-percent"
+      }
+    ]
+  },
+  {
+    "id": "collectible:spaceship-parts",
+    "type": "collectible",
+    "name": "Spaceship Parts",
+    "aliases": [
+      "Spaceship Part",
+      "peças da nave",
+      "peças de nave espacial"
+    ],
+    "summary": "50 spaceship parts. You first need to finish the Franklin stranger mission Omega; once all parts are found and returned, the Space Docker becomes available in Omega's garage.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Space_Docker",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/spaceship-parts/z45573",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.85,
+    "attrs": {
+      "kind": "Spaceship Parts",
+      "total": 50,
+      "counts_for_100": true,
+      "reward": "Space Docker",
+      "reward_location": "Omega's garage",
+      "prerequisite": "Omega stranger mission (Franklin)"
+    },
+    "sections": [
+      {
+        "kind": "requirements",
+        "title": "Unlock and reward",
+        "status": "verified",
+        "text": "GamePressure says you must first finish the secondary mission 'Omega' to unlock the parts (only Franklin can start it, though all three protagonists can collect parts). Grand Theft Wiki and GamePressure's vehicle list agree that collecting all 50 parts gives the Space Docker in Omega's garage."
+      },
+      {
+        "kind": "completion",
+        "title": "100% relevance",
+        "status": "curated",
+        "text": "GTABase lists collecting 50 spaceship parts among the 16 required miscellaneous activities. GamePressure mentions the achievement/trophy 'From Beyond the Stars' for returning all parts to Omega."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "rewards",
+        "to": "vehicle:space-docker"
+      },
+      {
+        "predicate": "related_to",
+        "to": "completion:100-percent"
+      }
+    ]
+  },
+  {
+    "id": "collectible:submarine-pieces",
+    "type": "collectible",
+    "name": "Submarine Pieces",
+    "aliases": [
+      "Submarine Parts",
+      "peças do submarino"
+    ],
+    "summary": "Underwater submarine parts that become available after buying the Sonar Collections Dock ($250,000). GTA5Wiki lists 30 pieces and a Kraken submersible as the reward, tied to an Abigail Mathers strand, which conflicts with GamePressure (Michael, purchase-driven); the character and the reward are therefore unconfirmed.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/submarine-parts/z7566f",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/collectibles/",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.5,
+    "attrs": {
+      "kind": "Submarine Pieces",
+      "total": 30,
+      "requirement": "Buy the Sonar Collections Dock",
+      "reward": "A submersible (named Kraken by GTA5Wiki; GamePressure states no reward)",
+      "note_total": "30 per GTA5Wiki; GamePressure states no total"
+    },
+    "sections": [
+      {
+        "kind": "requirements",
+        "title": "How it starts",
+        "status": "curated",
+        "text": "GamePressure says a boat with diving equipment appears at the docks when the mission starts and parts are found by diving to marked spots (a shrinking white circle shows proximity). It names the mission 'Death at Sea' and says it is for Michael, which conflicts with another wiki listing it under a Franklin stranger — treat the character as unconfirmed."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "property:sonar-collections-dock"
+      }
+    ]
+  },
+  {
+    "id": "collectible:nuclear-waste",
+    "type": "collectible",
+    "name": "Nuclear Waste",
+    "aliases": [
+      "Nuclear Waste barrels",
+      "Radioactive Waste",
+      "lixo nuclear"
+    ],
+    "summary": "30 yellow biohazard barrels dumped underwater. After buying the Sonar Collections Dock you use a Trackify app as a radar; GamePressure lists about $23,000 per barrel and a $250,000 bonus when all are collected.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/radioactive-waste/ze55c1",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "kind": "Nuclear Waste",
+      "total": 30,
+      "requirement": "Buy the Sonar Collections Dock",
+      "reward": "$23,000 per barrel and $250,000 when all are collected (single source)"
+    },
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "property:sonar-collections-dock"
+      }
+    ]
+  },
+  {
+    "id": "collectible:hidden-packages",
+    "type": "collectible",
+    "name": "Hidden Packages",
+    "aliases": [
+      "Hidden Package",
+      "pacotes escondidos"
+    ],
+    "summary": "Hidden packages exist in GTA V Story Mode: GTA5Wiki lists 12, and GamePressure shows roughly a dozen cash values on its map. Almost all are underwater (ship or plane wrecks) and contain cash and, per GTA5Wiki, sometimes weapons.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/hidden-packages/z4566c",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/collectibles/",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.55,
+    "attrs": {
+      "kind": "Hidden Packages",
+      "total": 12,
+      "reward": "Cash (listed values $7,500 to $25,000) and occasionally weapons",
+      "requirement": "Diving gear (bathyscaphe or boat with diving equipment) is recommended"
+    },
+    "sections": [
+      {
+        "kind": "details",
+        "title": "What the guide says",
+        "status": "curated",
+        "text": "Cash values quoted for individual packages range from $7,500 to $25,000. One package requires bringing 3 hitchhikers to the Altruist camp. Diving gear (a bathyscaphe or a boat with diving equipment) is recommended. The total count is not stated; do not assume one."
+      }
+    ]
+  },
+  {
+    "id": "collectible:epsilon-tracts",
+    "type": "collectible",
+    "name": "Epsilon Tracts",
+    "aliases": [
+      "Epsilon Tract",
+      "tratados Epsilon"
+    ],
+    "summary": "Epsilon Tracts are collected after Michael completes the eight Epsilon Program missions. Marnie sends a message with a link to a long text, the Epsilon Tract of the 9th Paradigm, as the reward. The total is 10 according to GTA5Wiki.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/epsilon-tracts/z3566b",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/collectibles/",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "kind": "Epsilon Tracts",
+      "total": 10,
+      "note_total": "10 per GTA5Wiki; GamePressure states no total",
+      "character": "Michael",
+      "reward": "Access to the Epsilon Tract of the 9th Paradigm text"
+    },
+    "sections": [
+      {
+        "kind": "requirements",
+        "title": "Requirements",
+        "status": "curated",
+        "text": "Per GamePressure the eight missions are Seeking the Truth, Accepting the Truth, Assuming the Truth, Chasing the Truth, Bearing the Truth, Delivering the Truth, Exercising the Truth and Unknowing the Truth; SMS messages give hints about tract locations."
+      }
+    ]
+  },
+  {
+    "id": "collectible:monkey-mosaics",
+    "type": "collectible",
+    "name": "Monkey Mosaics",
+    "aliases": [
+      "Monkey Mosaic",
+      "mosaicos de macaco"
+    ],
+    "summary": "50 Monkey Mosaics to photograph, available in the versions on newer consoles and PC. Photographing them all rewards a monkey disguise and a monkey-livery car in your garage.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/monkey-mosaics-images/z2716d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "versions": [
+      "PS4/Xbox One",
+      "PS5/Xbox Series",
+      "PC"
+    ],
+    "attrs": {
+      "kind": "Monkey Mosaics",
+      "total": 50,
+      "reward": "Monkey disguise and a monkey-graphics car",
+      "availability": "Not in the PS3/Xbox 360 versions (per GamePressure: new consoles and PC)"
+    },
+    "sections": [
+      {
+        "kind": "versions",
+        "title": "Version availability",
+        "status": "curated",
+        "versions": [
+          "PS4/Xbox One",
+          "PS5/Xbox Series",
+          "PC"
+        ],
+        "text": "GamePressure describes this task as applying to the re-release on newer consoles and PC. Franklin is told about it after completing Chop, but all three protagonists can photograph mosaics. Whether it is in PC Legacy and PC Enhanced alike is not confirmed."
+      }
+    ]
+  },
+  {
+    "id": "collectible:peyote-plants",
+    "type": "collectible",
+    "name": "Peyote Plants",
+    "aliases": [
+      "Peyote",
+      "Peyote Plant",
+      "peiote",
+      "plantas de peiote"
+    ],
+    "summary": "27 peyote plants, exclusive to the PS4, Xbox One and PC versions and later. Eating one triggers a hallucination in which you play as a random Land, Sea or Air animal; the plants respawn after collection.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Peyote_Plants",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "versions": [
+      "PS4/Xbox One",
+      "PS5/Xbox Series",
+      "PC"
+    ],
+    "confidence": 0.8,
+    "attrs": {
+      "kind": "Peyote Plants",
+      "total": 27,
+      "availability": "Not in the PS3/Xbox 360 versions",
+      "counts_for_100": false
+    },
+    "sections": [
+      {
+        "kind": "completion",
+        "title": "100% relevance",
+        "status": "curated",
+        "text": "GTABase lists enhanced-edition exclusives among the things NOT required for 100% completion."
+      }
+    ]
+  },
+  {
+    "id": "collectible:rampages",
+    "type": "collectible",
+    "name": "Rampages",
+    "aliases": [
+      "Rampage",
+      "rampage missions",
+      "Red Mist"
+    ],
+    "summary": "5 Rampage challenges, playable only by Trevor according to GTA5Wiki; completing them earns the Red Mist trophy/achievement. Grand Theft Wiki's stranger table assigned them to Franklin, so the protagonist is disputed.",
+    "sources": [
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/collectibles/",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.45,
+    "attrs": {
+      "kind": "Rampages",
+      "total": 5,
+      "character": "Trevor (GTA5Wiki) vs Franklin (Grand Theft Wiki)"
+    },
+    "sections": [
+      {
+        "kind": "conflict",
+        "title": "Sources disagree",
+        "status": "unverified",
+        "text": "Source A (GTA5Wiki): Rampages are Trevor-only. Source B (Grand Theft Wiki stranger table): Franklin. Difference: which protagonist can play them. Confidence in either: about 40%. The sources diverge."
+      }
+    ]
+  },
+  {
+    "id": "collectible:stunt-jumps",
+    "type": "collectible",
+    "name": "Stunt Jumps",
+    "aliases": [
+      "Stunt Jump",
+      "saltos acrobáticos"
+    ],
+    "summary": "50 stunt jumps; 25 of them are required for 100% completion.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Stunt_Jumps",
+        "confidence": 0.5
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "kind": "Stunt Jumps",
+      "total": 50,
+      "counts_for_100": true,
+      "required_for_100": 25
+    }
+  },
+  {
+    "id": "collectible:knife-flights",
+    "type": "collectible",
+    "name": "Knife Flights",
+    "aliases": [
+      "Knife Flight",
+      "voos de faca"
+    ],
+    "summary": "15 knife flights (flying a plane through narrow gaps); 8 of them are required for 100% completion.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Knife_Flights",
+        "confidence": 0.5
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "kind": "Knife Flights",
+      "total": 15,
+      "counts_for_100": true,
+      "required_for_100": 8
+    }
+  },
+  {
+    "id": "collectible:under-the-bridge",
+    "type": "collectible",
+    "name": "Under the Bridge",
+    "aliases": [
+      "Under the Bridge challenge",
+      "passar por baixo das pontes"
+    ],
+    "summary": "50 bridges to pass under (by plane); 25 of them are required for 100% completion.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Under_the_Bridge",
+        "confidence": 0.5
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "kind": "Under the Bridge",
+      "total": 50,
+      "counts_for_100": true,
+      "required_for_100": 25
+    }
+  }
+]

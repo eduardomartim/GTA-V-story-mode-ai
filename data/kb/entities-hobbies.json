@@ -1,0 +1,320 @@
+[
+  {
+    "id": "hobby:hobbies-and-pastimes",
+    "type": "hobby",
+    "name": "Hobbies and Pastimes",
+    "aliases": [
+      "hobbies",
+      "atividades",
+      "pastimes",
+      "passatempos",
+      "hobbies and pastimes"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/appendix/z08d1c",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Optional activities; 42 of about 61 count toward 100% completion: flight school, shooting range, several race types, tennis, darts, golf, parachuting and a strip-club dance. Which protagonist can do each one is not fully documented.",
+    "attrs": {
+      "counts_for_100": true,
+      "required_for_100": 42,
+      "available": 61
+    },
+    "sections": [
+      {
+        "kind": "details",
+        "title": "Counts per activity",
+        "text": "Flight School 12, Shooting Range 6, Hao street races 5, off-road races 6, sea races 4, triathlons 3, tennis 1, darts 1, golf 1, parachuting (all base jumps and heli jumps) and 1 strip-club private dance."
+      }
+    ]
+  },
+  {
+    "id": "hobby:flight-school",
+    "type": "hobby",
+    "name": "Flight School",
+    "aliases": [
+      "escola de voo",
+      "flight school lessons"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Flight School has 12 challenges that all count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 12
+    }
+  },
+  {
+    "id": "hobby:shooting-range",
+    "type": "hobby",
+    "name": "Shooting Range",
+    "aliases": [
+      "stand de tiro",
+      "tiro ao alvo"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "The Shooting Range has 6 challenges that count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 6
+    }
+  },
+  {
+    "id": "hobby:hao-street-races",
+    "type": "hobby",
+    "name": "Hao Street Races",
+    "aliases": [
+      "street races",
+      "corridas de rua",
+      "Hao races"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Hao's street races (5 races, Franklin) count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 5,
+      "protagonists": [
+        "Franklin"
+      ]
+    }
+  },
+  {
+    "id": "hobby:off-road-races",
+    "type": "hobby",
+    "name": "Off-Road Races",
+    "aliases": [
+      "corridas off-road",
+      "offroad races"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "6 off-road races count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 6
+    }
+  },
+  {
+    "id": "hobby:sea-races",
+    "type": "hobby",
+    "name": "Sea Races",
+    "aliases": [
+      "corridas no mar",
+      "corridas de barco"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "4 sea races count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 4
+    }
+  },
+  {
+    "id": "hobby:triathlon",
+    "type": "hobby",
+    "name": "Triathlon",
+    "aliases": [
+      "triatlo",
+      "triathlons"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "3 triathlon races count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 3
+    }
+  },
+  {
+    "id": "hobby:tennis",
+    "type": "hobby",
+    "name": "Tennis",
+    "aliases": [
+      "tênis"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "One tennis game counts toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 1
+    }
+  },
+  {
+    "id": "hobby:darts",
+    "type": "hobby",
+    "name": "Darts",
+    "aliases": [
+      "dardos"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "One darts game counts toward 100% completion; playing darts with a friend is also one of the required friend activities.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 1
+    }
+  },
+  {
+    "id": "hobby:golf",
+    "type": "hobby",
+    "name": "Golf",
+    "aliases": [
+      "golfe"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "One golf game counts toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true,
+      "count": 1
+    }
+  },
+  {
+    "id": "hobby:parachuting",
+    "type": "hobby",
+    "name": "Parachuting",
+    "aliases": [
+      "paraquedismo",
+      "base jumping",
+      "heli jumps"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "All base jumps and heli jumps count toward 100% completion.",
+    "attrs": {
+      "counts_for_100": true
+    }
+  },
+  {
+    "id": "hobby:yoga",
+    "type": "hobby",
+    "name": "Yoga",
+    "aliases": [
+      "ioga"
+    ],
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Did_Somebody_Say_Yoga%3F",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Yoga is Michael's activity, introduced by the mission Did Somebody Say Yoga? (the mission page says it unlocks the yoga activity). Whether it counts for 100% is not documented in the sources checked.",
+    "attrs": {
+      "protagonists": [
+        "Michael"
+      ]
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:did-somebody-say-yoga"
+      }
+    ]
+  }
+]

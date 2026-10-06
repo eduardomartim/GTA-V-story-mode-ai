@@ -1,0 +1,99 @@
+[
+  {
+    "topic": "Mission money rewards",
+    "note": "Cash rewards were 'not listed' on almost every mission page checked; per-mission rewards are not recorded."
+  },
+  {
+    "topic": "Getaway Vehicle setups",
+    "note": "The three Getaway Vehicle setups (Blitz Play, Bureau Raid, Big Score) have no usable page on any accessible source. Prologue, Masks, Trevor Philips Industries and Meltdown now come from GTA5Wiki only and conflict with Grand Theft Wiki (recorded as UNVERIFIED)."
+  },
+  {
+    "topic": "Unlock chains",
+    "note": "Page-derived unlock chains conflict in places (e.g. Hood Safari vs Blitz Play, Scouting the Port). They are stored as UNVERIFIED; reconcile with an in-game test or a second source."
+  },
+  {
+    "topic": "Missable status",
+    "note": "No source checked states whether any main mission is missable; not recorded."
+  },
+  {
+    "topic": "Heist payouts per crew combination",
+    "note": "Only maximum/approximate payouts are recorded; the Bureau Raid payout is not confirmed and the Big Score total (≈$201M) is single-source."
+  },
+  {
+    "topic": "Merryweather Heist details",
+    "entity_id": "heist:merryweather-heist",
+    "note": "Crew members per approach and exact setup order are not validated."
+  },
+  {
+    "topic": "Console cheats",
+    "entity_id": "cheat:cheats-overview",
+    "note": "PlayStation and Xbox button sequences are not recorded: the only text found was inconsistent between pages. Phone numbers are recorded only where they match the keypad spelling of the PC code."
+  },
+  {
+    "topic": "Vehicle statistics",
+    "note": "Speed, acceleration, handling and price rankings are not validated; no 'fastest vehicle' answer is possible."
+  },
+  {
+    "topic": "Weapon statistics",
+    "note": "No 'best weapon' ranking exists in the sources. Accuracy, range, fire rate, reload, price and shop/location are not recorded; damage/magazine from GTA5Wiki are stored UNVERIFIED because that site mixes Online weapons and contradicts itself."
+  },
+  {
+    "topic": "Railgun in Story Mode",
+    "entity_id": "weapon:railgun",
+    "note": "Sources disagree; needs verification, probably per game version."
+  },
+  {
+    "topic": "Collectible locations",
+    "note": "Per-item locations (letter scraps, spaceship parts, submarine pieces, nuclear waste, peyote, monkey mosaics, epsilon tracts, hidden packages) are not recorded."
+  },
+  {
+    "topic": "Collectible totals",
+    "note": "Submarine Pieces (30), Epsilon Tracts (10) and Hidden Packages (12) come from GTA5Wiki and are consistent with GamePressure where it states anything, but are single-site."
+  },
+  {
+    "topic": "Stranger chains not documented",
+    "note": "Abigail, Josh, Cletus, Rampages, Mrs. Philips, The Last One, Hao's Shift Work and Dom/Beverly details: sources conflict or are incomplete."
+  },
+  {
+    "topic": "Strangers 100% count",
+    "entity_id": "completion:100-percent",
+    "note": "Headline requirement (20) vs sum of listed Franklin chains (24) not reconciled."
+  },
+  {
+    "topic": "Random events",
+    "entity_id": "random_event:random-events-overview",
+    "note": "Per-event location, protagonist, reward, repeatability are not recorded (only names)."
+  },
+  {
+    "topic": "Hobbies by protagonist",
+    "entity_id": "hobby:hobbies-and-pastimes",
+    "note": "Which protagonist can do each hobby; hunting and other activities outside the 100% list."
+  },
+  {
+    "topic": "Properties",
+    "entity_id": "property:safehouses-overview",
+    "note": "Full price/income/protagonist table; only the Sonar Collections Dock price is corroborated."
+  },
+  {
+    "topic": "Post-story money",
+    "entity_id": "game_mechanic:money-overview",
+    "note": "Best money methods after the story; stock returns by version."
+  },
+  {
+    "topic": "Version differences",
+    "entity_id": "version:editions-overview",
+    "note": "PC Enhanced vs Legacy and per-platform content differences."
+  },
+  {
+    "topic": "Verified coordinates",
+    "note": "All map positions are approximate (project coordinate system); mission locations without a mapped entity have no coordinates."
+  },
+  {
+    "topic": "IGN guides",
+    "note": "ign.com cannot be fetched by the automated tool and was not circumvented; IGN-based facts are not included."
+  },
+  {
+    "topic": "Fandom (GTA Wiki)",
+    "note": "gta.fandom.com is behind a bot challenge; its pages are linked but their content was not ingested."
+  }
+]

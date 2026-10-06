@@ -1,0 +1,514 @@
+[
+  {
+    "id": "activity:strangers-and-freaks",
+    "type": "activity",
+    "name": "Strangers and Freaks",
+    "aliases": [
+      "Strangers and Freaks",
+      "estranhos e aberrações",
+      "side missions",
+      "missões secundárias",
+      "S&F"
+    ],
+    "summary": "Optional chains given by strangers around San Andreas, each tied to one or more protagonists. 20 of them count for 100% completion; the chains below are documented with their missions and protagonists.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "counts_for_100": true,
+      "required_for_100": 20
+    },
+    "sections": [
+      {
+        "kind": "note",
+        "title": "Known gaps",
+        "status": "unverified",
+        "text": "Sources disagree on a few chains (for example who plays the Abigail and submarine missions, and the Rampages), and the 100% required count (20) differs from the sum of the listed chains (24). Chains not listed in this knowledge base are in the backlog."
+      }
+    ]
+  },
+  {
+    "id": "activity:stranger-barry",
+    "type": "activity",
+    "name": "Barry — Grass Roots",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Barry's Grass Roots chain exists in versions for all three protagonists. Franklin's version (4 missions) counts for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Michael",
+        "Franklin",
+        "Trevor"
+      ],
+      "counts_for_100": true,
+      "missions": 4
+    }
+  },
+  {
+    "id": "activity:stranger-beverly-felton",
+    "type": "activity",
+    "name": "Beverly Felton — Paparazzo",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.8,
+    "summary": "Franklin's six-mission Paparazzo chain: Paparazzo, The Sex Tape, The Partnership, The Meltdown, The Highness and Reality Check. All six count for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Franklin"
+      ],
+      "counts_for_100": true,
+      "missions": 6
+    }
+  },
+  {
+    "id": "activity:stranger-dom-beasley",
+    "type": "activity",
+    "name": "Dom Beasley — Risk Assessment",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Franklin's Dom chain: Risk Assessment, Liquidity Risk, Targeted Risk and Uncalculated Risk. All four count for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Franklin"
+      ],
+      "counts_for_100": true,
+      "missions": 4
+    }
+  },
+  {
+    "id": "activity:stranger-mary-ann-quinn",
+    "type": "activity",
+    "name": "Mary-Ann Quinn — Exercising Demons",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Exercising Demons exists for all three protagonists; only Franklin's version counts for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Michael",
+        "Franklin",
+        "Trevor"
+      ],
+      "counts_for_100": true,
+      "counts_for": "Franklin"
+    }
+  },
+  {
+    "id": "activity:stranger-omega",
+    "type": "activity",
+    "name": "Omega — Far Out / The Final Frontier",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/spaceship-parts/z45573",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.85,
+    "summary": "Franklin's Omega chain: Far Out and The Final Frontier. It unlocks the spaceship-parts collectible, and returning all 50 parts gives the Space Docker.",
+    "attrs": {
+      "protagonists": [
+        "Franklin"
+      ],
+      "counts_for_100": true,
+      "missions": 2
+    },
+    "relations": [
+      {
+        "predicate": "unlocks",
+        "to": "collectible:spaceship-parts"
+      }
+    ]
+  },
+  {
+    "id": "activity:stranger-peter-dreyfuss",
+    "type": "activity",
+    "name": "Peter Dreyfuss — A Starlet in Vinewood",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Letter_Scraps",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.8,
+    "summary": "Franklin's A Starlet in Vinewood, tied to the Letter Scraps collectible. It counts for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Franklin"
+      ],
+      "counts_for_100": true,
+      "missions": 1
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "collectible:letter-scraps"
+      }
+    ]
+  },
+  {
+    "id": "activity:stranger-tonya-wiggins",
+    "type": "activity",
+    "name": "Tonya Wiggins — Pulling Favors",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.8,
+    "summary": "Franklin's five-mission Pulling Favors series (Pulling Favors, Pulling Another Favor, Pulling Favors Again, Still Pulling Favors, Pulling One Last Favor). All five count for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Franklin"
+      ],
+      "counts_for_100": true,
+      "missions": 5
+    }
+  },
+  {
+    "id": "activity:stranger-epsilon-program",
+    "type": "activity",
+    "name": "Epsilon Program",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/epsilon-tracts/z3566b",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.8,
+    "summary": "Michael's eight-mission Epsilon series (Seeking the Truth through Unknowing the Truth). It does not count for 100%, but it unlocks the Epsilon Tracts collectible.",
+    "attrs": {
+      "protagonists": [
+        "Michael"
+      ],
+      "counts_for_100": false,
+      "missions": 8
+    },
+    "relations": [
+      {
+        "predicate": "unlocks",
+        "to": "collectible:epsilon-tracts"
+      }
+    ]
+  },
+  {
+    "id": "activity:stranger-maude",
+    "type": "activity",
+    "name": "Maude — bounty hunting",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.75,
+    "summary": "Trevor's bounty-hunting chain with Maude (targets named by GamePressure: Ralph Ostrowski, Larry Tupper, Glenn Scoville and Curtis Weaver). Not required for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Trevor"
+      ],
+      "counts_for_100": false
+    }
+  },
+  {
+    "id": "activity:stranger-civil-border-patrol",
+    "type": "activity",
+    "name": "Minute Men — Civil Border Patrol",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Trevor's Civil Border Patrol series (Civil Border Patrol, An American Welcome, Minute Man Blues). Not required for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Trevor"
+      ],
+      "counts_for_100": false
+    }
+  },
+  {
+    "id": "activity:stranger-vinewood-souvenirs",
+    "type": "activity",
+    "name": "Nigel and Mrs. Thornhill — Vinewood Souvenirs",
+    "aliases": [],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "summary": "Michael's multi-part Vinewood Souvenirs series. Not required for 100%.",
+    "attrs": {
+      "protagonists": [
+        "Michael"
+      ],
+      "counts_for_100": false
+    }
+  },
+  {
+    "id": "activity:strangers-source-conflicts",
+    "type": "activity",
+    "name": "Strangers and Freaks — where sources disagree",
+    "aliases": [
+      "strangers conflicts",
+      "conflitos entre fontes strangers",
+      "source disagreements strangers"
+    ],
+    "summary": "Register of disagreements between sources about Strangers and Freaks and related collectibles, each with source A, source B, the difference and a confidence. Nothing is hidden or resolved by guesswork.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/collectibles/",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.6,
+    "attrs": {
+      "counts_for_100": false
+    },
+    "sections": [
+      {
+        "kind": "conflict",
+        "title": "Peter Dreyfuss — A Starlet in Vinewood",
+        "status": "unverified",
+        "text": "Conflict 1 — Source A: Grand Theft Wiki's stranger table lists Michael. Source B: GTABase, GamePressure and Grand Theft Wiki's Letter Scraps page tie it to Franklin. Difference: the protagonist who plays it Confidence in the resolution used here: 80%. This knowledge base uses Franklin."
+      },
+      {
+        "kind": "conflict",
+        "title": "Required count: 20 vs 24",
+        "status": "unverified",
+        "text": "Conflict 2 — Source A: GamePressure and others say 20 Strangers and Freaks missions count. Source B: GTABase's list of Franklin chains adds up to 24 missions. Difference: the number of required S&F missions Confidence in the resolution used here: 50%."
+      },
+      {
+        "kind": "conflict",
+        "title": "Barry — Grass Roots",
+        "status": "unverified",
+        "text": "Conflict 3 — Source A: Grand Theft Wiki: 4 of 6 Grass Roots missions are required. Source B: GTABase: the Grass Roots series (4 missions). Difference: none in the count; the mission names are listed differently Confidence in the resolution used here: 70%."
+      },
+      {
+        "kind": "conflict",
+        "title": "Rampages",
+        "status": "unverified",
+        "text": "Conflict 4 — Source A: Grand Theft Wiki's table assigns the Rampages to Franklin. Source B: GTA5Wiki lists them as Trevor-only (Red Mist). Difference: which protagonist plays them Confidence in the resolution used here: 40%."
+      },
+      {
+        "kind": "conflict",
+        "title": "Abigail / submarine strand",
+        "status": "unverified",
+        "text": "Conflict 5 — Source A: Grand Theft Wiki: Abigail's Death at Sea and What Lies Beneath are Franklin's. Source B: GamePressure: Death at Sea is Michael's and starts after buying the Sonar Collections Dock; GTA5Wiki ties the submarine pieces to an Abigail Mathers strand. Difference: protagonist and trigger Confidence in the resolution used here: 30%."
+      },
+      {
+        "kind": "conflict",
+        "title": "Hao",
+        "status": "unverified",
+        "text": "Conflict 6 — Source A: Grand Theft Wiki and GTABase's hobby list: Hao's street races (5 races, a hobby). Source B: GTABase's S&F list also names 'Shift Work' (1 mission) for Hao. Difference: whether Hao's content is a hobby, a stranger mission, or both Confidence in the resolution used here: 50%."
+      }
+    ]
+  }
+]

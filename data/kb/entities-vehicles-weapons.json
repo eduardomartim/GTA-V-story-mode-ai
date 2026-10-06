@@ -1,0 +1,2235 @@
+[
+  {
+    "id": "vehicle:space-docker",
+    "type": "vehicle",
+    "name": "Space Docker",
+    "aliases": [
+      "Docker espacial",
+      "nave espacial"
+    ],
+    "summary": "A special vehicle obtained by collecting all 50 spaceship parts; it becomes available in Omega's garage. Two independent sources agree.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Space_Docker",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.85,
+    "attrs": {
+      "category": "special",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Collect all 50 Spaceship Parts, then use the Omega stranger chain",
+      "location_detail": "Omega's garage (exact coordinates not validated)"
+    },
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "collectible:spaceship-parts"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:buzzard",
+    "type": "vehicle",
+    "name": "Buzzard",
+    "aliases": [
+      "Buzzard Attack Chopper",
+      "Nagasaki Buzzard"
+    ],
+    "summary": "A Nagasaki attack helicopter. It can be spawned with the PC cheat 'buzzoff'; GamePressure also lists one on a government-building rooftop (ladder access needed).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "attrs": {
+      "category": "helicopters",
+      "manufacturer": "Nagasaki",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "cheat_pc": "buzzoff",
+      "how_to_get": "PC cheat, or a rooftop spawn (per GamePressure)"
+    }
+  },
+  {
+    "id": "vehicle:comet",
+    "type": "vehicle",
+    "name": "Comet",
+    "aliases": [
+      "Pfister Comet"
+    ],
+    "summary": "A Pfister sports car that can be spawned with the PC cheat 'comet'.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "attrs": {
+      "category": "cars",
+      "manufacturer": "Pfister",
+      "vehicle_class": "sports",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "cheat_pc": "comet"
+    }
+  },
+  {
+    "id": "vehicle:pcj-600",
+    "type": "vehicle",
+    "name": "PCJ-600",
+    "aliases": [
+      "PCJ 600",
+      "Shitzu PCJ"
+    ],
+    "summary": "A Shitzu motorcycle spawned with the PC cheat 'rocket'.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "attrs": {
+      "category": "motorcycles",
+      "manufacturer": "Shitzu",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "cheat_pc": "rocket"
+    }
+  },
+  {
+    "id": "vehicle:sanchez",
+    "type": "vehicle",
+    "name": "Sanchez",
+    "aliases": [
+      "Maibatsu Sanchez"
+    ],
+    "summary": "A Maibatsu off-road motorcycle spawned with the PC cheat 'offroad'.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "attrs": {
+      "category": "motorcycles",
+      "manufacturer": "Maibatsu",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "cheat_pc": "offroad"
+    }
+  },
+  {
+    "id": "vehicle:tank",
+    "type": "vehicle",
+    "name": "Tank (Rhino)",
+    "aliases": [
+      "Rhino",
+      "tanque",
+      "military tank"
+    ],
+    "summary": "GamePressure lists a tank, the P-996 Lazer jet and military helicopters at Fort Zancudo, reachable when you have a four-star wanted level.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "military",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Fort Zancudo military base (four-star wanted level per GamePressure)"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:fort-zancudo"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:p-996-lazer",
+    "type": "vehicle",
+    "name": "P-996 Lazer",
+    "aliases": [
+      "Lazer",
+      "jato militar"
+    ],
+    "summary": "A military jet listed at Fort Zancudo by GamePressure (four-star wanted level).",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "military",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Fort Zancudo (per GamePressure)"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:fort-zancudo"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:submarine",
+    "type": "vehicle",
+    "name": "Submarine",
+    "aliases": [
+      "submarino",
+      "Story Mode submarine"
+    ],
+    "summary": "A submarine available at the Sonar Collections Dock, which costs $250,000 to buy (GamePressure). Exact spawn and specs are not validated.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "boats",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Buy the Sonar Collections Dock ($250,000)"
+    },
+    "relations": [
+      {
+        "predicate": "requires",
+        "to": "property:sonar-collections-dock"
+      },
+      {
+        "predicate": "found_at",
+        "to": "location:sonar-collections-dock"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:adder",
+    "type": "vehicle",
+    "name": "Adder",
+    "aliases": [
+      "Truffade Adder"
+    ],
+    "summary": "GamePressure lists an Adder near a clothes store on a street it calls 'Addlers street'. The exact spot is not validated; the Adder is also a GTA Online vehicle.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "attrs": {
+      "category": "cars",
+      "availability": "BOTH",
+      "story_mode_available": true,
+      "how_to_get": "Street spawn (location unvalidated)"
+    }
+  },
+  {
+    "id": "vehicle:luxor",
+    "type": "vehicle",
+    "name": "Luxor",
+    "aliases": [
+      "Luxor jet"
+    ],
+    "summary": "GamePressure lists the Luxor and Shamal at Los Santos Airport for $3 million each, requiring hangar ownership. Price and requirement are single-source.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "planes",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "$3 million at LSIA with a hangar (single source)"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:los-santos-international-airport"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:shamal",
+    "type": "vehicle",
+    "name": "Shamal",
+    "aliases": [
+      "Shamal jet"
+    ],
+    "summary": "Listed with the Luxor at Los Santos Airport for $3 million, requiring hangar ownership (GamePressure, single source).",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "planes",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "$3 million at LSIA with a hangar (single source)"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:los-santos-international-airport"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:blazer-atv",
+    "type": "vehicle",
+    "name": "Blazer ATV",
+    "aliases": [
+      "Nagasaki Blazer"
+    ],
+    "summary": "GamePressure says a Nagasaki Blazer ATV appears at Trevor's trailer after the game is completed (via a message from Ron).",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.6,
+    "attrs": {
+      "category": "motorcycles",
+      "manufacturer": "Nagasaki",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Trevor's trailer after completion (single source)"
+    }
+  },
+  {
+    "id": "vehicle:tractor",
+    "type": "vehicle",
+    "name": "Tractor",
+    "aliases": [
+      "trator"
+    ],
+    "summary": "GamePressure lists a tractor next to the house near the lighthouse.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "attrs": {
+      "category": "utility",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Near the lighthouse house (single source)"
+    }
+  },
+  {
+    "id": "vehicle:cargobob",
+    "type": "vehicle",
+    "name": "Cargobob",
+    "aliases": [],
+    "summary": "Cargobob: stolen from Fort Zancudo in the Cargobob mission (Offshore approach of the Merryweather Heist); it also appears in Monkey Business.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cargobob_(mission)",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "stolen from Fort Zancudo in the Cargobob mission (Offshore approach of the Merryweather Heist); it also appears in Monkey Business.",
+      "mission": "cargobob"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:fort-zancudo"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:cargobob"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:minisub",
+    "type": "vehicle",
+    "name": "Minisub",
+    "aliases": [],
+    "summary": "Minisub: taken from a docked ship at the Port of Los Santos in the Minisub mission (Freighter approach of the Merryweather Heist).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Minisub",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "taken from a docked ship at the Port of Los Santos in the Minisub mission (Freighter approach of the Merryweather Heist).",
+      "mission": "minisub"
+    },
+    "relations": [
+      {
+        "predicate": "found_at",
+        "to": "location:port-of-los-santos"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:minisub"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:gauntlet",
+    "type": "vehicle",
+    "name": "Gauntlet",
+    "aliases": [],
+    "summary": "Gauntlet: three Gauntlets are acquired and modified at Los Santos Customs in the Gauntlet setup of the Big Score (Subtle approach); a gold-medal goal asks for $17,000 of modifications.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Gauntlet_(mission)",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "three Gauntlets are acquired and modified at Los Santos Customs in the Gauntlet setup of the Big Score (Subtle approach); a gold-medal goal asks for $17,000 of modifications.",
+      "mission": "gauntlet"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:gauntlet"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:jb-700",
+    "type": "vehicle",
+    "name": "JB 700",
+    "aliases": [],
+    "summary": "JB 700: the car Franklin steals in Deep Inside and that is moved in Pack Man.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Deep_Inside",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "the car Franklin steals in Deep Inside and that is moved in Pack Man.",
+      "mission": "deep-inside"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:deep-inside"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:trashmaster",
+    "type": "vehicle",
+    "name": "Trashmaster",
+    "aliases": [],
+    "summary": "Trashmaster: stolen from Mirror Park in the Trash Truck setup for Blitz Play; it can also be spawned with a cheat (named on GamePressure; input not recorded).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Trash_Truck",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "stolen from Mirror Park in the Trash Truck setup for Blitz Play; it can also be spawned with a cheat (named on GamePressure; input not recorded).",
+      "mission": "trash-truck"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:trash-truck"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:tow-truck",
+    "type": "vehicle",
+    "name": "Tow Truck",
+    "aliases": [],
+    "summary": "Tow Truck: stolen from La Puerta in the Tow Truck setup for Blitz Play and delivered to the FIB impound lot.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Tow_Truck_(mission)",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "stolen from La Puerta in the Tow Truck setup for Blitz Play and delivered to the FIB impound lot.",
+      "mission": "tow-truck"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:tow-truck"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:fire-truck",
+    "type": "vehicle",
+    "name": "Fire Truck",
+    "aliases": [],
+    "summary": "Fire Truck: stolen for the Fire Crew approach of the Bureau Raid in the Fire Truck setup (gold goal: call 911 first).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Fire_Truck_(mission)",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "stolen for the Fire Crew approach of the Bureau Raid in the Fire Truck setup (gold goal: call 911 first).",
+      "mission": "fire-truck"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:fire-truck"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:duster",
+    "type": "vehicle",
+    "name": "Duster (crop duster)",
+    "aliases": [],
+    "summary": "Duster (crop duster): flown by Trevor in Minor Turbulence to hijack a cargo plane; also spawnable with a cheat.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Minor_Turbulence",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "flown by Trevor in Minor Turbulence to hijack a cargo plane; also spawnable with a cheat.",
+      "mission": "minor-turbulence"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:minor-turbulence"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:phantom",
+    "type": "vehicle",
+    "name": "Phantom",
+    "aliases": [],
+    "summary": "Phantom: the truck used in Fame or Shame; a gold-medal goal asks for top speed in it and not unhooking the trailer.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Fame_or_Shame_(mission)",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "the truck used in Fame or Shame; a gold-medal goal asks for top speed in it and not unhooking the trailer.",
+      "mission": "fame-or-shame"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:fame-or-shame"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:bugstars-van",
+    "type": "vehicle",
+    "name": "Bugstars van",
+    "aliases": [],
+    "summary": "Bugstars van: taken from the Bugstars warehouse at the Port of Los Santos in Bugstars Equipment (Smart approach of the Jewel Store Job).",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Bugstars_Equipment",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "attrs": {
+      "category": "mission vehicle",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "taken from the Bugstars warehouse at the Port of Los Santos in Bugstars Equipment (Smart approach of the Jewel Store Job).",
+      "mission": "bugstars-equipment"
+    },
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "mission:bugstars-equipment"
+      }
+    ]
+  },
+  {
+    "id": "vehicle:caddy",
+    "type": "vehicle",
+    "name": "Caddy",
+    "aliases": [],
+    "summary": "Caddy can be spawned with a cheat (named on GamePressure's PlayStation cheat page). The input is not recorded in this knowledge base.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.5,
+    "attrs": {
+      "category": "cars",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Cheat spawn (input not validated)"
+    }
+  },
+  {
+    "id": "vehicle:crop-duster",
+    "type": "vehicle",
+    "name": "Crop Duster",
+    "aliases": [],
+    "summary": "Crop Duster can be spawned with a cheat (named on GamePressure's PlayStation cheat page). The input is not recorded in this knowledge base.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.5,
+    "attrs": {
+      "category": "planes",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Cheat spawn (input not validated)"
+    }
+  },
+  {
+    "id": "vehicle:limo",
+    "type": "vehicle",
+    "name": "Limo",
+    "aliases": [],
+    "summary": "Limo can be spawned with a cheat (named on GamePressure's PlayStation cheat page). The input is not recorded in this knowledge base.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.5,
+    "attrs": {
+      "category": "cars",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Cheat spawn (input not validated)"
+    }
+  },
+  {
+    "id": "vehicle:rapid-gt",
+    "type": "vehicle",
+    "name": "Rapid GT",
+    "aliases": [],
+    "summary": "Rapid GT can be spawned with a cheat (named on GamePressure's PlayStation cheat page). The input is not recorded in this knowledge base.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.5,
+    "attrs": {
+      "category": "cars",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Cheat spawn (input not validated)"
+    }
+  },
+  {
+    "id": "vehicle:stunt-plane",
+    "type": "vehicle",
+    "name": "Stunt Plane",
+    "aliases": [],
+    "summary": "Stunt Plane can be spawned with a cheat (named on GamePressure's PlayStation cheat page). The input is not recorded in this knowledge base.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.5,
+    "attrs": {
+      "category": "planes",
+      "availability": "STORY_MODE",
+      "story_mode_available": true,
+      "how_to_get": "Cheat spawn (input not validated)"
+    }
+  },
+  {
+    "id": "weapon:antique-cavalry-dagger",
+    "type": "weapon",
+    "name": "Antique Cavalry Dagger",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Antique Cavalry Dagger is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:baseball-bat",
+    "type": "weapon",
+    "name": "Baseball Bat",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Baseball Bat is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:bottle",
+    "type": "weapon",
+    "name": "Bottle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Bottle is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:crowbar",
+    "type": "weapon",
+    "name": "Crowbar",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Crowbar is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:golf-club",
+    "type": "weapon",
+    "name": "Golf Club",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Golf Club is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:hammer",
+    "type": "weapon",
+    "name": "Hammer",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Hammer is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:knife",
+    "type": "weapon",
+    "name": "Knife",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Knife is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:nightstick",
+    "type": "weapon",
+    "name": "Nightstick",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Nightstick is listed among the GTA V single-player melee by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "melee",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:ap-pistol",
+    "type": "weapon",
+    "name": "AP Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "AP Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 20, magazine 18. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:combat-pistol",
+    "type": "weapon",
+    "name": "Combat Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Combat Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 32, magazine 12. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:heavy-pistol",
+    "type": "weapon",
+    "name": "Heavy Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Heavy Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 18. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:pistol",
+    "type": "weapon",
+    "name": "Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 26, magazine 12. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:pistol-50",
+    "type": "weapon",
+    "name": "Pistol .50",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Pistol .50 is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 60, magazine 9. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:sns-pistol",
+    "type": "weapon",
+    "name": "SNS Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "SNS Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 6. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:stun-gun",
+    "type": "weapon",
+    "name": "Stun Gun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Stun Gun is listed among the GTA V single-player pistols by Grand Theft Wiki. GamePressure notes a low fire rate (roughly one shot every four seconds). Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:vintage-pistol",
+    "type": "weapon",
+    "name": "Vintage Pistol",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Vintage Pistol is listed among the GTA V single-player pistols by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "pistols",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 38, magazine 7. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:assault-smg",
+    "type": "weapon",
+    "name": "Assault SMG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Assault SMG is listed among the GTA V single-player smgs by Grand Theft Wiki. Grand Theft Wiki and GamePressure both say it is tied to Rockstar Social Club membership (free at Ammu-Nation per GamePressure). Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "smgs",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 2,
+        "text": "GTA5Wiki lists: damage 32, magazine 30/60. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:micro-smg",
+    "type": "weapon",
+    "name": "Micro SMG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Micro SMG is listed among the GTA V single-player smgs by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "smgs",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 20, magazine 16/30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:smg",
+    "type": "weapon",
+    "name": "SMG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "SMG is listed among the GTA V single-player smgs by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "smgs",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:combat-mg",
+    "type": "weapon",
+    "name": "Combat MG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Combat MG is listed among the GTA V single-player light machine guns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "light_machine_guns",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:gusenberg-sweeper",
+    "type": "weapon",
+    "name": "Gusenberg Sweeper",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Gusenberg Sweeper is listed among the GTA V single-player light machine guns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "light_machine_guns",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:mg",
+    "type": "weapon",
+    "name": "MG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "MG is listed among the GTA V single-player light machine guns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "light_machine_guns",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:advanced-rifle",
+    "type": "weapon",
+    "name": "Advanced Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Advanced Rifle is listed among the GTA V single-player assault rifles by Grand Theft Wiki. GamePressure says it is available late in the game and obtainable at the Altruist Cult village. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "assault_rifles",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 2,
+        "text": "GTA5Wiki lists: damage 32, magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:assault-rifle",
+    "type": "weapon",
+    "name": "Assault Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Assault Rifle is listed among the GTA V single-player assault rifles by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "assault_rifles",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 30 or 32 (pages disagree), magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:bullpup-rifle",
+    "type": "weapon",
+    "name": "Bullpup Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Bullpup Rifle is listed among the GTA V single-player assault rifles by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "assault_rifles",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:carbine-rifle",
+    "type": "weapon",
+    "name": "Carbine Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Carbine Rifle is listed among the GTA V single-player assault rifles by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "assault_rifles",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 40, magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:special-carbine",
+    "type": "weapon",
+    "name": "Special Carbine",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Special Carbine is listed among the GTA V single-player assault rifles by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "assault_rifles",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 34, magazine 30. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:heavy-sniper",
+    "type": "weapon",
+    "name": "Heavy Sniper",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Heavy Sniper is listed among the GTA V single-player snipers by Grand Theft Wiki. GamePressure notes it pierces armor. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "snipers",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 2,
+        "text": "GTA5Wiki lists: magazine 6. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:marksman-rifle",
+    "type": "weapon",
+    "name": "Marksman Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Marksman Rifle is listed among the GTA V single-player snipers by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "snipers",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 65, magazine 8. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:sniper-rifle",
+    "type": "weapon",
+    "name": "Sniper Rifle",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Sniper Rifle is listed among the GTA V single-player snipers by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "snipers",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 101 (overview) vs 'High' (class page), magazine 10. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:assault-shotgun",
+    "type": "weapon",
+    "name": "Assault Shotgun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Assault Shotgun is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 70, magazine 8/32. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:bullpup-shotgun",
+    "type": "weapon",
+    "name": "Bullpup Shotgun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Bullpup Shotgun is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 14. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:heavy-shotgun",
+    "type": "weapon",
+    "name": "Heavy Shotgun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Heavy Shotgun is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 12. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:musket",
+    "type": "weapon",
+    "name": "Musket",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Musket is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 1. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:pump-shotgun",
+    "type": "weapon",
+    "name": "Pump Shotgun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Pump Shotgun is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage 70, magazine 8. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:sawed-off-shotgun",
+    "type": "weapon",
+    "name": "Sawed-Off Shotgun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Sawed-Off Shotgun is listed among the GTA V single-player shotguns by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "shotguns",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 2. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:firework-launcher",
+    "type": "weapon",
+    "name": "Firework Launcher",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Firework Launcher is listed among the GTA V single-player heavy by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "heavy",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:grenade-launcher",
+    "type": "weapon",
+    "name": "Grenade Launcher",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Grenade Launcher is listed among the GTA V single-player heavy by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "heavy",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 1. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:minigun",
+    "type": "weapon",
+    "name": "Minigun",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Minigun is listed among the GTA V single-player heavy by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "heavy",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: magazine 500. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:rpg",
+    "type": "weapon",
+    "name": "RPG",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "RPG is listed among the GTA V single-player heavy by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gta5wiki",
+        "url": "https://gta5wiki.com/weapons/",
+        "confidence": 0.4,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "heavy",
+      "availability": "STORY_MODE"
+    },
+    "sections": [
+      {
+        "kind": "stats",
+        "title": "Statistics (unverified)",
+        "status": "unverified",
+        "src": 1,
+        "text": "GTA5Wiki lists: damage ~300 (overview) vs 100 (class page), magazine 1. Caution: this site also lists GTA Online weapons and its own pages disagree in places, so treat the numbers as unconfirmed. Accuracy, range, fire rate, reload and price are not recorded."
+      }
+    ]
+  },
+  {
+    "id": "weapon:grenade",
+    "type": "weapon",
+    "name": "Grenade",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Grenade is listed among the GTA V single-player throwables by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "throwables",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:jerry-can",
+    "type": "weapon",
+    "name": "Jerry Can",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Jerry Can is listed among the GTA V single-player throwables by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "throwables",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:molotov",
+    "type": "weapon",
+    "name": "Molotov",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Molotov is listed among the GTA V single-player throwables by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "throwables",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:sticky-bomb",
+    "type": "weapon",
+    "name": "Sticky Bomb",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Sticky Bomb is listed among the GTA V single-player throwables by Grand Theft Wiki. Used by several Gold Medal objectives (e.g. Military Hardware). Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "throwables",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:tear-gas",
+    "type": "weapon",
+    "name": "Tear Gas",
+    "aliases": [],
+    "verification": "curated",
+    "confidence": 0.7,
+    "summary": "Tear Gas is listed among the GTA V single-player throwables by Grand Theft Wiki. Damage, price and exact locations are not validated yet.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "throwables",
+      "availability": "STORY_MODE"
+    }
+  },
+  {
+    "id": "weapon:railgun",
+    "type": "weapon",
+    "name": "Railgun",
+    "aliases": [
+      "Rail gun"
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "summary": "The sources diverge on the Railgun: GamePressure says it is unlocked after the mission Minor Turbulence and bought at a gun store in single player, but Grand Theft Wiki's single-player weapon list does not include it. It is also a GTA Online weapon.",
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/best-weapons/z3567a",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "category": "heavy",
+      "availability": "UNKNOWN",
+      "conflict": "GamePressure: Story Mode after Minor Turbulence; Grand Theft Wiki single-player list: absent"
+    },
+    "sections": [
+      {
+        "kind": "versions",
+        "title": "Divergence",
+        "status": "unverified",
+        "text": "As fontes divergem / The sources disagree on whether the Railgun is a Story Mode weapon: GamePressure says it is unlocked after Minor Turbulence; Grand Theft Wiki's single-player list omits it; GTA5Wiki lists it (damage 100, magazine 1) but that site also lists Online weapons. It may depend on the game version, which is not confirmed. It is certainly a GTA Online weapon. Confidence that it is in Story Mode: about 50%."
+      }
+    ]
+  }
+]

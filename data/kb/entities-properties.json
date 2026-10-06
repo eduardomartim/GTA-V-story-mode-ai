@@ -1,0 +1,241 @@
+[
+  {
+    "id": "property:safehouses-overview",
+    "type": "property",
+    "name": "Properties — overview",
+    "aliases": [
+      "propriedades",
+      "properties",
+      "imóveis",
+      "buy property",
+      "comprar propriedades",
+      "safehouses"
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/properties/",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Nervous_Ron",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/property-missions-1/z38d1f",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.75,
+    "summary": "Properties can be bought after the mission Nervous Ron (marked with a $ house icon). Businesses pay weekly into your bank account; others provide vehicle storage. Only 5 properties count for 100%. Some are protagonist-specific.",
+    "attrs": {
+      "required_for_100": 5
+    },
+    "sections": [
+      {
+        "kind": "requirements",
+        "title": "When you can buy",
+        "status": "verified",
+        "text": "Three sources agree that purchasing properties becomes possible after completing Nervous Ron."
+      },
+      {
+        "kind": "money",
+        "title": "Total cost",
+        "status": "curated",
+        "text": "GTABase states the total cost of buying every property is roughly $220,000,000. Exact per-property prices and income are only partly documented (see the individual property entries and the backlog)."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "location:michaels-house"
+      },
+      {
+        "predicate": "related_to",
+        "to": "location:franklins-strawberry-house"
+      },
+      {
+        "predicate": "related_to",
+        "to": "location:trevors-trailer"
+      },
+      {
+        "predicate": "related_to",
+        "to": "completion:100-percent"
+      },
+      {
+        "predicate": "requires",
+        "to": "mission:nervous-ron"
+      }
+    ]
+  },
+  {
+    "id": "property:sonar-collections-dock",
+    "type": "property",
+    "name": "Sonar Collections Dock",
+    "aliases": [
+      "Sonar",
+      "doca Sonar"
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/radioactive-waste/ze55c1",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "verified",
+    "confidence": 0.75,
+    "summary": "A dock business that costs $250,000. Buying it unlocks the submarine and the underwater collectibles (submarine pieces and nuclear waste); GamePressure lists about $23,000 per barrel of nuclear waste and a $250,000 completion bonus.",
+    "attrs": {
+      "price": 250000,
+      "unlocks": [
+        "Submarine",
+        "Submarine Pieces",
+        "Nuclear Waste"
+      ]
+    },
+    "sections": [
+      {
+        "kind": "money",
+        "title": "Price and returns",
+        "status": "curated",
+        "text": "Price $250,000 (GamePressure's unique-vehicle and nuclear-waste pages both give $250,000 for the Sonar Collections Dock.) Returns documented: ~$23,000 per nuclear-waste barrel and $250,000 for collecting all of them (single source, wording is approximate)."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "unlocks",
+        "to": "vehicle:submarine"
+      },
+      {
+        "predicate": "unlocks",
+        "to": "collectible:nuclear-waste"
+      },
+      {
+        "predicate": "unlocks",
+        "to": "collectible:submarine-pieces"
+      },
+      {
+        "predicate": "located_at",
+        "to": "location:sonar-collections-dock"
+      }
+    ]
+  },
+  {
+    "id": "property:towing-impound",
+    "type": "property",
+    "name": "Towing Impound (Car Scrapyard)",
+    "aliases": [
+      "Car Scrapyard",
+      "Towing Impound",
+      "ferro-velho"
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/property-missions-1/z38d1f",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "summary": "Franklin's property in South Los Santos: a towing/scrapyard business reported at $150,000, paying about $500 per vehicle towed. Price and income come from one aggregated source and are unverified.",
+    "attrs": {
+      "price": 150000,
+      "character": "Franklin"
+    },
+    "sections": [
+      {
+        "kind": "money",
+        "title": "Reported figures",
+        "status": "unverified",
+        "text": "A search aggregation reports $150,000 and $500 per tow; GamePressure lists the Car Scrapyard among property missions without prices."
+      }
+    ]
+  },
+  {
+    "id": "property:downtown-cab-co",
+    "type": "property",
+    "name": "Downtown Cab Co.",
+    "aliases": [
+      "Taxi",
+      "Downtown Cab",
+      "empresa de táxi"
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/property-missions-1/z38d1f",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "summary": "Franklin's taxi business in East Vinewood; reported at $200,000 with about $2,000 per week. Figures are unverified (single aggregated source); GamePressure lists a Downtown Cab Co. property mission.",
+    "attrs": {
+      "price": 200000,
+      "character": "Franklin"
+    }
+  },
+  {
+    "id": "property:tequi-la-la",
+    "type": "property",
+    "name": "Tequi-la-la",
+    "aliases": [
+      "Tequila-la",
+      "bar Tequi-la-la"
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/property-missions-1/z38d1f",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.4,
+    "summary": "A nightclub property reported at $2,000,000 with weekly income. The figures come from a single aggregated source and are unverified; GamePressure lists a Tequi-la-la property mission.",
+    "attrs": {
+      "price": 2000000
+    }
+  },
+  {
+    "id": "property:property-missions",
+    "type": "property",
+    "name": "Property missions (list)",
+    "aliases": [
+      "missões de propriedade",
+      "property missions"
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/property-missions-1/z38d1f",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.55,
+    "summary": "GamePressure documents property missions for: Pitchers, McKenzie Field Hangar, Car Scrapyard, Ten Cent Theater, Downtown Cab Co., Tivoli Theater, Doppler Cinema, Smoke on the Water, Tequi-la-la, Hookies and The Hen House. Prices, income and which protagonist can buy each are not documented there.",
+    "attrs": {
+      "count": 11
+    }
+  }
+]

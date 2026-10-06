@@ -1,0 +1,312 @@
+[
+  {
+    "id": "stock:stock-market",
+    "type": "stock",
+    "name": "Stock market (LCN and BAWSAQ)",
+    "aliases": [
+      "stock market",
+      "mercado de ações",
+      "ações",
+      "BAWSAQ",
+      "LCN",
+      "bolsa",
+      "investir",
+      "stocks"
+    ],
+    "summary": "GTA V has an in-game stock market with two exchanges, LCN and BAWSAQ, used from the in-game browser. Lester's five assassination contracts move specific stocks, which makes them the best-known way to make large amounts of money; the effect can differ by game version.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://gtabase.com/grand-theft-auto-v/side-missions/gta-5-lester-s-assassinations-guide-how-to-make-2-billion-with-stock-market",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/BAWSAQ",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7,
+    "sections": [
+      {
+        "kind": "money",
+        "title": "How it is used",
+        "status": "curated",
+        "text": "The documented approach is to buy a stock shortly before a contract, sell after the contract moves its price, and re-invest in the stock that rebounds. See the Lester assassination strategy entry for each contract's stocks and timing."
+      },
+      {
+        "kind": "versions",
+        "title": "Version differences",
+        "status": "curated",
+        "versions": [
+          "PS4",
+          "PS5",
+          "PC"
+        ],
+        "text": "GTABase warns that stock behaviour differs across versions: it quotes about +80% on the first contract's stock on older versions versus about +21% on the next-gen version, and says some players report returns well below the listed percentages. Keep separate save slots before each contract and investment."
+      },
+      {
+        "kind": "exchanges",
+        "title": "Exchanges",
+        "status": "unverified",
+        "text": "One aggregated guide says the LCN reacts mainly to in-game events while BAWSAQ is influenced by the wider player community; this is not confirmed by the other sources."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "game_mechanic:lester-assassination-strategy"
+      },
+      {
+        "predicate": "related_to",
+        "to": "character:lester-crest"
+      }
+    ]
+  },
+  {
+    "id": "game_mechanic:lester-assassination-strategy",
+    "type": "game_mechanic",
+    "name": "Lester's assassinations — stock strategy",
+    "aliases": [
+      "assassination stock strategy",
+      "estratégia de ações dos assassinatos",
+      "Lester assassinations money",
+      "how to make billions",
+      "bilhões",
+      "stock tips"
+    ],
+    "summary": "Five Franklin contracts from Lester move specific stocks. Documented order and stocks: Hotel (Betta Pharmaceuticals, then Bilkington), Multi-Target (Debonaire, then Redwood), Vice (Fruit, then Facade), Bus (Vapid) and Construction (Gold Coast Development). Guides project very large profits; this is strategy, not an official mechanic.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://gtabase.com/grand-theft-auto-v/side-missions/gta-5-lester-s-assassinations-guide-how-to-make-2-billion-with-stock-market",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Hotel_Assassination",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Multi-Target_Assassination",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Vice_Assassination",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Construction_Assassination",
+        "confidence": 0.7,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7,
+    "sections": [
+      {
+        "kind": "money",
+        "title": "Which stocks move (corroborated)",
+        "status": "verified",
+        "text": "Grand Theft Wiki's mission pages and GTABase agree on the stocks: Hotel Assassination → Betta Pharmaceuticals (buy before, sell after) then Bilkington Research; Multi-Target → Debonaire Cigarettes (before) and Redwood Cigarettes (rebound); Vice → Fruit (before) then Facade; Construction → Gold Coast Development (before)."
+      },
+      {
+        "kind": "money",
+        "title": "Bus Assassination",
+        "status": "unverified",
+        "text": "Both sources say to invest in Vapid Motor Company after the mission and sell about two in-game days later, but they disagree about which exchange lists Vapid."
+      },
+      {
+        "kind": "strategy",
+        "title": "Projected returns (guide claims)",
+        "status": "unverified",
+        "text": "GTABase quotes roughly +80% on the first contract's stocks, +320% on Redwood, +50%/+33% on Fruit/Facade, +100% on Vapid and +90% on Gold Coast, and projects about $2 billion per protagonist in total. These percentages are one guide's claims, are version-dependent, and some players report much lower results."
+      },
+      {
+        "kind": "strategy",
+        "title": "Practical advice (opinion)",
+        "status": "unverified",
+        "text": "GTABase advises making separate save slots before each contract and investment, and doing the later contracts after finishing the main story; it also calls the Multi-Target contract the most important step. Treat these as one guide's recommendations."
+      },
+      {
+        "kind": "timing",
+        "title": "Timing",
+        "status": "curated",
+        "text": "Invest right before starting the mission and sell when prices peak, usually shortly after completion. The Vice contract's second stock is bought about two in-game hours later and sold after about two in-game days."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "stock:stock-market"
+      },
+      {
+        "predicate": "related_to",
+        "to": "character:lester-crest"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:hotel-assassination"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:the-multi-target-assassination"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:the-vice-assassination"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:the-bus-assassination"
+      },
+      {
+        "predicate": "related_to",
+        "to": "mission:the-construction-assassination"
+      }
+    ]
+  },
+  {
+    "id": "game_mechanic:money-overview",
+    "type": "game_mechanic",
+    "name": "Making money in Story Mode",
+    "aliases": [
+      "money",
+      "dinheiro",
+      "ganhar dinheiro",
+      "fazer dinheiro",
+      "maximizar dinheiro",
+      "after story money",
+      "dinheiro depois da história"
+    ],
+    "summary": "Documented money sources: heist payouts (Jewel Store Job up to $4,946,153 gross, Paleto Score up to $8,016,020, Big Score 40+ million per protagonist with an optimised crew), Lester's stock-market contracts, and property businesses. Strategies for after the story beyond these are not validated.",
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Jewel_Store_Job",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Paleto_Score",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7,
+    "sections": [
+      {
+        "kind": "money",
+        "title": "Documented levers",
+        "status": "curated",
+        "text": "Heists: choose crew by cut versus skill; payouts are listed in each heist entry. Stock market: Lester's five contracts (see the strategy entry). Properties: some businesses pay weekly; only 5 properties count for 100%. The Merryweather Heist and Blitz Play pay no cash."
+      },
+      {
+        "kind": "strategy",
+        "title": "What is not validated",
+        "status": "unverified",
+        "text": "The best post-story money method, exact weekly property incomes, and any claim that a particular order of missions maximises cash are not validated in this knowledge base."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "stock:stock-market"
+      },
+      {
+        "predicate": "related_to",
+        "to": "game_mechanic:lester-assassination-strategy"
+      },
+      {
+        "predicate": "related_to",
+        "to": "heist:big-score"
+      },
+      {
+        "predicate": "related_to",
+        "to": "heist:jewel-store-job"
+      },
+      {
+        "predicate": "related_to",
+        "to": "heist:paleto-score"
+      }
+    ]
+  },
+  {
+    "id": "game_mechanic:heist-crew-roster",
+    "type": "game_mechanic",
+    "name": "Heist crew roster and cuts",
+    "aliases": [
+      "crew cuts",
+      "cortes da equipe",
+      "Karim Denz",
+      "Taliana Martinez",
+      "Paige Harris",
+      "Rickie Lukens",
+      "Packie McReary",
+      "Norm Richards",
+      "Daryl Johns",
+      "Gustavo Mota"
+    ],
+    "summary": "Heist crew members have different skill and cut. Documented cuts: gunmen Gustavo Mota 14%, Packie McReary 12%, Norm Richards 10.5%, Daryl Johns 6%; drivers Eddie Toh 14%, Karim Denz 8%, Taliana Martinez 5%; hackers Paige Harris 15%, Christian Feltz 10%, Rickie Lukens 4%.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Jewel_Store_Job",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://gtabase.com/grand-theft-auto-v/missions/planning-the-big-score",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtaintel",
+        "url": "https://gtaintel.com/news/gta-5-heists-complete-crew-guide",
+        "confidence": 0.5,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "sections": [
+      {
+        "kind": "crew",
+        "title": "Cuts and roles",
+        "status": "curated",
+        "text": "Jewel Store Job list (Grand Theft Wiki): Gustavo Mota 14%, Packie McReary 12%, Norm Richards 10.5% (gunmen); Eddie Toh 14%, Karim Denz 8% (drivers); Paige Harris 15%, Christian Feltz 10%, Rickie Lukens 4% (hackers). Big Score sample (GTABase): Taliana Martinez 5%, Daryl Johns 6%, Karim Denz 8%, Paige Harris 15%. Cuts can differ by heist."
+      },
+      {
+        "kind": "strategy",
+        "title": "Choosing (opinion)",
+        "status": "unverified",
+        "text": "Guides such as GTAIntel recommend mid-skill, mid-cut crew with low complication; Taliana Martinez is described as the best driver and is unlocked through a side mission. This is opinion, and guides disagree on the optimum."
+      }
+    ],
+    "relations": [
+      {
+        "predicate": "related_to",
+        "to": "game_mechanic:heist-crew"
+      }
+    ]
+  }
+]

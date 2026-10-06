@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cheat:cheats-overview",
+    "type": "cheat",
+    "name": "Cheats overview",
+    "aliases": [
+      "cheats",
+      "códigos",
+      "truques",
+      "cheat codes",
+      "how to enter cheats",
+      "cheats PlayStation",
+      "cheats Xbox",
+      "phone cheats"
+    ],
+    "summary": "Cheats are separated by platform. PC: open the console with the tilde (~) key and type the code (19 codes are documented here). PlayStation, Xbox and phone-number inputs are NOT recorded because the sources checked were inconsistent. Cheats may disable achievements/trophies.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Cheats_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/cheat-codes/zb5688",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.8,
+    "sections": [
+      {
+        "kind": "platforms",
+        "title": "What is documented per platform",
+        "status": "verified",
+        "versions": [
+          "PC"
+        ],
+        "text": "PC: documented (see the individual cheat entries). PlayStation: not recorded. Xbox: not recorded. Phone numbers: not recorded. Never assume a cheat from one platform works on another."
+      },
+      {
+        "kind": "warning",
+        "title": "Achievements (the sources diverge)",
+        "status": "unverified",
+        "text": "Grand Theft Wiki says activating a cheat disables achievements for that session only; GamePressure says achievements are turned off after activation and, if you save while the cheat is active, remain disabled on every later save. Because the sources disagree, avoid saving after using cheats if you care about achievements/trophies."
+      }
+    ]
+  }
+]

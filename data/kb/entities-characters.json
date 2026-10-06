@@ -1,0 +1,416 @@
+[
+  {
+    "id": "character:michael-de-santa",
+    "type": "character",
+    "name": "Michael De Santa",
+    "aliases": [
+      "Michael",
+      "Mike",
+      "Michael Townley",
+      "Mikey"
+    ],
+    "summary": "Michael De Santa (born Michael Townley) is one of the three playable protagonists: a retired bank robber living in Rockford Hills under witness protection, with his wife Amanda and children Jimmy and Tracey.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Michael_De_Santa",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "attrs": {
+      "role": "protagonist",
+      "playable": true,
+      "special_ability": "Slows down time while aiming during shootouts",
+      "home": "Rockford Hills",
+      "family": [
+        "Amanda De Santa",
+        "Jimmy De Santa",
+        "Tracey De Santa"
+      ]
+    },
+    "relations": [
+      {
+        "predicate": "owns",
+        "to": "location:michaels-house"
+      }
+    ]
+  },
+  {
+    "id": "character:franklin-clinton",
+    "type": "character",
+    "name": "Franklin Clinton",
+    "aliases": [
+      "Franklin",
+      "Frank"
+    ],
+    "summary": "Franklin Clinton is a young repo man from South Los Santos who works for Simeon Yetarian's Premium Deluxe Motorsport. He is the first protagonist introduced after the Prologue and later takes Lester's assassination contracts.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "attrs": {
+      "role": "protagonist",
+      "playable": true,
+      "special_ability": "Slows down time while driving",
+      "friend": "Lamar Davis",
+      "dog": "Chop"
+    },
+    "relations": [
+      {
+        "predicate": "owns",
+        "to": "location:franklins-strawberry-house"
+      }
+    ]
+  },
+  {
+    "id": "character:trevor-philips",
+    "type": "character",
+    "name": "Trevor Philips",
+    "aliases": [
+      "Trevor",
+      "Trev"
+    ],
+    "summary": "Trevor Philips is a volatile criminal who runs Trevor Philips Industries from Sandy Shores in Blaine County. He is Michael's former partner and the third playable protagonist.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Trevor_Philips",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "spoiler_level": 1,
+    "attrs": {
+      "role": "protagonist",
+      "playable": true,
+      "special_ability": "Rage: deals more damage and takes less damage for a short time",
+      "home": "Sandy Shores",
+      "associates": [
+        "Ron Jakowski",
+        "Wade Hebert",
+        "Floyd Hebert"
+      ]
+    },
+    "relations": [
+      {
+        "predicate": "owns",
+        "to": "location:trevors-trailer"
+      }
+    ]
+  },
+  {
+    "id": "character:lester-crest",
+    "type": "character",
+    "name": "Lester Crest",
+    "aliases": [
+      "Lester"
+    ],
+    "summary": "Lester Crest is the heist planner who organises Michael's, Franklin's and Trevor's major jobs and the five assassination contracts given to Franklin.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Lester_Crest",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "attrs": {
+      "role": "heist planner and mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:lamar-davis",
+    "type": "character",
+    "name": "Lamar Davis",
+    "aliases": [
+      "Lamar"
+    ],
+    "summary": "Lamar Davis is Franklin's long-time friend and partner in crime, and a mission giver early in the story. Chop, his dog, ends up with Franklin.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Lamar_Davis",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "attrs": {
+      "role": "friend of Franklin, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:simeon-yetarian",
+    "type": "character",
+    "name": "Simeon Yetarian",
+    "aliases": [
+      "Simeon"
+    ],
+    "summary": "Simeon Yetarian owns Premium Deluxe Motorsport, the car dealership where Franklin works, and gives Franklin the first story missions.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Simeon_Yetarian",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "car dealer, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:amanda-de-santa",
+    "type": "character",
+    "name": "Amanda De Santa",
+    "aliases": [
+      "Amanda"
+    ],
+    "summary": "Amanda De Santa is Michael's wife.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Amanda_De_Santa",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "Michael's wife",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:jimmy-de-santa",
+    "type": "character",
+    "name": "Jimmy De Santa",
+    "aliases": [
+      "Jimmy"
+    ],
+    "summary": "Jimmy De Santa is Michael and Amanda's son.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Jimmy_De_Santa",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "Michael's son",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:tracey-de-santa",
+    "type": "character",
+    "name": "Tracey De Santa",
+    "aliases": [
+      "Tracey"
+    ],
+    "summary": "Tracey De Santa is Michael and Amanda's daughter.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Tracey_De_Santa",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "Michael's daughter",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:dave-norton",
+    "type": "character",
+    "name": "Dave Norton",
+    "aliases": [
+      "Dave",
+      "Agent Norton"
+    ],
+    "summary": "Dave Norton is an FIB agent who becomes involved with Michael and later pressures him into jobs.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Dave_Norton",
+        "confidence": 0.85
+      }
+    ],
+    "spoiler_level": 1,
+    "attrs": {
+      "role": "FIB agent, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:steve-haines",
+    "type": "character",
+    "name": "Steve Haines",
+    "aliases": [
+      "Steve",
+      "Agent Haines"
+    ],
+    "summary": "Steve Haines is a corrupt FIB agent and television personality who gives Michael, Franklin and Trevor several missions including Blitz Play.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Steve_Haines",
+        "confidence": 0.85
+      }
+    ],
+    "spoiler_level": 1,
+    "attrs": {
+      "role": "FIB agent, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:devin-weston",
+    "type": "character",
+    "name": "Devin Weston",
+    "aliases": [
+      "Devin"
+    ],
+    "summary": "Devin Weston is a billionaire businessman who gives Franklin and Trevor several missions.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Devin_Weston",
+        "confidence": 0.85
+      }
+    ],
+    "spoiler_level": 1,
+    "attrs": {
+      "role": "businessman, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:martin-madrazo",
+    "type": "character",
+    "name": "Martin Madrazo",
+    "aliases": [
+      "Madrazo"
+    ],
+    "summary": "Martin Madrazo is a cartel boss whom Michael owes money and who gives Michael and Trevor the mission Caida Libre.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Martin_Madrazo",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "cartel boss, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:solomon-richards",
+    "type": "character",
+    "name": "Solomon Richards",
+    "aliases": [
+      "Solomon"
+    ],
+    "summary": "Solomon Richards is a movie producer who gives Michael several missions.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Solomon_Richards",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "film producer, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:tanisha-jackson",
+    "type": "character",
+    "name": "Tanisha Jackson",
+    "aliases": [
+      "Tanisha"
+    ],
+    "summary": "Tanisha Jackson is a friend of Franklin and Lamar who gives the mission Lamar Down.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Tanisha_Jackson",
+        "confidence": 0.85
+      }
+    ],
+    "spoiler_level": 1,
+    "attrs": {
+      "role": "friend of Franklin, mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:ron-jakowski",
+    "type": "character",
+    "name": "Ron Jakowski",
+    "aliases": [
+      "Ron",
+      "Nervous Ron"
+    ],
+    "summary": "Ron Jakowski is a paranoid associate of Trevor in Sandy Shores.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Ron_Jakowski",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "Trevor's associate",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:wade-hebert",
+    "type": "character",
+    "name": "Wade Hebert",
+    "aliases": [
+      "Wade"
+    ],
+    "summary": "Wade Hebert is Trevor's associate and friend.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Wade_Hebert",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "Trevor's associate",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:chop",
+    "type": "character",
+    "name": "Chop",
+    "aliases": [
+      "Chop the dog",
+      "cachorro Chop"
+    ],
+    "summary": "Chop is Lamar's Rottweiler, who becomes Franklin's dog.",
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Chop",
+        "confidence": 0.85
+      }
+    ],
+    "attrs": {
+      "role": "dog (Franklin's companion)",
+      "playable": false
+    }
+  }
+]

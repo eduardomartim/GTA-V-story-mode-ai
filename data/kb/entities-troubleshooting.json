@@ -1,0 +1,410 @@
+[
+  {
+    "id": "troubleshooting:mission-not-appearing",
+    "type": "troubleshooting",
+    "name": "A mission does not appear or cannot be started",
+    "aliases": [
+      "mission not appearing",
+      "missão não aparece",
+      "não consigo iniciar a missão",
+      "mission not available",
+      "missão bloqueada",
+      "can't start mission",
+      "my mission is missing",
+      "mission won't start",
+      "my mission won't start",
+      "missão não inicia"
+    ],
+    "summary": "Checklist for a mission that does not appear: identify its giver and protagonist, finish every prerequisite and heist setup, check time-of-day, wanted level and active-mission conditions, and confirm your version.",
+    "sections": [
+      {
+        "kind": "symptoms",
+        "title": "Symptoms",
+        "text": "A mission blip is missing, the phone call never comes, or the mission is greyed out/unavailable."
+      },
+      {
+        "kind": "causes",
+        "title": "Possible causes",
+        "text": "The prerequisite mission or heist setup is not complete; the mission belongs to a different protagonist (the blip shows the character); you have a wanted level or are on another mission; some missions only start at certain times of day; a version-scoped item is not in your edition."
+      },
+      {
+        "kind": "steps",
+        "title": "Checks, in order",
+        "text": "1) Identify the mission and giver. 2) Check which protagonist it belongs to and switch to them. 3) Complete the previous story missions and, for heists, every setup mission of your chosen approach. 4) Make sure you have no wanted level and no active mission. 5) Wait for the right time of day if the mission is time-gated. 6) For Strangers and Freaks, confirm the stranger's requirements (several are unlocked by earlier missions or collectibles). 7) Check your game version."
+      },
+      {
+        "kind": "solution",
+        "title": "Caveat on unlock chains",
+        "status": "unverified",
+        "text": "Wiki pages disagree about some unlock chains (for example Hood Safari versus Blitz Play), so if a documented prerequisite does not unlock the mission, try the other protagonist-specific prerequisites before concluding it is a bug."
+      },
+      {
+        "kind": "technical",
+        "title": "Technical problems",
+        "text": "If the game crashes, freezes or fails to launch, that is a technical problem rather than a gameplay one: use the official Rockstar Support page for GTA V."
+      }
+    ],
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Missions_in_GTA_V",
+        "confidence": 0.7
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.85,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:technical-pc-issues",
+    "type": "troubleshooting",
+    "name": "Technical problems (crashes, launch, installation)",
+    "aliases": [
+      "crash",
+      "travando",
+      "não abre",
+      "erro ao iniciar",
+      "launch error",
+      "game crashes",
+      "technical issue",
+      "problema técnico",
+      "Rockstar Games Launcher"
+    ],
+    "summary": "Technical problems (crashes, launch failures, installation errors, the Rockstar Games Launcher) are separate from gameplay problems. The official Rockstar Support page for GTA V is the authoritative source.",
+    "sections": [
+      {
+        "kind": "steps",
+        "title": "First steps",
+        "text": "Check the official Rockstar Support page for GTA V for your platform. Typical first steps in general are verifying game files, updating graphics drivers and restarting the launcher; specific error-code solutions are not stored in this knowledge base."
+      }
+    ],
+    "sources": [
+      {
+        "source": "rockstar-support",
+        "url": "https://support.rockstargames.com/gta-v",
+        "confidence": 0.85
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:cannot-buy-property",
+    "type": "troubleshooting",
+    "name": "I can't buy a property",
+    "aliases": [
+      "não consigo comprar",
+      "can't buy property",
+      "property not available",
+      "propriedade não disponível",
+      "why can't I buy this"
+    ],
+    "summary": "If a property cannot be bought, check that you completed Nervous Ron, that the property is available to your current protagonist, and that you have enough money; confirm you are looking at a Story Mode property, not a GTA Online one.",
+    "sections": [
+      {
+        "kind": "causes",
+        "title": "Possible causes",
+        "text": "Properties unlock after Nervous Ron (three sources agree); some properties are protagonist-specific; the price may exceed your cash (the Sonar Collections Dock costs $250,000); the listing may be a GTA Online property."
+      },
+      {
+        "kind": "steps",
+        "title": "Checks",
+        "text": "1) Complete Nervous Ron. 2) Switch to the protagonist that the property belongs to. 3) Look for the house icon with a $ on the map. 4) Check your balance against the listed price."
+      }
+    ],
+    "sources": [
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/properties/",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Nervous_Ron",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/unique-vehicles/ze55bb",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:collectible-not-appearing",
+    "type": "troubleshooting",
+    "name": "A collectible did not appear or I can't start it",
+    "aliases": [
+      "collectible not showing",
+      "colecionável não aparece",
+      "spaceship parts not showing",
+      "peças não aparecem",
+      "submarine pieces missing"
+    ],
+    "summary": "Several collectibles only become available after a prerequisite: Spaceship Parts after Omega's stranger mission (Franklin); Submarine Pieces and Nuclear Waste after buying the Sonar Collections Dock; Epsilon Tracts after Michael's eight Epsilon missions; Peyote Plants and Monkey Mosaics need a version newer than PS3/Xbox 360.",
+    "sections": [
+      {
+        "kind": "steps",
+        "title": "Prerequisites",
+        "text": "Spaceship Parts: finish the Omega mission first (only Franklin can start it; all three can collect). Submarine Pieces / Nuclear Waste: buy the Sonar Collections Dock ($250,000). Epsilon Tracts: complete the eight Epsilon missions as Michael. Letter Scraps: tied to A Starlet in Vinewood (Franklin)."
+      },
+      {
+        "kind": "versions",
+        "title": "Version",
+        "status": "curated",
+        "versions": [
+          "PS4/Xbox One",
+          "PS5/Xbox Series",
+          "PC"
+        ],
+        "text": "Peyote Plants (27) and Monkey Mosaics (50) exist only on PS4/Xbox One/PC and later; they do not exist on PS3/Xbox 360."
+      }
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/spaceship-parts/z45573",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/submarine-parts/z7566f",
+        "confidence": 0.55,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/epsilon-tracts/z3566b",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Peyote_Plants",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:protagonist-not-getting-mission",
+    "type": "troubleshooting",
+    "name": "My protagonist isn't receiving the mission",
+    "aliases": [
+      "personagem não recebe missão",
+      "wrong character mission",
+      "mission for another character",
+      "switch character mission",
+      "o personagem não liga"
+    ],
+    "summary": "Missions and strangers are tied to protagonists: Epsilon is Michael's, Omega and Paparazzo are Franklin's, Maude's bounty work and Civil Border Patrol are Trevor's. Switch to the right protagonist and check the mission blip's letter.",
+    "sections": [
+      {
+        "kind": "steps",
+        "title": "Checks",
+        "text": "Look at the blip: it shows which protagonist the mission belongs to. Switch characters from the character wheel, make sure that protagonist has no wanted level or active mission, and finish their prerequisites. Some chains (Grass Roots, Exercising Demons) have a version for each protagonist."
+      }
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/strangers-and-freaks-missions-1/z18d1d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Strangers_and_Freaks",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:random-event-activation",
+    "type": "troubleshooting",
+    "name": "How do I trigger a random event?",
+    "aliases": [
+      "ativar evento aleatório",
+      "random event not happening",
+      "como ativar eventos",
+      "how to start random event"
+    ],
+    "summary": "Random events are not started from a menu: they occur around San Andreas as you travel, and any 14 count for 100%. Per-event locations and triggers are mostly not documented here.",
+    "sections": [
+      {
+        "kind": "steps",
+        "title": "What is known",
+        "status": "unverified",
+        "text": "Events appear as you move around the map; one guide mentions blue/red dots on the minimap. Specific triggers, locations and repeatability per event are not validated in this knowledge base."
+      }
+    ],
+    "sources": [
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/random-events-1/z28d1e",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "unverified",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:version-compatibility",
+    "type": "troubleshooting",
+    "name": "Does this work on my version?",
+    "aliases": [
+      "isso funciona na minha versão",
+      "does this work on PS3",
+      "works on PC",
+      "compatível com a minha versão",
+      "version compatibility"
+    ],
+    "summary": "Some Story Mode content is version-scoped (Peyote Plants, Monkey Mosaics, stock-market returns, possibly the Railgun). Cheat inputs are platform-specific, and only PC codes are recorded here. Tell the agent which version you play.",
+    "sections": [
+      {
+        "kind": "versions",
+        "title": "Known version-scoped items",
+        "status": "curated",
+        "versions": [
+          "PS3/Xbox 360",
+          "PS4/Xbox One",
+          "PS5/Xbox Series",
+          "PC"
+        ],
+        "text": "Not on PS3/Xbox 360: Peyote Plants, Monkey Mosaics. Stock returns differ by version. PC Legacy versus PC Enhanced differences are not validated."
+      }
+    ],
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.7
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/monkey-mosaics-images/z2716d",
+        "confidence": 0.6,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Peyote_Plants",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.7
+  },
+  {
+    "id": "troubleshooting:matrix",
+    "type": "troubleshooting",
+    "name": "Troubleshooting matrix (problem · cause · diagnostic · solution · version · source)",
+    "aliases": [
+      "matriz de problemas",
+      "troubleshooting matrix",
+      "problemas comuns",
+      "common problems",
+      "não consigo usar essa arma",
+      "esse veículo existe no story mode",
+      "o evento não aparece",
+      "o collectible não está aqui"
+    ],
+    "summary": "A matrix of common problems: missions that do not appear or start, collectibles that are missing, properties that cannot be bought, random events that do not show, weapons that cannot be used, vehicles that may not exist in Story Mode.",
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Missions_in_GTA_V",
+        "confidence": 0.8,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gtabase",
+        "url": "https://www.gtabase.com/grand-theft-auto-v/properties/",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "gamepressure",
+        "url": "https://www.gamepressure.com/gtav/spaceship-parts/z45573",
+        "confidence": 0.65,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.65,
+    "sections": [
+      {
+        "kind": "matrix",
+        "title": "Mission does not appear",
+        "status": "curated",
+        "text": "Problem 1: My mission does not appear. Possible cause: A prerequisite mission or heist setup is not complete, or it belongs to another protagonist. Diagnostic: Check the blip's letter/colour and the giver; look at the unlock chain on the mission entry. Solution: Finish the prerequisite, switch protagonist, clear any wanted level or active mission. Version: All versions Source: Grand Theft Wiki mission pages (unlock chains are partly UNVERIFIED)."
+      },
+      {
+        "kind": "matrix",
+        "title": "Mission cannot be started",
+        "status": "curated",
+        "text": "Problem 2: I can't start the mission. Possible cause: Wanted level, another mission running, wrong time of day, wrong protagonist, or the mission is a heist whose setups are not finished. Diagnostic: See whether the heist entry lists setups you have not done. Solution: Complete every setup for your chosen approach; wait for the right time; lose the cops. Version: All versions Source: Grand Theft Wiki."
+      },
+      {
+        "kind": "matrix",
+        "title": "Collectible is not there",
+        "status": "curated",
+        "text": "Problem 3: The collectible isn't here. Possible cause: A prerequisite has not been met (Omega for spaceship parts, buying the Sonar Collections Dock for submarine pieces and nuclear waste, the eight Epsilon missions for tracts) or it is version-scoped. Diagnostic: Check the collectible entry's requirement and versions. Solution: Do the prerequisite; peyote and monkey mosaics do not exist on PS3/Xbox 360. Version: PS4/Xbox One/PC and newer for peyote and monkey mosaics Source: GamePressure; Grand Theft Wiki."
+      },
+      {
+        "kind": "matrix",
+        "title": "Cannot buy a property",
+        "status": "curated",
+        "text": "Problem 4: I can't buy this property. Possible cause: Nervous Ron is not done, the property belongs to another protagonist, you lack money, or it is a GTA Online property. Diagnostic: Look for the house icon with a $ on the map and compare your cash with the price. Solution: Complete Nervous Ron, switch protagonist, save money. Version: All versions Source: GTABase; Grand Theft Wiki; GamePressure."
+      },
+      {
+        "kind": "matrix",
+        "title": "Random event does not appear",
+        "status": "unverified",
+        "text": "Problem 5: The random event doesn't appear. Possible cause: Events occur as you travel and are not on a menu; some are protagonist-specific (the Altruist cult shootout is Trevor's). Diagnostic: Travel in the open world and watch the minimap. Solution: Keep exploring; only 14 events are needed for 100%. Version: All versions Source: GamePressure; GTABase (triggers are not documented)."
+      },
+      {
+        "kind": "matrix",
+        "title": "Cannot use a weapon",
+        "status": "unverified",
+        "text": "Problem 6: I can't use this weapon. Possible cause: It may not exist in Story Mode (some weapons are GTA Online only), may be unlocked late (Advanced Rifle at the Altruist village per one guide), may need Social Club membership (Assault SMG) or may depend on the version (Railgun is disputed). Diagnostic: Check the weapon entry's availability field. Solution: Follow the unlock noted on the entry; if it says UNKNOWN there is no confirmed way. Version: Version-dependent for the Railgun Source: Grand Theft Wiki weapon list; GamePressure; GTA5Wiki."
+      },
+      {
+        "kind": "matrix",
+        "title": "Vehicle may not exist in Story Mode",
+        "status": "curated",
+        "text": "Problem 7: Does this vehicle exist in Story Mode? Possible cause: Many vehicles are GTA Online only (Oppressor Mk II, Kosatka). Diagnostic: Check availability: STORY_MODE, ONLINE_ONLY, BOTH or UNKNOWN. Solution: Use a Story Mode vehicle from the catalog or cheats; if the entry says ONLINE_ONLY it does not exist in the Story Mode. Version: All versions Source: Rockstar (mode separation); GamePressure; Grand Theft Wiki."
+      },
+      {
+        "kind": "matrix",
+        "title": "Stock market not profitable",
+        "status": "unverified",
+        "text": "Problem 8: I didn't make money from the assassination stocks. Possible cause: Stock behaviour differs by version, timing was off, or the guide's percentages are optimistic. Diagnostic: Compare your buy and sell timing with the strategy entry. Solution: Use separate save slots and retry; returns quoted by guides are claims. Version: PS4/PS5/PC differ Source: GTABase."
+      }
+    ]
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "online_boundary:oppressor-mk2",
+    "type": "online_boundary",
+    "name": "Oppressor Mk II",
+    "aliases": [
+      "Oppressor",
+      "moto voadora",
+      "flying bike"
+    ],
+    "summary": "A rocket-powered flying motorcycle that exists only in GTA Online. Isso pertence ao GTA Online, não ao Modo História.",
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "story_mode": false,
+    "online_only": true,
+    "attrs": {
+      "availability": "ONLINE_ONLY",
+      "kind": "vehicle"
+    }
+  },
+  {
+    "id": "online_boundary:kosatka",
+    "type": "online_boundary",
+    "name": "Kosatka submarine",
+    "aliases": [
+      "Kosatka"
+    ],
+    "summary": "A GTA Online submarine used for the Cayo Perico heist; it is not the submarine of Story Mode. Isso pertence ao GTA Online, não ao Modo História.",
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "verification": "curated",
+    "confidence": 0.85,
+    "story_mode": false,
+    "online_only": true,
+    "attrs": {
+      "availability": "ONLINE_ONLY",
+      "kind": "vehicle"
+    }
+  },
+  {
+    "id": "online_boundary:gta-online-general",
+    "type": "online_boundary",
+    "name": "GTA Online",
+    "aliases": [
+      "GTA Online",
+      "modo online",
+      "Online mode",
+      "negócios do GTA Online",
+      "GTA Online business",
+      "GTA Online businesses",
+      "melhor negócio do GTA Online"
+    ],
+    "summary": "GTA Online is the separate multiplayer mode, with its own economy, businesses, vehicles and updates. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:cayo-perico-heist",
+    "type": "online_boundary",
+    "name": "Cayo Perico Heist",
+    "aliases": [
+      "Cayo Perico",
+      "El Rubio"
+    ],
+    "summary": "A GTA Online heist on the island of Cayo Perico. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:diamond-casino-heist",
+    "type": "online_boundary",
+    "name": "Diamond Casino Heist",
+    "aliases": [
+      "Diamond Casino",
+      "Casino Heist",
+      "assalto ao cassino"
+    ],
+    "summary": "A GTA Online heist set in the Diamond Casino. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:doomsday-heist",
+    "type": "online_boundary",
+    "name": "The Doomsday Heist",
+    "aliases": [
+      "Doomsday",
+      "Doomsday Heist"
+    ],
+    "summary": "A GTA Online heist series. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:nightclub-business",
+    "type": "online_boundary",
+    "name": "Nightclub (business)",
+    "aliases": [
+      "Nightclub",
+      "boate",
+      "clube noturno"
+    ],
+    "summary": "A GTA Online business property. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:arena-war",
+    "type": "online_boundary",
+    "name": "Arena War",
+    "aliases": [
+      "Arena Workshop"
+    ],
+    "summary": "A GTA Online update. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:shark-cards",
+    "type": "online_boundary",
+    "name": "Shark Cards and the Online economy",
+    "aliases": [
+      "Shark Card",
+      "GTA$ Online",
+      "GTA Online economy",
+      "economia do Online"
+    ],
+    "summary": "Real-money currency packs and the economy of GTA Online. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:agency-business",
+    "type": "online_boundary",
+    "name": "Agency (business)",
+    "aliases": [
+      "Franklin's agency",
+      "Security Contracts"
+    ],
+    "summary": "A GTA Online property with contracts. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  },
+  {
+    "id": "online_boundary:bunker-business",
+    "type": "online_boundary",
+    "name": "Bunker (business)",
+    "aliases": [
+      "Bunker",
+      "bunker business"
+    ],
+    "summary": "A GTA Online business property. Isso pertence ao GTA Online, não ao Modo História.",
+    "story_mode": false,
+    "online_only": true,
+    "verification": "curated",
+    "confidence": 0.85,
+    "sources": [
+      {
+        "source": "rockstar",
+        "url": "https://www.rockstargames.com/gta-v",
+        "confidence": 0.8
+      }
+    ],
+    "attrs": {
+      "scope": "GTA Online only"
+    }
+  }
+]

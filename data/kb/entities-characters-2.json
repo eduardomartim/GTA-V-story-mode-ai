@@ -1,0 +1,161 @@
+[
+  {
+    "id": "character:tao-cheng",
+    "type": "character",
+    "name": "Tao Cheng",
+    "aliases": [
+      "Tao"
+    ],
+    "summary": "Tao Cheng gives Trevor the missions Trevor Philips Industries and Crystal Maze.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Tao_Cheng",
+        "confidence": 0.6
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Crystal_Maze",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "mission giver",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:stretch",
+    "type": "character",
+    "name": "Stretch",
+    "aliases": [],
+    "summary": "Stretch is an associate of Lamar who takes part in The Long Stretch.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "gta-wiki",
+        "url": "https://gta.fandom.com/wiki/Stretch",
+        "confidence": 0.6
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/The_Long_Stretch",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "Lamar's associate",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:molly-schultz",
+    "type": "character",
+    "name": "Molly Schultz",
+    "aliases": [
+      "Molly"
+    ],
+    "summary": "Molly Schultz works with Solomon Richards and appears in Deep Inside and Legal Trouble.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "spoiler_level": 2,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Legal_Trouble",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Deep_Inside",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "film-industry associate",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:ferdinand-kerimov",
+    "type": "character",
+    "name": "Ferdinand Kerimov",
+    "aliases": [
+      "Kerimov"
+    ],
+    "summary": "Ferdinand Kerimov is the target the protagonists snatch in Three's Company and interrogate in By the Book.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Three's_Company",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      },
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/By_the_Book",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "mission target",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:lazlow-jones",
+    "type": "character",
+    "name": "Lazlow Jones",
+    "aliases": [
+      "Lazlow"
+    ],
+    "summary": "Lazlow Jones is the host of the talent show in the mission Fame or Shame.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Fame_or_Shame_(mission)",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "talent-show host",
+      "playable": false
+    }
+  },
+  {
+    "id": "character:floyd-hebert",
+    "type": "character",
+    "name": "Floyd Hebert",
+    "aliases": [
+      "Floyd"
+    ],
+    "summary": "Floyd Hebert is Wade's cousin and takes part in Scouting the Port.",
+    "verification": "curated",
+    "confidence": 0.6,
+    "sources": [
+      {
+        "source": "grandtheftwiki",
+        "url": "https://www.grandtheftwiki.com/Scouting_the_Port",
+        "confidence": 0.75,
+        "retrieved_at": "2026-10-06"
+      }
+    ],
+    "attrs": {
+      "role": "Trevor's associate",
+      "playable": false
+    }
+  }
+]
