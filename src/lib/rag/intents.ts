@@ -25,7 +25,7 @@ const RULES: Array<[Intent, RegExp, number]> = [
   ["stock_market", /\b(acoes|mercado de acoes|stock\w*|bawsaq|lcn|bolsa|invest\w*)\b/, 3],
   ["ending", /\b(finais|final|endings?|deathwish|the third way|qual final|spoilers?)\b/, 2],
   ["cheat", /\b(cheats?|truques?|codigos?|trapacas?|codes?)\b/, 2.5],
-  ["easter_egg", /\b(easter eggs?|segredos?|mystery|misterio)\b/, 2.5],
+  ["easter_egg", /\b(easter eggs?|segredos?|secrets?|mystery|misterio|misterios|fantasmas?|ghosts?|ufos?|ovnis?|disco voador|alien\w*|bigfoot|pe grande)\b/, 2.5],
   ["troubleshooting", /\b(nao (aparec\w*|consigo|liga|inicia|funciona|abre|encontr\w*|aparece)|bug\w*|travou|travando|trava|travar|crash\w*|problem\w*|not (showing|appearing|working|available|starting)|can'?t|cant|cannot|wont|won'?t (start|work|appear|load)|missing|resolver|fix|stuck|erro|error|nao liga|did(n'?t| not) (appear|start|show))\b/, 2.5],
   ["version_difference", /\b(versao|versoes|version\w*|ps3|ps4|ps5|xbox|enhanced|legacy|plataformas?|platforms?|diferenca\w*|differen\w*|next-?gen)\b/, 2],
   ["map_request", /\b(mapa|map|marcador|marker|no mapa|on the map)\b/, 2.5],

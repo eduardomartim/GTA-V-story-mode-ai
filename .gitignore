@@ -21,3 +21,5 @@ Thumbs.db
 *.pem
 .idea
 .vscode
+.cache
+eval/agent-report.json

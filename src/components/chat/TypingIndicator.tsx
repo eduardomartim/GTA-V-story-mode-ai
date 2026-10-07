@@ -1,6 +1,9 @@
+import { useLang } from "@/lib/ui/i18n";
+
 export function TypingIndicator() {
+  const { t } = useLang();
   return (
-    <div className="msg-in flex gap-3" role="status" aria-live="polite" aria-label="The assistant is searching the knowledge base">
+    <div className="msg-in flex gap-3" role="status" aria-live="polite" aria-label={t("typing")}>
       <span aria-hidden="true" className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-lg border border-line bg-raise font-display text-lg leading-none text-ember">V</span>
       <div className="min-w-0 flex-1">
         <div className="dot-typing inline-flex items-center gap-1 rounded-full border border-line bg-panel/80 px-3 py-2" aria-hidden="true">
@@ -10,7 +13,7 @@ export function TypingIndicator() {
           <div className="shimmer h-24 rounded-xl border border-line" />
           <div className="shimmer hidden h-24 rounded-xl border border-line sm:block" />
         </div>
-        <span className="sr-only">Searching the knowledge base…</span>
+        <span className="sr-only">{t("typing")}</span>
       </div>
     </div>
   );

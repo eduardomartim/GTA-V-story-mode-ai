@@ -164,3 +164,22 @@ describe("unverified information is flagged in the UI", () => {
     expect(screen.getByText(/não verificado|unverified/i, { selector: "span" })).toBeInTheDocument();
   });
 });
+
+describe("language selector", () => {
+  it("switches the interface to Portuguese and sends the chosen language with the question", async () => {
+    const { LangProvider, LanguageSelect } = await import("@/lib/ui/i18n");
+    const calls: Array<{ url: string; body?: string }> = [];
+    vi.stubGlobal("fetch", vi.fn(async (url: string, init?: RequestInit) => {
+      calls.push({ url, body: init?.body as string | undefined });
+      if (url.startsWith("/api/health")) return new Response(JSON.stringify({ ok: true, ai: { configured: false }, embeddings: { model: "local" }, database: { reachable: true, kind: "pglite", entities: 1, chunks: 1 } }));
+      return new Response(JSON.stringify(answer));
+    }));
+    render(<LangProvider><LanguageSelect /><ChatApp /></LangProvider>);
+    fireEvent.change(screen.getAllByRole("combobox", { name: /Language|Idioma/ })[0] as HTMLElement, { target: { value: "pt" } });
+    const box = await screen.findByRole("textbox", { name: /Pergunte qualquer coisa/ });
+    fireEvent.change(box, { target: { value: "Where is the pier?" } });
+    fireEvent.click(screen.getByRole("button", { name: "Enviar mensagem" }));
+    await waitFor(() => expect(calls.some((c) => c.url === "/api/chat")).toBe(true));
+    expect(JSON.parse(calls.find((c) => c.url === "/api/chat")?.body ?? "{}")).toMatchObject({ lang: "pt" });
+  });
+});

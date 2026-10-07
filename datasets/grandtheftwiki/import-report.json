@@ -1,0 +1,1311 @@
+{
+ "counts": {
+  "areas_created": 92,
+  "new_entities": 935,
+  "merged": 200,
+  "completion_requirements": 86,
+  "rejected": 0,
+  "unresolved_relations": 201
+ },
+ "merged": [
+  "collectible:spaceship-parts",
+  "collectible:letter-scraps",
+  "collectible:nuclear-waste",
+  "collectible:submarine-pieces",
+  "collectible:peyote-plants",
+  "collectible:stunt-jumps",
+  "collectible:under-the-bridge",
+  "collectible:knife-flights",
+  "collectible:monkey-mosaics",
+  "collectible:epsilon-tracts",
+  "collectible:hidden-packages",
+  "location:trevors-trailer",
+  "location:michaels-house",
+  "location:franklins-strawberry-house",
+  "location:franklins-vinewood-hills-house",
+  "character:amanda-de-santa",
+  "character:chop",
+  "character:dave-norton",
+  "character:devin-weston",
+  "character:ferdinand-kerimov",
+  "character:floyd-hebert",
+  "character:franklin-clinton",
+  "character:jimmy-de-santa",
+  "character:lamar-davis",
+  "character:lester-crest",
+  "character:martin-madrazo",
+  "character:michael-de-santa",
+  "character:molly-schultz",
+  "character:simeon-yetarian",
+  "character:solomon-richards",
+  "character:steve-haines",
+  "character:stretch",
+  "character:tanisha-jackson",
+  "character:tao-cheng",
+  "character:tracey-de-santa",
+  "character:trevor-philips",
+  "character:wade-hebert",
+  "completion:100-percent",
+  "mission:architects-plans",
+  "mission:bz-gas-grenades",
+  "mission:blitz-play",
+  "mission:boiler-suits",
+  "mission:bugstars-equipment",
+  "mission:bury-the-hatchet",
+  "mission:by-the-book",
+  "mission:caida-libre",
+  "mission:carbine-rifles",
+  "mission:cargobob",
+  "mission:casing-the-jewel-store",
+  "mission:chop",
+  "mission:cleaning-out-the-bureau",
+  "mission:complications",
+  "mission:crystal-maze",
+  "mission:daddys-little-girl",
+  "mission:dead-man-walking",
+  "mission:deep-inside",
+  "mission:derailed",
+  "mission:driller",
+  "mission:eye-in-the-sky",
+  "mission:fame-or-shame",
+  "mission:father-son",
+  "mission:fire-truck",
+  "mission:franklin-and-lamar",
+  "mission:fresh-meat",
+  "mission:friend-request",
+  "mission:friends-reunited",
+  "mission:gauntlet",
+  "mission:hang-ten",
+  "mission:hood-safari",
+  "mission:hotel-assassination",
+  "mission:i-fought-the-law",
+  "mission:lamar-down",
+  "mission:legal-trouble",
+  "mission:marriage-counseling",
+  "mission:masks",
+  "mission:meltdown",
+  "mission:military-hardware",
+  "mission:minisub",
+  "mission:minor-turbulence",
+  "mission:monkey-business",
+  "mission:mr-philips",
+  "mission:mr-richards",
+  "mission:nervous-ron",
+  "mission:pack-man",
+  "mission:paleto-score-setup",
+  "mission:planning-the-big-score",
+  "mission:predator",
+  "mission:prologue",
+  "mission:repossession",
+  "mission:reuniting-the-family",
+  "mission:scouting-the-port",
+  "mission:sidetracked",
+  "mission:something-sensible",
+  "mission:stingers",
+  "mission:surveying-the-score",
+  "mission:the-ballad-of-rocco",
+  "mission:the-big-score",
+  "mission:the-bureau-raid",
+  "mission:the-bus-assassination",
+  "mission:the-construction-assassination",
+  "mission:the-jewel-store-job",
+  "mission:the-long-stretch",
+  "mission:the-merryweather-heist",
+  "mission:the-multi-target-assassination",
+  "mission:the-paleto-score",
+  "mission:the-third-way",
+  "mission:the-times-come",
+  "mission:the-vice-assassination",
+  "mission:the-wrap-up",
+  "mission:threes-company",
+  "mission:tow-truck",
+  "mission:trash-truck",
+  "mission:trevor-philips-industries",
+  "hobby:golf",
+  "hobby:tennis",
+  "hobby:darts",
+  "hobby:triathlon",
+  "hobby:flight-school",
+  "hobby:yoga",
+  "hobby:parachuting",
+  "hobby:shooting-range",
+  "hobby:hao-street-races",
+  "location:vanilla-unicorn",
+  "location:mount-chiliad",
+  "property:downtown-cab-co",
+  "property:sonar-collections-dock",
+  "property:tequi-la-la",
+  "location:fort-zancudo",
+  "location:grapeseed",
+  "location:humane-labs",
+  "location:paleto-bay",
+  "weapon:antique-cavalry-dagger",
+  "weapon:baseball-bat",
+  "weapon:bottle",
+  "weapon:crowbar",
+  "weapon:golf-club",
+  "weapon:hammer",
+  "weapon:knife",
+  "weapon:nightstick",
+  "weapon:ap-pistol",
+  "weapon:combat-pistol",
+  "weapon:heavy-pistol",
+  "weapon:pistol",
+  "weapon:pistol-50",
+  "weapon:sns-pistol",
+  "weapon:stun-gun",
+  "weapon:vintage-pistol",
+  "weapon:combat-mg",
+  "weapon:gusenberg-sweeper",
+  "weapon:mg",
+  "weapon:assault-smg",
+  "weapon:micro-smg",
+  "weapon:smg",
+  "weapon:advanced-rifle",
+  "weapon:assault-rifle",
+  "weapon:bullpup-rifle",
+  "weapon:carbine-rifle",
+  "weapon:special-carbine",
+  "weapon:heavy-sniper",
+  "weapon:marksman-rifle",
+  "weapon:sniper-rifle",
+  "weapon:assault-shotgun",
+  "weapon:bullpup-shotgun",
+  "weapon:heavy-shotgun",
+  "weapon:musket",
+  "weapon:pump-shotgun",
+  "weapon:sawed-off-shotgun",
+  "weapon:firework-launcher",
+  "weapon:grenade-launcher",
+  "weapon:minigun",
+  "weapon:rpg",
+  "weapon:grenade",
+  "weapon:jerry-can",
+  "weapon:molotov",
+  "weapon:sticky-bomb",
+  "weapon:tear-gas",
+  "location:franklins-strawberry-house",
+  "location:michaels-house",
+  "location:trevors-trailer",
+  "location:vanilla-unicorn",
+  "vehicle:phantom",
+  "vehicle:fire-truck",
+  "vehicle:buzzard",
+  "vehicle:buzzard",
+  "vehicle:cargobob",
+  "vehicle:pcj-600",
+  "vehicle:sanchez",
+  "vehicle:gauntlet",
+  "vehicle:space-docker",
+  "vehicle:duster",
+  "vehicle:luxor",
+  "vehicle:p-996-lazer",
+  "vehicle:shamal",
+  "vehicle:trashmaster",
+  "vehicle:comet",
+  "vehicle:rapid-gt",
+  "vehicle:jb-700",
+  "vehicle:adder",
+  "vehicle:caddy",
+  "vehicle:tractor"
+ ],
+ "conflicts": [],
+ "rejected": [],
+ "unresolved": [
+  {
+   "from": "character:beverly-felton",
+   "predicate": "family_of",
+   "name": "Alan Felton"
+  },
+  {
+   "from": "character:dexie",
+   "predicate": "family_of",
+   "name": "Kerry McIntosh"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Dale O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Dalton O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Dan O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Daryl O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Don O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Doyle O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Earl O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Ernie O'Neil"
+  },
+  {
+   "from": "character:elwood-oneil",
+   "predicate": "family_of",
+   "name": "Ned O'Neil"
+  },
+  {
+   "from": "character:floyd-hebert",
+   "predicate": "family_of",
+   "name": "Debra"
+  },
+  {
+   "from": "character:jolene-cranley-evans",
+   "predicate": "family_of",
+   "name": "Jeb Evans"
+  },
+  {
+   "from": "character:kyle-chavis",
+   "predicate": "family_of",
+   "name": "Liz Macallen"
+  },
+  {
+   "from": "character:maryann-quinn",
+   "predicate": "family_of",
+   "name": "MaryAnn Quinn's Mother"
+  },
+  {
+   "from": "character:maryann-quinn",
+   "predicate": "family_of",
+   "name": "Adam"
+  },
+  {
+   "from": "character:rocco-pelosi",
+   "predicate": "family_of",
+   "name": "Uncle Vince"
+  },
+  {
+   "from": "character:simeon-yetarian",
+   "predicate": "appears_in",
+   "name": "A random event"
+  },
+  {
+   "from": "character:stretch",
+   "predicate": "family_of",
+   "name": "Renatta Sidwell"
+  },
+  {
+   "from": "character:tanisha-jackson",
+   "predicate": "family_of",
+   "name": "Jayden"
+  },
+  {
+   "from": "character:tyler-dixon",
+   "predicate": "family_of",
+   "name": "Kathi"
+  },
+  {
+   "from": "character:tyler-dixon",
+   "predicate": "family_of",
+   "name": "Cloe Parker"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Dale O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Dalton O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Dan O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Daryl O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Don O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Doyle O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Earl O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Ernie O'Neil"
+  },
+  {
+   "from": "character:walton-oneil",
+   "predicate": "family_of",
+   "name": "Ned O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Dale O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Dalton O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Dan O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Daryl O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Don O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Doyle O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Earl O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Ernie O'Neil"
+  },
+  {
+   "from": "character:wynn-oneil",
+   "predicate": "family_of",
+   "name": "Ned O'Neil"
+  },
+  {
+   "from": "easter_egg:bigfoot-in-the-thermal-scope-predator",
+   "predicate": "related_to",
+   "name": "Bigfoot"
+  },
+  {
+   "from": "easter_egg:sunken-ufo-north-east-of-paleto-bay",
+   "predicate": "related_to",
+   "name": "UFOs"
+  },
+  {
+   "from": "easter_egg:ufos-over-mount-chiliad-fort-zancudo-and-sandy-shores-after-100",
+   "predicate": "related_to",
+   "name": "UFOs"
+  },
+  {
+   "from": "easter_egg:second-big-orange-juice-stand-grapeseed-san-chianski",
+   "predicate": "related_to",
+   "name": "East Joshua Rd"
+  },
+  {
+   "from": "easter_egg:second-big-orange-juice-stand-grapeseed-san-chianski",
+   "predicate": "related_to",
+   "name": "Senora Freeway"
+  },
+  {
+   "from": "easter_egg:dial-up-internet-sound-phone-number",
+   "predicate": "related_to",
+   "name": "ZiT"
+  },
+  {
+   "from": "easter_egg:dial-up-internet-sound-phone-number",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto IV"
+  },
+  {
+   "from": "easter_egg:dial-up-internet-sound-phone-number",
+   "predicate": "related_to",
+   "name": "Episodes from Liberty City"
+  },
+  {
+   "from": "easter_egg:the-hatch-from-lost-sea-floor-east-coast",
+   "predicate": "related_to",
+   "name": "wp:Lost (TV series)"
+  },
+  {
+   "from": "easter_egg:sugar-puffs-like-cereal-in-trevors-trailer",
+   "predicate": "related_to",
+   "name": "wp:Sugar Puffs"
+  },
+  {
+   "from": "easter_egg:sunken-tank-near-humane-labs",
+   "predicate": "related_to",
+   "name": "wp:Panzer 2"
+  },
+  {
+   "from": "easter_egg:reference-in-the-first-trailer-there-is-a-number-on-the-curb-of-a-house-for",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto V/Trailers"
+  },
+  {
+   "from": "easter_egg:reference-in-chamberlain-hills-close-to-franklins-house-there-is-graffiti",
+   "predicate": "related_to",
+   "name": "San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-on-the-eastern-side-of-the-del-perro-pier-a-piece-of-graffiti-can-be",
+   "predicate": "related_to",
+   "name": "The Hidden Sign"
+  },
+  {
+   "from": "easter_egg:reference-on-the-eastern-side-of-the-del-perro-pier-a-piece-of-graffiti-can-be",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto III"
+  },
+  {
+   "from": "easter_egg:reference-a-pedestrian-can-be-heard-saying-when-pulled-out-of-a-car-im",
+   "predicate": "related_to",
+   "name": "Vice City"
+  },
+  {
+   "from": "easter_egg:reference-in-franklins-apartment-in-the-vinewood-hills-if-you-go-to-his",
+   "predicate": "related_to",
+   "name": "Donald Love"
+  },
+  {
+   "from": "easter_egg:reference-in-franklins-apartment-in-the-vinewood-hills-if-you-go-to-his",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto III"
+  },
+  {
+   "from": "easter_egg:reference-there-are-multiple-newspapers-scattered-around-the-map-with-pictures",
+   "predicate": "related_to",
+   "name": "Johnny Klebitz"
+  },
+  {
+   "from": "easter_egg:reference-the-los-santos-country-club-was-established-in-1992-a-nod-to-the",
+   "predicate": "related_to",
+   "name": "1992"
+  },
+  {
+   "from": "easter_egg:reference-the-los-santos-country-club-was-established-in-1992-a-nod-to-the",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-the-san-andreas-flight-school-was-established-in-2004-the-same-year",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-in-trevors-trailer-at-0-55-the-number-on-the-locomotive-reads",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto V/Trailers"
+  },
+  {
+   "from": "easter_egg:reference-in-trevors-trailer-at-0-55-the-number-on-the-locomotive-reads",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-and-listen-to-radio-los-santos-theres-a-song-called",
+   "predicate": "related_to",
+   "name": "Radio Los Santos"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-and-listen-to-radio-los-santos-theres-a-song-called",
+   "predicate": "related_to",
+   "name": "Big Smoke"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-and-listen-to-radio-los-santos-theres-a-song-called",
+   "predicate": "related_to",
+   "name": "Ryder"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-and-listen-to-radio-los-santos-theres-a-song-called",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Grove Street"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Grove St"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Carl Johnson"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Sweet"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Big Smoke"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "predicate": "related_to",
+   "name": "Sweet & Kendl"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-billboard-of-toni-a-woman-who-was-the-dj-of-several",
+   "predicate": "related_to",
+   "name": "Toni (DJ)"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-billboard-of-toni-a-woman-who-was-the-dj-of-several",
+   "predicate": "related_to",
+   "name": "3D Universe"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-lines-michael-will-say-after-parking-a-car-inside-the",
+   "predicate": "related_to",
+   "name": "Dave Bosoy"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-lines-michael-will-say-after-parking-a-car-inside-the",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto IV"
+  },
+  {
+   "from": "easter_egg:reference-jimmy-de-santa-can-be-seen-viewing-niko-bellic-s-lifeinvader-page",
+   "predicate": "related_to",
+   "name": "Niko Bellic"
+  },
+  {
+   "from": "easter_egg:reference-jimmy-de-santa-can-be-seen-viewing-niko-bellic-s-lifeinvader-page",
+   "predicate": "related_to",
+   "name": "Roman Bellic"
+  },
+  {
+   "from": "easter_egg:reference-jimmy-de-santa-can-be-seen-viewing-niko-bellic-s-lifeinvader-page",
+   "predicate": "related_to",
+   "name": "Burger Shot"
+  },
+  {
+   "from": "easter_egg:reference-in-a-random-event-you-help-two-people-get-away-from-a-robbery",
+   "predicate": "related_to",
+   "name": "Packie"
+  },
+  {
+   "from": "easter_egg:reference-there-is-an-advert-featuring-the-artwork-of-one-of-the-twins-painted",
+   "predicate": "related_to",
+   "name": "The Twins"
+  },
+  {
+   "from": "easter_egg:reference-multiple-qub3d-machines-from-gta-iv-can-be-found",
+   "predicate": "related_to",
+   "name": "QUB3D"
+  },
+  {
+   "from": "easter_egg:reference-multiple-qub3d-machines-from-gta-iv-can-be-found",
+   "predicate": "related_to",
+   "name": "GTA IV"
+  },
+  {
+   "from": "easter_egg:reference-if-you-listen-to-trevors-radio-in-his-signature-bodhi-you-can-hear",
+   "predicate": "related_to",
+   "name": "Eddie Low"
+  },
+  {
+   "from": "easter_egg:reference-if-you-listen-to-trevors-radio-in-his-signature-bodhi-you-can-hear",
+   "predicate": "related_to",
+   "name": "Alderney"
+  },
+  {
+   "from": "easter_egg:reference-if-the-player-goes-into-the-yellow-jack-inn-in-sandy-shores-behind",
+   "predicate": "related_to",
+   "name": "Rochell'le"
+  },
+  {
+   "from": "easter_egg:reference-if-the-player-goes-into-the-yellow-jack-inn-in-sandy-shores-behind",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: San Andreas"
+  },
+  {
+   "from": "easter_egg:reference-in-3671-whispymound-dr-in-vinewood-hills-there-are-three-gold",
+   "predicate": "related_to",
+   "name": "OG Loc"
+  },
+  {
+   "from": "easter_egg:reference-in-3671-whispymound-dr-in-vinewood-hills-there-are-three-gold",
+   "predicate": "related_to",
+   "name": "Madd Dogg"
+  },
+  {
+   "from": "easter_egg:reference-during-the-mission-derailed-a-requirement-is-named-better-than-cj",
+   "predicate": "related_to",
+   "name": "Wrong Side Of The Tracks"
+  },
+  {
+   "from": "easter_egg:reference-on-a-wall-next-to-the-tunnel-on-low-power-st-there-is-graffiti-of",
+   "predicate": "related_to",
+   "name": "Low Power St"
+  },
+  {
+   "from": "easter_egg:reference-on-a-wall-next-to-the-tunnel-on-low-power-st-there-is-graffiti-of",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto 1"
+  },
+  {
+   "from": "easter_egg:reference-the-character-of-lenny-avery-an-unscrupulous-real-estate-developer",
+   "predicate": "related_to",
+   "name": "Avery Carrington"
+  },
+  {
+   "from": "easter_egg:reference-the-character-of-lenny-avery-an-unscrupulous-real-estate-developer",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: Vice City"
+  },
+  {
+   "from": "easter_egg:reference-the-character-of-lenny-avery-an-unscrupulous-real-estate-developer",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: Liberty City Stories"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-business-available-to-purchase-pitchers-has-a-partial",
+   "predicate": "related_to",
+   "name": "Pitchers"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-business-available-to-purchase-pitchers-has-a-partial",
+   "predicate": "related_to",
+   "name": "Tony Prince"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-business-available-to-purchase-pitchers-has-a-partial",
+   "predicate": "related_to",
+   "name": "Hercules"
+  },
+  {
+   "from": "easter_egg:reference-one-of-the-outfits-available-for-heists-the-boiler-suit-with-the",
+   "predicate": "related_to",
+   "name": "Malibu Club"
+  },
+  {
+   "from": "easter_egg:reference-among-the-buyable-clothes-for-michael-it-is-possible-to-give-him",
+   "predicate": "related_to",
+   "name": "Tommy Vercetti"
+  },
+  {
+   "from": "easter_egg:reference-along-the-water-on-vespucci-beach-some-beach-towels-have-i-vc",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: Vice City"
+  },
+  {
+   "from": "easter_egg:reference-along-the-water-on-vespucci-beach-some-beach-towels-have-i-vc",
+   "predicate": "related_to",
+   "name": "Grand Theft Auto: Vice City Stories"
+  },
+  {
+   "from": "easter_egg:reference-theres-a-wholesale-retail-store-in-textile-city-called-broker-a",
+   "predicate": "related_to",
+   "name": "Broker (GTA V)"
+  },
+  {
+   "from": "easter_egg:reference-theres-a-wholesale-retail-store-in-textile-city-called-broker-a",
+   "predicate": "related_to",
+   "name": "Broker"
+  },
+  {
+   "from": "easter_egg:reference-bj-smith-a-minor-character-in-gta-vice-city-is-referenced-a-couple",
+   "predicate": "related_to",
+   "name": "BJ Smith"
+  },
+  {
+   "from": "easter_egg:reference-bj-smith-a-minor-character-in-gta-vice-city-is-referenced-a-couple",
+   "predicate": "related_to",
+   "name": "B.J. Smith Recreation Center and Park"
+  },
+  {
+   "from": "easter_egg:reference-bj-smith-a-minor-character-in-gta-vice-city-is-referenced-a-couple",
+   "predicate": "related_to",
+   "name": "BJ's Market"
+  },
+  {
+   "from": "easter_egg:easter-egg-in-the-vanilla-unicorn-strip-club-an-non-playable-character-will",
+   "predicate": "related_to",
+   "name": "Bully"
+  },
+  {
+   "from": "easter_egg:reference-in-strawberry-under-the-freeway-there-is-a-lot-of-graffiti-on-the",
+   "predicate": "related_to",
+   "name": "Red Dead Redemption"
+  },
+  {
+   "from": "easter_egg:easter-egg-there-is-a-book-case-in-the-living-room-of-3671-whispymound-dr-with",
+   "predicate": "related_to",
+   "name": "Red Dead Redemption"
+  },
+  {
+   "from": "easter_egg:reference-there-are-two-roads-in-sandy-shores-referencing-towns-in-red-dead",
+   "predicate": "related_to",
+   "name": "Cholla Springs Ave"
+  },
+  {
+   "from": "easter_egg:reference-there-are-two-roads-in-sandy-shores-referencing-towns-in-red-dead",
+   "predicate": "related_to",
+   "name": "Armadillo Ave"
+  },
+  {
+   "from": "easter_egg:reference-there-are-two-roads-in-sandy-shores-referencing-towns-in-red-dead",
+   "predicate": "related_to",
+   "name": "Algonquin Blvd"
+  },
+  {
+   "from": "easter_egg:reference-there-are-two-roads-in-sandy-shores-referencing-towns-in-red-dead",
+   "predicate": "related_to",
+   "name": "Algonquin"
+  },
+  {
+   "from": "easter_egg:reference-the-elysian-fields-fwy-in-the-game-is-a-reference-to-the-elysian",
+   "predicate": "related_to",
+   "name": "Elysian Fields Fwy"
+  },
+  {
+   "from": "easter_egg:reference-the-elysian-fields-fwy-in-the-game-is-a-reference-to-the-elysian",
+   "predicate": "related_to",
+   "name": "wp:L.A. Noire"
+  },
+  {
+   "from": "easter_egg:reference-in-the-mission-the-paleto-score-on-the-drive-to-the-bank-michael",
+   "predicate": "related_to",
+   "name": "Carcer City"
+  },
+  {
+   "from": "easter_egg:reference-in-the-mission-the-paleto-score-on-the-drive-to-the-bank-michael",
+   "predicate": "related_to",
+   "name": "Manhunt"
+  },
+  {
+   "from": "easter_egg:easter-egg-if-you-go-to-sub-urban-you-are-able-to-buy-a-hawaiian-shirt-very",
+   "predicate": "related_to",
+   "name": "Sub Urban"
+  },
+  {
+   "from": "easter_egg:easter-egg-if-you-go-to-sub-urban-you-are-able-to-buy-a-hawaiian-shirt-very",
+   "predicate": "related_to",
+   "name": "Max Payne 3"
+  },
+  {
+   "from": "easter_egg:easter-egg-there-is-a-rent-a-car-agency-named-escalera",
+   "predicate": "related_to",
+   "name": "Escalera"
+  },
+  {
+   "from": "easter_egg:easter-egg-there-are-numerous-billboards-scattered-around-the-game-for-the-tv",
+   "predicate": "related_to",
+   "name": "Rehab Island"
+  },
+  {
+   "from": "easter_egg:easter-egg-the-game-jimmy-de-santa-plays-in-his-room-is-called-righteous",
+   "predicate": "related_to",
+   "name": "Righteous Slaughter 7"
+  },
+  {
+   "from": "easter_egg:easter-egg-the-game-jimmy-de-santa-plays-in-his-room-is-called-righteous",
+   "predicate": "related_to",
+   "name": "wp:Call of Duty (series)"
+  },
+  {
+   "from": "easter_egg:easter-egg-the-game-jimmy-de-santa-plays-in-his-room-is-called-righteous",
+   "predicate": "related_to",
+   "name": "Cara Delevingne"
+  },
+  {
+   "from": "easter_egg:reference-in-paleto-bay-there-is-a-junkyard-that-contains-some-sort-of",
+   "predicate": "related_to",
+   "name": "wp:Borderlands (video game)"
+  },
+  {
+   "from": "easter_egg:easter-egg-there-is-graffiti-in-an-alleyway-in-downtown-vinewood-where-the",
+   "predicate": "related_to",
+   "name": "Kifflom"
+  },
+  {
+   "from": "easter_egg:easter-egg-there-is-graffiti-in-an-alleyway-in-downtown-vinewood-where-the",
+   "predicate": "related_to",
+   "name": "wp:Adam and Eve"
+  },
+  {
+   "from": "easter_egg:reference-debra-s-apartment-which-acts-as-trevors-first-safehouse-in-los",
+   "predicate": "related_to",
+   "name": "Debra"
+  },
+  {
+   "from": "easter_egg:reference-debra-s-apartment-which-acts-as-trevors-first-safehouse-in-los",
+   "predicate": "related_to",
+   "name": "wp:Jackie Brown"
+  },
+  {
+   "from": "easter_egg:reference-debra-s-apartment-which-acts-as-trevors-first-safehouse-in-los",
+   "predicate": "related_to",
+   "name": "wp:Quentin Tarantino"
+  },
+  {
+   "from": "easter_egg:reference-some-power-stations-have-an-orange-sticker-that-says-1-21-gw-gw",
+   "predicate": "related_to",
+   "name": "wp:Back to the Future trilogy"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-customized-jb-700-armed-with-machine-guns-tire-spikes",
+   "predicate": "related_to",
+   "name": "wp:James Bond"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-customized-jb-700-armed-with-machine-guns-tire-spikes",
+   "predicate": "related_to",
+   "name": "wp:Goldfinger"
+  },
+  {
+   "from": "easter_egg:reference-there-is-also-an-advertisement-near-sandy-shores-that-mentions-a",
+   "predicate": "related_to",
+   "name": "J's Bonds"
+  },
+  {
+   "from": "easter_egg:reference-there-is-also-an-advertisement-near-sandy-shores-that-mentions-a",
+   "predicate": "related_to",
+   "name": "wp:James Bond"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-to-the-clothing-store-near-trevors-house-there-is-a",
+   "predicate": "related_to",
+   "name": "wp:Drive (2011 film)"
+  },
+  {
+   "from": "easter_egg:reference-in-los-santos-you-can-find-a-museum-called-bishops-wtf-an",
+   "predicate": "related_to",
+   "name": "Bishop's WTF"
+  },
+  {
+   "from": "easter_egg:reference-in-los-santos-you-can-find-a-museum-called-bishops-wtf-an",
+   "predicate": "related_to",
+   "name": "wp:Ripley's Believe It Or Not!"
+  },
+  {
+   "from": "easter_egg:reference-if-you-go-to-chiliad-mountain-state-wilderness-you-will-see-a-drug",
+   "predicate": "related_to",
+   "name": "wp:No Country for Old Men"
+  },
+  {
+   "from": "easter_egg:reference-in-one-of-the-discount-stores-you-can-find-a-red-jacket-named",
+   "predicate": "related_to",
+   "name": "wp:Jack Torrance"
+  },
+  {
+   "from": "easter_egg:reference-in-one-of-the-discount-stores-you-can-find-a-red-jacket-named",
+   "predicate": "related_to",
+   "name": "wp:The Shining (film)"
+  },
+  {
+   "from": "easter_egg:reference-lester-crest-owns-a-poster-depicting-a-flying-saucer-and-the-phrase",
+   "predicate": "related_to",
+   "name": "wp:The X-Files"
+  },
+  {
+   "from": "easter_egg:reference-in-the-tuner-section-of-the-available-wheels-in-los-santos-customs",
+   "predicate": "related_to",
+   "name": "Los Santos Customs"
+  },
+  {
+   "from": "easter_egg:reference-in-the-tuner-section-of-the-available-wheels-in-los-santos-customs",
+   "predicate": "related_to",
+   "name": "wp:Initial D"
+  },
+  {
+   "from": "easter_egg:reference-also-in-the-sports-section-of-the-available-wheels-there-is-a",
+   "predicate": "related_to",
+   "name": "wp:Nissan GT-R"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-mansion-that-is-based-on-the-playboy-mansion",
+   "predicate": "related_to",
+   "name": "wp:Playboy Mansion"
+  },
+  {
+   "from": "easter_egg:reference-in-strawberry-there-is-a-graffiti-in-an-alleyway-that-resembles-the",
+   "predicate": "related_to",
+   "name": "wp:Nyan Cat"
+  },
+  {
+   "from": "easter_egg:reference-during-an-optional-tour-in-downtown-vinewood-the-vinewood-tour-lady",
+   "predicate": "related_to",
+   "name": "wp:Independence Day (1996 film)"
+  },
+  {
+   "from": "easter_egg:reference-during-an-optional-tour-in-downtown-vinewood-the-vinewood-tour-lady",
+   "predicate": "related_to",
+   "name": "wp:Battle: Los Angeles"
+  },
+  {
+   "from": "easter_egg:reference-in-the-desert-in-sandy-shores-on-a-few-rocks-a-lot-of-the-number-8",
+   "predicate": "related_to",
+   "name": "wp:Freddy Krueger"
+  },
+  {
+   "from": "easter_egg:reference-in-the-desert-in-sandy-shores-on-a-few-rocks-a-lot-of-the-number-8",
+   "predicate": "related_to",
+   "name": "Merle Abrahams"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-car-tuning-garage-close-to-the-vanilla-unicorn-called",
+   "predicate": "related_to",
+   "name": "wp:Cartoon Network"
+  },
+  {
+   "from": "easter_egg:reference-the-heist-mission-the-big-score-is-a-reference-to-the-film-the",
+   "predicate": "related_to",
+   "name": "wp:Mini"
+  },
+  {
+   "from": "easter_egg:reference-during-one-of-the-main-missions-a-pilot-that-is-flying-with-trevor",
+   "predicate": "related_to",
+   "name": "C.R.A.S.H."
+  },
+  {
+   "from": "easter_egg:reference-while-driving-in-blaine-county-you-will-sometimes-come-across-a",
+   "predicate": "related_to",
+   "name": "wp:Breaking Bad"
+  },
+  {
+   "from": "easter_egg:reference-on-the-radio-station-west-coast-classics-dj-pooh-talks-about-a-new",
+   "predicate": "related_to",
+   "name": "West Coast Classics"
+  },
+  {
+   "from": "easter_egg:reference-on-the-radio-station-west-coast-classics-dj-pooh-talks-about-a-new",
+   "predicate": "related_to",
+   "name": "DJ Pooh"
+  },
+  {
+   "from": "easter_egg:reference-on-the-radio-station-west-coast-classics-dj-pooh-talks-about-a-new",
+   "predicate": "related_to",
+   "name": "wp:Digimonsters"
+  },
+  {
+   "from": "easter_egg:reference-sometimes-a-person-can-be-found-outside-the-vanilla-unicorn-at-night",
+   "predicate": "related_to",
+   "name": "wp:The Boondocks"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-calendar-inside-the-merryweather-base-in-elysian-island",
+   "predicate": "related_to",
+   "name": "Stocks and Scares"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-calendar-inside-the-merryweather-base-in-elysian-island",
+   "predicate": "related_to",
+   "name": "Reefer"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-calendar-inside-the-merryweather-base-in-elysian-island",
+   "predicate": "related_to",
+   "name": "wp:I'm on a Boat"
+  },
+  {
+   "from": "easter_egg:reference-by-the-lifeguard-station-at-the-south-end-of-vespucci-beach-you-may",
+   "predicate": "related_to",
+   "name": "wp:Baywatch"
+  },
+  {
+   "from": "easter_egg:easter-egg-after-switching-to-michael-in-his-home-sometimes-when-he-suddenly",
+   "predicate": "related_to",
+   "name": "Dildo"
+  },
+  {
+   "from": "easter_egg:easter-egg-in-exercising-demons-franklin-when-approaching-mary-ann-she-starts",
+   "predicate": "related_to",
+   "name": "Exercising Demons"
+  },
+  {
+   "from": "easter_egg:easter-egg-having-sex-with-a-prostitute-will-increase-your-stamina",
+   "predicate": "related_to",
+   "name": "Prostitute"
+  },
+  {
+   "from": "easter_egg:easter-egg-having-sex-with-a-prostitute-will-increase-your-stamina",
+   "predicate": "related_to",
+   "name": "Skills (GTA V)"
+  },
+  {
+   "from": "easter_egg:reference-news-reports-about-a-hurricane-flooding-liberty-city-and-leaving",
+   "predicate": "related_to",
+   "name": "Liberty City"
+  },
+  {
+   "from": "easter_egg:reference-news-reports-about-a-hurricane-flooding-liberty-city-and-leaving",
+   "predicate": "related_to",
+   "name": "Weazel News"
+  },
+  {
+   "from": "easter_egg:reference-news-reports-about-a-hurricane-flooding-liberty-city-and-leaving",
+   "predicate": "related_to",
+   "name": "Radio Mirror Park"
+  },
+  {
+   "from": "easter_egg:reference-news-reports-about-a-hurricane-flooding-liberty-city-and-leaving",
+   "predicate": "related_to",
+   "name": "wp:Hurricane Sandy"
+  },
+  {
+   "from": "easter_egg:reference-syrian-uprising-mentioned-by-the-host-of-non-stop-pop-100-7",
+   "predicate": "related_to",
+   "name": "Non Stop Pop 100.7"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-poster-that-includes-a-picture-of-marilyn-monroe-charles",
+   "predicate": "related_to",
+   "name": "wp:Marilyn Monroe"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-poster-that-includes-a-picture-of-marilyn-monroe-charles",
+   "predicate": "related_to",
+   "name": "wp:Charles Chaplin"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-poster-that-includes-a-picture-of-marilyn-monroe-charles",
+   "predicate": "related_to",
+   "name": "wp:John Wayne"
+  },
+  {
+   "from": "easter_egg:reference-there-is-a-poster-that-includes-a-picture-of-marilyn-monroe-charles",
+   "predicate": "related_to",
+   "name": "wp:Elvis Presley"
+  },
+  {
+   "from": "easter_egg:reference-on-the-north-shore-of-the-alamo-sea-north-of-the-westernmost-dock",
+   "predicate": "related_to",
+   "name": "wp:Jesco White"
+  },
+  {
+   "from": "mission:chop",
+   "predicate": "given_by",
+   "name": "Radar"
+  },
+  {
+   "from": "mission:delivering-the-truth",
+   "predicate": "given_by",
+   "name": "Jimmy Boston"
+  },
+  {
+   "from": "mission:exercising-demons-franklin",
+   "predicate": "requires",
+   "name": "Preadator"
+  },
+  {
+   "from": "mission:hood-safari",
+   "predicate": "given_by",
+   "name": "Radar"
+  },
+  {
+   "from": "mission:lamar-down",
+   "predicate": "given_by",
+   "name": "Radar"
+  },
+  {
+   "from": "mission:marriage-counseling",
+   "predicate": "unlocks",
+   "name": "Chaos"
+  },
+  {
+   "from": "mission:paparazzo-the-highness",
+   "predicate": "unlocks",
+   "name": "Paparazzo - The Reality Check"
+  },
+  {
+   "from": "mission:planning-the-big-score",
+   "predicate": "unlocks",
+   "name": "Getaway Vehicle"
+  },
+  {
+   "from": "mission:shift-work",
+   "predicate": "unlocks",
+   "name": "City Circuit"
+  },
+  {
+   "from": "mission:the-big-score",
+   "predicate": "unlocks",
+   "name": "Endings in GTA V"
+  },
+  {
+   "from": "mission:the-big-score",
+   "predicate": "requires",
+   "name": "Getaway Vehicle"
+  },
+  {
+   "from": "mission:the-bureau-raid",
+   "predicate": "requires",
+   "name": "Getaway Vehicle"
+  },
+  {
+   "from": "mission:the-last-one",
+   "predicate": "requires",
+   "name": "Completion in GTA V"
+  },
+  {
+   "from": "mission:the-long-stretch",
+   "predicate": "given_by",
+   "name": "Harold Joseph"
+  },
+  {
+   "from": "mission:the-long-stretch",
+   "predicate": "given_by",
+   "name": "Radar"
+  },
+  {
+   "from": "mission:the-merryweather-heist",
+   "predicate": "unlocks",
+   "name": "Sonar Collections Dock"
+  },
+  {
+   "from": "mission:uncalculated-risk",
+   "predicate": "requires",
+   "name": "Parachute Jumps"
+  },
+  {
+   "from": "completion:missions-complete-all-69-storyline-missions-which",
+   "predicate": "targets",
+   "name": "Missions in GTA V"
+  },
+  {
+   "from": "completion:sf-hao",
+   "predicate": "targets",
+   "name": "Hao's street races"
+  },
+  {
+   "from": "completion:hobbies-and-pastimes-complete-all-parachute-jumps",
+   "predicate": "targets",
+   "name": "Parachute Jumps"
+  },
+  {
+   "from": "completion:sf-joe-and-josef",
+   "predicate": "targets",
+   "name": "Joe and Josef"
+  }
+ ],
+ "coordinateLinks": [
+  {
+   "category": "collectible:letter-scraps",
+   "linked": 22,
+   "unlinked": 28,
+   "created": 28,
+   "meanResidual": 184
+  },
+  {
+   "category": "collectible:spaceship-parts",
+   "linked": 0,
+   "unlinked": 0,
+   "created": 50
+  },
+  {
+   "category": "collectible:hidden-packages",
+   "linked": 0,
+   "unlinked": 0,
+   "created": 13
+  },
+  {
+   "category": "collectible:nuclear-waste",
+   "linked": 0,
+   "unlinked": 0,
+   "created": 30
+  },
+  {
+   "category": "collectible:submarine-pieces",
+   "linked": 0,
+   "unlinked": 0,
+   "created": 30
+  },
+  {
+   "category": "collectible:epsilon-tracts",
+   "linked": 0,
+   "unlinked": 0,
+   "created": 10
+  }
+ ],
+ "warnings": [
+  "character:dom-beasley: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:hao: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:lamar-davis: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:lester-crest: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:martin-madrazo: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:simeon-yetarian: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "character:trevor-philips: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "easter_egg:sunken-tank-near-humane-labs: mentions GTA Online — kept, but the text should be reviewed for Online-only facts",
+  "property:downtown-cab-co: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "property:los-santos-golf-club: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "property:the-hen-house: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:yellow-jack-inn: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:los-santos-country-club: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:alamo-sea: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:fort-zancudo: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:grand-senora-desert: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:humane-labs-and-research: 3 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:mirror-park: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:murrieta-heights: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:paleto-bay: 3 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:pillbox-hill: 1 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:raton-canyon: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:sandy-shores-airfield: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:stab-city: 3 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:vespucci-beach: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "location:vinewood-hills: 2 sentence(s) about GTA Online removed (Story Mode only)",
+  "place \"Darnell Bros.\" resolved to existing location:darnell-bros-garment-factory",
+  "mission:bail-bonds-curtis-weaver: mission not in the curated story list — imported as a side mission",
+  "mission:bail-bonds-glenn-scoville: mission not in the curated story list — imported as a side mission",
+  "mission:bail-bonds-larry-tupper: mission not in the curated story list — imported as a side mission",
+  "mission:bail-bonds-ralph-ostrowski: mission not in the curated story list — imported as a side mission",
+  "mission:damaged-goods: mission not in the curated story list — imported as a side mission",
+  "mission:doting-dad: mission not in the curated story list — imported as a side mission",
+  "mission:fatherson: resolved by name to existing mission:father-son",
+  "mission:grass-roots-the-drag: mission not in the curated story list — imported as a side mission",
+  "mission:parenting-101: mission not in the curated story list — imported as a side mission",
+  "mission:shift-work: mission not in the curated story list — imported as a side mission",
+  "mission:special-bonds: mission not in the curated story list — imported as a side mission",
+  "mission:the-good-husband: mission not in the curated story list — imported as a side mission",
+  "location:humane-labs-and-research: resolved by name to existing location:humane-labs",
+  "location:strawberry-safehouse: resolved by name to existing location:franklins-strawberry-house",
+  "location:de-santa-house: resolved by name to existing location:michaels-house",
+  "location:trevor-philips-trailer: resolved by name to existing location:trevors-trailer",
+  "vehicle:buzzard-attack-chopper: resolved by name to existing vehicle:buzzard"
+ ],
+ "validation": {
+  "errors": 0,
+  "warnings": 21,
+  "first": []
+ }
+}

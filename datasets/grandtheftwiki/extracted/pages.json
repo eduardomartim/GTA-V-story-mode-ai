@@ -1,0 +1,2081 @@
+{
+ "extractor": "pages",
+ "entities": [
+  {
+   "id": "hobby:golf",
+   "type": "hobby",
+   "name": "Golf",
+   "merge": false,
+   "summary": "Golfing in the Grand Theft Auto series is primarily represented in the form of various golf courses, which first appeared in Grand Theft Auto: Vice City, as well as golfing tools and attire. Grand Theft Auto: Vice City Stories, The Ballad of Gay Tony episodic game for Grand Theft Auto IV, and Grand Theft Auto V are the only games so far to feature golfing as an actual minigame.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Golf",
+     "title": "Golf",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Golfing in the Grand Theft Auto series is primarily represented in the form of various golf courses, which first appeared in Grand Theft Auto: Vice City, as well as golfing tools and attire. Grand Theft Auto: Vice City Stories, The Ballad of Gay Tony episodic game for Grand Theft Auto IV, and…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Golfing in the Grand Theft Auto series is primarily represented in the form of various golf courses, which first appeared in Grand Theft Auto: Vice City, as well as golfing tools and attire. Grand Theft Auto: Vice City Stories, The Ballad of Gay Tony episodic game for Grand Theft Auto IV, and Grand Theft Auto V are the only games so far to feature golfing as an actual minigame."
+    },
+    {
+     "kind": "details",
+     "title": "Golf in general (Grand Theft Wiki)",
+     "text": "The first depictions of golf in the GTA series appears in the form of golf courses in part of a city. They include: Leaf Links in Vice City (GTA Vice City and GTA Vice City Stories); The Avispa Country Club in San Fierro and Yellow Bell Golf Course in Las Venturas (GTA San Andreas) The Golden Pier Swingers Golf Club in Liberty City (GTA IV and episodic packs, and GTA Chinatown Wars). With the exception of the Golden Pier Swingers Golf Course (which is merely a driving range), these golf courses tend be depicted with open lawn areas, sand traps, water hazards, putting greens (complete with flag poles pinpointing golf holes) and the country club building itself; (non-interactive) tennis courts are also present within the Leaf Links and Avispa Country Club. It is also common for the player to spot golfer pedestrians and Caddy golf carts in and around the courses. The first trailer for…"
+    },
+    {
+     "kind": "details",
+     "title": "Golf as a minigame (Grand Theft Wiki)",
+     "text": "Golfing as an in-game activity is not available in GTA Vice City and GTA San Andreas. In GTA Vice City Stories and The Ballad of Gay Tony, however, the player is given the opportunity to tee off at driving ranges in Leaf Links or the Swingers Golf Course. The game mechanics of the minigame in both games are similar in that the player is required to time their swings as accurately as possible by plotting an oscillating cursor on a \"power\" bar as close as possible to a designated point, thereby resulting in a more accurate shot. In the Ballad of Gay Tony, the shooting mechanics is slightly improved to allow the player to point at the spot where they want the ball to land, while increasing the challenge of gameplay; the further the target which the ball must go, the higher the point which the cursor must be plotted at is. In GTA Vice City Stories, golfing is first introduced during \"…"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:tennis",
+   "type": "hobby",
+   "name": "Tennis",
+   "merge": false,
+   "summary": "Tennis is a sport in the Grand Theft Auto series, and an interactive minigame that will appear in Grand Theft Auto V. Rockstar Games has released a screenshot on August 21st, 2012 depicting a tennis court and two pedestrians playing. The ability to play tennis was confirmed in a Game Informer preview on November 8th, 2012.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Tennis",
+     "title": "Tennis",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Tennis is a sport in the Grand Theft Auto series, and an interactive minigame that will appear in Grand Theft Auto V. Rockstar Games has released a screenshot on August 21st, 2012 depicting a tennis court and two pedestrians playing. The ability to play tennis was confirmed in a Game Informer…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Tennis is a sport in the Grand Theft Auto series, and an interactive minigame that will appear in Grand Theft Auto V. Rockstar Games has released a screenshot on August 21st, 2012 depicting a tennis court and two pedestrians playing. The ability to play tennis was confirmed in a Game Informer preview on November 8th, 2012."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "In GTA V, the power and accuracy serving the ball is determined through a power meter; the centre point of the power meter delivering the best possible serve. Free moving around the court and aiming can also be achieved. Other mechanics are currently unknown."
+    },
+    {
+     "kind": "location",
+     "title": "Locations (Grand Theft Wiki)",
+     "text": "This is a list of locations of tennis courts: Mendez Mansion, Prawn Island Vinewood, Los Santos Avispa Country Club, San Fierro Whitewood Estates, Las Venturas Michael 's mansion, Rockford Hills"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:darts",
+   "type": "hobby",
+   "name": "Darts",
+   "merge": false,
+   "summary": "Darts is an activity that can be played in Grand Theft Auto IV, and its episodes at the Steinway Beer Garden in Dukes or at Lucky Winkles in Algonquin. It can be played in Grand Theft Auto V at the Yellow Jack Inn in Blaine County.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Darts",
+     "title": "Darts",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Darts is an activity that can be played in Grand Theft Auto IV, and its episodes at the Steinway Beer Garden in Dukes or at Lucky Winkles in Algonquin. It can be played in Grand Theft Auto V at the Yellow Jack Inn in Blaine County."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Darts is an activity that can be played in Grand Theft Auto IV, and its episodes at the Steinway Beer Garden in Dukes or at Lucky Winkles in Algonquin. It can be played in Grand Theft Auto V at the Yellow Jack Inn in Blaine County. In GTA IV these places serve as both drinking and darts venues. This venue is available on dates, and while socializing with friends. To win, the player must be the first to reach 0 points, as described below, from an original score of 301. The highest amount you can score in a round is 180."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "When playing darts for the first time, the game will display information on how to play the game (instructions slightly edited for better explanation): Score points by throwing darts within the 20 numbered sections [numbered 1 to 20]. This is the number shown on the outer rim. [Referring to the numbers near the edge of the dart board, which are base points.] Hitting one of the large portions of a [black or white] section scores you single points. Hitting within the outer [red and green] band scores you double points for that dart. The middle band [the inner red and green band] scores you triple points. The bullseye is the circle in the center of the board. The outer ring scores 25, the inner circle (the bull) scores 50. The object of the game is to reduce your score to exactly zero, before your opponent does. But remember, the winning dart must hit a double or the bull[by targeting an…"
+    },
+    {
+     "kind": "location",
+     "title": "Locations (Grand Theft Wiki)",
+     "text": "Steinway Beer Garden - Yorktown Avenue and Morris Street in Steinway, Dukes, Liberty City Lucky Winkles - Galveston Avenue and Hell Gate in Purgatory, Algonquin, Liberty City Yellow Jack Inn - Sandy Shores, Blaine County, San Andreas"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The fletching of the darts feature characteristics related to the characters playing darts, including: Niko Bellic: Colors of the flag of Serbia. Roman Bellic: Game art of the unnamed bikini-clad woman from Grand Theft Auto: Vice City, reflecting his love for women. Little Jacob: A marijuana leaf, reflecting his casual use of marijuana. Patrick McReary: A caricature of a drunk, pants-less Irish man (similar to that of the Lucky Winkles ' logo). Unnamed opponent (if the player doesn't play with a friend): The flag of Scotland, likely referencing Rockstar North."
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:triathlon",
+   "type": "hobby",
+   "name": "Triathlon",
+   "merge": false,
+   "summary": "This is a disambiguation page for Triathlon, which could mean a number of things",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Triathlon",
+     "title": "Triathlon",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "This is a disambiguation page for Triathlon, which could mean a number of things"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Triathlons are mutli-stage marathons where contestants typically resort to more than one form of transportation throughout the event. Triathlons has been featured in some form in the Grand Theft Auto series, including: \" Beat the Cock! \" in Grand Theft Auto: San Andreas. The triathlon in The Ballad of Gay Tony. This is a disambiguation page for Triathlon, which could mean a number of things"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:flight-school",
+   "type": "hobby",
+   "name": "Flight School",
+   "merge": false,
+   "summary": "The Pilot School, also called by players as the Flying School or Flight School, is the most important and hardest of the vehicle schools in Grand Theft Auto: San Andreas, unlocked after \" Verdant Meadows \" with the purchase of Verdant Meadows. Since it is the only school mandatory to the storyline, completion of all the lessons with at least Bronze medals is required to continue the game.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Flight_School",
+     "title": "Pilot School",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Pilot School, also called by players as the Flying School or Flight School, is the most important and hardest of the vehicle schools in Grand Theft Auto: San Andreas, unlocked after \" Verdant Meadows \" with the purchase of Verdant Meadows. Since it is the only school mandatory to the…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Pilot School, also called by players as the Flying School or Flight School, is the most important and hardest of the vehicle schools in Grand Theft Auto: San Andreas, unlocked after \" Verdant Meadows \" with the purchase of Verdant Meadows. Since it is the only school mandatory to the storyline, completion of all the lessons with at least Bronze medals is required to continue the game. The pilot school consists of several lessons teaching the player how to fly planes, helicopters, and at the end — how to use a parachute. The work pays off later when the Rustler, Stunt Plane, and Hunter are unlocked respectively for achieving Bronze, Silver and Gold. By completing lessons, the player will earn/increase their flying skill."
+    },
+    {
+     "kind": "details",
+     "title": "Lessons (Grand Theft Wiki)",
+     "text": "The ten lessons to pass are: Takeoff: You'll have to lift-off and pass to three coronas to complete the test. Finish in 30 seconds or below to get a Gold medal. Land Plane: Fly through the corona and activate the landing gear and land in the designated place and avoid having to let the nose of the Rustler touch the ground or it'll incur damage penalties. Finish in 30 seconds or below to get Gold medal. Circle Airstrip: Take off and climb to pass through the first corona. Then, fly a circular course through the field. Do this in a minute to get a Gold medal. Circle Airstrip and Land: Do the same routine on the last test and also land on the designated area. Finish this in 1 minute and 20 seconds to get a Gold Medal Helicopter Takeoff: Piloting a Hunter, press X to accelerate to climb upward. Release X to level off. After that, rotate the helicopter 180 degrees. Push the left analog…"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "Carl is usually expected to finish the lessons in quick succession, but it doesn't necessarily have to be the case. A certain lesson may be frustrating, and the player can, yet, take time out and do other things - date a girlfriend, do other side missions, purchase safehouses, and more - Toreno will phone occasionally to berate Carl for not learning to fly, before making a third call in which he jokingly threatens to put Sweet in with a humourous prison inmate, but Carl can ignore him. Once the player has rested enough, Carl can continue. Quite notably, the lessons Circle Airstrip and Land, Destroy Targets, Loop-a-Loop and Parachute Onto Target are the only extremely difficult lessons as far as obtaining a gold medal is concerned. For this, the player can do the following : Circle Airstrip and Land - Pull out the wheels immediately after crossing the last corona and align the Rustler…"
+    },
+    {
+     "kind": "reward",
+     "title": "Rewards (Grand Theft Wiki)",
+     "text": "The reward for all Bronze is a Rustler, for all Silver a Stunt Plane, and for all Gold a Hunter. Access to the areas of airports which contain planes will be available. Note: Restricted areas of airports can often be accessed by parking a car against the gate, while on top of the car you will be able to jump high enough to jump to the top of the gate and climb over. However, with the exception of the Maverick in Easter Bay Airport in San Fierro and all aircraft in Los Santos International Airport in Los Santos, all the planes in them will be locked until completion of the flying school."
+    },
+    {
+     "kind": "details",
+     "title": "Video Walkthroughs (Grand Theft Wiki)",
+     "text": "PC Version - GTASeriesVideos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|zGB0OJq94qs|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|ZUGGz8ivbGA|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|12Kh4TChAMc|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|ptnLCj2l_M0|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|EXEKbelPak8|500}}\n\n\n\n\n\nvideo1=fIXVaP4ZQU8\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|GpP4djVSlys|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|36RhUIJHHzw|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|gFlFfHg4p30|500}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{{#ev:youtube|o0uDGBl--q0|500}}"
+    },
+    {
+     "kind": "details",
+     "title": "External link (Grand Theft Wiki)",
+     "text": "(A guide to completing the challenges in each school of GTA SA) - Created by Southern Finest"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:yoga",
+   "type": "hobby",
+   "name": "Yoga",
+   "merge": false,
+   "summary": "Yoga is an activity for Michael De Santa in Grand Theft Auto V, which is unlocked after completing the mission Did Somebody Say Yoga?. Michael learns the various moves from Fabien LaRouche, his wife Amanda's instructor, during the mission. He can do yoga in his back garden or at the top of Mount Gordo. Michael will always wear the same clothing while performing yoga, a faded blue polo shirt and white shorts, and uses his iFruit phone to play the same music. After performing yoga, Michael's…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Yoga",
+     "title": "Yoga",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Yoga is an activity for Michael De Santa in Grand Theft Auto V, which is unlocked after completing the mission Did Somebody Say Yoga?. Michael learns the various moves from Fabien LaRouche, his wife Amanda's instructor, during the mission. He can do yoga in his back garden or at the top of Mount…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Yoga is an activity for Michael De Santa in Grand Theft Auto V, which is unlocked after completing the mission Did Somebody Say Yoga?. Michael learns the various moves from Fabien LaRouche, his wife Amanda's instructor, during the mission. He can do yoga in his back garden or at the top of Mount Gordo. Michael will always wear the same clothing while performing yoga, a faded blue polo shirt and white shorts, and uses his iFruit phone to play the same music. After performing yoga, Michael's face will be red."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The player should be wary of performing yoga on Mount Gordo as they can be attacked and killed by cougars before, during or after the yoga."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    }
+   ]
+  },
+  {
+   "id": "hobby:parachuting",
+   "type": "hobby",
+   "name": "Parachuting",
+   "merge": false,
+   "summary": "Parachute Jumps are a series of pasttimes available to  protagonists   Franklin Clinton,  Trevor Philips, and  Michael De Santa  in  Grand Theft Auto V. Finishing the jumps contributes to  100% Completion in GTA V  and is required to advance in  Dom Beasley's   Strangers and Freaks  mission string.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Parachute Jumps are a series of pasttimes available to  protagonists   Franklin Clinton,  Trevor Philips, and  Michael De Santa  in  Grand Theft Auto V. Finishing the jumps contributes to  100% Completion in GTA V  and is required to advance in  Dom Beasley's   Strangers and Freaks  mission string."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Parachute Jumps are a series of pasttimes available to  protagonists   Franklin Clinton,  Trevor Philips, and  Michael De Santa  in  Grand Theft Auto V. Finishing the jumps contributes to  100% Completion in GTA V  and is required to advance in  Dom Beasley's   Strangers and Freaks  mission string."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "Parachute Jumps become available once the player completes Dom Beasley's Strangers and Freaks mission Risk Assessment. Each jump requires the player to parachute and land in a specific target. Some jumps require the player to hit certain check points on the way to the target, while other missions do not. No jump requires the player to free fall for any length of time; indeed, in most jumps, the player should deploy his parachute as soon as possible. For each successful jump, the player earns a cash reward based upon various factors, include how close the player landed in the center of the target, how many check points the player hit, and so on. While the jumps can be performed multiple times for cash, rewards decrease significantly after the first successful attempt."
+    },
+    {
+     "kind": "details",
+     "title": "Jumps (Grand Theft Wiki)",
+     "text": "Pacific Tour - The player enters a Maverick waiting at La Puerta/Tackle Street, near the Puerto Del Sol in La Puerta. The Maverick carries the player to the mouth of the inlet just south of Vespucci Beach. The player must jump from the Maverick and land on the back of a Squalo moving slowly up the inlet. Photo Finish - The player enters a Maverick waiting in the infield of the Vinewood Racetrack. The Maverick carries the player to a spot over East Vinewood. The player must parachute through a series of checkpoints to the target located on the south end of the racetrack's infield. Turbine Terror - The player enters a Maverick waiting in RON Alternates Wind Farm. The Maverick carries the player to a spot over the wind farm. The player must parachute through a series of checkpoints to a target in the wind farm, avoiding turbine blades near the end of the descent. The Decline - The player…"
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-pacific-tour",
+   "type": "activity",
+   "name": "Parachute Jump: Pacific Tour",
+   "aliases": [
+    "Pacific Tour"
+   ],
+   "summary": "Pacific Tour - The player enters a Maverick waiting at La Puerta/Tackle Street, near the Puerto Del Sol in La Puerta. The Maverick carries the player to the mouth of the inlet just south of Vespucci Beach. The player must jump from the Maverick and land on the back of a Squalo moving slowly up the inlet.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Pacific Tour - The player enters a Maverick waiting at La Puerta/Tackle Street, near the Puerto Del Sol in La Puerta. The Maverick carries the player to the mouth of the inlet just south of Vespucci Beach. The player must jump from the Maverick and land on the back of a Squalo moving slowly up the…"
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Puerto Del Sol"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-photo-finish",
+   "type": "activity",
+   "name": "Parachute Jump: Photo Finish",
+   "aliases": [
+    "Photo Finish"
+   ],
+   "summary": "Photo Finish - The player enters a Maverick waiting in the infield of the Vinewood Racetrack. The Maverick carries the player to a spot over East Vinewood. The player must parachute through a series of checkpoints to the target located on the south end of the racetrack's infield.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Photo Finish - The player enters a Maverick waiting in the infield of the Vinewood Racetrack. The Maverick carries the player to a spot over East Vinewood. The player must parachute through a series of checkpoints to the target located on the south end of the racetrack's infield."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Vinewood Racetrack"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-turbine-terror",
+   "type": "activity",
+   "name": "Parachute Jump: Turbine Terror",
+   "aliases": [
+    "Turbine Terror"
+   ],
+   "summary": "Turbine Terror - The player enters a Maverick waiting in RON Alternates Wind Farm. The Maverick carries the player to a spot over the wind farm. The player must parachute through a series of checkpoints to a target in the wind farm, avoiding turbine blades near the end of the descent.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Turbine Terror - The player enters a Maverick waiting in RON Alternates Wind Farm. The Maverick carries the player to a spot over the wind farm. The player must parachute through a series of checkpoints to a target in the wind farm, avoiding turbine blades near the end of the descent."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "RON Alternates Wind Farm"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-the-decline",
+   "type": "activity",
+   "name": "Parachute Jump: The Decline",
+   "aliases": [
+    "The Decline"
+   ],
+   "summary": "The Decline - The player enters a Maverick waiting on Procopio Beach Promenade. The Maverick carries the player to a spot above Mount Chiliad. The player must parachute through a series of checkpoints to a target back on the promenade.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Decline - The player enters a Maverick waiting on Procopio Beach Promenade. The Maverick carries the player to a spot above Mount Chiliad. The player must parachute through a series of checkpoints to a target back on the promenade."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Procopio Promenade"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-bank-bailout",
+   "type": "activity",
+   "name": "Parachute Jump: Bank Bailout",
+   "aliases": [
+    "Bank Bailout"
+   ],
+   "summary": "Bank Bailout - The player finds a parachute at the base of the Maze Bank Tower. A Skylift carries the player to the top of the tower and leaves the player riding a Bati 800. The player drives the motorcycle off the Tower, jumps from the motorcycle, then parachutes over Alta Street to the target in a park in Burton.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Bank Bailout - The player finds a parachute at the base of the Maze Bank Tower. A Skylift carries the player to the top of the tower and leaves the player riding a Bati 800. The player drives the motorcycle off the Tower, jumps from the motorcycle, then parachutes over Alta Street to the target in…"
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Maze Bank Tower"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-what-goes-up",
+   "type": "activity",
+   "name": "Parachute Jump: What Goes Up...",
+   "aliases": [
+    "What Goes Up..."
+   ],
+   "summary": "What Goes Up... - The player climbs (for a very long time) to the top of a crane located in the Mile High Club construction site just south of the Maze Bank Tower. At the top of the crane, the player activates a parachute. The player then jumps from the crane and must parachute onto the back of a Hauler outfitted with a flatbed trailer which is moving slowly north on Alta Street.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "What Goes Up... - The player climbs (for a very long time) to the top of a crane located in the Mile High Club construction site just south of the Maze Bank Tower. At the top of the crane, the player activates a parachute. The player then jumps from the crane and must parachute onto the back of a…"
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Mile High Club"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-falling-mouse",
+   "type": "activity",
+   "name": "Parachute Jump: Falling Mouse",
+   "aliases": [
+    "Falling Mouse"
+   ],
+   "summary": "Falling Mouse - The player locates and activates a parachute at the top of a rocky outcropping in Raton Canyon. The parachute can only be reached via helicopter or other aerial method (the closest helicopter is the Maverick used in Jump 9). The player must parachute through two checkpoints before reaching the target at the bottom of the canyon. This jump is incredibly steep and very short. Players may also find a Bati 801 located on top of the outcropping, but it is not necessary to use the…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Falling Mouse - The player locates and activates a parachute at the top of a rocky outcropping in Raton Canyon. The parachute can only be reached via helicopter or other aerial method (the closest helicopter is the Maverick used in Jump 9). The player must parachute through two checkpoints before…"
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Raton Canyon"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-runaway-train",
+   "type": "activity",
+   "name": "Parachute Jump: Runaway Train",
+   "aliases": [
+    "Runaway Train"
+   ],
+   "summary": "Runaway Train - The player enters a Maverick waiting in Raton Canyon. The Maverick carries the player to a spot above the canyon, near the railroad tracks that run through the area. The player must parachute down onto a train running south to north along the tracks.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Runaway Train - The player enters a Maverick waiting in Raton Canyon. The Maverick carries the player to a spot above the canyon, near the railroad tracks that run through the area. The player must parachute down onto a train running south to north along the tracks."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Train (GTA V)"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-aim-for-the-fairway",
+   "type": "activity",
+   "name": "Parachute Jump: Aim for the Fairway",
+   "aliases": [
+    "Aim for the Fairway"
+   ],
+   "summary": "Aim for the Fairway - The player locates and activates a parachute near the Eclipse Towers in Rockford Hills. Activating the parachute takes the player to the top of the Towers. The player must parachute from the Towers to a target on the golf course of the Los Santos Country Club.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Aim for the Fairway - The player locates and activates a parachute near the Eclipse Towers in Rockford Hills. Activating the parachute takes the player to the top of the Towers. The player must parachute from the Towers to a target on the golf course of the Los Santos Country Club."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Eclipse Medical Tower"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-carving-the-mountain",
+   "type": "activity",
+   "name": "Parachute Jump: Carving the Mountain",
+   "aliases": [
+    "Carving the Mountain"
+   ],
+   "summary": "Carving the Mountain - The player enters a Maverick waiting along Cassidy Creek. The Maverick carries the player to a spot over Mount Chiliad. The player must parachute through a series of checkpoints to a target at the bottom of Raton Canyon.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Carving the Mountain - The player enters a Maverick waiting along Cassidy Creek. The Maverick carries the player to a spot over Mount Chiliad. The player must parachute through a series of checkpoints to a target at the bottom of Raton Canyon."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Cassidy Creek"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-the-fall-of-the-alamo",
+   "type": "activity",
+   "name": "Parachute Jump: The Fall of the Alamo",
+   "aliases": [
+    "The Fall of the Alamo"
+   ],
+   "summary": "The Fall of the Alamo - The player enters a Maverick waiting in Grapeseed. The Maverick carries the player to a spot over the Alamo Sea. The player must parachute through a series of checkpoints to a target back in Grapeseed.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Fall of the Alamo - The player enters a Maverick waiting in Grapeseed. The Maverick carries the player to a spot over the Alamo Sea. The player must parachute through a series of checkpoints to a target back in Grapeseed."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Grapeseed"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-dammed-if-you-dont",
+   "type": "activity",
+   "name": "Parachute Jump: Dammed If You Don't",
+   "aliases": [
+    "Dammed If You Don't"
+   ],
+   "summary": "Dammed If You Don't - The player enters a Maverick in East Vinewood, near the corner of Mirror Park Boulevard and Glory Way. The Maverick carries the player to a spot over the Tataviam Mountains. The player must parachute through a series of checkpoints above the Land Act Reservoir and over the Land Act Dam before landing east of the Vinewood Racetrack.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Dammed If You Don't - The player enters a Maverick in East Vinewood, near the corner of Mirror Park Boulevard and Glory Way. The Maverick carries the player to a spot over the Tataviam Mountains. The player must parachute through a series of checkpoints above the Land Act Reservoir and over the…"
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    },
+    {
+     "predicate": "starts_at",
+     "toName": "Mirror Park Boulevard"
+    }
+   ]
+  },
+  {
+   "id": "activity:parachute-jump-razor-rock-dive",
+   "type": "activity",
+   "name": "Parachute Jump: Razor Rock Dive",
+   "aliases": [
+    "Razor Rock Dive"
+   ],
+   "summary": "Razor Rock Dive - The player finds a parachute atop a rocky outcropping overlooking Raton Canyon (unlike Jump 7, this jump can be accessed on foot or by car). The player must parachute from the outcropping through one checkpoint to a target at the bottom of the canyon.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Parachute_Jumps",
+     "title": "Parachute Jumps",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Razor Rock Dive - The player finds a parachute atop a rocky outcropping overlooking Raton Canyon (unlike Jump 7, this jump can be accessed on foot or by car). The player must parachute from the outcropping through one checkpoint to a target at the bottom of the canyon."
+    }
+   ],
+   "attrs": {
+    "kind": "parachute jump",
+    "counts_for_100": true,
+    "completion_rule": "all parachute jumps are required for 100% (Completion in GTA V)"
+   },
+   "relations": [
+    {
+     "predicate": "part_of",
+     "to": "hobby:parachuting"
+    }
+   ]
+  },
+  {
+   "id": "activity:hunting",
+   "type": "activity",
+   "name": "Hunting",
+   "merge": false,
+   "summary": "Hunting is a side mission and feature in Grand Theft Auto V available to Trevor Philips from the Chiliad Mountain State Wilderness in Blaine County after completing the \" Fair Game \" mission for Cletus Ewing and only between sunrise and sunset. After arriving at the Journey in Chiliad Mountain State Wilderness, Trevor will be equipped with the animal call device given to him by Cletus during Fair Game, will be given unlimited ammunition for a sniper rifle, a Blazer to move around the area and…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Hunting",
+     "title": "Hunting",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Hunting is a side mission and feature in Grand Theft Auto V available to Trevor Philips from the Chiliad Mountain State Wilderness in Blaine County after completing the \" Fair Game \" mission for Cletus Ewing and only between sunrise and sunset. After arriving at the Journey in Chiliad Mountain…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Hunting is a side mission and feature in Grand Theft Auto V available to Trevor Philips from the Chiliad Mountain State Wilderness in Blaine County after completing the \" Fair Game \" mission for Cletus Ewing and only between sunrise and sunset. After arriving at the Journey in Chiliad Mountain State Wilderness, Trevor will be equipped with the animal call device given to him by Cletus during Fair Game, will be given unlimited ammunition for a sniper rifle, a Blazer to move around the area and camouflage clothing."
+    },
+    {
+     "kind": "details",
+     "title": "Mechanics (Grand Theft Wiki)",
+     "text": "The player can locate animals in the area by using the animal call with dots appearing on the radar to show their location. A red circle will appear around the dot, which is the area where the animals will spot Trevor and run away. The player must also remain downwind of animals to avoid being smelt, which also results in the animals running away. Toward sunset, Trevor will receive a text message from Cletus warning him of the time and will receive a futher text message at sunset. After killing an animal, the player must photograph the animal and text the image to Cletus who will give different amounts of money depending on the type of animal and type of wound with headshots, neck shots and heart shots earn the most money. Cougars appear more frequently while hunting and can be seen as a dot on the radar and, if allowed to approach Trevor will kill him unless using Trevor's special…"
+    },
+    {
+     "kind": "details",
+     "title": "Animals (Grand Theft Wiki)",
+     "text": "Birds Boars Cougars Coyotes Doe and elk Human (will end hunting)"
+    },
+    {
+     "kind": "reward",
+     "title": "Reward system (Grand Theft Wiki)",
+     "text": "The monetary reward listed below is the maximum amount the player can earn for each kill. The weapon used, however, also effects the reward. 5 points and $ 10 per photo. 3 points and $50 per photo. 5 points and $25 per photo. 2 points and $10 per photo. Spooked kill: 1 point and $50 Road kill: 1 point and $5 Heart shot: 10 points and $100 Neck shot: 7 points and $75 Head shot: 5 points and $50 Rear shot: 2 points and $50 Leg shot: 1 point and $50 5 points The monetary reward, however, is also dependent on the weapon used. 100% reward: Pistol, Rifles and Sniper Rifle (which is provided) 75% reward: SMG 50% reward: Melee weapon 25% reward: Machine Gun 10% reward: Heavy weapon and thrown projectile Gold medal: 90 points Silver medal: 60 points Bronze medal: 30 points"
+    },
+    {
+     "kind": "details",
+     "title": "Ranking system (Grand Theft Wiki)",
+     "text": "Rank 1: Kill an elk with a heart shot. Rank 2: Kill 2 elk in a row without an animal call. Rank 3: Kill 3 elk in a row without being detected. Rank 4: Kill 5 elk within four minutes. Rank 5: Kill 2 elk with a single shot. Rank 1: Kill a coyote with a shotgun. Rank 2: Run over a boar. Rank 3: Kill a cougar with a grenade. Rank 4: Kill an elk without looking through the scope. Rank 5: Kill a bird with a sniper rifle. Rank 1: Text Cletus a photo of a Doe. Rank 2: Text Cletus a photo of 2 dead elk. Rank 3: Text Cletus a photo of a dead coyote and a dead boar. Rank 4: Text Cletus a photo of an elk corpse and a charging cougar. Rank 5: Text Cletus a photo of an elk, a cougar, a boar and a coyote corpse."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The player can send the pictures of the dead animals to most contacts in the phone and receive different reactions. The random event \"Deal Gone Wrong\" is triggered close to the hunting location. (With a prize of $25,000, it's worth putting the hunt off for a few minutes.)"
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    }
+   ]
+  },
+  {
+   "id": "hobby:shooting-range",
+   "type": "hobby",
+   "name": "Shooting Range",
+   "merge": false,
+   "summary": "This is a disambiguation page for Shooting Ranges, which could mean a number of things",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Shooting_Range",
+     "title": "Shooting Ranges",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "This is a disambiguation page for Shooting Ranges, which could mean a number of things"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "This is a disambiguation page for Shooting Ranges, which could mean a number of things Shooting Ranges appears throughout the Grand Theft Auto series: Ammu-Nation Shooting Range (Grand Theft Auto: Vice City) Ammu-Nation Shooting Range (Grand Theft Auto: San Andreas) Phil's Shooting Range (Grand Theft Auto: Vice City Stories) Liberty City Gun Club (Grand Theft Auto: Chinatown Wars) Los Santos Gun Club (Grand Theft Auto V)"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "hobby:hao-street-races",
+   "type": "hobby",
+   "name": "Hao Street Races",
+   "merge": false,
+   "summary": "This is a disambiguation page for Race, which could mean a number of things",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Street_Races",
+     "title": "Race",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "This is a disambiguation page for Race, which could mean a number of things"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "This is a disambiguation page for Race, which could mean a number of things A race is a common side mission, or competitive multiplayer game in many Grand Theft Auto games. Turismo, Bling-bling Scramble, and Rigged to Blow (GTA III), races or time attacks in GTA III. Vice Street Racer, a set of races accessible from Sunshine Autos in GTA Vice City. Race Tournaments in GTA San Andreas. Races in GTA Liberty City Stories, single-player races in GTA Liberty City Stories. Street Rage, multiplayer races in GTA Liberty City Stories. Races in GTA Vice City Stories, a set of single-player races in GTA Vice City Stories. Brucie's Races, single-player races in GTA IV, accessible after the mission \" No. 1 \". Races in The Lost and Damned, single-player races in The Lost and Damned. Races in GTA IV, multiplayer races in GTA IV, The Lost and Damned, and The Ballad of Gay Tony. Single Race in GTA…"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "location:vanilla-unicorn",
+   "type": "location",
+   "name": "Vanilla Unicorn",
+   "merge": false,
+   "summary": "The Vanilla Unicorn is a strip club located in the Strawberry neighbourhood of Los Santos in Grand Theft Auto V. It is the only accessible strip club in the game. The name is a parody of Spearmint Rhino, a real-life strip club chain.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vanilla_Unicorn",
+     "title": "Vanilla Unicorn",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Vanilla Unicorn is a strip club located in the Strawberry neighbourhood of Los Santos in Grand Theft Auto V. It is the only accessible strip club in the game. The name is a parody of Spearmint Rhino, a real-life strip club chain."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Vanilla Unicorn is a strip club located in the Strawberry neighbourhood of Los Santos in Grand Theft Auto V. It is the only accessible strip club in the game. The name is a parody of Spearmint Rhino, a real-life strip club chain. As with The Triangle Club and Honkers Gentlemen's Club in Grand Theft Auto IV, the player can solicit a private dance from any stripper; however, if the player acts out of line, he will be thrown out by the club's security. Additionally, the player can take certain strippers home for a private booty call if their \"like\" statistic is raised to a sufficient level; buying private dances and flirting with the strippers raises their like statistic."
+    },
+    {
+     "kind": "relationship",
+     "title": "Relationships / booty calls (Grand Theft Wiki)",
+     "text": "Additionally, the player can take certain strippers home for a private booty call if their \"like\" statistic is raised to a sufficient level; buying private dances and flirting with the strippers raises their like statistic."
+    },
+    {
+     "kind": "details",
+     "title": "Role in the GTA V plot (Grand Theft Wiki)",
+     "text": "After Trevor Philips murders Floyd Hebert and his girlfriend Debra in their condo, Trevor takes Floyd's cousin Wade to the Vanilla Unicorn. When Trevor and Wade arrive at the club, the former states that it's their new home. Trevor has two strippers show Wade a \"good time\" while he asks a third stripper where the manager's office is. Trevor enters the manager's office and kills Leon off-screen and stuffs his body into the refrigerator. Once Trevor assumes control of the club, it becomes his new safehouse in Los Santos, and he, Michael De Santa and Franklin Clinton can now touch strippers without being thrown out. As Trevor owns the club, he receives all of the club's services free of charge. Additionally, Trevor earns $5,000 weekly for running the club. Trevor, Michael, Franklin and Lester Crest use the manager's office to plan the Union Depository heist."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The Vanilla Unicorn is a franchised company and publicly traded on the Liberty City National stock exchange. If the player decides to assassinate Trevor at the end of the storyline, it is unknown if Wade or someone else assumes control of the club."
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "location:mount-chiliad",
+   "type": "location",
+   "name": "Mount Chiliad",
+   "merge": false,
+   "summary": "Mount Chiliad is a large mountain in Los Santos in Grand Theft Auto V, named after the previous version, it could be based on Mount Diablo or Mount Whitney.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Mount_Chiliad_in_GTA_V",
+     "title": "Mount Chiliad in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Mount Chiliad is a large mountain in Los Santos in Grand Theft Auto V, named after the previous version, it could be based on Mount Diablo or Mount Whitney."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Mount Chiliad is a large mountain in Los Santos in Grand Theft Auto V, named after the previous version, it could be based on Mount Diablo or Mount Whitney."
+    },
+    {
+     "kind": "location",
+     "title": "Location (Grand Theft Wiki)",
+     "text": "Located far to the north, in the Chiliad Mountain State Wilderness, it serves as the tallest mountain in the game. Two small towns sit at its base. Grapeseed can be found to the southeast, and Paleto Bay to the northwest."
+    },
+    {
+     "kind": "details",
+     "title": "Points of Interest (Grand Theft Wiki)",
+     "text": "At the base and peak is an aerial tramway station to facilitate travel. There is also a hiking trail running down the east side of the mountain. At the peak of the mountain is a small wooden observation deck. Two stationary telescopes can be found on the deck, which cost $1 each per use. From the summit, the player can view Grapeseed, Sandy Shores, the Alamo Sea, the Grand Senora Desert, and portions of the Los Santos skyline. In addition, two dirt bikes are parked at the peak of the mountain near the observation decks. There is also a derelict wooden ramp near the Gondola station that can be used to drive off the edge. Inside the tramway station is a cryptic drawing on a wall that depicts what appears to be the mountain and various symbols. There appears to be two sealed doors leading to a tramway station room directly adjacent to the mysterious drawing. The meaning of this drawing is…"
+    },
+    {
+     "kind": "details",
+     "title": "UFO sighting (Grand Theft Wiki)",
+     "text": "Upon reaching 100% game completion and standing on the observation deck, a UFO with FIB markings will appear overhead. There are three conditions that must be met: The player must have 100% game completion. There must be a storm (not just rain). The weather cheat can be used to create a storm. The time must be 03:00. Once the UFO appears, it will stay there as long as the player is on the mountain peak."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "Two rail signs at the top read \"Old Man's Crack\" and \"Bell's End\". Bell's End is most likely a reference to the head of the penis as used in British slang. Another possible reference to Bell's End is as a play on words per the Bell's End definition referring to UFO/Paranormal talk show host Art Bell on SiriusXM satellite radio (Dark Matter with Art Bell). Bell was the former primary radio talk show host of Coast to Coast AM. Mount Chiliad is likely based on Mount San Gorgonio (the tallest mountain in Southern California) however it could also be based on Mount San Jacinto and/or Mount Shasta due to the many mysteries surrounding it - Per Wikipedia: \"Mount Shasta has also been a focus for non-native American legends, centered on a hidden city of advanced beings from the lost continent of Lemuria. The legend grew from an offhand mention of Lemuria in the 1880s, to a description of a…"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "location:mount-gordo",
+   "type": "location",
+   "name": "Mount Gordo",
+   "merge": false,
+   "summary": "Mount Gordo is a mountain located in northeast Blaine County, San Andreas. Mount Gordo is the third and smallest peak in the county, following Mount Chiliad and Mount Josiah. On March 14, 1978, Sandy Shores residents Jock Cranley and Jolene Cranley-Evans went walking on Mount Gordo. Jolene dies, presumably after being pushed off the mountain by her husband Jock who wanted to pursue a career as a stuntman in Los Santos. The police later concluded that Jolene had fallen from the mountain and was…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Mount_Gordo",
+     "title": "Mount Gordo",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Mount Gordo is a mountain located in northeast Blaine County, San Andreas. Mount Gordo is the third and smallest peak in the county, following Mount Chiliad and Mount Josiah. On March 14, 1978, Sandy Shores residents Jock Cranley and Jolene Cranley-Evans went walking on Mount Gordo. Jolene dies,…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Mount Gordo is a mountain located in northeast Blaine County, San Andreas. Mount Gordo is the third and smallest peak in the county, following Mount Chiliad and Mount Josiah. On March 14, 1978, Sandy Shores residents Jock Cranley and Jolene Cranley-Evans went walking on Mount Gordo. Jolene dies, presumably after being pushed off the mountain by her husband Jock who wanted to pursue a career as a stuntman in Los Santos. The police later concluded that Jolene had fallen from the mountain and was not pushed, allowing Jock to pursue his career. Her ghost, however, appears on the mountain each night between 23:00 and 00:00, with the name \"Jock\" written in blood underneath her ghost. The ghost disappears when approached."
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "property:hookies",
+   "type": "property",
+   "name": "Hookies",
+   "merge": false,
+   "summary": "Hookies is a small seafood diner located by the Great Ocean Hwy in North Chumash, which appears in Grand Theft Auto V and Grand Theft Auto Online. It is frequented by members of The Lost and is a front for the San Andreas methanphetamine distribution. It also serves as a purchasable property for Michael and Franklin.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Hookies",
+     "title": "Hookies",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Hookies is a small seafood diner located by the Great Ocean Hwy in North Chumash, which appears in Grand Theft Auto V and Grand Theft Auto Online. It is frequented by members of The Lost and is a front for the San Andreas methanphetamine distribution. It also serves as a purchasable property for…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Hookies is a small seafood diner located by the Great Ocean Hwy in North Chumash, which appears in Grand Theft Auto V and Grand Theft Auto Online. It is frequented by members of The Lost and is a front for the San Andreas methanphetamine distribution. It also serves as a purchasable property for Michael and Franklin."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "Hookies main part consists of a medium-sized trailer with a patio with benches and windows. The backside is fenced-in and trash and boxes are littered throughout the lot. In the back of the diner is a staircase which can be used to access the roof, which features a bright, blue sign. A small bit away from the main restaurant is a small shed with several porterpotties and a baseball bat. Separate from the other buildings is a row of unusable garages, presumably used by the Lost. There are several parking spots for motorcycles to park on, as there are usually several bikes belonging to the Lost at all times. Members of the Lost Brotherhood appear to be the diner's most frequent customers and they can turn hostile very easily. Michael and Franklin may only be attacked if the bikers feel provoked, but Trevor is instantly assaulted by customers because of his violent feud with the gang.…"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "Trevor is the only protagonist who can't own this property, due to his intense war with the Lost."
+    }
+   ],
+   "attrs": {
+    "buyable_by": [
+     "Michael",
+     "Franklin"
+    ]
+   },
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    }
+   ]
+  },
+  {
+   "id": "property:cinema-doppler",
+   "type": "property",
+   "name": "Cinema Doppler",
+   "merge": false,
+   "summary": "The Cinema Doppler, also known as the Doppler Cinema, is a cinema in Vinewood in Grand Theft Auto V. The Cinema can be purchased as a property by the player, for a weekly income of $ 132,000.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Cinema_Doppler",
+     "title": "Cinema Doppler",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Cinema Doppler, also known as the Doppler Cinema, is a cinema in Vinewood in Grand Theft Auto V. The Cinema can be purchased as a property by the player, for a weekly income of $ 132,000."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Cinema Doppler, also known as the Doppler Cinema, is a cinema in Vinewood in Grand Theft Auto V. The Cinema can be purchased as a property by the player, for a weekly income of $ 132,000."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "The Cinema Doppler has been managed by Patrick since 2006."
+    },
+    {
+     "kind": "details",
+     "title": "Property Management (Grand Theft Wiki)",
+     "text": "The protagonist who owns the cinema may be required to assist in the running of the business from time to time, such as retrieving stolen money from a robber, or flying around the city in a Mallard while dropping leaflets."
+    }
+   ],
+   "attrs": {
+    "weekly_income": "$132,000"
+   },
+   "relations": []
+  },
+  {
+   "id": "property:downtown-cab-co",
+   "type": "property",
+   "name": "Downtown Cab Co.",
+   "merge": false,
+   "summary": "Downtown Cab Co.  is a taxi company in  Grand Theft Auto V and Grand Theft Auto Online.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Downtown_Cab_Co.",
+     "title": "Downtown Cab Co.",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Downtown Cab Co.  is a taxi company in  Grand Theft Auto V and Grand Theft Auto Online."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Downtown Cab Co.  is a taxi company in  Grand Theft Auto V and Grand Theft Auto Online. The company operates in East Vinewood, Los Santos. In the game, each protagonist has the number of the company and can call for a cab to pick them up. The Downtown Cab Co. can be purchased by Franklin for $ 200,000. The Downtown Cab Co. generates $2,000 per week after the initial purchase and all cab rides are free for Franklin. Franklin can also do Private Taxi Fare  missions after the purchase, he will receive calls from the manager of the company, asking him if he can deliver a passenger across the town. Downtown Cab Co. uses Vapid Stanier  cars painted in the company's livery as the service vehicle for all fares. The firm appears to be a small business due to the fact that it only operates a single depot."
+    }
+   ],
+   "attrs": {
+    "price": "$200,000",
+    "weekly_income": "$2,000",
+    "buyable_by": [
+     "Franklin"
+    ]
+   },
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    }
+   ]
+  },
+  {
+   "id": "property:los-santos-golf-club",
+   "type": "property",
+   "name": "Los Santos Golf Club",
+   "merge": false,
+   "summary": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Los_Santos_Golf_Club",
+     "title": "Los Santos Golf Club",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club."
+    },
+    {
+     "kind": "details",
+     "title": "History (Grand Theft Wiki)",
+     "text": "Founded in 1992, the LS Golf Club was originally male-only, but recently allowed the admittance of \"two carefully selected women\" due to equality laws. Women are still welcome to enroll, but must meet undisclosed criteria. Membership for anyone includes the protection from journalists and paparazzi. The course is open from dawn to dusk daily from 6am to 6pm (6:00-18:00), and the greens fee costs $100 per person. If the player enters the club's grounds without paying the greens fee or trespasses after hours, then the player is assessed with a one-star wanted level, driving any vehicle other than the Caddy on the course will also invoke a wanted level. The player can purchase the course with any protagonist for $150,000,000, earning a weekly income of $264,500; additionally, the protagonist who purchased the course can play golf for free and can play without proper golfing attire."
+    },
+    {
+     "kind": "details",
+     "title": "Events of the HD Universe (Grand Theft Wiki)",
+     "text": "While obtaining Vinewood \"souvenirs\" for Nigel and Mrs. Thornhill, Trevor Philips goes on the course to steal a golf club from Mark Fostenburg."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The Los Santos Golf Club's previous \"males only\" membership policy and careful selection of two female members is a reference to the infamous membership policies of the Augusta National Golf Club (home course of the Masters Tournament). Augusta National had not allowed female members from its opening in 1933 until August 2012, when the club admitted its first two female members. If the player purchases the course, it takes approximately 568 in-game weeks to get a return on the initial investment. A stunt jump can be found at the broken footbridge at the water hazard in the southeast corner of the course."
+    }
+   ],
+   "attrs": {
+    "price": "$150,000,000",
+    "weekly_income": "$264,500",
+    "buyable_by": [
+     "Michael",
+     "Franklin",
+     "Trevor"
+    ]
+   },
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    }
+   ]
+  },
+  {
+   "id": "property:mckenzie-field-hangar",
+   "type": "property",
+   "name": "McKenzie Field Hangar",
+   "merge": false,
+   "summary": "The McKenzie Field Hangar is a hangar and a small dirt airstrip located in Grapeseed, in  Grand Theft Auto V.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/McKenzie_Field_Hangar",
+     "title": "McKenzie Field Hangar",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The McKenzie Field Hangar is a hangar and a small dirt airstrip located in Grapeseed, in  Grand Theft Auto V."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "See also  Sandy Shores Airfield, another nearby airstrip. The McKenzie Field Hangar is a hangar and a small dirt airstrip located in Grapeseed, in  Grand Theft Auto V."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "As its name implies, it is a hangar, capable of holding one small airplane. It is possible to buy the hangar and runway for $150,000. It is only available to buy if playing as Trevor."
+    },
+    {
+     "kind": "details",
+     "title": "Arms trafficking (Grand Theft Wiki)",
+     "text": "After the hangar is purchased, it features arms trafficking missions by either land or air. There is a Dune Buggy for the land weapons-running side mission, as well as a Cuban 800 for air deliveries. Upon completion of a side mission, Trevor gets paid $5000 for land deliveries and $7000 for the air deliveries. Completing air deliveries quickly awards a time bonus of $125, accuracy with drops gives additional $125 bonus and flying below radar on missions that require it give yet another $125."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "In Minor Turbulence, Trevor says that he is going to land the Cargo Plane at McKenzie Field, but this is practically impossible as the Cargo Plane is too big even for the Fort Zancudo runway. Dusters can occasionally be found taking off or landing here."
+    }
+   ],
+   "attrs": {},
+   "relations": []
+  },
+  {
+   "id": "property:the-hen-house",
+   "type": "property",
+   "name": "The Hen House",
+   "merge": false,
+   "summary": "The Hen House is a bar and nightclub located at the intersection of Duluoz Ave and Paleto Blvd in Paleto Bay, Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. The nightclub had been foreclosed on by the bank and can be purchased, through Dynasty 8, by Franklin Clinton, Michael De Santa or Trevor Philips, after the mission Nervous Ron, for $ 80,000. The business, which earns $920 per week, is run by Logan who occasionally contacts the player requesting help in getting…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/The_Hen_House",
+     "title": "The Hen House",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Hen House is a bar and nightclub located at the intersection of Duluoz Ave and Paleto Blvd in Paleto Bay, Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. The nightclub had been foreclosed on by the bank and can be purchased, through Dynasty 8, by Franklin Clinton,…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Hen House is a bar and nightclub located at the intersection of Duluoz Ave and Paleto Blvd in Paleto Bay, Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. The nightclub had been foreclosed on by the bank and can be purchased, through Dynasty 8, by Franklin Clinton, Michael De Santa or Trevor Philips, after the mission Nervous Ron, for $ 80,000. The business, which earns $920 per week, is run by Logan who occasionally contacts the player requesting help in getting alcohol to the premises and to help with attacks from gang members and robberies."
+    },
+    {
+     "kind": "details",
+     "title": "Logan's email (Grand Theft Wiki)",
+     "text": "A new cock in the Hen House! Mr. Clinton/De Santa/Philips, I believe you're now the proud owner of the classiest gentleman's bar in town! At least that's what we keep telling ourselves! I'm the manager at the Hen House so I'll be your main point of contact. Hope I won't have to trouble you too much but you never know in this business! Congratulations again. You're clearly a wise investor - nothing more recession-proof than booze and titties, right? Best wishes, Logan -The Hen House"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "One of the possible events when switching to Trevor is him being ejected from the nightclub by two bouncers. This continues to occur even if Trevor purchases the property. The suggested route for alcohol deliveries takes the place past Stab City, which if playing as Trevor, will see The Lost Brotherhood attack the player and possibly damage the alcohol. Two prostitutes can be found beind the nightclub, along Duluoz Ave."
+    }
+   ],
+   "attrs": {
+    "price": "$80,000",
+    "weekly_income": "$920",
+    "buyable_by": [
+     "Michael",
+     "Franklin",
+     "Trevor"
+    ],
+    "available_after": "Nervous Ron"
+   },
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Nervous Ron"
+    }
+   ]
+  },
+  {
+   "id": "property:sonar-collections-dock",
+   "type": "property",
+   "name": "Sonar Collections Dock",
+   "merge": false,
+   "summary": "Sonar Collections Dock is a purchasable dock in Grand Theft Auto V. It is located in Paleto Cove, Blaine County, and is one way to obtain a Submersible. The dock costs $ 250,000 to buy, and finds nuclear waste in waters around the map. Each nuclear waste found generates $23,000 income for the player. There are thirty of them scattered throughout the ocean around the map. If you wish to collect them all, it is suggested to do it all at the same time, and it takes between 1 hour 30 minutes and 2…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Sonar_Collections_Dock",
+     "title": "Sonar Collections Dock",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sonar Collections Dock is a purchasable dock in Grand Theft Auto V. It is located in Paleto Cove, Blaine County, and is one way to obtain a Submersible. The dock costs $ 250,000 to buy, and finds nuclear waste in waters around the map. Each nuclear waste found generates $23,000 income for the…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Sonar Collections Dock is a purchasable dock in Grand Theft Auto V. It is located in Paleto Cove, Blaine County, and is one way to obtain a Submersible. The dock costs $ 250,000 to buy, and finds nuclear waste in waters around the map. Each nuclear waste found generates $23,000 income for the player. There are thirty of them scattered throughout the ocean around the map. If you wish to collect them all, it is suggested to do it all at the same time, and it takes between 1 hour 30 minutes and 2 hours to complete. Once all thirty barrels of nuclear waste are collected, you will receive a $250,000 bonus, making the dock a relatively quick way of scoring $940,000. There is a stranger,  Abigail, who will appear soon after you purchase the dock and will give you a mission to collect 30 pieces of submarine wreck. This time you will be using the raft and scuba diving equipment. The reward for…"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The person who notifies you about the purchase is named Dr. Varley, which may or may not be a reference to Reginald Varley in L.A. Noire"
+    }
+   ],
+   "attrs": {},
+   "relations": []
+  },
+  {
+   "id": "property:tequi-la-la",
+   "type": "property",
+   "name": "Tequi-la-la",
+   "merge": false,
+   "summary": "Tequi-La-La is a bar/nightclub in Los Santos appearing in Grand Theft Auto V. The bar can be purchased by any protagonist for $2,000,000 with a weekly return of $16,500. The bar is based on Whisky A Go Go; however, the Tequi-La-La building is painted yellow on the second story and black at street level, while the real-life bar is painted almost entirely red.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Tequi-La-La",
+     "title": "Tequi-La-La",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Tequi-La-La is a bar/nightclub in Los Santos appearing in Grand Theft Auto V. The bar can be purchased by any protagonist for $2,000,000 with a weekly return of $16,500. The bar is based on Whisky A Go Go; however, the Tequi-La-La building is painted yellow on the second story and black at street…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Tequi-La-La is a bar/nightclub in Los Santos appearing in Grand Theft Auto V. The bar can be purchased by any protagonist for $2,000,000 with a weekly return of $16,500. The bar is based on Whisky A Go Go; however, the Tequi-La-La building is painted yellow on the second story and black at street level, while the real-life bar is painted almost entirely red. While collecting Vinewood \"souvenirs\" for Nigel and Mrs. Thornhill, Trevor Philips encounters Willie, the bassist for the hair metal band Love Fist, at the bar, beating him up for his tooth."
+    }
+   ],
+   "attrs": {
+    "price": "$2,000,000",
+    "weekly_income": "$16,500",
+    "buyable_by": [
+     "Michael",
+     "Franklin",
+     "Trevor"
+    ]
+   },
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    }
+   ]
+  },
+  {
+   "id": "location:yellow-jack-inn",
+   "type": "location",
+   "name": "Yellow Jack Inn",
+   "merge": false,
+   "summary": "The Yellow Jack Inn is a tavern located in Blaine County, south of Sandy Shores in Grand Theft Auto V and Grand Theft Auto Online. The player can play Darts at the bar and is the only location available for said activity. The Yellow Jack Inn is owned by Janet.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Yellow_Jack_Inn",
+     "title": "Yellow Jack Inn",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Yellow Jack Inn is a tavern located in Blaine County, south of Sandy Shores in Grand Theft Auto V and Grand Theft Auto Online. The player can play Darts at the bar and is the only location available for said activity. The Yellow Jack Inn is owned by Janet."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Yellow Jack Inn is a tavern located in Blaine County, south of Sandy Shores in Grand Theft Auto V and Grand Theft Auto Online. The player can play Darts at the bar and is the only location available for said activity. The Yellow Jack Inn is owned by Janet."
+    },
+    {
+     "kind": "details",
+     "title": "Events of the HD Universe (Grand Theft Wiki)",
+     "text": "Trevor Philips meets with Tao Cheng and his translator at the bar to set up a deal where Trevor supplies the Cheng Triad with methamphetamine. After Trevor's meth lab is attacked by the Los Varrios Aztecas, Trevor meets the the Triads again in hopes of sealing the deal; however, Tao's translator reveals that they are planning to ally with the O'Neil Brothers instead. Some time later, Trevor meets the \"Civil Border Patrol\", who are comprised of Joe and Josef, to find \"illegal immigrants\" at the bar."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "Despite being supposedly banned by the proprietor for causing violence, Trevor can still enter the bar to play darts or go on a drinking outing. Despite the presence of a billiards table in the back of the bar, the player cannot play pool."
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "location:los-santos-country-club",
+   "type": "location",
+   "name": "Los Santos Country Club",
+   "merge": false,
+   "summary": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Los_Santos_Country_Club",
+     "title": "Los Santos Golf Club",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Los Santos Golf Club (sometimes referred to as the Los Santos Country Club) is a 9-hole golf course in Los Santos accessible for play in Grand Theft Auto V and Grand Theft Auto Online. The course is based on the Los Angeles Country Club."
+    },
+    {
+     "kind": "details",
+     "title": "History (Grand Theft Wiki)",
+     "text": "Founded in 1992, the LS Golf Club was originally male-only, but recently allowed the admittance of \"two carefully selected women\" due to equality laws. Women are still welcome to enroll, but must meet undisclosed criteria. Membership for anyone includes the protection from journalists and paparazzi. The course is open from dawn to dusk daily from 6am to 6pm (6:00-18:00), and the greens fee costs $100 per person. If the player enters the club's grounds without paying the greens fee or trespasses after hours, then the player is assessed with a one-star wanted level, driving any vehicle other than the Caddy on the course will also invoke a wanted level. The player can purchase the course with any protagonist for $150,000,000, earning a weekly income of $264,500; additionally, the protagonist who purchased the course can play golf for free and can play without proper golfing attire."
+    },
+    {
+     "kind": "details",
+     "title": "Events of the HD Universe (Grand Theft Wiki)",
+     "text": "While obtaining Vinewood \"souvenirs\" for Nigel and Mrs. Thornhill, Trevor Philips goes on the course to steal a golf club from Mark Fostenburg."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The Los Santos Golf Club's previous \"males only\" membership policy and careful selection of two female members is a reference to the infamous membership policies of the Augusta National Golf Club (home course of the Masters Tournament). Augusta National had not allowed female members from its opening in 1933 until August 2012, when the club admitted its first two female members. If the player purchases the course, it takes approximately 568 in-game weeks to get a return on the initial investment. A stunt jump can be found at the broken footbridge at the water hazard in the southeast corner of the course."
+    }
+   ],
+   "relations": []
+  },
+  {
+   "id": "location:alamo-sea",
+   "type": "location",
+   "name": "Alamo Sea",
+   "merge": false,
+   "summary": "The Alamo Sea is a salt lake and largest body of water of Blaine County and southern San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The lake is known as the \"Jewel of San Andreas\" and has an official website, visitthealamosea.com. The lake has two connections to the Pacific Ocean: the Zancudo River, which runs through Lago Zancudo, and Cassidy Creek, which runs through Raton Canyon. The settlements of Galilee, Grapeseed, Sandy Shores and Stab City can all be…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Alamo_Sea",
+     "title": "Alamo Sea",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "The Alamo Sea is a salt lake and largest body of water of Blaine County and southern San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The lake is known as the \"Jewel of San Andreas\" and has an official website, visitthealamosea.com. The lake has two connections to the…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Alamo Sea is a salt lake and largest body of water of Blaine County and southern San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The lake is known as the \"Jewel of San Andreas\" and has an official website, visitthealamosea.com. The lake has two connections to the Pacific Ocean: the Zancudo River, which runs through Lago Zancudo, and Cassidy Creek, which runs through Raton Canyon. The settlements of Galilee, Grapeseed, Sandy Shores and Stab City can all be found around the lake while Mount Chiliad (to the north), the Grand Senora Desert (to the south), and Mount Josiah and Raton Canyon (to the west) are also surround the lake."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "The Alamo Sea is a highly polluted lake with chemicals, botulism poison, pesticides and various bits of debris contaminating the lake resulting in an sulphur aroma and the water being a chocolate brown colour. Despite this there remain animals living in and around the lake. The fish living in the lake suffer from high blood pressure and are known to jump out the lake, resulting in dead fish being visible on the surrounding beach and a white fishbone layer above the natural sand. The animals living around the lake have also evolved to suit the changing environment with known species including 'the Greater Spotted Three-faced Pelican, the Featherless WaterFowl and desert rats the size of pitbull terriers'. Despite this, the player (as Franklin Clinton, Michael De Santa, Trevor Philips or the protagonist of GTA Online) can swim in the water without harming the health of the character."
+    },
+    {
+     "kind": "details",
+     "title": "Usage (Grand Theft Wiki)",
+     "text": "The Alamo Sea is used by some for fishing, however, due to the high levels of pollution this yields limited results, with water sports also likely to take place on the lake. Local residents, in particular from Sandy Shores and Grapeseed, use the area to relax by drinking alcohol and/or using methamphetamine. The methamphetamine is supplied by the various gangs based around the Alamo Sea, which includes Trevor Philips Industries, The Lost Brotherhood and the O'Neil Brothers as well as other smaller operations and the Los Varrios Aztecas who moved their main operations to the Alamo Sea area in 2013 having largely been pushed out of Los Santos by the Los Santos Vagos. The drug industry has resulted in a large number of violent incidents and a large number of local people dying resulting in some calls for Merryweather Security Consulting to start operating in the area. Two airfields, Sandy…"
+    },
+    {
+     "kind": "details",
+     "title": "Weather (Grand Theft Wiki)",
+     "text": "The weather at the Alamo Sea is generally very hot and humid with an average three-digit temperature in Fahrenheit (listed as 125 degrees Fahrenheit on visitthealamosea.com website. The area is also known to suffer from earthquakes with the frequency described as 'moderate to severe'."
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The Alamo Sea may be based on the Salton Sea. It may also be named after the Battle of the Alamo. There is a real-life town in California called Alamo."
+    }
+   ]
+  },
+  {
+   "id": "location:fort-zancudo",
+   "type": "location",
+   "name": "Fort Zancudo",
+   "merge": false,
+   "summary": "Fort Zancudo is a US Air Force base appearing in Grand Theft Auto V and Grand Theft Auto Online. The base is bordered by Mount Josiah to the north, the Zancudo River to the east, the Great Chaparral to the south east, Lago Zancudo to the south, southwest and west, and North Chumash to the northwest.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Fort_Zancudo",
+     "title": "Fort Zancudo",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Fort Zancudo is a US Air Force base appearing in Grand Theft Auto V and Grand Theft Auto Online. The base is bordered by Mount Josiah to the north, the Zancudo River to the east, the Great Chaparral to the south east, Lago Zancudo to the south, southwest and west, and North Chumash to the northwest."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Fort Zancudo is a US Air Force base appearing in Grand Theft Auto V and Grand Theft Auto Online. The base is bordered by Mount Josiah to the north, the Zancudo River to the east, the Great Chaparral to the south east, Lago Zancudo to the south, southwest and west, and North Chumash to the northwest."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "The base serves as a military owned and operated air-strip and munitions depot. The base is heavily guarded, both externally with soldiers at checkpoints on the two approach roads, high-scale fencing along the entire perimeter and Rhinos and Crusaders patrolling the inside of the base. P-996 LAZERs and Cargobobs also patrol the airspace above the base. The base is made up of two airstrips (with one main and one secondary), two large hangars, a number of smaller hangars, a munition depot, a fire and rescue station, a refinery, an air traffic control tower, a main office, some barracks and an area for treating water, which is jointly run with Los Santos Department of Sanitation. Also, the base is home to the Cargobob, Buzzard attack chopper, P-996 LAZER fighter jet, Rhino tank and other military vehicles. Fort Zancudo, as a military base, has access restricted to military personnel and…"
+    },
+    {
+     "kind": "details",
+     "title": "Aircraft (Grand Theft Wiki)",
+     "text": "Buzzard attack variant Cargobob P-996 LAZER Titan"
+    },
+    {
+     "kind": "details",
+     "title": "Ground Vehicles (Grand Theft Wiki)",
+     "text": "Barracks Barracks Semi Bison Crusader Firetruck Granger Rhino Speedo"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The air base closely resembles the Vandenberg Air Force Base in California, and also resembles AREA 51 on signage. The northwest part of the base is, according to the in-game map, in North Chumash rather than \"Fort Zancudo\"."
+    }
+   ]
+  },
+  {
+   "id": "location:grand-senora-desert",
+   "type": "location",
+   "name": "Grand Senora Desert",
+   "merge": false,
+   "summary": "The Grand Senora Desert is a desert located in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The town of Sandy Shores is located inside the desert, which is bordered by the Alamo Sea in the north and the Great Chaparral in the south. The deserts climate is primarily arid with occassional but powerful rain and thunderstorms, which will always occur during the mission Friends Reunited.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Grand_Senora_Desert",
+     "title": "Grand Senora Desert",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Grand Senora Desert is a desert located in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The town of Sandy Shores is located inside the desert, which is bordered by the Alamo Sea in the north and the Great Chaparral in the south. The deserts climate is…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "The Grand Senora Desert is a desert located in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The town of Sandy Shores is located inside the desert, which is bordered by the Alamo Sea in the north and the Great Chaparral in the south. The deserts climate is primarily arid with occassional but powerful rain and thunderstorms, which will always occur during the mission Friends Reunited."
+    },
+    {
+     "kind": "location",
+     "title": "Notable locations (Grand Theft Wiki)",
+     "text": "Sandy Shores Sandy Shores Airfield Martin Madrazo 's lock up."
+    },
+    {
+     "kind": "details",
+     "title": "Mission appearances (Grand Theft Wiki)",
+     "text": "Show Me the Monet (the protagonist delivers a stolen van to a lock up owned by Martin Madrazo in the desert) War and Pieces (the protagonist disrupts a drug deal and steals the drugs for Gerald G.) Bail Bonds - Larry Tupper (Larry Tupper can be found hiding in the desert) The Civil Border Patrol (begins off Joshua Rd and the chase scene goes through the desert) Exercising the Truth (Michael must walk for 5 miles in the desert) Friends Reunited (Trevor and Wade drive through the desert through a thunderstorm) Seeking the Truth (Michael is thrown from a moving Bison into the desert) A random event also occurs in the desert for Trevor where is stunned and later left on the train tracks."
+    },
+    {
+     "kind": "details",
+     "title": "Easter eggs (Grand Theft Wiki)",
+     "text": "Two rocks in the desert have clues left by Merle Abrahams about his eight murder victims. Two was fun Three tried to run Four called mom Fives not alive Six is nix Sevens in heaven 8 won't wait But they'll never get my people Even though I shall leave them sign enough Where they put me"
+    }
+   ]
+  },
+  {
+   "id": "location:grapeseed",
+   "type": "location",
+   "name": "Grapeseed",
+   "merge": false,
+   "summary": "Grapeseed is a town located in Blaine County, San Andreas, just north of Sandy Shores and the Alamo Sea. Grapeseed is a rural, mainly farming, community and has been hit hard by the in-game economic crisis with a number of closed businesses located on Grapeseed Main St with some houses also having been foreclosed. Grapeseed also has connections to the Senora Frwy, connecting it to Los Santos in the south and Paleto Bay in the north. Grapeseed is based on Grapevine, California.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Grapeseed",
+     "title": "Grapeseed",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Grapeseed is a town located in Blaine County, San Andreas, just north of Sandy Shores and the Alamo Sea. Grapeseed is a rural, mainly farming, community and has been hit hard by the in-game economic crisis with a number of closed businesses located on Grapeseed Main St with some houses also having…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Grapeseed is a town located in Blaine County, San Andreas, just north of Sandy Shores and the Alamo Sea. Grapeseed is a rural, mainly farming, community and has been hit hard by the in-game economic crisis with a number of closed businesses located on Grapeseed Main St with some houses also having been foreclosed. Grapeseed also has connections to the Senora Frwy, connecting it to Los Santos in the south and Paleto Bay in the north. Grapeseed is based on Grapevine, California."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "During the mission Crystal Maze, Trevor Philips travels to Grapeseed from Sandy Shores and destroys the O'Neil Farm, which had been used as a methamphetamine lab, and kills all the O'Neil brothers, except Elwood, Walton and Wynn. Michael De Santa also drives to Grapeseed to talk to Marnie Allen, an Epsilon Program recruiter, who tasks him with stealing five vehicles in Los Santos, and later meets Marnie and Jimmy Boston in his attempts to be initiated into the program, locating an 'alien artifact'. Maude Eccles' bounty hunting side mission begins from her trailer in the town, with Trevor Philips eventually returning Ralph Ostrowski, Glen Scoville, Larry Tupper and Curtis Weaver to her trailer after capturing them. Two random events occur in Grapeseed, both involving a shop being robbed by members of The Lost Brotherhood with the player, regardless of which protagonist is being used,…"
+    },
+    {
+     "kind": "details",
+     "title": "Residents (Grand Theft Wiki)",
+     "text": "Maude Eccles Jeremy Dale O'Neil Dalton O'Neil Dan O'Neil Daryl O'Neil Don O'Neil Doyle O'Neil Earl O'Neil Elwood O'Neil Ernie O'Neil Ned O'Neil Walton O'Neil Wynn O'Neil"
+    },
+    {
+     "kind": "details",
+     "title": "Roads (Grand Theft Wiki)",
+     "text": "East Joshua Rd Grapeseed Ave Grapeseed Main St Joad Ln North Calafia Way O'Neil Way Seaview Rd Union Rd"
+    },
+    {
+     "kind": "details",
+     "title": "Other (Grand Theft Wiki)",
+     "text": "ATM (outside Discount Store and inside the LTD filling station) eCola vending machine (inside the LTD filling station, costing $1) EgoChaser (available to purchase inside the LTD filling station for $2) Meteorite (available to purchase inside the LTD filling station for $4) P's & Q's (available to purchase inside the LTD filling station for $1) Parachute Jump (on the O'Neil Farm) Sprunk vending machine (outside the Supermarket)"
+    }
+   ]
+  },
+  {
+   "id": "location:humane-labs-and-research",
+   "type": "location",
+   "name": "Humane Labs and Research",
+   "merge": false,
+   "summary": "Humane Labs and Research is a chemical research and manufacturing facility located in the San Chianski Mountain Range in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The facility works with the IAA to create biological weapons and entering the facility results in the player obtaining a four-star wanted level. Merryweather Security Consulting have also guarded shipments to the facility in the past. The researchers test their products on animals with…",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Humane_Labs_and_Research",
+     "title": "Humane Labs and Research",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Humane Labs and Research is a chemical research and manufacturing facility located in the San Chianski Mountain Range in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The facility works with the IAA to create biological weapons and entering the facility…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Humane Labs and Research is a chemical research and manufacturing facility located in the San Chianski Mountain Range in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. The facility works with the IAA to create biological weapons and entering the facility results in the player obtaining a four-star wanted level. Merryweather Security Consulting have also guarded shipments to the facility in the past. The researchers test their products on animals with monkeys being seen in cages inside the facility. Chemical shipments are taken, by van, from the facility to Los Santos International Airport twice a day. In the media, the facility is reported to be developing cheap perfumes."
+    },
+    {
+     "kind": "details",
+     "title": "Events in the HD Universe (Grand Theft Wiki)",
+     "text": "In 2013, the protagonist of GTA Online stealing a shipment of chemicals for a planned robbery, evading the security and Merryweather mercenaries before returning to Lester Crest. Later in the year, if the player chooses the smart approach to robbing Vangelico's Fine Jewelry, a shipment of chemicals leaves the facility in a van, which is stolen by Michael De Santa and is later used to knock out the store's employees and customers. Later still in the same year, Michael and corrupt FIB agents Steve Haines and Dave Norton break into the facility through an underwater exhaust pipe and steal a powerful neurotoxin."
+    },
+    {
+     "kind": "details",
+     "title": "Mission apperances (Grand Theft Wiki)",
+     "text": "BZ Gas Grenades Monkey Business Chemical Extraction"
+    }
+   ]
+  },
+  {
+   "id": "location:mirror-park",
+   "type": "location",
+   "name": "Mirror Park",
+   "merge": false,
+   "summary": "Mirror Park is a middle class residential neighbourhood in Los Santos in Grand Theft Auto V and Grand Theft Auto Online. The neighbourhood is bordered by East Vinewood in the north, the Tataviam Mountains in the east and La Mesa in the west. The neighbourhood has a number of houses surrounding a park and has a limited number of businesses. Some of the houses in the neighbourhood are up for rent by Wolfs International Realty with more houses being.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Mirror_Park",
+     "title": "Mirror Park",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Mirror Park is a middle class residential neighbourhood in Los Santos in Grand Theft Auto V and Grand Theft Auto Online. The neighbourhood is bordered by East Vinewood in the north, the Tataviam Mountains in the east and La Mesa in the west. The neighbourhood has a number of houses surrounding a…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "You may be looking for the radio station Radio Mirror Park. Mirror Park is a middle class residential neighbourhood in Los Santos in Grand Theft Auto V and Grand Theft Auto Online. The neighbourhood is bordered by East Vinewood in the north, the Tataviam Mountains in the east and La Mesa in the west. The neighbourhood has a number of houses surrounding a park and has a limited number of businesses. Some of the houses in the neighbourhood are up for rent by Wolfs International Realty with more houses being."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "Franklin Clinton can purchase the Downtown Cab Co. in the neighbourhood and Trevor Philips kills thirty hipsters in the neighbourhood."
+    },
+    {
+     "kind": "details",
+     "title": "Streets (Grand Theft Wiki)",
+     "text": "East Mirror Dr Mirror Park Blvd Mirror Pl Nikola Pl Utopia Gardens Utopia Way West Mirror Dr"
+    }
+   ]
+  },
+  {
+   "id": "location:murrieta-heights",
+   "type": "location",
+   "name": "Murrieta Heights",
+   "merge": false,
+   "summary": "Murietta Heights is a primarily residential neighbourhood in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Murrieta_Heights",
+     "title": "Murrieta Heights",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Murietta Heights is a primarily residential neighbourhood in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Murietta Heights is a primarily residential neighbourhood in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online."
+    }
+   ]
+  },
+  {
+   "id": "location:paleto-bay",
+   "type": "location",
+   "name": "Paleto Bay",
+   "merge": false,
+   "summary": "Paleto Bay is a small town in northern Blaine County, San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The town is located close to the nearby tourist attraction Mount Chiliad while the beach, served by Procopio Promenade, and a forest are also nearby. The town is located four hours away from the nearest city, Los Santos.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Paleto_Bay",
+     "title": "Paleto Bay",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Paleto Bay is a small town in northern Blaine County, San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The town is located close to the nearby tourist attraction Mount Chiliad while the beach, served by Procopio Promenade, and a forest are also nearby. The town is…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Paleto Bay is a small town in northern Blaine County, San Andreas, which appears in Grand Theft Auto V and Grand Theft Auto Online. The town is located close to the nearby tourist attraction Mount Chiliad while the beach, served by Procopio Promenade, and a forest are also nearby. The town is located four hours away from the nearest city, Los Santos."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "In 1999, Merle Abrahams went to Paleto Bay on route to disposing of his eight victims near a small set of islands north of Paleto Bay. Roy Buckley was also elected mayor of Paleto Bay, presumably close to the events of GTA V and GTA Online. The residents of Paleto Bay, at some point, also began purchasing a number of guns with the town having 'some of the highest gun ownership per capita in the country '. Merryweather Security Consulting control the Go Loco Railroad train station in the town. The protagonist of Grand Theft Auto Online steals a diamond shipment from a rival crew for Trevor Philips and his gang. The protagonist later assists Lester Crest in freeing Gustavo Mota while being transfered from the police station in Paleto Bay to Bolingbroke Penitentiary. Lester also has the protagonist steal a Shamal before taking it to the Sandy Shores Airfield. Later in 2013, the residents…"
+    },
+    {
+     "kind": "details",
+     "title": "Residents (Grand Theft Wiki)",
+     "text": "Eric Ainsworth Beeker Bill Binder Roy Buckley B. Davids Reverend R. Goodfellow Jude Melon Lars Mitchell Kevin Prendegast Tommy Tamons Dr. Varley"
+    },
+    {
+     "kind": "details",
+     "title": "Homes (Grand Theft Wiki)",
+     "text": "0232 Paleto Blvd (for the protagonist of GTA Online for $ 121,000) 4401 Procopio Dr (for the protagonist of GTA Online for $ 165,000) 4584 Procopio Dr (for the protagonist of GTA Online for $ 155,000)"
+    },
+    {
+     "kind": "details",
+     "title": "Places (Grand Theft Wiki)",
+     "text": "The Bay Care Center Go Loco Railroad train station Los Santos County Sheriff police station Paleto Bay Fire Station Paleto Bay Market South Sea Apartments (damaged after The Paleto Score) St. Brigid Baptist Church"
+    },
+    {
+     "kind": "details",
+     "title": "Streets (Grand Theft Wiki)",
+     "text": "Cascabel Ave Duluoz Ave Great Ocean Highway Paleto Blvd Procopio Dr Procopio Promenade Pyrite Ave"
+    },
+    {
+     "kind": "details",
+     "title": "Events (Grand Theft Wiki)",
+     "text": "Paleto Bay Cluckin' Bell Beauty Pageant Paleto Bay Monster Truck Festival The Paleto Festival Barn Dance Cornholes Paleto Poultry Pageant"
+    },
+    {
+     "kind": "details",
+     "title": "Other (Grand Theft Wiki)",
+     "text": "ATM (at Don's Country Store) ATM (at Liquor) ATM (at Pop's Pills)"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The towns name, Paleto, is a Spanish word that can mean \"hick, yokel\", a reference to the towns redneck populace."
+    }
+   ]
+  },
+  {
+   "id": "location:pillbox-hill",
+   "type": "location",
+   "name": "Pillbox Hill",
+   "merge": false,
+   "summary": "Pillbox Hill is a neighbourhood in central Los Santos with borders to Alta and Burton in the north, Legion Square and Textile City in the east, Chamberlain Hills and Strawberry in the south, and Little Seoul in the west. Pillbox Hill contains a number of skyscrapers and large businesses, in particular banks and other finance businesses. There are two transit stations, one of which is no longer in service and the player will spawn outside the Pillbox Hill Medical Center if they are wasted.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Pillbox_Hill",
+     "title": "Pillbox Hill",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Pillbox Hill is a neighbourhood in central Los Santos with borders to Alta and Burton in the north, Legion Square and Textile City in the east, Chamberlain Hills and Strawberry in the south, and Little Seoul in the west. Pillbox Hill contains a number of skyscrapers and large businesses, in…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Pillbox Hill is a neighbourhood in central Los Santos with borders to Alta and Burton in the north, Legion Square and Textile City in the east, Chamberlain Hills and Strawberry in the south, and Little Seoul in the west. Pillbox Hill contains a number of skyscrapers and large businesses, in particular banks and other finance businesses. There are two transit stations, one of which is no longer in service and the player will spawn outside the Pillbox Hill Medical Center if they are wasted."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "Missions for Simeon Yetarian in both Grand Theft Auto V and Grand Theft Auto Online, with the exception of Franklin and Lamar, all begin and end at the Simeon's Premium Deluxe Motorsport car dealership with Franklin and Lamar ending at the dealership. A random event where the player can once again meet Simeon, after he had fired Franklin Clinton and Lamar Davis. Franklin also steals archiectural plans for Lester Crest during Architect's Plans."
+    },
+    {
+     "kind": "details",
+     "title": "Roads (Grand Theft Wiki)",
+     "text": "Adam's Apple Blvd Alta St Elgin Ave Integrity Way Las Lagunas Blvd Low Power St Olympic Fwy Peaceful St Power St San Andreas Ave Swiss St Vespucci Blvd"
+    },
+    {
+     "kind": "details",
+     "title": "Places (Grand Theft Wiki)",
+     "text": "Arcadius Business Center FIB Building IAA Building Los Santos Transit Metro North station Los Santos Transit Metro South station Pillbox Hill Medical Center Trevor's garage (at Vapid)"
+    },
+    {
+     "kind": "details",
+     "title": "Other (Grand Theft Wiki)",
+     "text": "There are ATMs at the following locations: 1 at Escapism Travel 2 at the FIB building 2 at FLEECA 1 at Go Postal 1 at Lombank 1 at Maison Ricard 2 at Slaughter, Slaughter & Slaughter 2 at the Union Depository There are First aid kits at the following locations: 2 at the Pillbox Hill Medical Center 1 in the metro tunnels under counstruction underneath the Union Depository"
+    }
+   ]
+  },
+  {
+   "id": "location:raton-canyon",
+   "type": "location",
+   "name": "Raton Canyon",
+   "merge": false,
+   "summary": "Raton Canyon is a canyon inside the Chiliad Mountain State Wilderness in Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. Cassidy Creek runs west from the Alamo Sea to the Pacific Ocean.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Raton_Canyon",
+     "title": "Raton Canyon",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Raton Canyon is a canyon inside the Chiliad Mountain State Wilderness in Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. Cassidy Creek runs west from the Alamo Sea to the Pacific Ocean."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Raton Canyon is a canyon inside the Chiliad Mountain State Wilderness in Blaine County appearing in Grand Theft Auto V and Grand Theft Auto Online. Cassidy Creek runs west from the Alamo Sea to the Pacific Ocean."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "Elwood, Walton and Wynn O'Neil, while attempting to hunt and kill Trevor Philips, are forced into the canyon by Franklin Clinton who had been following them. The three surviving O'Neil brothers are then killed by Franklin and Chop on the ground while Trevor and Michael De Santa attack from the air."
+    },
+    {
+     "kind": "details",
+     "title": "Collectibles (Grand Theft Wiki)",
+     "text": "4 Parachute Jumps One race One Spaceship part One Stunt jump"
+    }
+   ]
+  },
+  {
+   "id": "location:sandy-shores-airfield",
+   "type": "location",
+   "name": "Sandy Shores Airfield",
+   "merge": false,
+   "summary": "Sandy Shores Airfield is a municipal airfield located south of Sandy Shores in Blaine County, San Andreas in Grand Theft Auto V and Grand Theft Auto Online.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Sandy_Shores_Airfield",
+     "title": "Sandy Shores Airfield",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sandy Shores Airfield is a municipal airfield located south of Sandy Shores in Blaine County, San Andreas in Grand Theft Auto V and Grand Theft Auto Online."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Sandy Shores Airfield is a municipal airfield located south of Sandy Shores in Blaine County, San Andreas in Grand Theft Auto V and Grand Theft Auto Online."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "Prior to the events of GTA V, the airfield is under the control of The Lost Brotherhood, running illegal weapons and drugs. Trevor Philips, as part of his efforts to rid Sandy Shores of the Lost MC, ambushes the bikers while they are running weapons. After Trevor takes control of the airfield, any planes, tanks, and helicopters acquired or purchased will be stored and spawned at the airfield."
+    },
+    {
+     "kind": "details",
+     "title": "Runways and helipad (Grand Theft Wiki)",
+     "text": "The airfield has three runways, running approximately east-west and southwest-southeast. The longest runway runs parallel to a shorter runway, intersected by the shortest runway running southwest-southeast. None of the runways are numbered or marked. Small beacons on cones line the perimeter of the runways, lighting up at night. A helipad can be found across from the largest hangar."
+    },
+    {
+     "kind": "details",
+     "title": "Air traffic control room (Grand Theft Wiki)",
+     "text": "The player can access a small ATC room in a one-storey tall structure, just at the entrance to the airfield. It is rather detailed for a location unused in the storyline, with monitors, office chairs, and file cabinets. On the roof are a series of bullhorns. Next to the tower is what appears to be a localiser or glideslope station for instrument landings."
+    },
+    {
+     "kind": "details",
+     "title": "Hangars (Grand Theft Wiki)",
+     "text": "Two hangars are lined side by side in the airfield. The first (from left) is only large enough to accommodate the smallest propeller planes in the game. The other hangar is used by Trevor to store vehicles - it is just about possible to squeeze a Shamal or Luxor in."
+    },
+    {
+     "kind": "details",
+     "title": "NPC vehicles (Grand Theft Wiki)",
+     "text": "These planes can be found taking off from the shorter runway facing west or landing facing east on the longer runways in the day. They spawn more when the player is flying, or if the player waits at the west-end threshold. Cuban 800 Mallard Mammatus"
+    },
+    {
+     "kind": "details",
+     "title": "Trevor's vehicles (Grand Theft Wiki)",
+     "text": "Frogger (after Three's Company) Swift (after the player installs the San Andreas Flight School Update DLC and completes Nervous Ron) Player's choice Vestra (after the player installs the Business Update DLC and completes Nervous Ron) Besra (after the player installs the San Andreas Flight School Update DLC and completes Nervous Ron) Mil-Jet (after the player installs the San Andreas Flight School Update DLC and completes Nervous Ron) Player's choice"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "It is very difficult, though not impossible, to land a large Jet on the longest runway. Landing a Jet requires precision manoeuvring and a precise speed to avoid overshooting the runway. The easiest way to land a Jet is to land facing west (following the direction of the blips on the map), as the low-mounted engines may catch on debris and cause the plane to explode should it land facing east. It is also possible to land facing east, although the player should land further away from the threshold, preferably on the middle of the runway; scenery props that may damage the engines are scattered around the threshold."
+    }
+   ]
+  },
+  {
+   "id": "location:stab-city",
+   "type": "location",
+   "name": "Stab City",
+   "merge": false,
+   "summary": "Stab City is an unincorporated RV park in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. Stab City, close to the Grand Senora Desert, is filled with trailers owned by a chapter of The Lost Brotherhood, which moved to Blaine County following the Lost Civil War in Liberty City in 2008. Stab City is located off of Calafia Rd.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Stab_City",
+     "title": "Stab City",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Stab City is an unincorporated RV park in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. Stab City, close to the Grand Senora Desert, is filled with trailers owned by a chapter of The Lost Brotherhood, which moved to Blaine County following the Lost Civil…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Stab City is an unincorporated RV park in Blaine County, San Andreas appearing in Grand Theft Auto V and Grand Theft Auto Online. Stab City, close to the Grand Senora Desert, is filled with trailers owned by a chapter of The Lost Brotherhood, which moved to Blaine County following the Lost Civil War in Liberty City in 2008. Stab City is located off of Calafia Rd."
+    },
+    {
+     "kind": "details",
+     "title": "Description (Grand Theft Wiki)",
+     "text": "Stab City is built on a trash-ridden lot in a dry area near the Alamo Sea. The settlement features a cul-de-sac and rusty pick-up trucks, Lost MC vans and a large quantity of Hexers spawn in the area. There are a lot of haphazardly placed trailers with makeshift furniture and rusty ceilings. Several rusty car wrecks can be found in Stab City, especially the outskirts. On the southwestern end of the settlement is a partially fenced trailer with a highly explosive gas tank within the fenced area. Several Lost members spawn in the area and will usually become hostile (always for Trevor), though few of them carry guns. After Trevor Philips ' rampage, many trailers were reduced to smoldering wrecks, after Trevor planted explosives on several of the mobile homes."
+    },
+    {
+     "kind": "details",
+     "title": "Events of the HD Universe (Grand Theft Wiki)",
+     "text": "In 2013, during the events of GTA Online, a Lost van is stolen by the protagonist for Trevor Philips, who wanted the van to have sex with Ashley Butler and to annoy her boyfriend Johnny Klebitz. Trevor later kills Johnny in a fit of rage and later follows some of the Lost bikers to Stab City. Upon arrival the gang begins to shoot Trevor who kills the gang members, including Clay Simons and Terry Thorpe. Some surviving Lost members later hold a funeral ceremony at the RV park. While the bikers mourn their dead, Trevor sneaks around planting bombs on a number of trailers before detonating them, destroying the trailers and killing the Lost gang members in attendance before leaving for Los Santos."
+    },
+    {
+     "kind": "details",
+     "title": "Residents (Grand Theft Wiki)",
+     "text": "Ashley Butler (until 2013) Johnny Klebitz (until 2013) Clay Simons (until 2013) Terry Thorpe (until 2013)"
+    },
+    {
+     "kind": "details",
+     "title": "Mission appearances (Grand Theft Wiki)",
+     "text": "Mr. Philips Friends Reunited Romance Isn't Dead Daemon Run"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "A mural for The Lost Brotherhood can be found inside Stab City. The mural reads \"The Lost MC Los Santos\" despite Stab City being located nearly three miles away by road from the northern most areas of Los Santos"
+    }
+   ]
+  },
+  {
+   "id": "location:vespucci-beach",
+   "type": "location",
+   "name": "Vespucci Beach",
+   "merge": false,
+   "summary": "Vespucci Beach is a beach in Vespucci, Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The Marabunta Grande control the area but the Los Santos Vagos also appear during the mission Repossession but can not be found before or after the mission.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vespucci_Beach",
+     "title": "Vespucci Beach",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vespucci Beach is a beach in Vespucci, Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The Marabunta Grande control the area but the Los Santos Vagos also appear during the mission Repossession but can not be found before or after the mission."
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Vespucci Beach is a beach in Vespucci, Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The Marabunta Grande control the area but the Los Santos Vagos also appear during the mission Repossession but can not be found before or after the mission."
+    },
+    {
+     "kind": "details",
+     "title": "Character (Grand Theft Wiki)",
+     "text": "Vespucci Beach is a beach populated by many local residents and tourists during the day where the player can find people relaxing on the beach or walking along the boardwalk looking at the many beach front shops. Lifeguards can also be seen at their stations watching over any visitors swimming in the Pacific Ocean despite the fact that no swimmers can be found. Over the night the visitors leave the beach with only workers, cleaning up from the visitors, and hipsters present gathering around fires. The Marabunta Grande control the area although the Los Santos Vagos are shown to have a presence in Vespucci Beach during the mission Repossession. The Vagos, however, cannot be found there outside of Repossession."
+    },
+    {
+     "kind": "details",
+     "title": "Events of HD Universe (Grand Theft Wiki)",
+     "text": "Franklin Clinton and Lamar Davis, working for Simeon Yetarian, repossess a green Bagger from Esteban Jimenez killing a number of Vagos gang members while doing so. Michael and Jimmy De Santa also begin a bike race on Vespucci Beach."
+    },
+    {
+     "kind": "details",
+     "title": "Places (Grand Theft Wiki)",
+     "text": "Basketball courts Skate park Tennis courts Vespucci Beach Lifeguard Control Tower Vespucci Beach Park Office Vespucci Beach Police Station"
+    },
+    {
+     "kind": "details",
+     "title": "Vehicles (Grand Theft Wiki)",
+     "text": "Blazer (second most southern lifeguard station Cruiser (at Mr. Spoke Bike Rental) Lifeguard (at the lifeguard control tower) Seashark (southern most lifeguard station)"
+    },
+    {
+     "kind": "details",
+     "title": "Roads (Grand Theft Wiki)",
+     "text": "Aguja St (pedestrian only area) Bay City Ave Conquistador St Cortes St Goma St Melanoma St Palomino Ave Vitus St"
+    },
+    {
+     "kind": "details",
+     "title": "Other (Grand Theft Wiki)",
+     "text": "ATM (at Mr. Spoke Bike Rental) eCola vending machine x2(south of Aguja St and boardwalk between Aguja St and Palomino Ave) First Aid Kit (toilet block, Vespucci Beach Park Office) Sprunk vending machine (south of Aguja St and boardwalk between Aguja St and Palomino Ave)"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "The name \"Vespucci\" is used in Grand Theft Auto IV."
+    }
+   ]
+  },
+  {
+   "id": "location:vinewood-hills",
+   "type": "location",
+   "name": "Vinewood Hills",
+   "merge": false,
+   "summary": "Vinewood Hills is a neighbourhood and mountain range in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The area contains many large houses owned by the rich and celebrities who pay $ 1,000 per square foot of land. The Galileo Observatory and the Vinewood Sign are both found within the neighbourhood. It is based of the affluent Los Angeles neighbourhood of Hollywood Hills and Hollywood Hills West.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vinewood_Hills",
+     "title": "Vinewood Hills",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vinewood Hills is a neighbourhood and mountain range in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The area contains many large houses owned by the rich and celebrities who pay $ 1,000 per square foot of land. The Galileo Observatory and the Vinewood Sign are both…"
+    }
+   ],
+   "sections": [
+    {
+     "kind": "overview",
+     "title": "Overview (Grand Theft Wiki)",
+     "text": "Vinewood Hills is a neighbourhood and mountain range in Los Santos appearing in Grand Theft Auto V and Grand Theft Auto Online. The area contains many large houses owned by the rich and celebrities who pay $ 1,000 per square foot of land. The Galileo Observatory and the Vinewood Sign are both found within the neighbourhood. It is based of the affluent Los Angeles neighbourhood of Hollywood Hills and Hollywood Hills West."
+    },
+    {
+     "kind": "details",
+     "title": "Residents (Grand Theft Wiki)",
+     "text": "Chop (after Hotel Assassination) Franklin Clinton (after Hotel Assassination) Debby Infernus Lacy Jonas Castro Lagano Martin Madrazo Bruce Spade"
+    },
+    {
+     "kind": "trivia",
+     "title": "Trivia (Grand Theft Wiki)",
+     "text": "Vinewood Hills was first revealed in promotional GTA V photo viewers released in late October 2012."
+    }
+   ]
+  }
+ ],
+ "completion": [],
+ "issues": [
+  "Off-Road_Races: not cached",
+  "Sea_Races: not cached",
+  "50 drafts (14 place pages, 13 parachute jumps)"
+ ]
+}

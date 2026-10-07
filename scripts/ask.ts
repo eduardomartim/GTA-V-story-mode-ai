@@ -9,6 +9,7 @@ const history: ChatTurn[] = [];
 for (const q of questions) {
   const r = await runChat({ message: q, history });
   console.log(`\n=== ${q}\nmode=${r.mode} lang=${r.lang} intents=${r.meta.intents.join(",")} entities=${r.meta.entities.join(",")} retrieved=${r.meta.retrievalCount} ${r.meta.latencyMs}ms`);
+  if (r.meta.plan) console.log(`plan: ${r.meta.plan.goal} — ${r.meta.plan.steps.join(" · ")}`);
   console.log(r.answer);
   console.log("cards:", r.cards.map((c) => `${c.kind}${"name" in c ? `:${c.name}` : ""}`).join(" | "));
   console.log("sources:", r.sources.map((s) => `${s.index}:${s.sourceName}`).join(" | "), "| followUps:", r.followUps.map((f) => f.label).join(", "));

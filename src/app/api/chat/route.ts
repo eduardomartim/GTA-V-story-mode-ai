@@ -15,6 +15,7 @@ const EntityId = z.string().regex(/^[a-z_]+:[a-z0-9-]+$/).max(80);
 const ChatBody = z.object({
   message: z.string().trim().min(1).max(600),
   allowSpoilers: z.boolean().optional(),
+  lang: z.enum(["pt", "en"]).optional(),
   history: z
     .array(
       z.object({
@@ -35,12 +36,12 @@ export async function POST(req: Request): Promise<NextResponse> {
     enforceRateLimit(req, "chat");
     const parsed = ChatBody.safeParse(await readJson(req));
     if (!parsed.success) throw new AppError("invalid_request");
-    lang = detectLang(parsed.data.message);
+    lang = parsed.data.lang ?? detectLang(parsed.data.message);
     await ensureReady().catch((err) => {
       log("error", "bootstrap_failed", { requestId, error: (err as Error).message });
       throw new AppError("database_unavailable");
     });
-    const result = await runChat({ message: parsed.data.message, history: parsed.data.history, allowSpoilers: parsed.data.allowSpoilers, requestId });
+    const result = await runChat({ message: parsed.data.message, history: parsed.data.history, allowSpoilers: parsed.data.allowSpoilers, lang: parsed.data.lang, requestId });
     return NextResponse.json(result, { headers: { "cache-control": "no-store" } });
   } catch (err) {
     return errorResponse(err, lang, requestId);

@@ -36,6 +36,7 @@ const D = {
   externalImage: { pt: "Galeria externa (link)", en: "External gallery (link)" },
   license: { pt: "Licença", en: "License" },
   storyMode: { pt: "Modo História", en: "Story Mode" },
+  seeOnMap: { pt: "Ver no mapa", en: "See on map" },
 } satisfies Record<string, { pt: string; en: string }>;
 
 export function ui(key: keyof typeof D, lang: Lang): string {

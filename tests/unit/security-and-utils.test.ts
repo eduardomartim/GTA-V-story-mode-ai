@@ -145,7 +145,8 @@ describe("citation resolution", () => {
 
 describe("context assembly", () => {
   it("caps chunks per entity, honours k and drops weak matches", () => {
-    const many = Array.from({ length: 10 }, (_, i) => cand({ chunkId: i, score: 1 - i * 0.01 }));
+    // Distinct texts: identical chunks would (correctly) be removed as near-duplicates before the cap applies.
+    const many = Array.from({ length: 10 }, (_, i) => cand({ chunkId: i, score: 1 - i * 0.01, content: `section ${i}: ${["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliet"][i]} details ${i * 7}` }));
     const other = cand({ chunkId: 99, entityId: "mission:b", score: 0.9 });
     const weak = cand({ chunkId: 100, entityId: "mission:c", score: 0.1 });
     const out = assembleContext([...many, other, weak], { k: 8, perEntity: 3 });
@@ -162,5 +163,15 @@ describe("citation trust level", () => {
     const r = resolveCitations("A [S1] B [S2]", [a, b]);
     expect(r.sources).toHaveLength(1);
     expect(r.sources[0]?.verification).toBe("unverified");
+  });
+});
+
+describe("context assembly — near-duplicate removal", () => {
+  it("keeps one of two chunks of the same entity that say the same thing", async () => {
+    const { assembleContext } = await import("@/lib/rag/prompt");
+    const base = { entityId: "mission:a", entityType: "mission" as const, entityName: "A", contentType: "location", sourceId: "s", sourceName: "S", sourceType: "wiki", sourceUrl: "https://example.org", authority: 5, confidence: 0.8, verification: "curated", spoilerLevel: 0, versions: [], semantic: 0, keyword: 0, entityScore: 1, via: ["entity" as const] };
+    const a = { ...base, chunkId: 1, score: 0.9, content: "A — Where it starts: A takes place at the Darnell Bros garment factory in La Mesa." };
+    const b = { ...base, chunkId: 2, score: 0.8, content: "A — Location: A takes place at the Darnell Bros garment factory in La Mesa." };
+    expect(assembleContext([a, b], { k: 5, perEntity: 5 })).toHaveLength(1);
   });
 });

@@ -1,0 +1,3694 @@
+{
+ "extractor": "easter-eggs",
+ "entities": [
+  {
+   "id": "easter_egg:gone-in-60-seconds-reference-i-fought-the-law",
+   "type": "easter_egg",
+   "name": "Gone in 60 Seconds reference (I Fought the Law)",
+   "summary": "In the mission I fought the law... After you have delivered the cars to Devin there is a reference to gone in sixty seconds on the back wall of the garage. There is a special paint only visible under a black light which was used to hide the list of cars in the beginning of the movie gone in 60 seconds.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the mission I fought the law... After you have delivered the cars to Devin there is a reference to gone in sixty seconds on the back wall of the garage. There is a special paint only visible under a black light which was used to hide the list of cars in the beginning of the movie gone in 60…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:frozen-alien-under-the-ice-prologue-ludendorff",
+   "type": "easter_egg",
+   "name": "Frozen alien under the ice (Prologue, Ludendorff)",
+   "summary": "In the mission Prologue, underneath the train bridge in Ludendorff that the gang passes in the Rancher XL, there is a frozen creek and under ice is an alien.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the mission Prologue, underneath the train bridge in Ludendorff that the gang passes in the Rancher XL, there is a frozen creek and under ice is an alien."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Prologue (GTA V)"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Ludendorff"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Rancher XL"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:bigfoot-in-the-thermal-scope-predator",
+   "type": "easter_egg",
+   "name": "Bigfoot in the thermal scope (Predator)",
+   "summary": "In the mission Predator, Michael must use a sniper rifle fitted with a thermal scope to find Elwood O'Neil, Walton and Wynn O'Neil in Raton Canyon at night. If the player zooms in on the thermal heat dot on the bottom right, it appears to be a Bigfoot standing still. Shooting it does nothing and it abruptly disappears after a few seconds.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the mission Predator, Michael must use a sniper rifle fitted with a thermal scope to find Elwood O'Neil, Walton and Wynn O'Neil in Raton Canyon at night. If the player zooms in on the thermal heat dot on the bottom right, it appears to be a Bigfoot standing still. Shooting it does nothing and…"
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Predator (mission)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Michael De Santa"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Elwood O'Neil"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Walton O'Neil"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Wynn O'Neil"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Raton Canyon"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Bigfoot"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:sunken-ufo-north-east-of-paleto-bay",
+   "type": "easter_egg",
+   "name": "Sunken UFO north-east of Paleto Bay",
+   "summary": "A large sunken flying saucer with sea plants growing on it can be found north-east of Paleto Bay. It can be reached by using a Submersible.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "A large sunken flying saucer with sea plants growing on it can be found north-east of Paleto Bay. It can be reached by using a Submersible."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "UFOs"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Paleto Bay"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Submersible"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:ufos-over-mount-chiliad-fort-zancudo-and-sandy-shores-after-100",
+   "type": "easter_egg",
+   "name": "UFOs over Mount Chiliad, Fort Zancudo and Sandy Shores after 100%",
+   "summary": "Three more UFOs can be seen above Mount Chiliad, at Fort Zancudo and in Sandy Shores once 100% completion is obtained.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Three more UFOs can be seen above Mount Chiliad, at Fort Zancudo and in Sandy Shores once 100% completion is obtained."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "UFOs"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Mount Chiliad"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Fort Zancudo"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Sandy Shores"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Completion"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:rolling-big-orange-juice-stand-ball-vinewood-hills",
+   "type": "easter_egg",
+   "name": "Rolling BIG Orange juice-stand ball (Vinewood Hills)",
+   "summary": "In Vinewood Hills, there is a juice stand with a big orange ball attached to the top. Shooting or walking into this ball will cause it to detach and roll off down the hill.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Vinewood Hills, there is a juice stand with a big orange ball attached to the top. Shooting or walking into this ball will cause it to detach and roll off down the hill."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Vinewood Hills"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:second-big-orange-juice-stand-grapeseed-san-chianski",
+   "type": "easter_egg",
+   "name": "Second BIG Orange juice stand (Grapeseed / San Chianski)",
+   "summary": "Another 'BIG Orange' Juice Stand can be found at the northwest corner of East Joshua Rd and the Senora Freeway in Grapeseed and the San Chianski Mountain Range, respectively.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Another 'BIG Orange' Juice Stand can be found at the northwest corner of East Joshua Rd and the Senora Freeway in Grapeseed and the San Chianski Mountain Range, respectively."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "East Joshua Rd"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Senora Freeway"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grapeseed"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "San Chianski Mountain Range"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:ghost-on-mount-gordo-23-00-00-00",
+   "type": "easter_egg",
+   "name": "Ghost on Mount Gordo (23:00–00:00)",
+   "summary": "Between 23:00 and 0:00, a female ghost appears on the eastern peak of Mount Gordo. The ghost does not move or take damage, and will not react to the player being present or shooting it. While the ghost is present, the word \"JOCK\" is written in blood on the rock where the ghost stands. The ghost fades away if the player gets too close, and the bloody writing will disappear. Investigating online reveals that the ghost is Jock Cranley 's wife, murdered by him.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Between 23:00 and 0:00, a female ghost appears on the eastern peak of Mount Gordo. The ghost does not move or take damage, and will not react to the player being present or shooting it. While the ghost is present, the word \"JOCK\" is written in blood on the rock where the ghost stands. The ghost…"
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs",
+    "time_window": "23:00–0:00"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Jolene Cranley-Evans"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Mount Gordo"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Jock Cranley"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:middle-finger-mouse-cursor-on-computers",
+   "type": "easter_egg",
+   "name": "Middle-finger mouse cursor on computers",
+   "summary": "When using a computer, the mouse cursor has its middle finger pointing up, instead of its index finger, appearing to give the player the finger.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "When using a computer, the mouse cursor has its middle finger pointing up, instead of its index finger, appearing to give the player the finger."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:dial-up-internet-sound-phone-number",
+   "type": "easter_egg",
+   "name": "Dial-up internet sound phone number",
+   "summary": "If you access your phone in game and dial 948-555-0100, you will hear the dial up internet sound. This is also the number you call for ZiT in GTA IV. The same will happen if the player dials any cheat codes from Grand Theft Auto IV and Episodes from Liberty City.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you access your phone in game and dial 948-555-0100, you will hear the dial up internet sound. This is also the number you call for ZiT in GTA IV. The same will happen if the player dials any cheat codes from Grand Theft Auto IV and Episodes from Liberty City."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "ZiT"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto IV"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Episodes from Liberty City"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:crashed-jet-on-the-seabed-paleto-forest",
+   "type": "easter_egg",
+   "name": "Crashed jet on the seabed (Paleto Forest)",
+   "summary": "Once you have unlocked access to the Submersible, you can explore the seabed and discover a crashed US Air jet, the location of the jet is north-east from the peninsula in Paleto Forest, somewhat close to the parachute jump activity.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Once you have unlocked access to the Submersible, you can explore the seabed and discover a crashed US Air jet, the location of the jet is north-east from the peninsula in Paleto Forest, somewhat close to the parachute jump activity."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Submersible"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Paleto Forest"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:the-hatch-from-lost-sea-floor-east-coast",
+   "type": "easter_egg",
+   "name": "The Hatch from Lost (sea floor, east coast)",
+   "summary": "By using the Submersible, you can find the famous 'Hatch' from the TV series Lost, which is located to the far East of the map, over the coast near the San Chianski Mountain Range. The Hatch cannot be approached either by submarine nor driving, as the protagonist (all three) will get crushed.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "By using the Submersible, you can find the famous 'Hatch' from the TV series Lost, which is located to the far East of the map, over the coast near the San Chianski Mountain Range. The Hatch cannot be approached either by submarine nor driving, as the protagonist (all three) will get crushed."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Lost (TV series)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:black-light-secrets-on-the-collectors-edition-map",
+   "type": "easter_egg",
+   "name": "Black-light secrets on the Collector's Edition map",
+   "summary": "Using a black light/UV light on the blueprint map that comes with the Collector's Edition of GTA V reveals markings, map legends, secrets and text. Most of the things that appear are pointing towards the existence of UFOs. Three of the collectible Space Ship Parts are also shown in the map",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Using a black light/UV light on the blueprint map that comes with the Collector's Edition of GTA V reveals markings, map legends, secrets and text. Most of the things that appear are pointing towards the existence of UFOs. Three of the collectible Space Ship Parts are also shown in the map"
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:franklins-special-stash-strawberry-safehouse",
+   "type": "easter_egg",
+   "name": "Franklin's 'special stash' (Strawberry safehouse)",
+   "summary": "In the Strawberry Safehouse, if you look in the far right corner next to his bed, behind the fan, you will find his \"special stash.\"",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the Strawberry Safehouse, if you look in the far right corner next to his bed, behind the fan, you will find his \"special stash.\""
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Strawberry Safehouse"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:sugar-puffs-like-cereal-in-trevors-trailer",
+   "type": "easter_egg",
+   "name": "Sugar Puffs-like cereal in Trevor's trailer",
+   "summary": "In the Trevor Philips' Trailer you can see a box of breakfast cereal next to the sink which looks strikingly similar to Sugar Puffs, a cereal from the United Kingdom.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the Trevor Philips' Trailer you can see a box of breakfast cereal next to the sink which looks strikingly similar to Sugar Puffs, a cereal from the United Kingdom."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Trevor Philips' Trailer"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Sugar Puffs"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:michael-reacts-when-his-house-is-shot-at",
+   "type": "easter_egg",
+   "name": "Michael reacts when his house is shot at",
+   "summary": "As Franklin or Trevor, fire at Michael's house and he will call or text you angrily telling you to stop. Also, if you sneak near his house as Franklin or Trevor, Michael will call or text you asking politely if you are sneaking around.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "As Franklin or Trevor, fire at Michael's house and he will call or text you angrily telling you to stop. Also, if you sneak near his house as Franklin or Trevor, Michael will call or text you asking politely if you are sneaking around."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:followed-protagonist-knocks-the-player-out",
+   "type": "easter_egg",
+   "name": "Followed protagonist knocks the player out",
+   "summary": "If the player follows a protagonist they are not playing as for too long, the one being followed will turn around and knock the player out.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If the player follows a protagonist they are not playing as for too long, the one being followed will turn around and knock the player out."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:beta-map-blueprint-in-franklins-safehouse",
+   "type": "easter_egg",
+   "name": "Beta map blueprint in Franklin's safehouse",
+   "summary": "There is a blueprint of the beta map on a wall inside Franklin's safehouse.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a blueprint of the beta map on a wall inside Franklin's safehouse."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:sunken-tank-near-humane-labs",
+   "type": "easter_egg",
+   "name": "Sunken tank near Humane Labs",
+   "summary": "There is a Mark 2 Panzer Tank among other wreckage submerged off the coast near the Humane Labs & Research building. The exact location is accessible by Scuba diving in Story Mode, or by Submersible in GTA Online. A lack of visible rust compared to other wreckage suggests it was sunk recently or was very well maintained. The location of this Easter Egg can be found in this video.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a Mark 2 Panzer Tank among other wreckage submerged off the coast near the Humane Labs & Research building. The exact location is accessible by Scuba diving in Story Mode, or by Submersible in GTA Online. A lack of visible rust compared to other wreckage suggests it was sunk recently or…"
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Easter Eggs"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Panzer 2"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Humane Labs & Research"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-on-the-speeder-the-gps-shows-a-map-of-liberty-city",
+   "type": "easter_egg",
+   "name": "Reference: On the Speeder, the GPS shows a map of Liberty City",
+   "summary": "On the Speeder, the GPS shows a map of Liberty City.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On the Speeder, the GPS shows a map of Liberty City."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Speeder (boat)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Liberty City in GTA IV Era"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-first-trailer-there-is-a-number-on-the-curb-of-a-house-for",
+   "type": "easter_egg",
+   "name": "Reference: In the first trailer, there is a number on the curb of a house for…",
+   "summary": "In the first trailer, there is a number on the curb of a house for sale that says \"2405\". This is likely a reference to the birthday of the Houser brothers, who were both born on the 24th of May.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the first trailer, there is a number on the curb of a house for sale that says \"2405\". This is likely a reference to the birthday of the Houser brothers, who were both born on the 24th of May."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto V/Trailers"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-chamberlain-hills-close-to-franklins-house-there-is-graffiti",
+   "type": "easter_egg",
+   "name": "Reference: In Chamberlain Hills, close to Franklin's house, there is graffiti…",
+   "summary": "In Chamberlain Hills, close to Franklin's house, there is graffiti that reads \" Welcome Back - We missed you last time \", welcoming players back to San Andreas.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Chamberlain Hills, close to Franklin's house, there is graffiti that reads \" Welcome Back - We missed you last time \", welcoming players back to San Andreas."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Chamberlain Hills"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-on-the-2013-license-plates-of-cars-the-time-of-manufacture-sticker",
+   "type": "easter_egg",
+   "name": "Reference: On the 2013 license plates of cars, the time-of-manufacture sticker…",
+   "summary": "On the 2013 license plates of cars, the time-of-manufacture sticker says 'MAY'. This could be the original release date for the game which was confirmed to be in spring 2013, making May a plausible release date, or the month in which GTA V entered development. It could also, albeit less likely be a nod to the Houser brothers' birth month.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On the 2013 license plates of cars, the time-of-manufacture sticker says 'MAY'. This could be the original release date for the game which was confirmed to be in spring 2013, making May a plausible release date, or the month in which GTA V entered development. It could also, albeit less likely be…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-on-the-eastern-side-of-the-del-perro-pier-a-piece-of-graffiti-can-be",
+   "type": "easter_egg",
+   "name": "Reference: On the eastern side of the Del Perro Pier a piece of graffiti can be…",
+   "summary": "On the eastern side of the Del Perro Pier a piece of graffiti can be found reading 'Nothing to see here - groove along' accompanied by a small illustration of a smiling face. This may be a reference to a similar sign in Grand Theft Auto III.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On the eastern side of the Del Perro Pier a piece of graffiti can be found reading 'Nothing to see here - groove along' accompanied by a small illustration of a smiling face. This may be a reference to a similar sign in Grand Theft Auto III."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Del Perro Pier"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "The Hidden Sign"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto III"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-a-pedestrian-can-be-heard-saying-when-pulled-out-of-a-car-im",
+   "type": "easter_egg",
+   "name": "Reference: A pedestrian can be heard saying when pulled out of a car: \"I'm…",
+   "summary": "A pedestrian can be heard saying when pulled out of a car: \"I'm moving to Vice City!\".",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "A pedestrian can be heard saying when pulled out of a car: \"I'm moving to Vice City!\"."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vice City"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-franklins-apartment-in-the-vinewood-hills-if-you-go-to-his",
+   "type": "easter_egg",
+   "name": "Reference: In Franklin's apartment in the Vinewood Hills, if you go to his…",
+   "summary": "In Franklin's apartment in the Vinewood Hills, if you go to his bookshelf with the stereo on top and zoom in on the second cubbyhole at the bottom, you will see a book entitled \"The Liberty Killing\" and the face of Donald Love from Grand Theft Auto III.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Franklin's apartment in the Vinewood Hills, if you go to his bookshelf with the stereo on top and zoom in on the second cubbyhole at the bottom, you will see a book entitled \"The Liberty Killing\" and the face of Donald Love from Grand Theft Auto III."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Donald Love"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto III"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-are-multiple-newspapers-scattered-around-the-map-with-pictures",
+   "type": "easter_egg",
+   "name": "Reference: There are multiple newspapers scattered around the map with pictures…",
+   "summary": "There are multiple newspapers scattered around the map with pictures of Johnny Klebitz appearing on the front.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There are multiple newspapers scattered around the map with pictures of Johnny Klebitz appearing on the front."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Johnny Klebitz"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-los-santos-country-club-was-established-in-1992-a-nod-to-the",
+   "type": "easter_egg",
+   "name": "Reference: The Los Santos Country Club was established in 1992, a nod to the…",
+   "summary": "The Los Santos Country Club was established in 1992, a nod to the year of the setting of Grand Theft Auto: San Andreas.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Los Santos Country Club was established in 1992, a nod to the year of the setting of Grand Theft Auto: San Andreas."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Los Santos Country Club"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "1992"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-san-andreas-flight-school-was-established-in-2004-the-same-year",
+   "type": "easter_egg",
+   "name": "Reference: The San Andreas Flight School was established in 2004, the same year…",
+   "summary": "The San Andreas Flight School was established in 2004, the same year Grand Theft Auto: San Andreas was released.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The San Andreas Flight School was established in 2004, the same year Grand Theft Auto: San Andreas was released."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-trevors-trailer-at-0-55-the-number-on-the-locomotive-reads",
+   "type": "easter_egg",
+   "name": "Reference: In Trevor's Trailer at 0:55, the number on the locomotive reads \"…",
+   "summary": "In Trevor's Trailer at 0:55, the number on the locomotive reads \" LS2004 \", also possibly a nod to when Grand Theft Auto: San Andreas was released.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Trevor's Trailer at 0:55, the number on the locomotive reads \" LS2004 \", also possibly a nod to when Grand Theft Auto: San Andreas was released."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto V/Trailers"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-if-you-go-and-listen-to-radio-los-santos-theres-a-song-called",
+   "type": "easter_egg",
+   "name": "Reference: If you go and listen to Radio Los Santos, there's a song called…",
+   "summary": "If you go and listen to Radio Los Santos, there's a song called \"Smoke and Ride\". It could be a reference to Big Smoke and Ryder from Grand Theft Auto: San Andreas",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you go and listen to Radio Los Santos, there's a song called \"Smoke and Ride\". It could be a reference to Big Smoke and Ryder from Grand Theft Auto: San Andreas"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Radio Los Santos"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Big Smoke"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Ryder"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-during-the-mission-hood-safari-on-the-last-turn-before-you-get-to",
+   "type": "easter_egg",
+   "name": "Reference: During the mission Hood Safari, on the last turn before you get to…",
+   "summary": "During the mission Hood Safari, on the last turn before you get to Grove Street, you will see three people riding BMX 's down Grove St away from the cul-de-sac. They closely resemble Carl Johnson, Sweet and Big Smoke in the events of Sweet & Kendl mission.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "During the mission Hood Safari, on the last turn before you get to Grove Street, you will see three people riding BMX 's down Grove St away from the cul-de-sac. They closely resemble Carl Johnson, Sweet and Big Smoke in the events of Sweet & Kendl mission."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Hood Safari"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grove Street"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "BMX"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grove St"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Carl Johnson"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Sweet"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Big Smoke"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Sweet & Kendl"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-billboard-of-toni-a-woman-who-was-the-dj-of-several",
+   "type": "easter_egg",
+   "name": "Reference: There is a billboard of Toni, a woman who was the DJ of several…",
+   "summary": "There is a billboard of Toni, a woman who was the DJ of several radio stations in the 3D Universe.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a billboard of Toni, a woman who was the DJ of several radio stations in the 3D Universe."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Toni (DJ)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "3D Universe"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-one-of-the-lines-michael-will-say-after-parking-a-car-inside-the",
+   "type": "easter_egg",
+   "name": "Reference: One of the lines Michael will say after parking a car inside the…",
+   "summary": "One of the lines Michael will say after parking a car inside the garage of the mansion is \"Daddy's back, bitches.\" This is the same line Dave Bosoy says at the very beginning of Grand Theft Auto IV.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "One of the lines Michael will say after parking a car inside the garage of the mansion is \"Daddy's back, bitches.\" This is the same line Dave Bosoy says at the very beginning of Grand Theft Auto IV."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Dave Bosoy"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto IV"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-first-heist-lester-crest-refers-to-an-eastern-european-man",
+   "type": "easter_egg",
+   "name": "Reference: In the first heist, Lester Crest refers to an Eastern-European man…",
+   "summary": "In the first heist, Lester Crest refers to an Eastern-European man living in Liberty City who went quiet. This could either mean that Niko has given up his life of crime to live a normal peaceful one, or that he was killed. It's more likely that after the ending of GTA IV Niko had no more problems and settled down to a good life.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the first heist, Lester Crest refers to an Eastern-European man living in Liberty City who went quiet. This could either mean that Niko has given up his life of crime to live a normal peaceful one, or that he was killed. It's more likely that after the ending of GTA IV Niko had no more problems…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Lester Crest"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-jimmy-de-santa-can-be-seen-viewing-niko-bellic-s-lifeinvader-page",
+   "type": "easter_egg",
+   "name": "Reference: Jimmy De Santa can be seen viewing Niko Bellic 's Lifeinvader page…",
+   "summary": "Jimmy De Santa can be seen viewing Niko Bellic 's Lifeinvader page on his laptop while sitting at the dining table in his house. It is difficult to see the page in detail, however he appears to have Roman Bellic in his friends list and is stalking Burger Shot, possibly a humorous reference to the health system in GTA IV, wherein by the end of the game Niko would have eaten many burgers due to the player constantly replenishing his health.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Jimmy De Santa can be seen viewing Niko Bellic 's Lifeinvader page on his laptop while sitting at the dining table in his house. It is difficult to see the page in detail, however he appears to have Roman Bellic in his friends list and is stalking Burger Shot, possibly a humorous reference to the…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Jimmy De Santa"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Niko Bellic"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Lifeinvader"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "De Santa House"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Roman Bellic"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Burger Shot"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-a-random-event-you-help-two-people-get-away-from-a-robbery",
+   "type": "easter_egg",
+   "name": "Reference: In a random event, you help two people get away from a robbery",
+   "summary": "In a random event, you help two people get away from a robbery. One of the robbers is Irish and keeps saying that Liberty City was easier to rob. This robber turns out to be Packie from GTA IV. After this encounter he becomes a possible hire for a heist. During one of the heists Packie mentions that Niko is most likely dead but he does not know for a fact.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In a random event, you help two people get away from a robbery. One of the robbers is Irish and keeps saying that Liberty City was easier to rob. This robber turns out to be Packie from GTA IV. After this encounter he becomes a possible hire for a heist. During one of the heists Packie mentions…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Packie"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-an-advert-featuring-the-artwork-of-one-of-the-twins-painted",
+   "type": "easter_egg",
+   "name": "Reference: There is an advert featuring the artwork of one of The Twins painted…",
+   "summary": "There is an advert featuring the artwork of one of The Twins painted on a building.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is an advert featuring the artwork of one of The Twins painted on a building."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "The Twins"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-multiple-qub3d-machines-from-gta-iv-can-be-found",
+   "type": "easter_egg",
+   "name": "Reference: Multiple QUB3D machines from GTA IV can be found",
+   "summary": "Multiple QUB3D machines from GTA IV can be found.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Multiple QUB3D machines from GTA IV can be found."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "QUB3D"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "GTA IV"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-if-you-listen-to-trevors-radio-in-his-signature-bodhi-you-can-hear",
+   "type": "easter_egg",
+   "name": "Reference: If you listen to Trevor's radio in his signature Bodhi you can hear…",
+   "summary": "If you listen to Trevor's radio in his signature Bodhi you can hear a conversation between a truck driver and another who goes by the name Eddie Low, who was a serial killer that could be found in Alderney by Niko in GTA IV.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you listen to Trevor's radio in his signature Bodhi you can hear a conversation between a truck driver and another who goes by the name Eddie Low, who was a serial killer that could be found in Alderney by Niko in GTA IV."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Bodhi"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Eddie Low"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Alderney"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-if-the-player-goes-into-the-yellow-jack-inn-in-sandy-shores-behind",
+   "type": "easter_egg",
+   "name": "Reference: If the player goes into the Yellow Jack Inn in Sandy Shores, behind…",
+   "summary": "If the player goes into the Yellow Jack Inn in Sandy Shores, behind the counter will be several $50 bills hanging on the wall. Pictured on these bills is the artwork of Rochell'le that appeared on the disc and coverart of Grand Theft Auto: San Andreas.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If the player goes into the Yellow Jack Inn in Sandy Shores, behind the counter will be several $50 bills hanging on the wall. Pictured on these bills is the artwork of Rochell'le that appeared on the disc and coverart of Grand Theft Auto: San Andreas."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Yellow Jack Inn"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Rochell'le"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: San Andreas"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-3671-whispymound-dr-in-vinewood-hills-there-are-three-gold",
+   "type": "easter_egg",
+   "name": "Reference: In 3671 Whispymound Dr in Vinewood Hills there are three Gold…",
+   "summary": "In 3671 Whispymound Dr in Vinewood Hills there are three Gold Records on the wall, one of which belongs to OG Loc from GTA San Andreas. There is also a Madd Dogg CD sitting on top of the DJ Booth, and a red and blue coloured artwork of Madd Dogg with MADD written across the bottom.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In 3671 Whispymound Dr in Vinewood Hills there are three Gold Records on the wall, one of which belongs to OG Loc from GTA San Andreas. There is also a Madd Dogg CD sitting on top of the DJ Booth, and a red and blue coloured artwork of Madd Dogg with MADD written across the bottom."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "3671 Whispymound Dr"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Vinewood Hills"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "OG Loc"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Madd Dogg"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-during-the-mission-derailed-a-requirement-is-named-better-than-cj",
+   "type": "easter_egg",
+   "name": "Reference: During the mission Derailed, a requirement is named \"Better than CJ\"",
+   "summary": "During the mission Derailed, a requirement is named \"Better than CJ\". This refers to the mission Wrong Side Of The Tracks in GTA San Andreas when CJ needs to follow a train.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "During the mission Derailed, a requirement is named \"Better than CJ\". This refers to the mission Wrong Side Of The Tracks in GTA San Andreas when CJ needs to follow a train."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Derailed"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Wrong Side Of The Tracks"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-on-a-wall-next-to-the-tunnel-on-low-power-st-there-is-graffiti-of",
+   "type": "easter_egg",
+   "name": "Reference: On a wall next to the tunnel on Low Power St, there is graffiti of…",
+   "summary": "On a wall next to the tunnel on Low Power St, there is graffiti of Los Santos sprayed in the style of the original Grand Theft Auto 1 logo.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On a wall next to the tunnel on Low Power St, there is graffiti of Los Santos sprayed in the style of the original Grand Theft Auto 1 logo."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Low Power St"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto 1"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-character-of-lenny-avery-an-unscrupulous-real-estate-developer",
+   "type": "easter_egg",
+   "name": "Reference: The character of Lenny Avery, an unscrupulous real estate developer,…",
+   "summary": "The character of Lenny Avery, an unscrupulous real estate developer, may be a reference to Avery Carrington from Grand Theft Auto: Vice City and Grand Theft Auto: Liberty City Stories.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The character of Lenny Avery, an unscrupulous real estate developer, may be a reference to Avery Carrington from Grand Theft Auto: Vice City and Grand Theft Auto: Liberty City Stories."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Lenny Avery"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Avery Carrington"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: Vice City"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: Liberty City Stories"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-one-of-the-business-available-to-purchase-pitchers-has-a-partial",
+   "type": "easter_egg",
+   "name": "Reference: One of the business available to purchase, Pitchers, has a partial…",
+   "summary": "One of the business available to purchase, Pitchers, has a partial sample of the logo of Tony Prince 's Hercules club.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "One of the business available to purchase, Pitchers, has a partial sample of the logo of Tony Prince 's Hercules club."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Pitchers"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Tony Prince"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Hercules"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-one-of-the-outfits-available-for-heists-the-boiler-suit-with-the",
+   "type": "easter_egg",
+   "name": "Reference: One of the outfits available for heists, the boiler suit with the…",
+   "summary": "One of the outfits available for heists, the boiler suit with the hockey mask, it is a clear reference to GTA Vice City's heist mission planned at the Malibu Club.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "One of the outfits available for heists, the boiler suit with the hockey mask, it is a clear reference to GTA Vice City's heist mission planned at the Malibu Club."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Malibu Club"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-among-the-buyable-clothes-for-michael-it-is-possible-to-give-him",
+   "type": "easter_egg",
+   "name": "Reference: Among the buyable clothes for Michael, it is possible to give him…",
+   "summary": "Among the buyable clothes for Michael, it is possible to give him the appearance of the default attire of Tommy Vercetti.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Among the buyable clothes for Michael, it is possible to give him the appearance of the default attire of Tommy Vercetti."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Tommy Vercetti"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-along-the-water-on-vespucci-beach-some-beach-towels-have-i-vc",
+   "type": "easter_egg",
+   "name": "Reference: Along the water on Vespucci Beach, some beach towels have \" I ♥ VC\"…",
+   "summary": "Along the water on Vespucci Beach, some beach towels have \" I ♥ VC\" on them, which is a reference to Grand Theft Auto: Vice City and Grand Theft Auto: Vice City Stories.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Along the water on Vespucci Beach, some beach towels have \" I ♥ VC\" on them, which is a reference to Grand Theft Auto: Vice City and Grand Theft Auto: Vice City Stories."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Vespucci Beach"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: Vice City"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Grand Theft Auto: Vice City Stories"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-movie-capolavoro-the-heart-of-liberty-city-is-seen-at-part",
+   "type": "easter_egg",
+   "name": "Reference: In the movie Capolavoro, the Heart of Liberty City is seen at part…",
+   "summary": "In the movie Capolavoro, the Heart of Liberty City is seen at part of it.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the movie Capolavoro, the Heart of Liberty City is seen at part of it."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-theres-a-wholesale-retail-store-in-textile-city-called-broker-a",
+   "type": "easter_egg",
+   "name": "Reference: There's a wholesale & retail store in Textile City called Broker, a…",
+   "summary": "There's a wholesale & retail store in Textile City called Broker, a reference to the district of Broker in Liberty City from GTA IV. The shop also features a picture of Broker's skyline on its logo.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There's a wholesale & retail store in Textile City called Broker, a reference to the district of Broker in Liberty City from GTA IV. The shop also features a picture of Broker's skyline on its logo."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Textile City"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Broker (GTA V)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Broker"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Liberty City in GTA IV Era"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-bj-smith-a-minor-character-in-gta-vice-city-is-referenced-a-couple",
+   "type": "easter_egg",
+   "name": "Reference: BJ Smith, a minor character in GTA Vice City, is referenced a couple…",
+   "summary": "BJ Smith, a minor character in GTA Vice City, is referenced a couple of times: in the name of a recreation center and park in Chamberlain Hills and in the name of a convenience store in East Vinewood (BJ's Market).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "BJ Smith, a minor character in GTA Vice City, is referenced a couple of times: in the name of a recreation center and park in Chamberlain Hills and in the name of a convenience store in East Vinewood (BJ's Market)."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to the GTA series"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "BJ Smith"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "B.J. Smith Recreation Center and Park"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Chamberlain Hills"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "East Vinewood"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "BJ's Market"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-in-the-vanilla-unicorn-strip-club-an-non-playable-character-will",
+   "type": "easter_egg",
+   "name": "Easter egg: In the Vanilla Unicorn strip club, an non-playable character will…",
+   "summary": "In the Vanilla Unicorn strip club, an non-playable character will occasionally wear a purple jersey with the last name \"Hopkins\" referring to the Rockstar game Bully and its protagonist Jimmy Hopkins.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the Vanilla Unicorn strip club, an non-playable character will occasionally wear a purple jersey with the last name \"Hopkins\" referring to the Rockstar game Bully and its protagonist Jimmy Hopkins."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vanilla Unicorn"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Bully"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-strawberry-under-the-freeway-there-is-a-lot-of-graffiti-on-the",
+   "type": "easter_egg",
+   "name": "Reference: In Strawberry, under the freeway, there is a lot of graffiti on the…",
+   "summary": "In Strawberry, under the freeway, there is a lot of graffiti on the walls. One of them resembles a silhouette of John Marston riding a horse at night time, with a full moon. John is the protagonist of the game Red Dead Redemption, another game developed and published by Rockstar.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Strawberry, under the freeway, there is a lot of graffiti on the walls. One of them resembles a silhouette of John Marston riding a horse at night time, with a full moon. John is the protagonist of the game Red Dead Redemption, another game developed and published by Rockstar."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Strawberry"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Red Dead Redemption"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-there-is-a-book-case-in-the-living-room-of-3671-whispymound-dr-with",
+   "type": "easter_egg",
+   "name": "Easter egg: There is a book case in the living room of 3671 Whispymound Dr, with…",
+   "summary": "There is a book case in the living room of 3671 Whispymound Dr, with a few titles that stand out, like the book \"Red Dead\", by a J. Marston. \"J. Marston\" likely refers to John's son Jack, who regularly read books and stated that he may write a book himself one day.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a book case in the living room of 3671 Whispymound Dr, with a few titles that stand out, like the book \"Red Dead\", by a J. Marston. \"J. Marston\" likely refers to John's son Jack, who regularly read books and stated that he may write a book himself one day."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Red Dead Redemption"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-are-two-roads-in-sandy-shores-referencing-towns-in-red-dead",
+   "type": "easter_egg",
+   "name": "Reference: There are two roads in Sandy Shores referencing towns in Red Dead…",
+   "summary": "There are two roads in Sandy Shores referencing towns in Red Dead Redemption, Cholla Springs Ave and Armadillo Ave. Algonquin Blvd, a nod to the Algonquin borough of Liberty City, cuts through both.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There are two roads in Sandy Shores referencing towns in Red Dead Redemption, Cholla Springs Ave and Armadillo Ave. Algonquin Blvd, a nod to the Algonquin borough of Liberty City, cuts through both."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Cholla Springs Ave"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Armadillo Ave"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Algonquin Blvd"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Algonquin"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Liberty City in GTA IV Era"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-elysian-fields-fwy-in-the-game-is-a-reference-to-the-elysian",
+   "type": "easter_egg",
+   "name": "Reference: The Elysian Fields Fwy in the game is a reference to the Elysian…",
+   "summary": "The Elysian Fields Fwy in the game is a reference to the Elysian Fields Co. and housing development from L.A. Noire.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Elysian Fields Fwy in the game is a reference to the Elysian Fields Co. and housing development from L.A. Noire."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Elysian Fields Fwy"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:L.A. Noire"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-mission-the-paleto-score-on-the-drive-to-the-bank-michael",
+   "type": "easter_egg",
+   "name": "Reference: In the mission, The Paleto Score, on the drive to the bank, Michael…",
+   "summary": "In the mission, The Paleto Score, on the drive to the bank, Michael mentioned that his first successful score was a heist twenty five years ago \"a few miles out from Carcer City \". This is another reference to Rockstar's game, Manhunt.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the mission, The Paleto Score, on the drive to the bank, Michael mentioned that his first successful score was a heist twenty five years ago \"a few miles out from Carcer City \". This is another reference to Rockstar's game, Manhunt."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "The Paleto Score"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Michael De Santa"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Carcer City"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Manhunt"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-if-you-go-to-sub-urban-you-are-able-to-buy-a-hawaiian-shirt-very",
+   "type": "easter_egg",
+   "name": "Easter egg: If you go to Sub Urban, you are able to buy a Hawaiian shirt very…",
+   "summary": "If you go to Sub Urban, you are able to buy a Hawaiian shirt very similar to the one Max Payne wears in Max Payne 3, which is another game created by Rockstar.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you go to Sub Urban, you are able to buy a Hawaiian shirt very similar to the one Max Payne wears in Max Payne 3, which is another game created by Rockstar."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Sub Urban"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Max Payne 3"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-there-is-a-rent-a-car-agency-named-escalera",
+   "type": "easter_egg",
+   "name": "Easter egg: There is a Rent-A-Car agency named \" Escalera \"",
+   "summary": "There is a Rent-A-Car agency named \" Escalera \". Escalera was a town in Red Dead Redemption.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a Rent-A-Car agency named \" Escalera \". Escalera was a town in Red Dead Redemption."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Rockstar video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Escalera"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-there-are-numerous-billboards-scattered-around-the-game-for-the-tv",
+   "type": "easter_egg",
+   "name": "Easter egg: There are numerous billboards scattered around the game for the TV…",
+   "summary": "There are numerous billboards scattered around the game for the TV Show \" Rehab Island \". The commercial for the TV shows can also be found on TV. The logo in the middle looks similar to the logo from the game \"Dead Island\", with a marijuana leaf replacing the palm tree.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There are numerous billboards scattered around the game for the TV Show \" Rehab Island \". The commercial for the TV shows can also be found on TV. The logo in the middle looks similar to the logo from the game \"Dead Island\", with a marijuana leaf replacing the palm tree."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Other video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Rehab Island"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-the-game-jimmy-de-santa-plays-in-his-room-is-called-righteous",
+   "type": "easter_egg",
+   "name": "Easter egg: The game Jimmy De Santa plays in his room is called Righteous…",
+   "summary": "The game Jimmy De Santa plays in his room is called Righteous Slaughter 7. It is a parody of modern shooters, mostly mocking the Call of Duty series. Cara Delevingne also mentions playing the game on the radio.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The game Jimmy De Santa plays in his room is called Righteous Slaughter 7. It is a parody of modern shooters, mostly mocking the Call of Duty series. Cara Delevingne also mentions playing the game on the radio."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Other video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Jimmy De Santa"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Righteous Slaughter 7"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Call of Duty (series)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Cara Delevingne"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-paleto-bay-there-is-a-junkyard-that-contains-some-sort-of",
+   "type": "easter_egg",
+   "name": "Reference: In Paleto Bay, there is a junkyard that contains some sort of…",
+   "summary": "In Paleto Bay, there is a junkyard that contains some sort of machine with paint art that resembles Claptrap from the game Borderlands.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Paleto Bay, there is a junkyard that contains some sort of machine with paint art that resembles Claptrap from the game Borderlands."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Other video games"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Paleto Bay"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Borderlands (video game)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-debras-apartment-there-is-a-mural-which-says-live-love",
+   "type": "easter_egg",
+   "name": "Reference: In Debra's apartment there is a mural which says: \"Live, Love,…",
+   "summary": "In Debra's apartment there is a mural which says: \"Live, Love, Laugh\", over which Trevor writes \"Eat, Shit, Die\". This is an obvious reference to Duke Nukem's signature phrase \"Eat shit and Die\". It could just be Trevor's way of saying 'life' In the same condo, in one of the bedrooms is a picture of a vintage map that looks strikingly similar to the one included in the special edition of Assassins Creed IV.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Debra's apartment there is a mural which says: \"Live, Love, Laugh\", over which Trevor writes \"Eat, Shit, Die\". This is an obvious reference to Duke Nukem's signature phrase \"Eat shit and Die\". It could just be Trevor's way of saying 'life' In the same condo, in one of the bedrooms is a picture…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Other video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Trevor Philips"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-there-is-graffiti-in-an-alleyway-in-downtown-vinewood-where-the",
+   "type": "easter_egg",
+   "name": "Easter egg: There is graffiti in an alleyway in downtown Vinewood (where the…",
+   "summary": "There is graffiti in an alleyway in downtown Vinewood (where the mission Bearing the Truth starts) on which, amongst multiple Kifflom rambles, is written \"The fruit tree is a lie\", referencing the iconic \"The cake is a lie\" catchphrase from the Portal series and possibly comparing it to the fruit tree in the Adam and Eve creation myth.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is graffiti in an alleyway in downtown Vinewood (where the mission Bearing the Truth starts) on which, amongst multiple Kifflom rambles, is written \"The fruit tree is a lie\", referencing the iconic \"The cake is a lie\" catchphrase from the Portal series and possibly comparing it to the fruit…"
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Other video games"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Bearing the Truth"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Kifflom"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Adam and Eve"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-debra-s-apartment-which-acts-as-trevors-first-safehouse-in-los",
+   "type": "easter_egg",
+   "name": "Reference: Debra 's apartment, which acts as Trevor's first safehouse in Los…",
+   "summary": "Debra 's apartment, which acts as Trevor's first safehouse in Los Santos, is modeled upon Melanie's apartment from the movie \" Jackie Brown \" by Quentin Tarantino. Even the pictures on the kitchen's pillar are very similar to those from the movie.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Debra 's apartment, which acts as Trevor's first safehouse in Los Santos, is modeled upon Melanie's apartment from the movie \" Jackie Brown \" by Quentin Tarantino. Even the pictures on the kitchen's pillar are very similar to those from the movie."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Debra"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Debra's Apartment"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Los Santos"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Jackie Brown"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Quentin Tarantino"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-some-power-stations-have-an-orange-sticker-that-says-1-21-gw-gw",
+   "type": "easter_egg",
+   "name": "Reference: Some power stations have an orange sticker that says 1.21 GW (GW…",
+   "summary": "Some power stations have an orange sticker that says 1.21 GW (GW most likely an abbreviation of gigawatt), a very likely reference to the Back to the Future trilogy",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Some power stations have an orange sticker that says 1.21 GW (GW most likely an abbreviation of gigawatt), a very likely reference to the Back to the Future trilogy"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Back to the Future trilogy"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-customized-jb-700-armed-with-machine-guns-tire-spikes",
+   "type": "easter_egg",
+   "name": "Reference: There is a customized JB 700 armed with machine guns, tire spikes…",
+   "summary": "There is a customized JB 700 armed with machine guns, tire spikes and a passenger ejector seat in one of Devin Weston's car jobs. This is a reference to James Bond's specially modified Aston Martin DB5 (on which the JB 700 is modeled) from the 1964 movie Goldfinger.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a customized JB 700 armed with machine guns, tire spikes and a passenger ejector seat in one of Devin Weston's car jobs. This is a reference to James Bond's specially modified Aston Martin DB5 (on which the JB 700 is modeled) from the 1964 movie Goldfinger."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "JB 700"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:James Bond"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Goldfinger"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-also-an-advertisement-near-sandy-shores-that-mentions-a",
+   "type": "easter_egg",
+   "name": "Reference: There is also an advertisement near Sandy Shores that mentions a…",
+   "summary": "There is also an advertisement near Sandy Shores that mentions a company called, \" J's Bonds \". This is a reference to the main protagonist of the 007 franchise, James Bond.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is also an advertisement near Sandy Shores that mentions a company called, \" J's Bonds \". This is a reference to the main protagonist of the 007 franchise, James Bond."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "J's Bonds"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:James Bond"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-if-you-go-to-the-clothing-store-near-trevors-house-there-is-a",
+   "type": "easter_egg",
+   "name": "Reference: If you go to the clothing store near Trevor's house, there is a…",
+   "summary": "If you go to the clothing store near Trevor's house, there is a jacket called \"Champagne Driver Blouson,\" which has a crab on the back. This is a reference to the movie \" Drive,\" as the main character wore the same jacket, with the only difference being that there was a scorpion on the back.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you go to the clothing store near Trevor's house, there is a jacket called \"Champagne Driver Blouson,\" which has a crab on the back. This is a reference to the movie \" Drive,\" as the main character wore the same jacket, with the only difference being that there was a scorpion on the back."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Drive (2011 film)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-los-santos-you-can-find-a-museum-called-bishops-wtf-an",
+   "type": "easter_egg",
+   "name": "Reference: In Los Santos, you can find a Museum called Bishop's WTF, an…",
+   "summary": "In Los Santos, you can find a Museum called Bishop's WTF, an obviously parody of the famous Ripley's Believe It Or Not! museums",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Los Santos, you can find a Museum called Bishop's WTF, an obviously parody of the famous Ripley's Believe It Or Not! museums"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Bishop's WTF"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Ripley's Believe It Or Not!"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-if-you-go-to-chiliad-mountain-state-wilderness-you-will-see-a-drug",
+   "type": "easter_egg",
+   "name": "Reference: If you go to Chiliad Mountain State Wilderness, you will see a drug…",
+   "summary": "If you go to Chiliad Mountain State Wilderness, you will see a drug deal that has gone bad. If you go down a small slope, you will see a guy on the ground telling you to \"stay away from the case.\" If you grab the case (which grants you $25,000), he still state that you are a dead man. This is a reference to the movie \" No Country for Old Men,\" as one of the protagonists stumbles upon a drug deal gone bad and a case which contains $2,000,000. When the protagonist finds and takes the money, he discovers that a hitman (as well as the police and cartel) are out to recover the money.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "If you go to Chiliad Mountain State Wilderness, you will see a drug deal that has gone bad. If you go down a small slope, you will see a guy on the ground telling you to \"stay away from the case.\" If you grab the case (which grants you $25,000), he still state that you are a dead man. This is a…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Chiliad Mountain State Wilderness"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:No Country for Old Men"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-one-of-the-discount-stores-you-can-find-a-red-jacket-named",
+   "type": "easter_egg",
+   "name": "Reference: In one of the discount stores, you can find a red jacket named…",
+   "summary": "In one of the discount stores, you can find a red jacket named \"Overlooked red blouson\", which is the jacket worn by Jack Torrance in the movie The Shining. The hotel where the Torrance family stays in the movie is also called The Overlook Hotel.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In one of the discount stores, you can find a red jacket named \"Overlooked red blouson\", which is the jacket worn by Jack Torrance in the movie The Shining. The hotel where the Torrance family stays in the movie is also called The Overlook Hotel."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Jack Torrance"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:The Shining (film)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-lester-crest-owns-a-poster-depicting-a-flying-saucer-and-the-phrase",
+   "type": "easter_egg",
+   "name": "Reference: Lester Crest owns a poster depicting a flying saucer and the phrase…",
+   "summary": "Lester Crest owns a poster depicting a flying saucer and the phrase \"Accept the truth\", a reference to Fox Mulder's \"I want to believe\" poster in The X-Files.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Lester Crest owns a poster depicting a flying saucer and the phrase \"Accept the truth\", a reference to Fox Mulder's \"I want to believe\" poster in The X-Files."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Lester Crest"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:The X-Files"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-tuner-section-of-the-available-wheels-in-los-santos-customs",
+   "type": "easter_egg",
+   "name": "Reference: In the Tuner section of the available wheels in Los Santos Customs,…",
+   "summary": "In the Tuner section of the available wheels in Los Santos Customs, there is a design called Fujiwara - a clear nod to the Initial D manga/anime. The wheel design is also based on the design used for the Toyota Corolla Trueno AE86 used in the anime/manga.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the Tuner section of the available wheels in Los Santos Customs, there is a design called Fujiwara - a clear nod to the Initial D manga/anime. The wheel design is also based on the design used for the Toyota Corolla Trueno AE86 used in the anime/manga."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Los Santos Customs"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Initial D"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-also-in-the-sports-section-of-the-available-wheels-there-is-a",
+   "type": "easter_egg",
+   "name": "Reference: Also in the Sports section of the available wheels, there is a…",
+   "summary": "Also in the Sports section of the available wheels, there is a design called Duper 7. This wheel design is based on Nissan GT-R models produced between 2007 and 2010",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Also in the Sports section of the available wheels, there is a design called Duper 7. This wheel design is based on Nissan GT-R models produced between 2007 and 2010"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Nissan GT-R"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-mansion-that-is-based-on-the-playboy-mansion",
+   "type": "easter_egg",
+   "name": "Reference: There is a mansion that is based on the Playboy Mansion",
+   "summary": "There is a mansion that is based on the Playboy Mansion.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a mansion that is based on the Playboy Mansion."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Playboy Mansion"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-sometimes-when-you-switch-to-trevor-when-not-in-a-mission-he-and",
+   "type": "easter_egg",
+   "name": "Reference: Sometimes when you switch to Trevor when not in a mission, he and…",
+   "summary": "Sometimes when you switch to Trevor when not in a mission, he and another man in front of him will be riding a Faggio and Trevor will say, \" We are scooter brothers! Scooooter brothers! \". This is a reference to 4PP (4PlayerPodcast), more specifically http://www.youtube.com/watch?v=GxKj_CmtHRI",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sometimes when you switch to Trevor when not in a mission, he and another man in front of him will be riding a Faggio and Trevor will say, \" We are scooter brothers! Scooooter brothers! \". This is a reference to 4PP (4PlayerPodcast), more specifically http://www.youtube.com/watch?v=GxKj_CmtHRI"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Faggio"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-strawberry-there-is-a-graffiti-in-an-alleyway-that-resembles-the",
+   "type": "easter_egg",
+   "name": "Reference: In Strawberry, there is a graffiti in an alleyway that resembles the…",
+   "summary": "In Strawberry, there is a graffiti in an alleyway that resembles the Nyan Cat.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Strawberry, there is a graffiti in an alleyway that resembles the Nyan Cat."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Strawberry"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Nyan Cat"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-during-an-optional-tour-in-downtown-vinewood-the-vinewood-tour-lady",
+   "type": "easter_egg",
+   "name": "Reference: During an optional tour in Downtown Vinewood, the Vinewood Tour lady…",
+   "summary": "During an optional tour in Downtown Vinewood, the Vinewood Tour lady will state that the mayor's office appeared during a \"twenty-minute final dogfight to save Earth in the movie Invasion: Los Santos\". The \"dogfight to save Earth\" is a reference to 1996 alien invasion movie Independence Day, which ends with a lengthy dogfight sequence, while the title Invasion: Los Santos is a reference to another alien invasion movie, Battle: Los Angeles.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "During an optional tour in Downtown Vinewood, the Vinewood Tour lady will state that the mayor's office appeared during a \"twenty-minute final dogfight to save Earth in the movie Invasion: Los Santos\". The \"dogfight to save Earth\" is a reference to 1996 alien invasion movie Independence Day, which…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Downtown Vinewood"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Independence Day (1996 film)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Battle: Los Angeles"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-desert-in-sandy-shores-on-a-few-rocks-a-lot-of-the-number-8",
+   "type": "easter_egg",
+   "name": "Reference: In the desert in Sandy Shores, on a few rocks, a lot of the number 8…",
+   "summary": "In the desert in Sandy Shores, on a few rocks, a lot of the number 8 are inscribed. There is also an inscription which writes: \" One is done, Two was fun, Three tried to run, Four called mom, Five's not alive, Six is nix, Seven's in heaven, 8 won't wait. \" This may be a reference to Freddy Krueger 's poem and this may have been written by a serial killer or rapist, possibly by Merle Abrahams.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the desert in Sandy Shores, on a few rocks, a lot of the number 8 are inscribed. There is also an inscription which writes: \" One is done, Two was fun, Three tried to run, Four called mom, Five's not alive, Six is nix, Seven's in heaven, 8 won't wait. \" This may be a reference to Freddy Krueger…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Sandy Shores"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Freddy Krueger"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Merle Abrahams"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-inside-lester-s-safehouse-before-you-leave-his-bedroom-take-a-right",
+   "type": "easter_egg",
+   "name": "Reference: Inside Lester 's safehouse, before you leave his bedroom, take a right",
+   "summary": "Inside Lester 's safehouse, before you leave his bedroom, take a right. There will be some action figures that closely resemble Master Chief from Halo, Superman and Black Adam from the DC Universe, presumably Han Solo from Star Wars and two other figures. Also, below the figures is a replica of the Excalibur sword.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Inside Lester 's safehouse, before you leave his bedroom, take a right. There will be some action figures that closely resemble Master Chief from Halo, Superman and Black Adam from the DC Universe, presumably Han Solo from Star Wars and two other figures. Also, below the figures is a replica of…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Lester"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-car-tuning-garage-close-to-the-vanilla-unicorn-called",
+   "type": "easter_egg",
+   "name": "Reference: There is a car tuning garage close to the Vanilla Unicorn called \"…",
+   "summary": "There is a car tuning garage close to the Vanilla Unicorn called \" Car Tune Network \" a reference to the TV station Cartoon Network.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a car tuning garage close to the Vanilla Unicorn called \" Car Tune Network \" a reference to the TV station Cartoon Network."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vanilla Unicorn"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Cartoon Network"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-heist-mission-the-big-score-is-a-reference-to-the-film-the",
+   "type": "easter_egg",
+   "name": "Reference: The heist mission The Big Score is a reference to the film ' The…",
+   "summary": "The heist mission The Big Score is a reference to the film ' The Italian Job ' where 3 Mini Coopers are used to carry out a heist to steal gold bars. However, the protagonists use four Gauntlets to steal gold. Still, both involve manipulating the traffic light system and armoured trucks.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The heist mission The Big Score is a reference to the film ' The Italian Job ' where 3 Mini Coopers are used to carry out a heist to steal gold bars. However, the protagonists use four Gauntlets to steal gold. Still, both involve manipulating the traffic light system and armoured trucks."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "The Big Score (GTA V)"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Mini"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Gauntlet"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-in-the-mountains-there-is-a-thelma-and-louise-easter-egg",
+   "type": "easter_egg",
+   "name": "Reference: In the mountains there is a Thelma and Louise Easter Egg",
+   "summary": "In the mountains there is a Thelma and Louise Easter Egg. If you go to the right part of the mountains between 7:00 and 8:00 PM you see a vehicle similar to the one from the movie. A few feet behind the vehicle are a few police cars and a helicopter. You see an officer begin to approach the vehicle. As he gets closer the vehicle's engine starts and the car drives off of the edge of the cliff. This Easter Egg only happens if you are in a helicopter. You will not see it on foot however, if you approach the scene on foot from the bottom of the cliff, you will see the vehicle crash and it is…",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the mountains there is a Thelma and Louise Easter Egg. If you go to the right part of the mountains between 7:00 and 8:00 PM you see a vehicle similar to the one from the movie. A few feet behind the vehicle are a few police cars and a helicopter. You see an officer begin to approach the…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media",
+    "time_window": "7:00–8:00"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-during-one-of-the-main-missions-a-pilot-that-is-flying-with-trevor",
+   "type": "easter_egg",
+   "name": "Reference: During one of the main missions a pilot that is flying with Trevor…",
+   "summary": "During one of the main missions a pilot that is flying with Trevor will remark that the LSPD have come a long way concerning racism in the last two decades. The pilot may be referencing the events of Grand Theft Auto San Andreas and C.R.A.S.H.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "During one of the main missions a pilot that is flying with Trevor will remark that the LSPD have come a long way concerning racism in the last two decades. The pilot may be referencing the events of Grand Theft Auto San Andreas and C.R.A.S.H."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "C.R.A.S.H."
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-while-driving-in-blaine-county-you-will-sometimes-come-across-a",
+   "type": "easter_egg",
+   "name": "Reference: While driving in Blaine County you will sometimes come across a…",
+   "summary": "While driving in Blaine County you will sometimes come across a parked camper van with two men dressed in chemical overalls standing nearby. One of the men is an older bald man with a goatee and glasses, the other is a younger man with a beanie hat on. This is an obvious reference to Breaking Bad depicting Walter White and Jesse Pinkman respectively.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "While driving in Blaine County you will sometimes come across a parked camper van with two men dressed in chemical overalls standing nearby. One of the men is an older bald man with a goatee and glasses, the other is a younger man with a beanie hat on. This is an obvious reference to Breaking Bad…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Blaine County"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Breaking Bad"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-on-the-radio-station-west-coast-classics-dj-pooh-talks-about-a-new",
+   "type": "easter_egg",
+   "name": "Reference: On the radio station West Coast Classics, DJ Pooh talks about a new…",
+   "summary": "On the radio station West Coast Classics, DJ Pooh talks about a new smartphone app called Digipun. This refers to Digimonsters.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On the radio station West Coast Classics, DJ Pooh talks about a new smartphone app called Digipun. This refers to Digimonsters."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "West Coast Classics"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "DJ Pooh"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Digimonsters"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-sometimes-a-person-can-be-found-outside-the-vanilla-unicorn-at-night",
+   "type": "easter_egg",
+   "name": "Reference: Sometimes a person can be found outside the Vanilla Unicorn at night…",
+   "summary": "Sometimes a person can be found outside the Vanilla Unicorn at night texting. When passing near him, one of the lines he might say is \"I sent that bitch a smiley face, bitches love smiley faces!\", referencing the popular line from the show The Boondocks.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sometimes a person can be found outside the Vanilla Unicorn at night texting. When passing near him, one of the lines he might say is \"I sent that bitch a smiley face, bitches love smiley faces!\", referencing the popular line from the show The Boondocks."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vanilla Unicorn"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:The Boondocks"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-calendar-inside-the-merryweather-base-in-elysian-island",
+   "type": "easter_egg",
+   "name": "Reference: There is a calendar inside the Merryweather base in Elysian Island…",
+   "summary": "There is a calendar inside the Merryweather base in Elysian Island (Seen over the safe in Stocks and Scares) with a picture of a Reefer and a caption saying \"I'm on a boat!\", referencing the Lonely Island song I'm on a Boat.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a calendar inside the Merryweather base in Elysian Island (Seen over the safe in Stocks and Scares) with a picture of a Reefer and a caption saying \"I'm on a boat!\", referencing the Lonely Island song I'm on a Boat."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "located_in",
+     "toName": "Elysian Island"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Stocks and Scares"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Reefer"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:I'm on a Boat"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-by-the-lifeguard-station-at-the-south-end-of-vespucci-beach-you-may",
+   "type": "easter_egg",
+   "name": "Reference: By the lifeguard station at the south end of Vespucci Beach you may…",
+   "summary": "By the lifeguard station at the south end of Vespucci Beach you may see a sexy female lifeguard wearing a swimsuit similar to that worn by the sexy female lifeguards in Baywatch.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "By the lifeguard station at the south end of Vespucci Beach you may see a sexy female lifeguard wearing a swimsuit similar to that worn by the sexy female lifeguards in Baywatch."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to other media"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Baywatch"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-in-the-los-santos-country-club-there-is-a-golf-sign-saying-169",
+   "type": "easter_egg",
+   "name": "Easter egg: In the Los Santos Country Club, there is a golf sign saying, \"169…",
+   "summary": "In the Los Santos Country Club, there is a golf sign saying, \"169 Yards\".",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the Los Santos Country Club, there is a golf sign saying, \"169 Yards\"."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Los Santos Country Club"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-69-is-graffitied-on-the-back-of-the-vinewood-sign",
+   "type": "easter_egg",
+   "name": "Easter egg: \"69\" is graffitied on the back of the Vinewood Sign",
+   "summary": "\"69\" is graffitied on the back of the Vinewood Sign.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "\"69\" is graffitied on the back of the Vinewood Sign."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vinewood Sign"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-the-name-of-the-shop-liquor-ace-sounds-like-lick-her-ass-when",
+   "type": "easter_egg",
+   "name": "Easter egg: The name of the shop Liquor Ace sounds like \" lick her ass \" when…",
+   "summary": "The name of the shop Liquor Ace sounds like \" lick her ass \" when said aloud.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The name of the shop Liquor Ace sounds like \" lick her ass \" when said aloud."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Liquor Ace"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-the-lifeinvader-commercial-suggests-that-the-lifeinvader-tablet-can",
+   "type": "easter_egg",
+   "name": "Easter egg: The Lifeinvader commercial suggests that the Lifeinvader tablet can…",
+   "summary": "The Lifeinvader commercial suggests that the Lifeinvader tablet can be used as a fleshlight.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The Lifeinvader commercial suggests that the Lifeinvader tablet can be used as a fleshlight."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Lifeinvader"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-the-two-tires-used-as-the-tire-nutz-logo-line-up-with-a-silo-behind",
+   "type": "easter_egg",
+   "name": "Easter egg: The two tires used as the Tire Nutz logo line up with a silo behind…",
+   "summary": "The two tires used as the Tire Nutz logo line up with a silo behind them to form male genitals from a certain angle.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The two tires used as the Tire Nutz logo line up with a silo behind them to form male genitals from a certain angle."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-in-vinewood-hills-there-is-a-house-near-the-runaway-brides-home",
+   "type": "easter_egg",
+   "name": "Easter egg: In Vinewood Hills, there is a house (near the runaway bride's home)…",
+   "summary": "In Vinewood Hills, there is a house (near the runaway bride's home) with a garden gnome leaning forward with his pants down, as if he is ready for anal sex/mooning.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Vinewood Hills, there is a house (near the runaway bride's home) with a garden gnome leaning forward with his pants down, as if he is ready for anal sex/mooning."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Vinewood Hills (GTA V)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-in-michaels-bedroom-theres-a-kama-sutra-book-on-the-night-table",
+   "type": "easter_egg",
+   "name": "Easter egg: In Michael's bedroom, there's a \"kama sutra\" book on the night table",
+   "summary": "In Michael's bedroom, there's a \"kama sutra\" book on the night table.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Michael's bedroom, there's a \"kama sutra\" book on the night table."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-after-switching-to-michael-in-his-home-sometimes-when-he-suddenly",
+   "type": "easter_egg",
+   "name": "Easter egg: After switching to Michael in his home, sometimes when he suddenly…",
+   "summary": "After switching to Michael in his home, sometimes when he suddenly enters his room and his wife is on bed, Amanda says that thought she had locked the door, and throws away a dildo, then goes to sleep.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "After switching to Michael in his home, sometimes when he suddenly enters his room and his wife is on bed, Amanda says that thought she had locked the door, and throws away a dildo, then goes to sleep."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Michael"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Amanda"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Dildo"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-wiwang-wee-wang-is-the-brand-of-various-ac-units-installed-on",
+   "type": "easter_egg",
+   "name": "Easter egg: Wiwang (wee wang) is the brand of various AC units installed on…",
+   "summary": "Wiwang (wee wang) is the brand of various AC units installed on building rooftops.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Wiwang (wee wang) is the brand of various AC units installed on building rooftops."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-the-route-layout-for-the-freeway-street-race-resembles-a-crude",
+   "type": "easter_egg",
+   "name": "Reference: The route layout for the \"Freeway\" street race resembles a crude…",
+   "summary": "The route layout for the \"Freeway\" street race resembles a crude drawing of a penis and testicles when viewed from above (best seen on the Rockstar Social Club page).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The route layout for the \"Freeway\" street race resembles a crude drawing of a penis and testicles when viewed from above (best seen on the Rockstar Social Club page)."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-in-the-construction-site-assassination-mission-mile-high-club-a",
+   "type": "easter_egg",
+   "name": "Easter egg: In the construction site assassination mission (Mile High Club), a…",
+   "summary": "In the construction site assassination mission (Mile High Club), a factory who developes the sites building materials is named Fap, which is a slang term for masturbation.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In the construction site assassination mission (Mile High Club), a factory who developes the sites building materials is named Fap, which is a slang term for masturbation."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-fabiens-yoga-positions-represent-the-kama-sutra",
+   "type": "easter_egg",
+   "name": "Easter egg: Fabien's Yoga positions represent the Kama Sutra",
+   "summary": "Fabien's Yoga positions represent the Kama Sutra.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Fabien's Yoga positions represent the Kama Sutra."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-in-exercising-demons-franklin-when-approaching-mary-ann-she-starts",
+   "type": "easter_egg",
+   "name": "Easter egg: In Exercising Demons-Franklin, when approaching Mary-Ann, she starts…",
+   "summary": "In Exercising Demons-Franklin, when approaching Mary-Ann, she starts her counting on 69, and refers to the triathlon as a \"Three-Way\".",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "In Exercising Demons-Franklin, when approaching Mary-Ann, she starts her counting on 69, and refers to the triathlon as a \"Three-Way\"."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Exercising Demons"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:easter-egg-having-sex-with-a-prostitute-will-increase-your-stamina",
+   "type": "easter_egg",
+   "name": "Easter egg: Having sex with a Prostitute will increase your stamina",
+   "summary": "Having sex with a Prostitute will increase your stamina.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Having sex with a Prostitute will increase your stamina."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Prostitute"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Skills (GTA V)"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-when-seen-from-high-above-the-roller-coasters-tracks-resemble-male",
+   "type": "easter_egg",
+   "name": "Reference: When seen from high above, the roller coasters tracks resemble male…",
+   "summary": "When seen from high above, the roller coasters tracks resemble male genitalia.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "When seen from high above, the roller coasters tracks resemble male genitalia."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "Adult Humour"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:easter-egg-traceys-bedroom-door-will-sometimes-be-locked-and-she-can-be-heard",
+   "type": "easter_egg",
+   "name": "Easter egg: Tracey's bedroom door will sometimes be locked and she can be heard…",
+   "summary": "Tracey's bedroom door will sometimes be locked and she can be heard through it having sex.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Tracey's bedroom door will sometimes be locked and she can be heard through it having sex."
+    }
+   ],
+   "attrs": {
+    "kind": "easter egg / secret",
+    "section": "Adult Humour"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Tracey De Santa"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-the-2011-london-riots-in-the-uk-are-mentioned-on-radio-advertisements",
+   "type": "easter_egg",
+   "name": "Reference: The 2011 London riots in the UK are mentioned on radio advertisements",
+   "summary": "The 2011 London riots in the UK are mentioned on radio advertisements.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "The 2011 London riots in the UK are mentioned on radio advertisements."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-news-reports-about-a-hurricane-flooding-liberty-city-and-leaving",
+   "type": "easter_egg",
+   "name": "Reference: News reports about a hurricane flooding Liberty City and leaving…",
+   "summary": "News reports about a hurricane flooding Liberty City and leaving many homeless can be heard on Weazel News, Radio Mirror Park, and Michael's TV during the Mr. Philips mission, referring to the recent Hurricane Sandy which impacted the New York City region, upon which Liberty City was based.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "News reports about a hurricane flooding Liberty City and leaving many homeless can be heard on Weazel News, Radio Mirror Park, and Michael's TV during the Mr. Philips mission, referring to the recent Hurricane Sandy which impacted the New York City region, upon which Liberty City was based."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Liberty City"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Weazel News"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Radio Mirror Park"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "Mr. Philips"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Hurricane Sandy"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-syrian-uprising-mentioned-by-the-host-of-non-stop-pop-100-7",
+   "type": "easter_egg",
+   "name": "Reference: Syrian uprising mentioned by the host of Non Stop Pop 100.7",
+   "summary": "Syrian uprising mentioned by the host of Non Stop Pop 100.7.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Syrian uprising mentioned by the host of Non Stop Pop 100.7."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Non Stop Pop 100.7"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-leonora-johnson-s-murder-is-a-clear-reference-to-the-black-dahlia",
+   "type": "easter_egg",
+   "name": "Reference: Leonora Johnson 's murder is a clear reference to the Black Dahlia…",
+   "summary": "Leonora Johnson 's murder is a clear reference to the Black Dahlia murder: the victim, Elizabeth Short, was found murdered and severely mutilated on January 15, 1947 in Leimert Park, Los Angeles. Some of her wounds, like cuts on her breasts and portions of flesh removed, are similar to Leonora's.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Leonora Johnson 's murder is a clear reference to the Black Dahlia murder: the victim, Elizabeth Short, was found murdered and severely mutilated on January 15, 1947 in Leimert Park, Los Angeles. Some of her wounds, like cuts on her breasts and portions of flesh removed, are similar to Leonora's."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "Leonora Johnson"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-there-is-a-poster-that-includes-a-picture-of-marilyn-monroe-charles",
+   "type": "easter_egg",
+   "name": "Reference: There is a poster that includes a picture of Marilyn Monroe, Charles…",
+   "summary": "There is a poster that includes a picture of Marilyn Monroe, Charles Chaplin, John Wayne and Elvis Presley.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "There is a poster that includes a picture of Marilyn Monroe, Charles Chaplin, John Wayne and Elvis Presley."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Marilyn Monroe"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Charles Chaplin"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:John Wayne"
+    },
+    {
+     "predicate": "related_to",
+     "toName": "wp:Elvis Presley"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-just-outside-of-sandy-shores-is-a-small-hill-painted-and-engraved",
+   "type": "easter_egg",
+   "name": "Reference: Just outside of Sandy Shores is a small hill painted and engraved…",
+   "summary": "Just outside of Sandy Shores is a small hill painted and engraved with many words and pictures relating to aliens and UFOs. One of the engravings is '6EQUJ5'. This is a reference to the famous Wow! signal, a mysterious and controversial radio signal from space detected in 1977 that many believe originated from an artificial interstellar source.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Just outside of Sandy Shores is a small hill painted and engraved with many words and pictures relating to aliens and UFOs. One of the engravings is '6EQUJ5'. This is a reference to the famous Wow! signal, a mysterious and controversial radio signal from space detected in 1977 that many believe…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-mosley-auto-services-in-strawberry-avenue-are-a-reference-to-max",
+   "type": "easter_egg",
+   "name": "Reference: Mosley Auto Services in Strawberry Avenue are a reference to Max…",
+   "summary": "Mosley Auto Services in Strawberry Avenue are a reference to Max Mosley, former FIA President, involved in a Nazi themed sex scandal with two prostitutes.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Mosley Auto Services in Strawberry Avenue are a reference to Max Mosley, former FIA President, involved in a Nazi themed sex scandal with two prostitutes."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-on-the-north-shore-of-the-alamo-sea-north-of-the-westernmost-dock",
+   "type": "easter_egg",
+   "name": "Reference: On the north shore of the Alamo Sea, north of the westernmost dock…",
+   "summary": "On the north shore of the Alamo Sea, north of the westernmost dock is a run down house with a tapdancing hillbilly outside. He is marked on your radar as a friend, while a woman sits nearby and watches on. This is a reference to Jesco White from the documentary \"The Wild and Wonderful Whites of West Virginia\".",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "On the north shore of the Alamo Sea, north of the westernmost dock is a run down house with a tapdancing hillbilly outside. He is marked on your radar as a friend, while a woman sits nearby and watches on. This is a reference to Jesco White from the documentary \"The Wild and Wonderful Whites of…"
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": [
+    {
+     "predicate": "related_to",
+     "toName": "wp:Jesco White"
+    }
+   ]
+  },
+  {
+   "id": "easter_egg:reference-weazel-news-occasionally-references-the-poor-state-of-the-healthcare",
+   "type": "easter_egg",
+   "name": "Reference: Weazel News occasionally references the poor state of the healthcare…",
+   "summary": "Weazel News occasionally references the poor state of the healthcare program in the United States.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Weazel News occasionally references the poor state of the healthcare program in the United States."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": []
+  },
+  {
+   "id": "easter_egg:reference-bath-salts-and-cannibalism-were-mentioned-in-a-radio-segment",
+   "type": "easter_egg",
+   "name": "Reference: Bath Salts and cannibalism were mentioned in a radio segment…",
+   "summary": "Bath Salts and cannibalism were mentioned in a radio segment advertising toilet cleaner, which is a reference to the Miami Cannibal Attack, in which a man suspected to be on bath salts attacked a man and bit off most of his face.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Secrets_and_Easter_Eggs_in_GTA_V",
+     "title": "Secrets in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Bath Salts and cannibalism were mentioned in a radio segment advertising toilet cleaner, which is a reference to the Miami Cannibal Attack, in which a man suspected to be on bath salts attacked a man and bit off most of his face."
+    }
+   ],
+   "attrs": {
+    "kind": "reference",
+    "section": "References to real life people and events"
+   },
+   "relations": []
+  }
+ ],
+ "completion": [],
+ "issues": [
+  "117 easter eggs / references; 2 items skipped because they describe GTA Online features"
+ ]
+}

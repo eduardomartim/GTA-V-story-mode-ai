@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import type { SearchGroup, SearchHit } from "@/lib/rag/search";
+import { useLang } from "@/lib/ui/i18n";
 
 export function SearchDialog({ open, onClose, onPick }: { open: boolean; onClose: () => void; onPick: (hit: SearchHit) => void }) {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -10,6 +11,7 @@ export function SearchDialog({ open, onClose, onPick }: { open: boolean; onClose
   const [groups, setGroups] = useState<SearchGroup[]>([]);
   const [state, setState] = useState<"idle" | "loading" | "error">("idle");
   const listId = useId();
+  const { t } = useLang();
 
   useEffect(() => {
     const d = dialog.current;
@@ -46,7 +48,7 @@ export function SearchDialog({ open, onClose, onPick }: { open: boolean; onClose
       ref={dialog}
       onClose={onClose}
       onClick={(e) => e.target === dialog.current && onClose()}
-      aria-label="Search the knowledge base"
+      aria-label={t("searchKb")}
       className="m-auto mt-[8vh] max-h-[80dvh] w-[min(94vw,620px)] overflow-hidden rounded-2xl border border-line bg-char p-0 text-bone shadow-2xl backdrop:bg-black/70 sm:mt-[12vh]"
     >
       <div className="flex items-center gap-2 border-b border-line px-3">
@@ -55,8 +57,8 @@ export function SearchDialog({ open, onClose, onPick }: { open: boolean; onClose
           ref={input}
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Search missions, characters, places, vehicles…"
-          aria-label="Search"
+          placeholder={t("searchPlaceholder")}
+          aria-label={t("search")}
           aria-controls={listId}
           className="h-12 flex-1 bg-transparent text-[0.95rem] outline-none placeholder:text-mute/70"
           maxLength={80}
@@ -64,8 +66,8 @@ export function SearchDialog({ open, onClose, onPick }: { open: boolean; onClose
         <kbd className="hidden rounded border border-line px-1.5 py-0.5 text-[0.65rem] text-mute sm:block">Esc</kbd>
       </div>
       <div id={listId} className="scroll-thin max-h-[58dvh] overflow-y-auto p-2" aria-live="polite">
-        {state === "loading" ? <p className="px-2 py-3 text-sm text-mute">Searching…</p> : null}
-        {state === "error" ? <p className="px-2 py-3 text-sm text-danger">Search is unavailable right now.</p> : null}
+        {state === "loading" ? <p className="px-2 py-3 text-sm text-mute">{t("searching")}</p> : null}
+        {state === "error" ? <p className="px-2 py-3 text-sm text-danger">{t("searchError")}</p> : null}
         {state === "idle" && q.trim().length >= 2 && shown.length === 0 ? <p className="px-2 py-3 text-sm text-mute">No Story Mode results for “{q.trim()}”.</p> : null}
         {shown.map((g) => (
           <section key={g.group} aria-label={g.group} className="mb-2">

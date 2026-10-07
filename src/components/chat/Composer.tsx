@@ -1,5 +1,6 @@
 "use client";
 
+import { useLang } from "@/lib/ui/i18n";
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState, useSyncExternalStore } from "react";
 
 export const MAX_LENGTH = 600;
@@ -23,6 +24,7 @@ export interface ComposerHandle {
 
 export const Composer = forwardRef<ComposerHandle, { disabled: boolean; onSend: (text: string) => void }>(function Composer({ disabled, onSend }, ref) {
   const [value, setValue] = useState("");
+  const { t } = useLang();
   const area = useRef<HTMLTextAreaElement>(null);
   const wide = useMediaQuery("(min-width: 480px)");
   useImperativeHandle(ref, () => ({ focus: () => area.current?.focus() }));
@@ -47,7 +49,7 @@ export const Composer = forwardRef<ComposerHandle, { disabled: boolean; onSend: 
       onSubmit={(e) => { e.preventDefault(); submit(); }}
       className="flex items-end gap-2 rounded-2xl border border-line bg-panel/95 p-2 shadow-[0_8px_30px_rgba(0,0,0,.45)] transition focus-within:border-ember/60"
     >
-      <label htmlFor="composer" className="sr-only">Ask anything about GTA V Story Mode</label>
+      <label htmlFor="composer" className="sr-only">{t("composerLabel")}</label>
       <textarea
         id="composer"
         ref={area}
@@ -58,7 +60,7 @@ export const Composer = forwardRef<ComposerHandle, { disabled: boolean; onSend: 
         onKeyDown={(e) => {
           if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); submit(); }
         }}
-        placeholder={wide ? "Ask anything about GTA V Story Mode…" : "Ask about GTA V Story Mode…"}
+        placeholder={wide ? t("placeholderWide") : t("placeholderNarrow")}
         className="max-h-[150px] min-h-10 flex-1 resize-none bg-transparent px-2.5 py-2 text-[0.95rem] text-bone outline-none placeholder:text-mute/70 focus-visible:outline-none"
         autoComplete="off"
         spellCheck
@@ -69,7 +71,7 @@ export const Composer = forwardRef<ComposerHandle, { disabled: boolean; onSend: 
       <button
         type="submit"
         disabled={disabled || !value.trim()}
-        aria-label="Send message"
+        aria-label={t("send")}
         className="grid size-10 shrink-0 place-items-center rounded-xl bg-ember text-ink transition hover:bg-[#ff9f55] disabled:cursor-not-allowed disabled:bg-raise disabled:text-mute"
       >
         <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>

@@ -1,0 +1,317 @@
+{
+ "extractor": "aliases (hand-written PT/EN synonyms; no new facts)",
+ "entities": [
+  {
+   "id": "collectible:spaceship-parts",
+   "type": "collectible",
+   "name": "Spaceship Parts",
+   "summary": "50 spaceship parts. You first need to finish the Franklin stranger mission Omega; once all parts are found and returned, the Space Docker becomes available in Omega's garage.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Space_Docker",
+     "confidence": 0.8,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "peças de nave",
+    "peça de nave",
+    "pecas de nave",
+    "partes da nave",
+    "peças da nave espacial",
+    "spaceship parts",
+    "nave espacial"
+   ]
+  },
+  {
+   "id": "collectible:letter-scraps",
+   "type": "collectible",
+   "name": "Letter Scraps",
+   "summary": "50 letter scraps (pieces of a torn letter) are scattered around San Andreas. They tie into the Franklin stranger mission A Starlet in Vinewood. Collecting all 50 is one of the required miscellaneous activities for 100%.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Letter_Scraps",
+     "confidence": 0.8,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "pedaços de carta",
+    "pedaço de carta",
+    "carta rasgada",
+    "fragmentos de carta",
+    "letter scraps",
+    "scraps"
+   ]
+  },
+  {
+   "id": "collectible:nuclear-waste",
+   "type": "collectible",
+   "name": "Nuclear Waste",
+   "summary": "30 yellow biohazard barrels dumped underwater. After buying the Sonar Collections Dock you use a Trackify app as a radar; GamePressure lists about $23,000 per barrel and a $250,000 bonus when all are collected.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gamepressure",
+     "url": "https://www.gamepressure.com/gtav/radioactive-waste/ze55c1",
+     "confidence": 0.65,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "barris de lixo nuclear",
+    "lixo radioativo",
+    "resíduo nuclear",
+    "barris nucleares",
+    "nuclear waste"
+   ]
+  },
+  {
+   "id": "collectible:submarine-pieces",
+   "type": "collectible",
+   "name": "Submarine Pieces",
+   "summary": "Underwater submarine parts that become available after buying the Sonar Collections Dock ($250,000). GTA5Wiki lists 30 pieces and a Kraken submersible as the reward, tied to an Abigail Mathers strand, which conflicts with GamePressure (Michael, purchase-driven); the character and the reward are therefore unconfirmed.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gamepressure",
+     "url": "https://www.gamepressure.com/gtav/submarine-parts/z7566f",
+     "confidence": 0.55,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "peças de submarino",
+    "partes do submarino",
+    "submarine parts",
+    "submarine pieces"
+   ]
+  },
+  {
+   "id": "collectible:peyote-plants",
+   "type": "collectible",
+   "name": "Peyote Plants",
+   "summary": "27 peyote plants, exclusive to the PS4, Xbox One and PC versions and later. Eating one triggers a hallucination in which you play as a random Land, Sea or Air animal; the plants respawn after collection.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Peyote_Plants",
+     "confidence": 0.8,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "peyotes",
+    "peiotes",
+    "cacto peyote",
+    "peyote plants"
+   ]
+  },
+  {
+   "id": "collectible:stunt-jumps",
+   "type": "collectible",
+   "name": "Stunt Jumps",
+   "summary": "50 stunt jumps; 25 of them are required for 100% completion.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gtabase",
+     "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+     "confidence": 0.65,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "saltos",
+    "saltos de dublê",
+    "rampas de salto",
+    "stunt jumps",
+    "saltos acrobaticos"
+   ]
+  },
+  {
+   "id": "collectible:under-the-bridge",
+   "type": "collectible",
+   "name": "Under the Bridge",
+   "summary": "50 bridges to pass under (by plane); 25 of them are required for 100% completion.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gtabase",
+     "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+     "confidence": 0.65,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "debaixo da ponte",
+    "sob a ponte",
+    "passar sob pontes",
+    "voar sob pontes",
+    "under the bridge"
+   ]
+  },
+  {
+   "id": "collectible:knife-flights",
+   "type": "collectible",
+   "name": "Knife Flights",
+   "summary": "15 knife flights (flying a plane through narrow gaps); 8 of them are required for 100% completion.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gtabase",
+     "url": "https://www.gtabase.com/grand-theft-auto-v/guides/gta-5-100-completion-guide-checklist",
+     "confidence": 0.65,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "voo de faca",
+    "voos de faca",
+    "knife flights"
+   ]
+  },
+  {
+   "id": "collectible:monkey-mosaics",
+   "type": "collectible",
+   "name": "Monkey Mosaics",
+   "summary": "50 Monkey Mosaics to photograph, available in the versions on newer consoles and PC. Photographing them all rewards a monkey disguise and a monkey-livery car in your garage.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gamepressure",
+     "url": "https://www.gamepressure.com/gtav/monkey-mosaics-images/z2716d",
+     "confidence": 0.6,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "mosaicos",
+    "mosaicos de macaco",
+    "monkey mosaics"
+   ]
+  },
+  {
+   "id": "collectible:epsilon-tracts",
+   "type": "collectible",
+   "name": "Epsilon Tracts",
+   "summary": "Epsilon Tracts are collected after Michael completes the eight Epsilon Program missions. Marnie sends a message with a link to a long text, the Epsilon Tract of the 9th Paradigm, as the reward. The total is 10 according to GTA5Wiki.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gamepressure",
+     "url": "https://www.gamepressure.com/gtav/epsilon-tracts/z3566b",
+     "confidence": 0.6,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "folhetos epsilon",
+    "tratados epsilon",
+    "epsilon tracts"
+   ]
+  },
+  {
+   "id": "collectible:hidden-packages",
+   "type": "collectible",
+   "name": "Hidden Packages",
+   "summary": "Hidden packages exist in GTA V Story Mode: GTA5Wiki lists 12, and GamePressure shows roughly a dozen cash values on its map. Almost all are underwater (ship or plane wrecks) and contain cash and, per GTA5Wiki, sometimes weapons.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gamepressure",
+     "url": "https://www.gamepressure.com/gtav/hidden-packages/z4566c",
+     "confidence": 0.55,
+     "retrieved_at": "2026-10-06"
+    }
+   ],
+   "aliases": [
+    "pacotes escondidos",
+    "maletas escondidas",
+    "hidden packages"
+   ]
+  },
+  {
+   "id": "location:trevors-trailer",
+   "type": "location",
+   "name": "Trevor's Trailer",
+   "summary": "Trevor Philips' trailer in Sandy Shores, Blaine County.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gta-wiki",
+     "url": "https://gta.fandom.com/wiki/Trevor_Philips",
+     "confidence": 0.8
+    }
+   ],
+   "aliases": [
+    "Trevor Philips' Trailer",
+    "Trevor Philips Trailer",
+    "Trevor's Trailer"
+   ]
+  },
+  {
+   "id": "location:michaels-house",
+   "type": "location",
+   "name": "Michael's House",
+   "summary": "Michael De Santa's residence in Rockford Hills, Los Santos. Michael's safehouse.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gta-wiki",
+     "url": "https://gta.fandom.com/wiki/Michael_De_Santa",
+     "confidence": 0.8
+    }
+   ],
+   "aliases": [
+    "De Santa House",
+    "De Santa Residence",
+    "Michael's mansion"
+   ]
+  },
+  {
+   "id": "location:franklins-strawberry-house",
+   "type": "location",
+   "name": "Franklin's House in Strawberry",
+   "summary": "Franklin Clinton's first residence, in Strawberry, South Los Santos.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gta-wiki",
+     "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+     "confidence": 0.8
+    }
+   ],
+   "aliases": [
+    "Strawberry Safehouse",
+    "Franklin's house in Strawberry"
+   ]
+  },
+  {
+   "id": "location:franklins-vinewood-hills-house",
+   "type": "location",
+   "name": "Franklin's House in Vinewood Hills",
+   "summary": "Franklin's later residence in the Vinewood Hills overlooking Los Santos.",
+   "merge": true,
+   "sources": [
+    {
+     "source": "gta-wiki",
+     "url": "https://gta.fandom.com/wiki/Franklin_Clinton",
+     "confidence": 0.8
+    }
+   ],
+   "aliases": [
+    "3671 Whispymound Dr",
+    "Whispymound Drive",
+    "Franklin's Vinewood Hills house"
+   ]
+  }
+ ],
+ "completion": [],
+ "issues": []
+}

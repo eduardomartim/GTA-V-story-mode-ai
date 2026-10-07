@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
 import { MAP_VIEWBOX, mapToViewBox } from "@/lib/map/projection";
 import { mapSvgMarkup } from "@/lib/map/svg";
@@ -66,7 +67,7 @@ export function LocationCard({ card, lang }: { card: LocationData; lang: Lang })
     >
       <Facts>
         <Fact k={ui("where", lang)} v={where || "San Andreas"} />
-        <Fact k="Map" v={<Badge tone={card.precision === "verified" ? "tide" : "mute"}>{card.precision}</Badge>} />
+        <Fact k={ui("map", lang)} v={<Badge tone={card.precision === "verified" ? "tide" : "mute"}>{({ approximate: { pt: "aproximada", en: "approximate" }, verified: { pt: "verificada", en: "verified" }, community: { pt: "coord. comunidade", en: "community coords" }, area: { pt: "só a área", en: "area only" }, unknown: { pt: "desconhecida", en: "unknown" } } as Record<string, { pt: string; en: string }>)[card.precision]?.[lang] ?? card.precision}</Badge>} />
       </Facts>
       <Summary text={card.summary} />
       {showDir && hasPos ? <Directions gameX={card.gameX as number} gameY={card.gameY as number} lang={lang} /> : null}
@@ -95,6 +96,7 @@ export function MapCard({ card, lang }: { card: MapData; lang: Lang }) {
       actions={
         <>
           <button type="button" className={linkBtn} onClick={() => setOpen(true)}>⤢ {ui("expand", lang)}</button>
+          <Link className={linkBtn} href={`/map?focus=${encodeURIComponent(card.markers.find((m) => m.id !== "anchor")?.id ?? card.entityId)}`}>🗺 {ui("seeOnMap", lang)}</Link>
           {ext ? <a className={linkBtn} href={ext} target="_blank" rel="noopener noreferrer">↗ {ui("openMap", lang)}</a> : null}
         </>
       }

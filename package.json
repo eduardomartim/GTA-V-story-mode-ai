@@ -25,7 +25,12 @@
     "evaluate": "tsx scripts/eval.ts",
     "kb:coverage": "tsx scripts/coverage.ts",
     "evaluate:retrieval": "tsx scripts/eval-retrieval.ts",
-    "evaluate:llm": "tsx scripts/eval-llm.ts"
+    "evaluate:llm": "tsx scripts/eval-llm.ts",
+    "evaluate:agent": "tsx scripts/eval-agent.ts",
+    "kb:import": "tsx scripts/kb/import.ts",
+    "sources:fetch": "tsx scripts/sources/fetch.ts",
+    "sources:extract": "tsx scripts/sources/extract.ts",
+    "kb:land": "tsx scripts/dev/build-land.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

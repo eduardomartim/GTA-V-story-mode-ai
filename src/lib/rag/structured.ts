@@ -34,12 +34,12 @@ export async function structuredLookups(db: Db, analysis: QueryAnalysis): Promis
     for (const ch of analysis.entities.filter((e) => e.type === "character").slice(0, 1)) {
       const first = ch.name.split(" ")[0] as string;
       const skipPrologue = /prolog/.test(q);
-      const rows = await db.query<{ name: string; sequence: number }>(
-        `select e.name, m.sequence from missions m join entities e on e.id = m.entity_id
-          where ($1 = any(m.protagonists) or m.giver = $2) and ($3::boolean = false or m.mission_type <> 'prologue') order by m.sequence limit 3`, [first, ch.name, skipPrologue]);
+      const rows = await db.query<{ id: string; name: string; sequence: number }>(
+        `select e.id, e.name, m.sequence from missions m join entities e on e.id = m.entity_id
+          where ($1 = any(m.protagonists) or m.giver = $2) and ($3::boolean = false or m.mission_type <> 'prologue') and m.sequence is not null order by m.sequence limit 3`, [first, ch.name, skipPrologue]);
       if (rows.length) {
         out.push(synthetic({
-          entityId: ch.id, entityType: "character", entityName: ch.name,
+          entityId: rows[0]?.id ?? ch.id, entityType: rows[0] ? "mission" : "character", entityName: rows[0]?.name ?? ch.name,
           content: `Earliest story missions featuring ${ch.name}${skipPrologue ? " after the Prologue" : ""}, in the story order listed by Grand Theft Wiki: ${rows.map((r) => `#${r.sequence} ${r.name}`).join("; ")}.`,
         }, { ...meta, id: "grandtheftwiki", url: MISSIONS_LIST_URL }, 20));
       }

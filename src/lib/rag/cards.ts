@@ -149,5 +149,27 @@ export async function planCards(db: Db, refs: EntityRef[], intents: Intent[], li
       if (img) cards.push({ kind: "image", entityId: ref.id, title: img.title, url: img.url, isExternalLink: img.url.startsWith("http"), license: img.license, attribution: img.attribution ?? undefined, source: img.source, sourceUrl: img.source_url ?? undefined });
     }
   }
-  return { cards: cards.slice(0, limit + 1), focus };
+  const out = cards.slice(0, limit + 1);
+  const related = focus[0] ? await relatedCard(db, focus[0]) : undefined;
+  if (related) out.push(related);
+  return { cards: out, focus };
+}
+
+/**
+ * "Related missions / characters / places" for the focused entity, straight from the knowledge graph
+ * (both edge directions, hub edges excluded). Clicking an item asks the agent about it.
+ */
+export async function relatedCard(db: Db, id: string): Promise<CardData | undefined> {
+  const rows = await db.query<{ id: string; name: string; type: string }>(
+    `select distinct on (e.id) e.id, e.name, e.type from (
+       select to_id as nid, predicate from relationships where from_id = $1
+       union all select from_id as nid, predicate from relationships where to_id = $1
+     ) r join entities e on e.id = r.nid
+     where e.online_only = false and e.type in ('mission','heist','character','location','random_event','activity','hobby','easter_egg','vehicle','collectible')
+       and r.predicate not in ('instance_of','contributes_to') and e.id <> $1
+     order by e.id limit 40`, [id]);
+  if (rows.length < 2) return undefined;
+  const order: Record<string, number> = { mission: 0, heist: 0, character: 1, location: 2, random_event: 3, activity: 3, hobby: 3, easter_egg: 4, vehicle: 5, collectible: 6 };
+  const items = rows.sort((a, b) => (order[a.type] ?? 9) - (order[b.type] ?? 9) || a.name.localeCompare(b.name)).slice(0, 12);
+  return { kind: "related", title: "related", items };
 }

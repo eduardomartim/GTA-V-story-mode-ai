@@ -5,7 +5,7 @@ import { Badge, CardShell, Fact, Facts, Summary } from "./CardShell";
 export function CharacterCard({ card, lang }: { card: Extract<CardData, { kind: "character" }>; lang: Lang }) {
   return (
     <CardShell label={ui("character", lang)} title={card.name} accent="tide">
-      <div className="mt-1.5 flex gap-1.5">{card.playable ? <Badge tone="tide">Playable</Badge> : null}</div>
+      <div className="mt-1.5 flex gap-1.5">{card.playable ? <Badge tone="tide">{lang === "pt" ? "Jogável" : "Playable"}</Badge> : null}</div>
       <Facts>
         {card.role ? <Fact k={ui("role", lang)} v={card.role} /> : null}
         {card.ability ? <Fact k={ui("ability", lang)} v={card.ability} /> : null}

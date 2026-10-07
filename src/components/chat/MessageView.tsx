@@ -6,6 +6,7 @@ import { SourceCard, SpoilerCard } from "@/components/cards/MessageCards";
 import { cn } from "@/lib/cn";
 import type { ChatResult } from "@/lib/rag/types";
 import { t } from "@/lib/rag/messages";
+import { useLang } from "@/lib/ui/i18n";
 import { ui } from "@/lib/ui/text";
 import { SafeMarkdown } from "./SafeMarkdown";
 
@@ -19,8 +20,13 @@ export interface UiMessage {
   retryOf?: string;
 }
 
-const MODE_LABEL: Record<ChatResult["mode"], string | null> = {
-  llm: null, structured: "structured lookup · no LLM", "no-evidence": "no evidence", clarify: "needs context", "online-boundary": "story-mode guard", demo: "demo · no AI provider",
+const MODE_LABEL: Record<ChatResult["mode"], { pt: string; en: string } | null> = {
+  llm: null,
+  structured: { pt: "consulta estruturada · sem LLM", en: "structured lookup · no LLM" },
+  "no-evidence": { pt: "sem evidência", en: "no evidence" },
+  clarify: { pt: "precisa de contexto", en: "needs context" },
+  "online-boundary": { pt: "proteção Modo História", en: "story-mode guard" },
+  demo: { pt: "demo · sem provedor de IA", en: "demo · no AI provider" },
 };
 
 function Avatar() {
@@ -36,6 +42,7 @@ export const MessageView = memo(function MessageView({ message, onAsk, onRetry }
   onAsk: (q: string) => void;
   onRetry: (q: string) => void;
 }) {
+  const { t: tc } = useLang();
   if (message.role === "user") {
     return (
       <div className="msg-in flex justify-end">
@@ -48,18 +55,18 @@ export const MessageView = memo(function MessageView({ message, onAsk, onRetry }
 
   const r = message.result;
   const lang = r?.lang ?? "pt";
-  const modeLabel = r ? MODE_LABEL[r.mode] : null;
+  const modeLabel = r ? MODE_LABEL[r.mode]?.[lang] ?? null : null;
   return (
     <div className="msg-in flex gap-3" data-testid="assistant-message">
       <Avatar />
       <div className="min-w-0 flex-1">
-        <h2 className="sr-only">Assistant answer</h2>
+        <h2 className="sr-only">{lang === "pt" ? "Resposta do assistente" : "Assistant answer"}</h2>
         {message.error ? (
           <div role="alert" className="rounded-xl border border-danger/40 bg-danger/10 p-3 text-sm">
             <p className="text-bone">{message.error.message}</p>
             {message.retryOf ? (
               <button type="button" onClick={() => onRetry(message.retryOf as string)} className="mt-2 rounded-lg border border-line bg-raise px-3 py-1.5 text-xs font-medium hover:border-ember/60 hover:text-ember">
-                ↻ Retry
+                {tc("retry")}
               </button>
             ) : null}
           </div>
@@ -67,7 +74,7 @@ export const MessageView = memo(function MessageView({ message, onAsk, onRetry }
           <>
             {r?.spoiler ? <div className="mb-2"><SpoilerCard text={t("spoiler", lang)} /></div> : null}
             <SafeMarkdown text={message.content} messageId={message.id} />
-            {r ? <CardGrid cards={r.cards} lang={lang} /> : null}
+            {r ? <CardGrid cards={r.cards} lang={lang} onAsk={onAsk} /> : null}
             {r && r.sources.length > 0 ? (
               <section aria-label={ui("sources", lang)} className="mt-3">
                 <h4 className="mb-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-mute">
@@ -86,7 +93,7 @@ export const MessageView = memo(function MessageView({ message, onAsk, onRetry }
               </p>
             ) : null}
             {r && r.followUps.length > 0 ? (
-              <div className="mt-3 flex flex-wrap gap-1.5" aria-label="Suggested follow-ups">
+              <div className="mt-3 flex flex-wrap gap-1.5" aria-label={lang === "pt" ? "Sugestões de continuação" : "Suggested follow-ups"}>
                 {r.followUps.map((f) => (
                   <button key={f.label} type="button" onClick={() => onAsk(f.query)}
                     className="rounded-full border border-line bg-panel/80 px-3 py-1 text-xs font-medium text-bone transition hover:border-ember/60 hover:text-ember">

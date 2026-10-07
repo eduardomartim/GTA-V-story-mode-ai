@@ -1,0 +1,1428 @@
+{
+ "extractor": "tables",
+ "entities": [
+  {
+   "id": "weapon:fists",
+   "type": "weapon",
+   "name": "Fists",
+   "summary": "Fists — Unarmed weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Fists · Unarmed · Base Game · Free · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Unarmed",
+    "release": "Base Game",
+    "cost": "Free",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:antique-cavalry-dagger",
+   "type": "weapon",
+   "name": "Antique Cavalry Dagger",
+   "summary": "Antique Cavalry Dagger — Melee weapon in Grand Theft Auto V. Added by I'm Not a Hipster Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Antique Cavalry Dagger · Melee · I'm Not a Hipster Update · Free · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "I'm Not a Hipster Update",
+    "cost": "Free",
+    "upgrades": "None",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:baseball-bat",
+   "type": "weapon",
+   "name": "Baseball Bat",
+   "summary": "Baseball Bat — Melee weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Baseball Bat · Melee · Base Game · Not available to purchase · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Base Game",
+    "cost": "Not available to purchase",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:bottle",
+   "type": "weapon",
+   "name": "Bottle",
+   "summary": "Bottle — Melee weapon in Grand Theft Auto V. Added by Beach Bum Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Bottle · Melee · Beach Bum Update · Free · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Beach Bum Update",
+    "cost": "Free",
+    "upgrades": "None",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:crowbar",
+   "type": "weapon",
+   "name": "Crowbar",
+   "summary": "Crowbar — Melee weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Crowbar · Melee · Base Game · Not available to purchase · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Base Game",
+    "cost": "Not available to purchase",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:golf-club",
+   "type": "weapon",
+   "name": "Golf Club",
+   "summary": "Golf Club — Melee weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Golf Club · Melee · Base Game · Not available to purchase · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Base Game",
+    "cost": "Not available to purchase",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:hammer",
+   "type": "weapon",
+   "name": "Hammer",
+   "summary": "Hammer — Melee weapon in Grand Theft Auto V. Added by Special & Collectors Editions; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Hammer · Melee · Special & Collectors Editions · Free · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Special & Collectors Editions",
+    "cost": "Free",
+    "upgrades": "None",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:knife",
+   "type": "weapon",
+   "name": "Knife",
+   "summary": "Knife — Melee weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Knife · Melee · Base Game · $90 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Base Game",
+    "cost": "$90",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:nightstick",
+   "type": "weapon",
+   "name": "Nightstick",
+   "summary": "Nightstick — Melee weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Nightstick · Melee · Base Game · $90 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Melee",
+    "release": "Base Game",
+    "cost": "$90",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:ap-pistol",
+   "type": "weapon",
+   "name": "AP Pistol",
+   "summary": "AP Pistol — Hand Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "AP Pistol · Hand Gun · Base Game ·  · upgrades: Rounds x 36: $22\nDefault clip (comes equipped)\nExtended clip: $370\nFlashlight: $415\nSuppressor: $1,642\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Base Game",
+    "cost": "",
+    "upgrades": "Rounds x 36: $22\nDefault clip (comes equipped)\nExtended clip: $370\nFlashlight: $415\nSuppressor: $1,642\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:combat-pistol",
+   "type": "weapon",
+   "name": "Combat Pistol",
+   "summary": "Combat Pistol — Hand Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Combat Pistol · Hand Gun · Base Game · $600 · upgrades: Rounds x 24: $17\nDefault clip (comes equipped)\nExtended clip: $357\nFlashlight: $424\nSuppressor: $1,653\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Base Game",
+    "cost": "$600",
+    "upgrades": "Rounds x 24: $17\nDefault clip (comes equipped)\nExtended clip: $357\nFlashlight: $424\nSuppressor: $1,653\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:heavy-pistol",
+   "type": "weapon",
+   "name": "Heavy Pistol",
+   "summary": "Heavy Pistol — Hand Gun weapon in Grand Theft Auto V. Added by Business Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Heavy Pistol · Hand Gun · Business Update ·  · upgrades: Default clip (comes equipped)\nExtended clip:\nFlashlight:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Business Update",
+    "cost": "",
+    "upgrades": "Default clip (comes equipped)\nExtended clip:\nFlashlight:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:pistol",
+   "type": "weapon",
+   "name": "Pistol",
+   "summary": "Pistol — Hand Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Pistol · Hand Gun · Base Game ·  · upgrades: Rounds x 24: $17\nDefault clip (comes equipped)\nExtended clip: $348\nFlashlight: $424\nSuppressor: $1,639\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Base Game",
+    "cost": "",
+    "upgrades": "Rounds x 24: $17\nDefault clip (comes equipped)\nExtended clip: $348\nFlashlight: $424\nSuppressor: $1,639\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:pistol-50",
+   "type": "weapon",
+   "name": "Pistol.50",
+   "summary": "Pistol.50 — Hand Gun weapon in Grand Theft Auto V. Added by Special & Collectors Editions; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Pistol.50 · Hand Gun · Special & Collectors Editions · Free (Only available in the Special and Collectors editions) · upgrades: Rounds x 9:\nDefault clip (comes equipped)\nExtended clip:\nFlashlight:\nSuppressor:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Special & Collectors Editions",
+    "cost": "Free (Only available in the Special and Collectors editions)",
+    "upgrades": "Rounds x 9:\nDefault clip (comes equipped)\nExtended clip:\nFlashlight:\nSuppressor:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:sns-pistol",
+   "type": "weapon",
+   "name": "SNS Pistol",
+   "summary": "SNS Pistol — Hand Gun weapon in Grand Theft Auto V. Added by Beach Bum Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SNS Pistol · Hand Gun · Beach Bum Update · Free · upgrades: Rounds x 12: $10\nDefault clip (comes equipped)\nExtended clip: Free\nBlack tint (comes equipped)\nArmy tint: Free\nLSPD tint: Free"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Beach Bum Update",
+    "cost": "Free",
+    "upgrades": "Rounds x 12: $10\nDefault clip (comes equipped)\nExtended clip: Free\nBlack tint (comes equipped)\nArmy tint: Free\nLSPD tint: Free",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:stun-gun",
+   "type": "weapon",
+   "name": "Stun Gun",
+   "summary": "Stun Gun — Hand Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Stun Gun · Hand Gun · Base Game · $90 · upgrades: Black tint: (comes equipped)\nArmy tint: Free\nLSPD tint: Free"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "Base Game",
+    "cost": "$90",
+    "upgrades": "Black tint: (comes equipped)\nArmy tint: Free\nLSPD tint: Free",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:vintage-pistol",
+   "type": "weapon",
+   "name": "Vintage Pistol",
+   "summary": "Vintage Pistol — Hand Gun weapon in Grand Theft Auto V. Added by I'm Not a Hipster Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vintage Pistol · Hand Gun · I'm Not a Hipster Update · $3381 · upgrades: Rounds x 14:\nDefault clip (comes equipped)\nExtended clip:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Hand Gun",
+    "release": "I'm Not a Hipster Update",
+    "cost": "$3381",
+    "upgrades": "Rounds x 14:\nDefault clip (comes equipped)\nExtended clip:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:combat-mg",
+   "type": "weapon",
+   "name": "Combat MG",
+   "summary": "Combat MG — Light Machine Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Combat MG · Light Machine Gun · Base Game · $3,000 · upgrades: Rounds x 200: $82\nDefault clip (comes equipped)\nExtentded clip\nGrip: $289\nScope: $1,257\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Light Machine Gun",
+    "release": "Base Game",
+    "cost": "$3,000",
+    "upgrades": "Rounds x 200: $82\nDefault clip (comes equipped)\nExtentded clip\nGrip: $289\nScope: $1,257\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:gusenberg-sweeper",
+   "type": "weapon",
+   "name": "Gusenberg Sweeper",
+   "summary": "Gusenberg Sweeper — Light Machine Gun weapon in Grand Theft Auto V. Added by Valentine's Day Massacre Special (no longer available for new downloads); whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Gusenberg Sweeper · Light Machine Gun · Valentine's Day Massacre Special (no longer available for new downloads) ·  · upgrades: Rounds x 60: $108\nDefault clip (comes equipped)\nExtended clip:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Light Machine Gun",
+    "release": "Valentine's Day Massacre Special (no longer available for new downloads)",
+    "cost": "",
+    "upgrades": "Rounds x 60: $108\nDefault clip (comes equipped)\nExtended clip:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:mg",
+   "type": "weapon",
+   "name": "MG",
+   "summary": "MG — Light Machine Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "MG · Light Machine Gun · Base Game · $2,700 · upgrades: Rounds x 108: $45\nDefault clip (comes equipped)\nExtended clip: $325\nScope: $1,012\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Light Machine Gun",
+    "release": "Base Game",
+    "cost": "$2,700",
+    "upgrades": "Rounds x 108: $45\nDefault clip (comes equipped)\nExtended clip: $325\nScope: $1,012\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:assault-smg",
+   "type": "weapon",
+   "name": "Assault SMG",
+   "summary": "Assault SMG — Submachine Gun weapon in Grand Theft Auto V. Added by Social Club membership; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Assault SMG · Submachine Gun · Social Club membership · Free · upgrades: Rounds x 60\nDefault Clip (comes equipped)\nExtended Clip\nFlashlight\nScope\nSuppressor\nBlack Tint (comes equipped)\nArmy Tint\nLSPD Tint"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Submachine Gun",
+    "release": "Social Club membership",
+    "cost": "Free",
+    "upgrades": "Rounds x 60\nDefault Clip (comes equipped)\nExtended Clip\nFlashlight\nScope\nSuppressor\nBlack Tint (comes equipped)\nArmy Tint\nLSPD Tint",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:micro-smg",
+   "type": "weapon",
+   "name": "Micro SMG",
+   "summary": "Micro SMG — Submachine Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Micro SMG · Submachine Gun · Base Game · $850 · upgrades: Rounds x 32: $17\nDefault clip (comes equipped)\nExtended clip: $290\nFlashlight: $403\nScope: $1,166\nSuppressor: $1646\nBlack tint (comes equipped)\nArmy tint: $85\nLSPD tint: $510"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Submachine Gun",
+    "release": "Base Game",
+    "cost": "$850",
+    "upgrades": "Rounds x 32: $17\nDefault clip (comes equipped)\nExtended clip: $290\nFlashlight: $403\nScope: $1,166\nSuppressor: $1646\nBlack tint (comes equipped)\nArmy tint: $85\nLSPD tint: $510",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:smg",
+   "type": "weapon",
+   "name": "SMG",
+   "summary": "SMG — Submachine Gun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SMG · Submachine Gun · Base Game · $1,300 · upgrades: Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $284\nFlashlight: $446\nScope: $1,166\nSuppressor: $1731\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $510"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Submachine Gun",
+    "release": "Base Game",
+    "cost": "$1,300",
+    "upgrades": "Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $284\nFlashlight: $446\nScope: $1,166\nSuppressor: $1731\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $510",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:advanced-rifle",
+   "type": "weapon",
+   "name": "Advanced Rifle",
+   "summary": "Advanced Rifle — Assault Rifle weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Advanced Rifle · Assault Rifle · Base Game · $3,150 · upgrades: Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $279\nFlashlight: $357\nScope: $1,012\nSuppressor: $1,827\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Assault Rifle",
+    "release": "Base Game",
+    "cost": "$3,150",
+    "upgrades": "Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $279\nFlashlight: $357\nScope: $1,012\nSuppressor: $1,827\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:assault-rifle",
+   "type": "weapon",
+   "name": "Assault Rifle",
+   "summary": "Assault Rifle — Assault Rifle weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Assault Rifle · Assault Rifle · Base Game · $1,400 · upgrades: Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $289\nGrip: $357\nFlashlight: $424\nScope: $1,270\nSuppressor: $1,822\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Assault Rifle",
+    "release": "Base Game",
+    "cost": "$1,400",
+    "upgrades": "Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $289\nGrip: $357\nFlashlight: $424\nScope: $1,270\nSuppressor: $1,822\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:bullpup-rifle",
+   "type": "weapon",
+   "name": "Bullpup Rifle",
+   "summary": "Bullpup Rifle — Assault Rifle weapon in Grand Theft Auto V. Added by High Life Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Bullpup Rifle · Assault Rifle · High Life Update ·  · upgrades: Rounds:\nDefault clip (comes equipped)\nExtended clip:\nGrip:\nFlashlight:\nScope:\nSuppressor:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Assault Rifle",
+    "release": "High Life Update",
+    "cost": "",
+    "upgrades": "Rounds:\nDefault clip (comes equipped)\nExtended clip:\nGrip:\nFlashlight:\nScope:\nSuppressor:\nBlack tint (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:carbine-rifle",
+   "type": "weapon",
+   "name": "Carbine Rifle",
+   "summary": "Carbine Rifle — Assault Rifle weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Carbine Rifle · Assault Rifle · Base Game ·  · upgrades: Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $235\nGrip: $297\nFlashlight: $337\nScope: $1,012\nSuppressor: $1,833\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Assault Rifle",
+    "release": "Base Game",
+    "cost": "",
+    "upgrades": "Rounds x 60: $32\nDefault clip (comes equipped)\nExtended clip: $235\nGrip: $297\nFlashlight: $337\nScope: $1,012\nSuppressor: $1,833\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:special-carbine",
+   "type": "weapon",
+   "name": "Special Carbine",
+   "summary": "Special Carbine — Assault Rifle weapon in Grand Theft Auto V. Added by Business Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Special Carbine · Assault Rifle · Business Update ·  · upgrades: Rounds x 60: $97\nDefault clip (comes equipped)\nExtended clip:\nScope:\nGrip:\nFlashlight:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Assault Rifle",
+    "release": "Business Update",
+    "cost": "",
+    "upgrades": "Rounds x 60: $97\nDefault clip (comes equipped)\nExtended clip:\nScope:\nGrip:\nFlashlight:\nSuppressor:\nBlack tint: (comes equipped)\nArmy tint:\nLSPD tint:",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:heavy-sniper",
+   "type": "weapon",
+   "name": "Heavy Sniper",
+   "summary": "Heavy Sniper — Sniper Rifle weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Heavy Sniper · Sniper Rifle · Base Game · $9,500 · upgrades: Rounds x 12: $26\nScope (comes equipped)\nAdvanced Scope\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Sniper Rifle",
+    "release": "Base Game",
+    "cost": "$9,500",
+    "upgrades": "Rounds x 12: $26\nScope (comes equipped)\nAdvanced Scope\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:marksman-rifle",
+   "type": "weapon",
+   "name": "Marksman Rifle",
+   "summary": "Marksman Rifle — Sniper Rifle weapon in Grand Theft Auto V. Added by Last Team Standing Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Marksman Rifle · Sniper Rifle · Last Team Standing Update ·  · upgrades: "
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Sniper Rifle",
+    "release": "Last Team Standing Update",
+    "cost": "",
+    "upgrades": "",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:sniper-rifle",
+   "type": "weapon",
+   "name": "Sniper Rifle",
+   "summary": "Sniper Rifle — Sniper Rifle weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sniper Rifle · Sniper Rifle · Base Game ·  · upgrades: Rounds x 20: $43\nSuppressor: $2,070\nScope (comes equipped)\nAdvanced Scope: $2,193\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Sniper Rifle",
+    "release": "Base Game",
+    "cost": "",
+    "upgrades": "Rounds x 20: $43\nSuppressor: $2,070\nScope (comes equipped)\nAdvanced Scope: $2,193\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:assault-shotgun",
+   "type": "weapon",
+   "name": "Assault Shotgun",
+   "summary": "Assault Shotgun — Shotgun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Assault Shotgun · Shotgun · Base Game · $1,350 · upgrades: Cartridges x 16: $7\nDefault clip (comes equipped)\nExtended clip: $312\nGrip: $337\nFlashlight: $505\nSuppressor: $2,022\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun",
+    "release": "Base Game",
+    "cost": "$1,350",
+    "upgrades": "Cartridges x 16: $7\nDefault clip (comes equipped)\nExtended clip: $312\nGrip: $337\nFlashlight: $505\nSuppressor: $2,022\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:bullpup-shotgun",
+   "type": "weapon",
+   "name": "Bullpup Shotgun",
+   "summary": "Bullpup Shotgun — Shotgun weapon in Grand Theft Auto V. Added by Special & Collectors Editions; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Bullpup Shotgun · Shotgun · Special & Collectors Editions · Free · upgrades: Grip\nFlashlight\nSuppressor\nBlack tint (comes equipped)\nArmy tint\nLSPD tint"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun",
+    "release": "Special & Collectors Editions",
+    "cost": "Free",
+    "upgrades": "Grip\nFlashlight\nSuppressor\nBlack tint (comes equipped)\nArmy tint\nLSPD tint",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:heavy-shotgun",
+   "type": "weapon",
+   "name": "Heavy Shotgun",
+   "summary": "Heavy Shotgun — Shotgun weapon in Grand Theft Auto V. Added by Last Team Standing Update; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Heavy Shotgun · Shotgun · Last Team Standing Update ·  · upgrades: "
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun",
+    "release": "Last Team Standing Update",
+    "cost": "",
+    "upgrades": "",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:musket",
+   "type": "weapon",
+   "name": "Musket",
+   "summary": "Musket — Shotgun (uses sniper rifle ammo) weapon in Grand Theft Auto V. Added by Independence Day Special; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Musket · Shotgun (uses sniper rifle ammo) · Independence Day Special ·  · upgrades: Rounds x2\nArmy tint\nLSPD tint"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun (uses sniper rifle ammo)",
+    "release": "Independence Day Special",
+    "cost": "",
+    "upgrades": "Rounds x2\nArmy tint\nLSPD tint",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:pump-shotgun",
+   "type": "weapon",
+   "name": "Pump Shotgun",
+   "summary": "Pump Shotgun — Shotgun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Pump Shotgun · Shotgun · Base Game ·  · upgrades: Cartridges x 16: $7\nFlashlight: $472\nSuppressor: $2,193\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun",
+    "release": "Base Game",
+    "cost": "",
+    "upgrades": "Cartridges x 16: $7\nFlashlight: $472\nSuppressor: $2,193\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:sawed-off-shotgun",
+   "type": "weapon",
+   "name": "Sawed Off Shotgun",
+   "summary": "Sawed Off Shotgun — Shotgun weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sawed Off Shotgun · Shotgun · Base Game · $300 · upgrades: Cartridges x 16: $7\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Shotgun",
+    "release": "Base Game",
+    "cost": "$300",
+    "upgrades": "Cartridges x 16: $7\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:firework-launcher",
+   "type": "weapon",
+   "name": "Firework Launcher",
+   "summary": "Firework Launcher — Heavy weapon in Grand Theft Auto V. Added by Independence Day Special; whether it can be used in Story Mode is not stated on the source page.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Firework Launcher · Heavy · Independence Day Special ·  · upgrades: Rounds x 1\nArmy tint\nLSPD tint"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Heavy",
+    "release": "Independence Day Special",
+    "cost": "",
+    "upgrades": "Rounds x 1\nArmy tint\nLSPD tint",
+    "availability": "UNKNOWN"
+   }
+  },
+  {
+   "id": "weapon:grenade-launcher",
+   "type": "weapon",
+   "name": "Grenade Launcher",
+   "summary": "Grenade Launcher — Heavy weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Grenade Launcher · Heavy · Base Game · $7,290 · upgrades: Grenades x 20: $20\nGrip: $288\nFlashlight: $415\nScope: $1180\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Heavy",
+    "release": "Base Game",
+    "cost": "$7,290",
+    "upgrades": "Grenades x 20: $20\nGrip: $288\nFlashlight: $415\nScope: $1180\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:minigun",
+   "type": "weapon",
+   "name": "Minigun",
+   "summary": "Minigun — Heavy weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Minigun · Heavy · Base Game · $13,500 · upgrades: Rounds x 100: $45\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Heavy",
+    "release": "Base Game",
+    "cost": "$13,500",
+    "upgrades": "Rounds x 100: $45\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:rpg",
+   "type": "weapon",
+   "name": "RPG",
+   "summary": "RPG — Heavy weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "RPG · Heavy · Base Game · $6,500 · upgrades: Rockets x 2: $90\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Heavy",
+    "release": "Base Game",
+    "cost": "$6,500",
+    "upgrades": "Rockets x 2: $90\nBlack tint (comes equipped)\nArmy tint: $90\nLSPD tint: $540",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:grenade",
+   "type": "weapon",
+   "name": "Grenade",
+   "summary": "Grenade — Projectile weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Grenade · Projectile · Base Game · $135 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Projectile",
+    "release": "Base Game",
+    "cost": "$135",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:jerry-can",
+   "type": "weapon",
+   "name": "Jerry Can",
+   "summary": "Jerry Can — Projectile weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Jerry Can · Projectile · Base Game · $25 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Projectile",
+    "release": "Base Game",
+    "cost": "$25",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:molotov",
+   "type": "weapon",
+   "name": "Molotov",
+   "summary": "Molotov — Projectile weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Molotov · Projectile · Base Game · Not available to purchase · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Projectile",
+    "release": "Base Game",
+    "cost": "Not available to purchase",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:sticky-bomb",
+   "type": "weapon",
+   "name": "Sticky Bomb",
+   "summary": "Sticky Bomb — Projectile weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sticky Bomb · Projectile · Base Game · $360 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Projectile",
+    "release": "Base Game",
+    "cost": "$360",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "weapon:tear-gas",
+   "type": "weapon",
+   "name": "Tear Gas",
+   "summary": "Tear Gas — Projectile weapon in Grand Theft Auto V. Included in the base game.",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Weapons_in_GTA_V",
+     "title": "Weapons in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Tear Gas · Projectile · Base Game · $135 · upgrades: None"
+    }
+   ],
+   "attrs": {
+    "weapon_class": "Projectile",
+    "release": "Base Game",
+    "cost": "$135",
+    "upgrades": "None",
+    "availability": "STORY_MODE"
+   }
+  },
+  {
+   "id": "location:strawberry-safehouse",
+   "type": "location",
+   "name": "Strawberry Safehouse",
+   "summary": "Strawberry Safehouse — safehouse of Franklin at Forum Drive, Strawberry, Los Santos. Unlocked by Franklin and Lamar.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Strawberry Safehouse · Franklin · Forum Drive, Strawberry, Los Santos · unlocked by Franklin and Lamar"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Forum Drive, Strawberry, Los Santos",
+    "unlocked_by": "Franklin and Lamar"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "Strawberry Safehouse: unlocked by Franklin and Lamar. Co-owned by Franklin and his aunt. Permanently unavailable after Hotel Assassination."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Strawberry"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Franklin and Lamar"
+    }
+   ]
+  },
+  {
+   "id": "location:de-santa-house",
+   "type": "location",
+   "name": "De Santa House",
+   "summary": "De Santa House — safehouse of Michael at Portola Drive, Rockford Hills, Los Santos. Unlocked by Complications.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "De Santa House · Michael · Portola Drive, Rockford Hills, Los Santos · unlocked by Complications"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Portola Drive, Rockford Hills, Los Santos",
+    "unlocked_by": "Complications"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "De Santa House: unlocked by Complications. Temporarily unavailable between Caida Libre and Monkey Business. Permanently unavailable if the player assassinates Michael."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Rockford Hills"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Complications"
+    }
+   ]
+  },
+  {
+   "id": "location:trevor-philips-trailer",
+   "type": "location",
+   "name": "Trevor Philips' Trailer",
+   "summary": "Trevor Philips' Trailer — safehouse of Trevor, Michael (briefly) at Zancudo Avenue, Sandy Shores, Blaine County. Unlocked by Mr. Philips.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Trevor Philips' Trailer · Trevor\nMichael (briefly) · Zancudo Avenue, Sandy Shores, Blaine County · unlocked by Mr. Philips"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Zancudo Avenue, Sandy Shores, Blaine County",
+    "unlocked_by": "Mr. Philips"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "Trevor Philips' Trailer: unlocked by Mr. Philips. Only available to Michael between Caida Libre and Monkey Business. Permanently unavailable if the player assassinates Trevor."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Sandy Shores"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Mr. Philips"
+    }
+   ]
+  },
+  {
+   "id": "location:debras-apartment",
+   "type": "location",
+   "name": "Debra's Apartment",
+   "summary": "Debra's Apartment — safehouse of Trevor at Goma Street, La Puerta, Los Santos. Unlocked by Friends Reunited.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Debra's Apartment · Trevor · Goma Street, La Puerta, Los Santos · unlocked by Friends Reunited"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Goma Street, La Puerta, Los Santos",
+    "unlocked_by": "Friends Reunited"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "Debra's Apartment: unlocked by Friends Reunited. Permanently unavailable after Caida Libre."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "La Puerta"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Friends Reunited"
+    }
+   ]
+  },
+  {
+   "id": "location:vanilla-unicorn",
+   "type": "location",
+   "name": "Vanilla Unicorn",
+   "summary": "Vanilla Unicorn — safehouse of Trevor at Strawberry, Los Santos. Unlocked by Hang Ten.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vanilla Unicorn · Trevor · Strawberry, Los Santos · unlocked by Hang Ten"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Strawberry, Los Santos",
+    "unlocked_by": "Hang Ten"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "Vanilla Unicorn: unlocked by Hang Ten. Permanently unavailable as a safehouse if the player assassinates Trevor."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Strawberry"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Hang Ten"
+    }
+   ]
+  },
+  {
+   "id": "location:3671-whispymound-drive",
+   "type": "location",
+   "name": "3671 Whispymound Drive",
+   "summary": "3671 Whispymound Drive — safehouse of Franklin at Whispymound Drive, Vinewood Hills, Los Santos. Unlocked by Hotel Assassination.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Safehouses_in_GTA_V",
+     "title": "Safehouses in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "3671 Whispymound Drive · Franklin · Whispymound Drive, Vinewood Hills, Los Santos · unlocked by Hotel Assassination"
+    }
+   ],
+   "attrs": {
+    "safehouse": true,
+    "address": "Whispymound Drive, Vinewood Hills, Los Santos",
+    "unlocked_by": "Hotel Assassination"
+   },
+   "sections": [
+    {
+     "kind": "requirements",
+     "title": "Safehouse availability (Grand Theft Wiki)",
+     "text": "3671 Whispymound Drive: unlocked by Hotel Assassination. Bought by Lester and given to Franklin after completing Hotel Assassination."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Vinewood Hills"
+    },
+    {
+     "predicate": "requires",
+     "toName": "Hotel Assassination"
+    }
+   ]
+  }
+ ],
+ "completion": [],
+ "issues": [
+  "46 weapons (30 base game)",
+  "6 safehouses"
+ ]
+}

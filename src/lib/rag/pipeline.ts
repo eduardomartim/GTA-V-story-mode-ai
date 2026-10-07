@@ -11,6 +11,8 @@ import { clarificationFor, needsClarification } from "./clarify";
 import { composeDemoAnswer } from "./demo";
 import { expandQuery } from "./glossary";
 import { suggestFollowUps } from "./followups";
+import { executeComposite, LOOKUP_GOALS, SYNTH_GOALS, type ExecResult } from "./executors";
+import { planQuery, secondaryGoals } from "./planner";
 import { t, tf } from "./messages";
 import { SYSTEM_PROMPT, assembleContext, buildUserTurn } from "./prompt";
 import { assessEvidence, hybridRetrieve, rerank, topicalTerms } from "./retrieval";
@@ -23,6 +25,8 @@ export interface ChatInput {
   history?: ChatTurn[];
   /** UI toggle: the user opted in to story spoilers. */
   allowSpoilers?: boolean;
+  /** Answer language chosen in the UI. When absent, the language of the question is detected. */
+  lang?: "pt" | "en";
   requestId?: string;
   /** Observability/eval hook: receives the final ranked context actually sent to the generator. */
   onTrace?: (trace: { analysis: QueryAnalysis; context: Candidate[]; evidence: { sufficient: boolean; reason: string } }) => void;
@@ -85,10 +89,12 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
     throw new AppError("database_unavailable");
   });
   if (input.allowSpoilers) analysis.wantsSpoilers = true;
+  if (input.lang) analysis.lang = input.lang;
   const lang = analysis.lang;
+  const qplan = planQuery(analysis);
   const base = (over: Partial<ChatResult> & Pick<ChatResult, "answer" | "mode">): ChatResult => ({
     requestId, lang, cards: [], sources: [], followUps: [], spoiler: false,
-    meta: { intents: analysis.intents, entities: [], retrievalCount: 0, latencyMs: Date.now() - started },
+    meta: { intents: analysis.intents, entities: [], retrievalCount: 0, latencyMs: Date.now() - started, plan: qplan.goal ? { goal: qplan.goal, steps: qplan.steps } : undefined },
     ...over,
   });
 
@@ -106,7 +112,7 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
   }
 
   // ── Under-specified question → ask for context instead of guessing (no retrieval, no LLM)
-  if (needsClarification(analysis)) {
+  if (!qplan.goal && needsClarification(analysis)) {
     const c = clarificationFor(lang);
     const res = base({ mode: "clarify", answer: c.answer, followUps: c.followUps });
     res.meta.latencyMs = Date.now() - started;
@@ -118,9 +124,13 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
   let candidates: Candidate[];
   let counts = { keyword: 0, vector: 0, entity: 0, graph: 0 };
   let timings = { keywordMs: 0, vectorMs: 0, structuredMs: 0 };
+  let exec: ExecResult = { candidates: [], cards: [], focus: [] };
   try {
-    const [hybrid, listed] = await Promise.all([hybridRetrieve(db, analysis), structuredLookups(db, analysis)]);
-    candidates = [...listed, ...hybrid.candidates];
+    const secondary = secondaryGoals(qplan, analysis);
+    if (secondary.length) qplan.steps.push(`secondary goals = ${secondary.join(", ")}`);
+    const [hybrid, listed, executed] = await Promise.all([hybridRetrieve(db, analysis), structuredLookups(db, analysis), qplan.goal ? executeComposite(db, qplan, secondary, lang) : Promise.resolve(exec)]);
+    exec = executed;
+    candidates = [...exec.candidates, ...listed, ...hybrid.candidates];
     counts = hybrid.counts;
     timings = hybrid.timings;
   } catch (err) {
@@ -128,14 +138,24 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
     throw new AppError("retrieval_failed");
   }
 
+  // A planned lookup that found the question needs data the knowledge base does not have (e.g. vehicle spawn
+  // points): say exactly that instead of answering with loosely related rows.
+  if (qplan.goal && (LOOKUP_GOALS.has(qplan.goal) || SYNTH_GOALS.has(qplan.goal)) && exec.answer?.length && !exec.candidates.length) {
+    const res = base({ mode: "no-evidence", answer: `${exec.answer.join("\n\n")}\n\n${t("noEvidenceHint", lang)}`, cards: exec.cards });
+    res.meta.latencyMs = Date.now() - started;
+    log("info", "chat", { requestId, mode: res.mode, goal: qplan.goal, reason: "planned-gap", latencyMs: res.meta.latencyMs });
+    return res;
+  }
+
   const allowAllSpoilers = analysis.wantsSpoilers || analysis.intents.includes("ending");
   const discussed = new Set([...analysis.entities, ...analysis.inheritedEntities].filter((e) => e.spoilerLevel >= SPOILER_CARD_LEVEL).map((e) => e.id));
   candidates = filterSpoilers(candidates, allowAllSpoilers, discussed);
   const ranked = rerank(candidates, analysis.intents, analysis.original);
-  const evidence = assessEvidence(analysis, ranked);
+  const evidence = exec.candidates.length ? { sufficient: true, reason: "structured-plan", topicalTerms: [] as string[] } : assessEvidence(analysis, ranked);
   // When the user pinned down one or two entities, let each contribute more sections (gold medals, failure, location…).
   const focused = analysis.entities.length + analysis.inheritedEntities.length <= 2 && analysis.entities.length + analysis.inheritedEntities.length > 0;
-  const context = assembleContext(ranked, { k: focused ? 10 : TOP_K, perEntity: focused ? 6 : PER_ENTITY });
+  const itemQuestion = Boolean(qplan.goal) || analysis.entities.some((e) => e.type === "collectible_item");
+  const context = assembleContext(ranked, { k: focused ? 10 : TOP_K, perEntity: focused ? 6 : PER_ENTITY, maxItems: itemQuestion ? undefined : 2 });
   input.onTrace?.({ analysis, context, evidence });
 
   const noteOnline = analysis.onlineBoundary.length
@@ -187,11 +207,30 @@ ${t("askVersion", lang)}` : "";
   const plan = await planCards(db, refs, analysis.intents).catch(() => ({ cards: [] as CardData[], focus: [] as string[] }));
   const spoiler = context.some((c) => c.spoilerLevel >= SPOILER_CARD_LEVEL);
 
+  // ── Planned data lookups (nearest / in area / list / one item): deterministic answer from SQL rows, no LLM.
+  const provider = input.provider === undefined ? getAIProvider() : input.provider;
+  const deterministic = qplan.goal && (LOOKUP_GOALS.has(qplan.goal) || (!provider && SYNTH_GOALS.has(qplan.goal)));
+  if (deterministic && exec.answer?.length && exec.candidates.length) {
+    const citations = resolveCitations(exec.answer.join("\n"), exec.candidates);
+    const res = base({
+      mode: "structured", answer: citations.text + noteOnline, cards: [...exec.cards, ...plan.cards.filter((c) => c.kind !== "map"), ...onlineCards], sources: citations.sources,
+      followUps: suggestFollowUps(refs[0] && { id: refs[0].id, type: refs[0].type, name: refs[0].name }, analysis.intents, lang),
+    });
+    res.meta.entities = exec.focus.slice(0, 3);
+    res.meta.retrievalCount = candidates.length;
+    res.meta.cited = citations.cited;
+    res.meta.latencyMs = Date.now() - started;
+    log("info", "chat", { requestId, mode: res.mode, goal: qplan.goal, intents: analysis.intents, retrieved: candidates.length, latencyMs: res.meta.latencyMs });
+    return res;
+  }
+
   // ── Structured answer (no LLM): plain location/map lookups resolved entirely from the database
   const DEEP_INTENTS = ["mission_walkthrough", "mission_requirements", "mission_reward", "mission_unlock", "troubleshooting", "money", "ending", "version_difference", "100_percent_completion"];
   const onlyLocationIntents = ["location_lookup", "map_request"].includes(analysis.intents[0] ?? "") && !analysis.intents.some((i) => DEEP_INTENTS.includes(i));
   const locCard = plan.cards.find((c): c is CardData & { kind: "location" } => c.kind === "location");
-  const short = tokenize(analysis.original).length <= 9;
+  // Only genuine "where is X" / "show X on the map" questions; "how do I see the UFO on Mount Chiliad" is not a lookup.
+  const whereQuestion = /\b(onde|where|localiza\w*|located|mapa|map)\b/.test(normalize(analysis.original)) && !/\b(como|how)\b/.test(normalize(analysis.original));
+  const short = tokenize(analysis.original).length <= 9 && whereQuestion;
   if (onlyLocationIntents && locCard && (locCard.district || locCard.mapX !== undefined) && short && analysis.intents.some((i) => i === "location_lookup" || i === "map_request")) {
     const where = whereText(locCard);
     const lines = [tf("locationLine", lang)(locCard.name, where)];
@@ -212,7 +251,6 @@ ${t("askVersion", lang)}` : "";
   }
 
   // ── Generation: real provider, or clearly-labelled demo mode
-  const provider = input.provider === undefined ? getAIProvider() : input.provider;
   let answerText: string;
   let mode: ChatResult["mode"] = "llm";
   let usage: ChatResult["meta"]["usage"];
@@ -237,18 +275,19 @@ ${t("askVersion", lang)}` : "";
   }
 
   const citations = resolveCitations(answerText, context);
-  const focusIds = (plan.focus.length ? plan.focus : [...new Set(context.map((c) => c.entityId))]).slice(0, 3);
+  const focusIds = (exec.focus.length ? exec.focus : plan.focus.length ? plan.focus : [...new Set(context.map((c) => c.entityId))]).slice(0, 3);
   const focusRef = refs.find((r) => r.id === focusIds[0]) ?? (ranked[0] ? { id: ranked[0].entityId, type: ranked[0].entityType, name: ranked[0].entityName } : undefined);
 
   const result: ChatResult = {
     requestId, lang, mode,
     answer: citations.text + noteVersion + noteOnline,
-    cards: [...plan.cards, ...versionCards, ...onlineCards],
+    cards: [...exec.cards, ...plan.cards, ...versionCards, ...onlineCards],
     sources: citations.sources,
     followUps: suggestFollowUps(focusRef && { id: focusRef.id, type: focusRef.type, name: focusRef.name }, analysis.intents, lang),
     spoiler,
     meta: {
       intents: analysis.intents, entities: focusIds, retrievalCount: candidates.length, latencyMs: Date.now() - started, unmatchedTerms: unmatched, gaps: gapItems.map((g) => g.topic), cited: citations.cited,
+      plan: qplan.goal ? { goal: qplan.goal, steps: qplan.steps } : undefined,
       provider: provider?.id, model: provider?.model, usage,
       ...(isDebug() ? { debug: { evidence, counts, timings, context: context.map((c) => ({ id: c.entityId, type: c.contentType, score: Number(c.score.toFixed(3)), via: c.via })) } } : {}),
     },

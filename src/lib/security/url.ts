@@ -5,7 +5,7 @@
  */
 const ALLOWED_HOSTS = [
   "rockstargames.com", "support.rockstargames.com", "store.rockstargames.com", "gta.fandom.com", "gta5wiki.com", "ign.com",
-  "gamepressure.com", "grandtheftwiki.com", "gtabase.com", "destructoid.com", "gtaintel.com",
+  "gamepressure.com", "grandtheftwiki.com", "gtabase.com", "destructoid.com", "gtaintel.com", "github.com",
 ];
 
 export function isSafeExternalUrl(raw: string): boolean {

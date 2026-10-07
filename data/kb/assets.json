@@ -5,7 +5,7 @@
     "asset_type": "map",
     "url": "/maps/san-andreas.svg",
     "source": "GTA V Story AI project",
-    "license": "Original artwork, project-owned (not extracted from the game)",
+    "license": "Original drawing by the project author: hand-placed schematic outline, not game artwork and not derived from third-party data (the GPL-3.0 coastline is a separate dataset, see DATA_LICENSES.md)",
     "attribution": "Positions are approximate."
   },
   {

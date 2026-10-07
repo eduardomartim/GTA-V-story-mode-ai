@@ -69,6 +69,8 @@ export interface Candidate {
   keyword: number; // 0..1 normalised ts_rank_cd
   entityScore: number; // 0..1
   via: Array<"entity" | "keyword" | "vector" | "graph">;
+  /** For graph candidates: relevance of the strongest edge that brought it in (predicate × intent). */
+  edgeWeight?: number;
   score: number;
 }
 
@@ -99,7 +101,11 @@ export type CardData =
   | { kind: "image"; entityId?: string; title: string; url: string; isExternalLink: boolean; license: string; attribution?: string; source: string; sourceUrl?: string }
   | { kind: "warning"; tone: "online" | "unvalidated" | "version" | "info"; title: string; text: string }
   | { kind: "spoiler"; text: string }
-  | { kind: "steps"; title: string; steps: string[] };
+  | { kind: "steps"; title: string; steps: string[] }
+  | { kind: "items"; title: string; note?: string; rows: Array<{ id: string; label: string; area: string; detail: string; precision: string; distance?: number }> }
+  | { kind: "relationship"; entityId: string; name: string; relation: string; protagonists: string[]; evidence: string; home?: string }
+  | { kind: "completion"; protagonist?: string; note?: string; groups: Array<{ category: string; items: Array<{ label: string; required?: number; total?: number }> }> }
+  | { kind: "related"; title: string; items: Array<{ id: string; name: string; type: string }> };
 
 export type AnswerMode = "llm" | "structured" | "no-evidence" | "online-boundary" | "demo" | "clarify";
 
@@ -123,6 +129,8 @@ export interface ChatResult {
     gaps?: string[];
     /** false when the model cited no context block: the sources shown were consulted, not cited. */
     cited?: boolean;
+    /** Query-planner decomposition (goal + constraints), when the question was planned. */
+    plan?: { goal: string | null; steps: string[] };
     provider?: string;
     model?: string;
     usage?: { inputTokens?: number; outputTokens?: number };

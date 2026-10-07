@@ -1,0 +1,5558 @@
+{
+ "extractor": "vehicles",
+ "entities": [
+  {
+   "id": "vehicle:dinghy",
+   "type": "vehicle",
+   "name": "Dinghy",
+   "summary": "Dinghy by Nagasaki — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Nagasaki · Dinghy · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:jetmax",
+   "type": "vehicle",
+   "name": "Jetmax",
+   "summary": "Jetmax by Shitzu — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Shitzu · Jetmax · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:marquis",
+   "type": "vehicle",
+   "name": "Marquis",
+   "summary": "Marquis by Dinka — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Dinka · Marquis · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dinka",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-predator",
+   "type": "vehicle",
+   "name": "Police Predator",
+   "summary": "Police Predator — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · — · Police Predator · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:seashark",
+   "type": "vehicle",
+   "name": "Seashark",
+   "summary": "Seashark by Speedophile — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Speedophile · Seashark · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Speedophile",
+    "vehicle_class": "Boats",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:speeder",
+   "type": "vehicle",
+   "name": "Speeder",
+   "summary": "Speeder by Pegassi — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Pegassi · Speeder · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:squalo",
+   "type": "vehicle",
+   "name": "Squalo",
+   "summary": "Squalo by Shitzu — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Shitzu · Squalo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:submersible",
+   "type": "vehicle",
+   "name": "Submersible",
+   "summary": "Submersible — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · — · Submersible · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:suntrap",
+   "type": "vehicle",
+   "name": "Suntrap",
+   "summary": "Suntrap by Shitzu — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Shitzu · Suntrap · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tropic",
+   "type": "vehicle",
+   "name": "Tropic",
+   "summary": "Tropic by Shitzu — Boats class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Boats · Shitzu · Tropic · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Boats",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:benson",
+   "type": "vehicle",
+   "name": "Benson",
+   "summary": "Benson by Vapid — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · Vapid · Benson · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:biff",
+   "type": "vehicle",
+   "name": "Biff",
+   "summary": "Biff by HVY — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · HVY · Biff · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:hauler",
+   "type": "vehicle",
+   "name": "Hauler",
+   "summary": "Hauler by JoBuilt — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · JoBuilt · Hauler · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:mule",
+   "type": "vehicle",
+   "name": "Mule",
+   "summary": "Mule by Maibatsu — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · Maibatsu · Mule · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Maibatsu",
+    "vehicle_class": "Commercial",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:packer",
+   "type": "vehicle",
+   "name": "Packer",
+   "summary": "Packer by MTL — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · MTL · Packer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "MTL",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:phantom",
+   "type": "vehicle",
+   "name": "Phantom",
+   "summary": "Phantom by JoBuilt — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · JoBuilt · Phantom · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:pounder",
+   "type": "vehicle",
+   "name": "Pounder",
+   "summary": "Pounder by MTL — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · MTL · Pounder · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "MTL",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stockade",
+   "type": "vehicle",
+   "name": "Stockade",
+   "summary": "Stockade by Brute — Commercial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Commercial · Brute · Stockade · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Brute",
+    "vehicle_class": "Commercial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:blista",
+   "type": "vehicle",
+   "name": "Blista",
+   "summary": "Blista by Dinka — Compacts class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Compacts · Dinka · Blista · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dinka",
+    "vehicle_class": "Compacts",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dilettante",
+   "type": "vehicle",
+   "name": "Dilettante",
+   "summary": "Dilettante by Karin — Compacts class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Compacts · Karin · Dilettante · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Compacts",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:issi",
+   "type": "vehicle",
+   "name": "Issi",
+   "summary": "Issi by Weeny — Compacts class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Compacts · Weeny · Issi · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Weeny",
+    "vehicle_class": "Compacts",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:prairie",
+   "type": "vehicle",
+   "name": "Prairie",
+   "summary": "Prairie by Bollokan — Compacts class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Compacts · Bollokan · Prairie · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bollokan",
+    "vehicle_class": "Compacts",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cognoscenti-cabrio",
+   "type": "vehicle",
+   "name": "Cognoscenti Cabrio",
+   "summary": "Cognoscenti Cabrio by Enus — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Enus · Cognoscenti Cabrio · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Enus",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:exemplar",
+   "type": "vehicle",
+   "name": "Exemplar",
+   "summary": "Exemplar by Dewbauchee — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Dewbauchee · Exemplar · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dewbauchee",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:f620",
+   "type": "vehicle",
+   "name": "F620",
+   "summary": "F620 by Ocelot — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Ocelot · F620 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Ocelot",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:felon",
+   "type": "vehicle",
+   "name": "Felon",
+   "summary": "Felon by Lampadati — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Lampadati · Felon · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Lampadati",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:felon-gt",
+   "type": "vehicle",
+   "name": "Felon GT",
+   "summary": "Felon GT by Lampadati — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Lampadati · Felon GT · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Lampadati",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:jackal",
+   "type": "vehicle",
+   "name": "Jackal",
+   "summary": "Jackal by Ocelot — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Ocelot · Jackal · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Ocelot",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:oracle",
+   "type": "vehicle",
+   "name": "Oracle",
+   "summary": "Oracle by Übermacht — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Übermacht · Oracle · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Übermacht",
+    "vehicle_class": "Coupes",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sentinel",
+   "type": "vehicle",
+   "name": "Sentinel",
+   "summary": "Sentinel by Übermacht — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Übermacht · Sentinel · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Übermacht",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sentinel-xs",
+   "type": "vehicle",
+   "name": "Sentinel XS",
+   "summary": "Sentinel XS by Übermacht — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Übermacht · Sentinel XS · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Übermacht",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:zion",
+   "type": "vehicle",
+   "name": "Zion",
+   "summary": "Zion by Übermacht — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Übermacht · Zion · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Übermacht",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:zion-cabrio",
+   "type": "vehicle",
+   "name": "Zion Cabrio",
+   "summary": "Zion Cabrio by Übermacht — Coupes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Coupes · Übermacht · Zion Cabrio · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Übermacht",
+    "vehicle_class": "Coupes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bmx",
+   "type": "vehicle",
+   "name": "BMX",
+   "summary": "BMX — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · BMX · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cruiser",
+   "type": "vehicle",
+   "name": "Cruiser",
+   "summary": "Cruiser — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Cruiser · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:endurex-race-bike",
+   "type": "vehicle",
+   "name": "Endurex Race Bike",
+   "summary": "Endurex Race Bike — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Endurex Race Bike · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fixter",
+   "type": "vehicle",
+   "name": "Fixter",
+   "summary": "Fixter — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Fixter · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:scorcher",
+   "type": "vehicle",
+   "name": "Scorcher",
+   "summary": "Scorcher — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Scorcher · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tri-cycles-race-bike",
+   "type": "vehicle",
+   "name": "Tri-Cycles Race Bike",
+   "summary": "Tri-Cycles Race Bike — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Tri-Cycles Race Bike · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:whippet-race-bike",
+   "type": "vehicle",
+   "name": "Whippet Race Bike",
+   "summary": "Whippet Race Bike — Cycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Cycles · — · Whippet Race Bike · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Cycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:ambulance",
+   "type": "vehicle",
+   "name": "Ambulance",
+   "summary": "Ambulance — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Ambulance · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fib",
+   "type": "vehicle",
+   "name": "FIB",
+   "summary": "FIB — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · FIB · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fib-suv",
+   "type": "vehicle",
+   "name": "FIB SUV",
+   "summary": "FIB SUV — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · FIB SUV · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fire-truck",
+   "type": "vehicle",
+   "name": "Fire Truck",
+   "summary": "Fire Truck — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Fire Truck · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:lifeguard",
+   "type": "vehicle",
+   "name": "Lifeguard",
+   "summary": "Lifeguard — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Lifeguard · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:park-ranger",
+   "type": "vehicle",
+   "name": "Park Ranger",
+   "summary": "Park Ranger — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Park Ranger · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-bike",
+   "type": "vehicle",
+   "name": "Police Bike",
+   "summary": "Police Bike — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Police Bike · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-cruiser",
+   "type": "vehicle",
+   "name": "Police Cruiser",
+   "summary": "Police Cruiser — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 3 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Police Cruiser · variants: 3"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 3,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-prison-bus",
+   "type": "vehicle",
+   "name": "Police Prison Bus",
+   "summary": "Police Prison Bus — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Police Prison Bus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-riot",
+   "type": "vehicle",
+   "name": "Police Riot",
+   "summary": "Police Riot — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Police Riot · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-transporter",
+   "type": "vehicle",
+   "name": "Police Transporter",
+   "summary": "Police Transporter — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Police Transporter · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sheriff-cruiser",
+   "type": "vehicle",
+   "name": "Sheriff Cruiser",
+   "summary": "Sheriff Cruiser — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Sheriff Cruiser · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sheriff-suv",
+   "type": "vehicle",
+   "name": "Sheriff SUV",
+   "summary": "Sheriff SUV — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Sheriff SUV · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:unmarked-cruiser",
+   "type": "vehicle",
+   "name": "Unmarked Cruiser",
+   "summary": "Unmarked Cruiser — Emergency class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Emergency · — · Unmarked Cruiser · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Emergency",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:annihilator",
+   "type": "vehicle",
+   "name": "Annihilator",
+   "summary": "Annihilator — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · — · Annihilator · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:buzzard",
+   "type": "vehicle",
+   "name": "Buzzard",
+   "summary": "Buzzard by Nagasaki — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Nagasaki · Buzzard · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:buzzard-attack-chopper",
+   "type": "vehicle",
+   "name": "Buzzard Attack Chopper",
+   "summary": "Buzzard Attack Chopper by Nagasaki — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Nagasaki · Buzzard Attack Chopper · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cargobob",
+   "type": "vehicle",
+   "name": "Cargobob",
+   "summary": "Cargobob by Western — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 3 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Western · Cargobob · variants: 3"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Helicopters",
+    "variants": 3,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:frogger",
+   "type": "vehicle",
+   "name": "Frogger",
+   "summary": "Frogger by Maibatsu — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Maibatsu · Frogger · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Maibatsu",
+    "vehicle_class": "Helicopters",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:maverick",
+   "type": "vehicle",
+   "name": "Maverick",
+   "summary": "Maverick by Buckingham — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Buckingham · Maverick · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Buckingham",
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:police-maverick",
+   "type": "vehicle",
+   "name": "Police Maverick",
+   "summary": "Police Maverick by Buckingham — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · Buckingham · Police Maverick · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Buckingham",
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:skylift",
+   "type": "vehicle",
+   "name": "Skylift",
+   "summary": "Skylift — Helicopters class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Helicopters · — · Skylift · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Helicopters",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cutter",
+   "type": "vehicle",
+   "name": "Cutter",
+   "summary": "Cutter by HVY — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · HVY · Cutter · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dock-handler",
+   "type": "vehicle",
+   "name": "Dock Handler",
+   "summary": "Dock Handler — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · — · Dock Handler · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dozer",
+   "type": "vehicle",
+   "name": "Dozer",
+   "summary": "Dozer by HVY — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · HVY · Dozer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dump",
+   "type": "vehicle",
+   "name": "Dump",
+   "summary": "Dump by HVY — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · HVY · Dump · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:flatbed",
+   "type": "vehicle",
+   "name": "Flatbed",
+   "summary": "Flatbed by MTL — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · MTL · Flatbed · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "MTL",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:mixer",
+   "type": "vehicle",
+   "name": "Mixer",
+   "summary": "Mixer by HVY — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · HVY · Mixer · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Industrial",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rubble",
+   "type": "vehicle",
+   "name": "Rubble",
+   "summary": "Rubble by JoBuilt — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · JoBuilt · Rubble · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tipper",
+   "type": "vehicle",
+   "name": "Tipper",
+   "summary": "Tipper by Brute — Industrial class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Industrial · Brute · Tipper · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Brute",
+    "vehicle_class": "Industrial",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:barracks",
+   "type": "vehicle",
+   "name": "Barracks",
+   "summary": "Barracks — Military class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Military · — · Barracks · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Military",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:barracks-semi",
+   "type": "vehicle",
+   "name": "Barracks Semi",
+   "summary": "Barracks Semi by HVY — Military class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Military · HVY · Barracks Semi · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Military",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:crusader",
+   "type": "vehicle",
+   "name": "Crusader",
+   "summary": "Crusader by Canis — Military class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Military · Canis · Crusader · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Canis",
+    "vehicle_class": "Military",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rhino-tank",
+   "type": "vehicle",
+   "name": "Rhino Tank",
+   "summary": "Rhino Tank — Military class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Military · — · Rhino Tank · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Military",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:akuma",
+   "type": "vehicle",
+   "name": "Akuma",
+   "summary": "Akuma by Dinka — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Dinka · Akuma · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dinka",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bagger",
+   "type": "vehicle",
+   "name": "Bagger",
+   "summary": "Bagger by Western — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Western · Bagger · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bati-801",
+   "type": "vehicle",
+   "name": "Bati 801",
+   "summary": "Bati 801 by Pegassi — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Pegassi · Bati 801 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bati-801rr",
+   "type": "vehicle",
+   "name": "Bati 801RR",
+   "summary": "Bati 801RR by Pegassi — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Pegassi · Bati 801RR · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:carbonrs",
+   "type": "vehicle",
+   "name": "CarbonRS",
+   "summary": "CarbonRS by Nagasaki — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Nagasaki · CarbonRS · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:daemon",
+   "type": "vehicle",
+   "name": "Daemon",
+   "summary": "Daemon by Western — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Western · Daemon · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:double-t",
+   "type": "vehicle",
+   "name": "Double T",
+   "summary": "Double T by Dinka — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Dinka · Double T · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dinka",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:faggio",
+   "type": "vehicle",
+   "name": "Faggio",
+   "summary": "Faggio by Pegassi — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Pegassi · Faggio · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:hexer",
+   "type": "vehicle",
+   "name": "Hexer",
+   "summary": "Hexer by LCC — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · LCC · Hexer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "LCC",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:nemesis",
+   "type": "vehicle",
+   "name": "Nemesis",
+   "summary": "Nemesis by Principe — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Principe · Nemesis · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Principe",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:pcj-600",
+   "type": "vehicle",
+   "name": "PCJ 600",
+   "summary": "PCJ 600 by Shitzu — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Shitzu · PCJ 600 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:ruffian",
+   "type": "vehicle",
+   "name": "Ruffian",
+   "summary": "Ruffian by Pegassi — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Pegassi · Ruffian · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sanchez",
+   "type": "vehicle",
+   "name": "Sanchez",
+   "summary": "Sanchez by Maibatsu — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Maibatsu · Sanchez · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Maibatsu",
+    "vehicle_class": "Motorcycles",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:vader",
+   "type": "vehicle",
+   "name": "Vader",
+   "summary": "Vader by Shitzu — Motorcycles class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Motorcycles · Shitzu · Vader · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Shitzu",
+    "vehicle_class": "Motorcycles",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:buccaneer",
+   "type": "vehicle",
+   "name": "Buccaneer",
+   "summary": "Buccaneer by Albany — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Albany · Buccaneer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dominator",
+   "type": "vehicle",
+   "name": "Dominator",
+   "summary": "Dominator by Vapid — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Vapid · Dominator · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:gauntlet",
+   "type": "vehicle",
+   "name": "Gauntlet",
+   "summary": "Gauntlet by Bravado — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Bravado · Gauntlet · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:hotknife",
+   "type": "vehicle",
+   "name": "Hotknife",
+   "summary": "Hotknife — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · — · Hotknife · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:phoenix",
+   "type": "vehicle",
+   "name": "Phoenix",
+   "summary": "Phoenix by Imponte — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Imponte · Phoenix · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Imponte",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:picador",
+   "type": "vehicle",
+   "name": "Picador",
+   "summary": "Picador by Cheval — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Cheval · Picador · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Cheval",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rat-loader",
+   "type": "vehicle",
+   "name": "Rat-Loader",
+   "summary": "Rat-Loader — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · — · Rat-Loader · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:ruiner",
+   "type": "vehicle",
+   "name": "Ruiner",
+   "summary": "Ruiner by Imponte — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Imponte · Ruiner · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Imponte",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sabre-turbo",
+   "type": "vehicle",
+   "name": "Sabre Turbo",
+   "summary": "Sabre Turbo by Declasse — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Declasse · Sabre Turbo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:vigero",
+   "type": "vehicle",
+   "name": "Vigero",
+   "summary": "Vigero by Declasse — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Declasse · Vigero · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:voodoo",
+   "type": "vehicle",
+   "name": "Voodoo",
+   "summary": "Voodoo by Declasse — Muscle class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Muscle · Declasse · Voodoo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Muscle",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bifta",
+   "type": "vehicle",
+   "name": "Bifta",
+   "summary": "Bifta by BF — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · BF · Bifta · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "BF",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:blazer",
+   "type": "vehicle",
+   "name": "Blazer",
+   "summary": "Blazer by Nagasaki — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Nagasaki · Blazer · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Off-Road",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:blazer-lifeguard",
+   "type": "vehicle",
+   "name": "Blazer Lifeguard",
+   "summary": "Blazer Lifeguard by Nagasaki — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Nagasaki · Blazer Lifeguard · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Nagasaki",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bodhi",
+   "type": "vehicle",
+   "name": "Bodhi",
+   "summary": "Bodhi by Canis — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Canis · Bodhi · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Canis",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dune-buggy",
+   "type": "vehicle",
+   "name": "Dune Buggy",
+   "summary": "Dune Buggy by BF — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · BF · Dune Buggy · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "BF",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:duneloader",
+   "type": "vehicle",
+   "name": "Duneloader",
+   "summary": "Duneloader by Bravado — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Bravado · Duneloader · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:injection",
+   "type": "vehicle",
+   "name": "Injection",
+   "summary": "Injection by BF — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · BF · Injection · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "BF",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:kalahari",
+   "type": "vehicle",
+   "name": "Kalahari",
+   "summary": "Kalahari by Canis — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Canis · Kalahari · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Canis",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:mesa",
+   "type": "vehicle",
+   "name": "Mesa",
+   "summary": "Mesa by Canis — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 † variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Canis · Mesa · variants: 2 †"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Canis",
+    "vehicle_class": "Off-Road",
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rancher-xl",
+   "type": "vehicle",
+   "name": "Rancher XL",
+   "summary": "Rancher XL by Declasse — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Declasse · Rancher XL · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rebel",
+   "type": "vehicle",
+   "name": "Rebel",
+   "summary": "Rebel by Karin — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Karin · Rebel · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sandking-swb",
+   "type": "vehicle",
+   "name": "Sandking SWB",
+   "summary": "Sandking SWB by Vapid — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Vapid · Sandking SWB · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sandking-xl",
+   "type": "vehicle",
+   "name": "Sandking XL",
+   "summary": "Sandking XL by Vapid — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · Vapid · Sandking XL · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:space-docker",
+   "type": "vehicle",
+   "name": "Space Docker",
+   "summary": "Space Docker — Off-Road class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Off-Road · — · Space Docker · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Off-Road",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:atomic-blimp",
+   "type": "vehicle",
+   "name": "Atomic Blimp",
+   "summary": "Atomic Blimp — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · — · Atomic Blimp · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cuban-800",
+   "type": "vehicle",
+   "name": "Cuban 800",
+   "summary": "Cuban 800 by Western — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · Western · Cuban 800 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:duster",
+   "type": "vehicle",
+   "name": "Duster",
+   "summary": "Duster by Western — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · Western · Duster · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:luxor",
+   "type": "vehicle",
+   "name": "Luxor",
+   "summary": "Luxor by Buckingham — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · Buckingham · Luxor · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Buckingham",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:mallard",
+   "type": "vehicle",
+   "name": "Mallard",
+   "summary": "Mallard by Western — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · Western · Mallard · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Western",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:mammatus",
+   "type": "vehicle",
+   "name": "Mammatus",
+   "summary": "Mammatus by JoBuilt — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · JoBuilt · Mammatus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:p-996-lazer",
+   "type": "vehicle",
+   "name": "P-996 LAZER",
+   "summary": "P-996 LAZER by JoBuilt — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · JoBuilt · P-996 LAZER · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:shamal",
+   "type": "vehicle",
+   "name": "Shamal",
+   "summary": "Shamal by Buckingham — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · Buckingham · Shamal · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Buckingham",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:titan",
+   "type": "vehicle",
+   "name": "Titan",
+   "summary": "Titan — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · — · Titan · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:velum",
+   "type": "vehicle",
+   "name": "Velum",
+   "summary": "Velum by JoBuilt — Planes class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Planes · JoBuilt · Velum · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "JoBuilt",
+    "vehicle_class": "Planes",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:asea",
+   "type": "vehicle",
+   "name": "Asea",
+   "summary": "Asea by Declasse — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Declasse · Asea · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:asterope",
+   "type": "vehicle",
+   "name": "Asterope",
+   "summary": "Asterope by Karin — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Karin · Asterope · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:emperor",
+   "type": "vehicle",
+   "name": "Emperor",
+   "summary": "Emperor by Albany — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Albany · Emperor · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fugitive",
+   "type": "vehicle",
+   "name": "Fugitive",
+   "summary": "Fugitive by Cheval — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Cheval · Fugitive · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Cheval",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:ingot",
+   "type": "vehicle",
+   "name": "Ingot",
+   "summary": "Ingot by Vulcan — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Vulcan · Ingot · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vulcan",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:intruder",
+   "type": "vehicle",
+   "name": "Intruder",
+   "summary": "Intruder by Karin — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Karin · Intruder · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:premier",
+   "type": "vehicle",
+   "name": "Premier",
+   "summary": "Premier by Declasse — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Declasse · Premier · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:primo",
+   "type": "vehicle",
+   "name": "Primo",
+   "summary": "Primo by Albany — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Albany · Primo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:regina",
+   "type": "vehicle",
+   "name": "Regina",
+   "summary": "Regina by Dundreary — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Dundreary · Regina · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dundreary",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:romero-hearse",
+   "type": "vehicle",
+   "name": "Romero Hearse",
+   "summary": "Romero Hearse by Chariot — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Chariot · Romero Hearse · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Chariot",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:schafter",
+   "type": "vehicle",
+   "name": "Schafter",
+   "summary": "Schafter by Benefactor — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Benefactor · Schafter · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stanier",
+   "type": "vehicle",
+   "name": "Stanier",
+   "summary": "Stanier by Vapid — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Vapid · Stanier · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stratum",
+   "type": "vehicle",
+   "name": "Stratum",
+   "summary": "Stratum by Zirconium — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Zirconium · Stratum · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Zirconium",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stretch",
+   "type": "vehicle",
+   "name": "Stretch",
+   "summary": "Stretch by Dundreary — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Dundreary · Stretch · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dundreary",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:super-diamond",
+   "type": "vehicle",
+   "name": "Super Diamond",
+   "summary": "Super Diamond by Enus — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Enus · Super Diamond · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Enus",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:surge",
+   "type": "vehicle",
+   "name": "Surge",
+   "summary": "Surge by Cheval — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Cheval · Surge · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Cheval",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tailgater",
+   "type": "vehicle",
+   "name": "Tailgater",
+   "summary": "Tailgater by Obey — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Obey · Tailgater · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Obey",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:washington",
+   "type": "vehicle",
+   "name": "Washington",
+   "summary": "Washington by Albany — Sedans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sedans · Albany · Washington · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "Sedans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:airport-bus",
+   "type": "vehicle",
+   "name": "Airport Bus",
+   "summary": "Airport Bus — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Airport Bus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bus",
+   "type": "vehicle",
+   "name": "Bus",
+   "summary": "Bus — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Bus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dashound",
+   "type": "vehicle",
+   "name": "Dashound",
+   "summary": "Dashound — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Dashound · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rental-shuttle-bus",
+   "type": "vehicle",
+   "name": "Rental Shuttle Bus",
+   "summary": "Rental Shuttle Bus — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Rental Shuttle Bus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:taxi",
+   "type": "vehicle",
+   "name": "Taxi",
+   "summary": "Taxi — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Taxi · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tourbus",
+   "type": "vehicle",
+   "name": "Tourbus",
+   "summary": "Tourbus — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Tourbus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:trashmaster",
+   "type": "vehicle",
+   "name": "Trashmaster",
+   "summary": "Trashmaster — Service class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Service · — · Trashmaster · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Service",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:9f",
+   "type": "vehicle",
+   "name": "9F",
+   "summary": "9F by Obey — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Obey · 9F · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Obey",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:9f-cabrio",
+   "type": "vehicle",
+   "name": "9F Cabrio",
+   "summary": "9F Cabrio by Obey — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Obey · 9F Cabrio · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Obey",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:banshee",
+   "type": "vehicle",
+   "name": "Banshee",
+   "summary": "Banshee by Bravado — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Bravado · Banshee · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:buffalo",
+   "type": "vehicle",
+   "name": "Buffalo",
+   "summary": "Buffalo by Bravado — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Bravado · Buffalo · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Sports",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:carbonizzare",
+   "type": "vehicle",
+   "name": "Carbonizzare",
+   "summary": "Carbonizzare by Grotti — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Grotti · Carbonizzare · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Grotti",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:comet",
+   "type": "vehicle",
+   "name": "Comet",
+   "summary": "Comet by Pfister — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Pfister · Comet · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pfister",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:coquette",
+   "type": "vehicle",
+   "name": "Coquette",
+   "summary": "Coquette by Invetero — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Invetero · Coquette · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Invetero",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:elegy-rh8",
+   "type": "vehicle",
+   "name": "Elegy RH8",
+   "summary": "Elegy RH8 by Annis — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Annis · Elegy RH8 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Annis",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:feltzer",
+   "type": "vehicle",
+   "name": "Feltzer",
+   "summary": "Feltzer by Benefactor — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Benefactor · Feltzer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fusilade",
+   "type": "vehicle",
+   "name": "Fusilade",
+   "summary": "Fusilade by Schyster — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Schyster · Fusilade · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Schyster",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:futo",
+   "type": "vehicle",
+   "name": "Futo",
+   "summary": "Futo by Karin — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Karin · Futo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:penumbra",
+   "type": "vehicle",
+   "name": "Penumbra",
+   "summary": "Penumbra by Maibatsu — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Maibatsu · Penumbra · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Maibatsu",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rapid-gt",
+   "type": "vehicle",
+   "name": "Rapid GT",
+   "summary": "Rapid GT by Dewbauchee — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Dewbauchee · Rapid GT · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dewbauchee",
+    "vehicle_class": "Sports",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:schwartzer",
+   "type": "vehicle",
+   "name": "Schwartzer",
+   "summary": "Schwartzer by Benefactor — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Benefactor · Schwartzer · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sultan",
+   "type": "vehicle",
+   "name": "Sultan",
+   "summary": "Sultan by Karin — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Karin · Sultan · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:surano",
+   "type": "vehicle",
+   "name": "Surano",
+   "summary": "Surano by Benefactor — Sports class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports · Benefactor · Surano · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "Sports",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:jb-700",
+   "type": "vehicle",
+   "name": "JB 700",
+   "summary": "JB 700 by Dewbauchee — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Dewbauchee · JB 700 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dewbauchee",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:manana",
+   "type": "vehicle",
+   "name": "Manana",
+   "summary": "Manana by Albany — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Albany · Manana · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:monroe",
+   "type": "vehicle",
+   "name": "Monroe",
+   "summary": "Monroe by Pegassi — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Pegassi · Monroe · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:peyote",
+   "type": "vehicle",
+   "name": "Peyote",
+   "summary": "Peyote by Vapid — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Vapid · Peyote · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stinger",
+   "type": "vehicle",
+   "name": "Stinger",
+   "summary": "Stinger by Grotti — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Grotti · Stinger · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Grotti",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:stinger-gt",
+   "type": "vehicle",
+   "name": "Stinger GT",
+   "summary": "Stinger GT by Grotti — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Grotti · Stinger GT · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Grotti",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tornado",
+   "type": "vehicle",
+   "name": "Tornado",
+   "summary": "Tornado by Declasse — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 4 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Declasse · Tornado · variants: 4"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Sports Classics",
+    "variants": 4,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:z-type",
+   "type": "vehicle",
+   "name": "Z-Type",
+   "summary": "Z-Type by Truffade — Sports Classics class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Sports Classics · Truffade · Z-Type · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Truffade",
+    "vehicle_class": "Sports Classics",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:adder",
+   "type": "vehicle",
+   "name": "Adder",
+   "summary": "Adder by Truffade — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Truffade · Adder · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Truffade",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bullet",
+   "type": "vehicle",
+   "name": "Bullet",
+   "summary": "Bullet by Vapid — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Vapid · Bullet · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cheetah",
+   "type": "vehicle",
+   "name": "Cheetah",
+   "summary": "Cheetah by Grotti — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Grotti · Cheetah · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Grotti",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:turismo-r",
+   "type": "vehicle",
+   "name": "Turismo R",
+   "summary": "Turismo R by Grotti — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Grotti · Turismo R · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Grotti",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:t20",
+   "type": "vehicle",
+   "name": "T20",
+   "summary": "T20 by Progen — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Progen · T20 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Progen",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:entity-xf",
+   "type": "vehicle",
+   "name": "Entity XF",
+   "summary": "Entity XF by Overflod — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Overflod · Entity XF · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Overflod",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:infernus",
+   "type": "vehicle",
+   "name": "Infernus",
+   "summary": "Infernus by Pegassi — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Pegassi · Infernus · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:osiris",
+   "type": "vehicle",
+   "name": "Osiris",
+   "summary": "Osiris by Pegassi — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Pegassi · Osiris · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:vacca",
+   "type": "vehicle",
+   "name": "Vacca",
+   "summary": "Vacca by Pegassi — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Pegassi · Vacca · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:zentorno",
+   "type": "vehicle",
+   "name": "Zentorno",
+   "summary": "Zentorno by Pegassi — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Pegassi · Zentorno · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Pegassi",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:voltic",
+   "type": "vehicle",
+   "name": "Voltic",
+   "summary": "Voltic by Coil — Super class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Super · Coil · Voltic · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Coil",
+    "vehicle_class": "Super",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:baller",
+   "type": "vehicle",
+   "name": "Baller",
+   "summary": "Baller by Gallivanter — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Gallivanter · Baller · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Gallivanter",
+    "vehicle_class": "SUVs",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:beejay-xl",
+   "type": "vehicle",
+   "name": "BeeJay XL",
+   "summary": "BeeJay XL by Karin — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Karin · BeeJay XL · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Karin",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:cavalcade",
+   "type": "vehicle",
+   "name": "Cavalcade",
+   "summary": "Cavalcade by Albany — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Albany · Cavalcade · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Albany",
+    "vehicle_class": "SUVs",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:dubsta",
+   "type": "vehicle",
+   "name": "Dubsta",
+   "summary": "Dubsta by Benefactor — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Benefactor · Dubsta · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "SUVs",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fq-2",
+   "type": "vehicle",
+   "name": "FQ 2",
+   "summary": "FQ 2 by Fathom — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Fathom · FQ 2 · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Fathom",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:granger",
+   "type": "vehicle",
+   "name": "Granger",
+   "summary": "Granger by Declasse — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Declasse · Granger · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:gresley",
+   "type": "vehicle",
+   "name": "Gresley",
+   "summary": "Gresley by Bravado — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Bravado · Gresley · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:habanero",
+   "type": "vehicle",
+   "name": "Habanero",
+   "summary": "Habanero by Emperor — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Emperor · Habanero · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Emperor",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:landstalker",
+   "type": "vehicle",
+   "name": "Landstalker",
+   "summary": "Landstalker by Dundreary — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Dundreary · Landstalker · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Dundreary",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:patriot",
+   "type": "vehicle",
+   "name": "Patriot",
+   "summary": "Patriot by Mammoth — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Mammoth · Patriot · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Mammoth",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:radius",
+   "type": "vehicle",
+   "name": "Radius",
+   "summary": "Radius by Vapid — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Vapid · Radius · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rocoto",
+   "type": "vehicle",
+   "name": "Rocoto",
+   "summary": "Rocoto by Obey — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Obey · Rocoto · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Obey",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:seminole",
+   "type": "vehicle",
+   "name": "Seminole",
+   "summary": "Seminole by Canis — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Canis · Seminole · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Canis",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:serrano",
+   "type": "vehicle",
+   "name": "Serrano",
+   "summary": "Serrano by Benefactor — SUVs class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "SUVs · Benefactor · Serrano · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Benefactor",
+    "vehicle_class": "SUVs",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:airtug",
+   "type": "vehicle",
+   "name": "Airtug",
+   "summary": "Airtug — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Airtug · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:caddy",
+   "type": "vehicle",
+   "name": "Caddy",
+   "summary": "Caddy — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Caddy · variants: 2"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:docktug",
+   "type": "vehicle",
+   "name": "Docktug",
+   "summary": "Docktug — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Docktug · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:fieldmaster",
+   "type": "vehicle",
+   "name": "Fieldmaster",
+   "summary": "Fieldmaster by Stanley — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · Stanley · Fieldmaster · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Stanley",
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:forklift",
+   "type": "vehicle",
+   "name": "Forklift",
+   "summary": "Forklift by HVY — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · HVY · Forklift · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "HVY",
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:lawn-mower",
+   "type": "vehicle",
+   "name": "Lawn Mower",
+   "summary": "Lawn Mower — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Lawn Mower · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:ripley",
+   "type": "vehicle",
+   "name": "Ripley",
+   "summary": "Ripley — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Ripley · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:sadler",
+   "type": "vehicle",
+   "name": "Sadler",
+   "summary": "Sadler by Vapid — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · Vapid · Sadler · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:scrap-truck",
+   "type": "vehicle",
+   "name": "Scrap Truck",
+   "summary": "Scrap Truck — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Scrap Truck · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:towtruck",
+   "type": "vehicle",
+   "name": "Towtruck",
+   "summary": "Towtruck — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Towtruck · variants: 2"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:tractor",
+   "type": "vehicle",
+   "name": "Tractor",
+   "summary": "Tractor — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Tractor · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:utility-truck",
+   "type": "vehicle",
+   "name": "Utility Truck",
+   "summary": "Utility Truck — Utility class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 3 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Utility · — · Utility Truck · variants: 3"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Utility",
+    "variants": 3,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bison",
+   "type": "vehicle",
+   "name": "Bison",
+   "summary": "Bison by Bravado — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 3 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Bravado · Bison · variants: 3"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Vans",
+    "variants": 3,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:bobcat-xl",
+   "type": "vehicle",
+   "name": "Bobcat XL",
+   "summary": "Bobcat XL by Vapid — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Vapid · Bobcat XL · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:boxville",
+   "type": "vehicle",
+   "name": "Boxville",
+   "summary": "Boxville by Brute — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Brute · Boxville · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Brute",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:burrito",
+   "type": "vehicle",
+   "name": "Burrito",
+   "summary": "Burrito by Declasse — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 4 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Declasse · Burrito · variants: 4"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Vans",
+    "variants": 4,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:camper",
+   "type": "vehicle",
+   "name": "Camper",
+   "summary": "Camper by Brute — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Brute · Camper · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Brute",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:gang-burrito",
+   "type": "vehicle",
+   "name": "Gang Burrito",
+   "summary": "Gang Burrito by Declasse — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Declasse · Gang Burrito · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Declasse",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:journey",
+   "type": "vehicle",
+   "name": "Journey",
+   "summary": "Journey by Zirconium — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Zirconium · Journey · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Zirconium",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:minivan",
+   "type": "vehicle",
+   "name": "Minivan",
+   "summary": "Minivan by Vapid — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Vapid · Minivan · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:paradise",
+   "type": "vehicle",
+   "name": "Paradise",
+   "summary": "Paradise by Bravado — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Bravado · Paradise · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:pony",
+   "type": "vehicle",
+   "name": "Pony",
+   "summary": "Pony by Brute — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Brute · Pony · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Brute",
+    "vehicle_class": "Vans",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:rumpo",
+   "type": "vehicle",
+   "name": "Rumpo",
+   "summary": "Rumpo by Bravado — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Bravado · Rumpo · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Vans",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:speedo",
+   "type": "vehicle",
+   "name": "Speedo",
+   "summary": "Speedo by Vapid — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Vapid · Speedo · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Vapid",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:surfer",
+   "type": "vehicle",
+   "name": "Surfer",
+   "summary": "Surfer by BF — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster, 2 variants).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · BF · Surfer · variants: 2"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "BF",
+    "vehicle_class": "Vans",
+    "variants": 2,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:taco-van",
+   "type": "vehicle",
+   "name": "Taco Van",
+   "summary": "Taco Van — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · — · Taco Van · variants: 1"
+    }
+   ],
+   "attrs": {
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  },
+  {
+   "id": "vehicle:youga",
+   "type": "vehicle",
+   "name": "Youga",
+   "summary": "Youga by Bravado — Vans class vehicle in Grand Theft Auto V (listed on the GTA V vehicle roster).",
+   "verification": "curated",
+   "confidence": 0.7,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Vehicles_in_GTA_V",
+     "title": "Vehicles in GTA V",
+     "retrieved_at": "2026-10-07",
+     "confidence": 0.75,
+     "excerpt": "Vans · Bravado · Youga · variants: 1"
+    }
+   ],
+   "attrs": {
+    "manufacturer": "Bravado",
+    "vehicle_class": "Vans",
+    "variants": 1,
+    "availability": "STORY_MODE",
+    "spawn_locations": "not validated yet (not on the source page)"
+   }
+  }
+ ],
+ "completion": [],
+ "issues": [
+  "224 vehicles from the GTA V roster"
+ ]
+}

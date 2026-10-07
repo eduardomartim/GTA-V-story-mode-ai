@@ -115,8 +115,8 @@ describe("knowledge gaps are passed to the model", () => {
 });
 
 describe("data checks for the final knowledge phase", () => {
-  it("has exactly 79 mission entries and documents the counting methodology", async () => {
-    const [n] = await db.query<{ n: number }>("select count(*)::int n from missions");
+  it("has exactly 79 story-list mission entries and documents the counting methodology", async () => {
+    const [n] = await db.query<{ n: number }>("select count(*)::int n from missions where mission_type not in ('stranger','side')");
     expect(n?.n).toBe(79);
     const rows = await db.query<{ content: string }>("select content from chunks where entity_id = 'completion:mission-count-methodology'");
     expect(rows.map((r) => r.content).join(" ")).toMatch(/69/);

@@ -58,8 +58,12 @@ describe("PostgreSQL + pgvector schema", () => {
   });
 
   it("typed tables mirror the entities (missions, locations with map coordinates)", async () => {
-    const [m] = await db.query<{ n: number }>("select count(*)::int n from missions");
+    // 79 story-list missions; Strangers and Freaks / side missions are separate entries (mission_type stranger|side).
+    const [m] = await db.query<{ n: number }>("select count(*)::int n from missions where mission_type not in ('stranger','side')");
     expect(m?.n).toBe(79);
+    const [all] = await db.query<{ n: number }>("select count(*)::int n from missions");
+    const [ents] = await db.query<{ n: number }>("select count(*)::int n from entities where type = 'mission'");
+    expect(all?.n).toBe(ents?.n);
     const loc = await db.query<{ map_x: number; map_y: number; coord_precision: string }>("select map_x, map_y, coord_precision from locations where entity_id = 'location:del-perro-pier'");
     expect(loc[0]?.map_x).toBeGreaterThan(0);
     expect(loc[0]?.coord_precision).toBe("approximate");

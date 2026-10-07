@@ -7,7 +7,7 @@ import { normalize } from "@/lib/text";
  * Real multilingual embedding providers (OpenAI/Google) do not need it, but it never hurts.
  */
 const GLOSSARY: Array<[RegExp, string]> = [
-  [/\b(ganha|ganhar|ganho|ganhos|rende|rendimento|paga|pagar|pagamento|lucro|lucrar)\b/, "earn payout take profit money"],
+  [/\b(ganha|ganhar|ganho|ganhos|rende|rendimento|paga|pagar|pagamento|lucro|lucrar)\b/, "earn payout take profit money revenue yields"],
   [/\barremess\w*\b/, "throwables projectiles grenade molotov sticky bomb"],
   [/\b(trava|travar|travamento|trancou)\b/, "crash freezes technical problem launch"],
   [/\binvenc\w*\b/, "invincibility"],
@@ -37,6 +37,17 @@ const GLOSSARY: Array<[RegExp, string]> = [
   [/\b(acoes|bolsa|mercado de acoes|investir)\b/, "stock market bawsaq lcn"],
   [/\b(porcentagem|completar tudo|cem por cento)\b/, "100 percent completion"],
   [/\b(assalto|assaltos)\b/, "heist"],
+  [/\b(contracts?|contratos?|assassinatos?)\b/, "assassinations assassination"],
+  [/\b(ordem|sequencia)\b/, "order"],
+  [/\b(pratic\w*)\b/, "practical"],
+  [/\b(plano|roteiro)\b/, "plan"],
+  [/\b(namorad\w*)\b/, "girlfriend boyfriend booty call"],
+  [/\b(fantasma)\b/, "ghost"],
+  [/\b(disco voador|ovni)\b/, "ufo"],
+  [/\b(colecionave\w*|coletave\w*)\b/, "collectible"],
+  [/\b(pecas? de nave|nave espacial)\b/, "spaceship parts"],
+  [/\b(lixo nuclear|barris?)\b/, "nuclear waste"],
+  [/\b(saltos? de paraquedas|paraquedas)\b/, "parachute jumps"],
   [/\b(equipe|tripulacao|comparsas?)\b/, "crew"],
   [/\babordagem\b/, "approach"],
   [/\bsutil\b/, "subtle smart stealth"],

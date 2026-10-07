@@ -1,0 +1,3729 @@
+{
+ "extractor": "random-events",
+ "entities": [
+  {
+   "id": "random_event:abandoned-vehicle-1",
+   "type": "random_event",
+   "name": "Abandoned Vehicle 1",
+   "aliases": [],
+   "summary": "Random event at Smoke Tree Rd in the Grand Senora Desert. Available for: All protagonists. A Surfer will appear on Smoke Tree Rd, close to the Sandy Shores Airfield, which the player must approach. As they do, someone will stun the player leading to the screen fading to black. The player will then wake up on the Go Loco Railroad tracks with a train approaching with the player moving out of the way.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Abandoned Vehicle 1 — Smoke Tree Rd in the Grand Senora Desert — All protagonists — reward: No reward"
+    }
+   ],
+   "attrs": {
+    "location": "Smoke Tree Rd in the Grand Senora Desert",
+    "available_for": "All protagonists",
+    "reward": "No reward",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "A Surfer will appear on Smoke Tree Rd, close to the Sandy Shores Airfield, which the player must approach. As they do, someone will stun the player leading to the screen fading to black. The player will then wake up on the Go Loco Railroad tracks with a train approaching with the player moving out of the way."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grand Senora Desert"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grand Senora Desert",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:abandoned-vehicle-2",
+   "type": "random_event",
+   "name": "Abandoned Vehicle 2",
+   "aliases": [],
+   "summary": "Random event at RON Alternates Wind Farm. Available for: All protagonists. The player will find a Journey with two rednecks having sex inside. When approaching the vehicle, the player will be attacked by the two men inside who will shoot the player.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Abandoned Vehicle 2 — RON Alternates Wind Farm — All protagonists — reward: No reward"
+    }
+   ],
+   "attrs": {
+    "location": "RON Alternates Wind Farm",
+    "available_for": "All protagonists",
+    "reward": "No reward",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a Journey with two rednecks having sex inside. When approaching the vehicle, the player will be attacked by the two men inside who will shoot the player."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "RON Alternates Wind Farm"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "RON Alternates Wind Farm",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:the-altruists-event",
+   "type": "random_event",
+   "name": "The Altruists Event",
+   "aliases": [],
+   "summary": "Random event at Altruists Camp in Chiliad Mountain State Wilderness. Available for: Trevor Philips. The player, after delivering four victims to The Altruists, will then be kidnaped as a sacrifice. Trevor will then need to kill all the cult members to escape the camp.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "The Altruists Event — Altruists Camp in Chiliad Mountain State Wilderness — Trevor Philips — reward: $ 125,000 (in five briefcases)."
+    }
+   ],
+   "attrs": {
+    "location": "Altruists Camp in Chiliad Mountain State Wilderness",
+    "available_for": "Trevor Philips",
+    "reward": "$ 125,000 (in five briefcases).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player, after delivering four victims to The Altruists, will then be kidnaped as a sacrifice. Trevor will then need to kill all the cult members to escape the camp."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 125,000 (in five briefcases).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Chiliad Mountain State Wilderness"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Chiliad Mountain State Wilderness",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:arrests-1",
+   "type": "random_event",
+   "name": "Arrests 1",
+   "aliases": [],
+   "summary": "Random event at Close to the O'Neil Farm in Grapeseed. Available for: All protagonists. The player will find a police officer casing a criminal with the choice of helping the officer arrest the criminal or the criminal in escaping.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Arrests 1 — Close to the O'Neil Farm in Grapeseed — All protagonists — reward: No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)"
+    }
+   ],
+   "attrs": {
+    "location": "Close to the O'Neil Farm in Grapeseed",
+    "available_for": "All protagonists",
+    "reward": "No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a police officer casing a criminal with the choice of helping the officer arrest the criminal or the criminal in escaping."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grapeseed"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grapeseed",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:arrests-2",
+   "type": "random_event",
+   "name": "Arrests 2",
+   "aliases": [],
+   "summary": "Random event at Senora Fwy at RON Alternates Wind Farm. Available for: All protagonists. The player will find a police officer casing a criminal with the choice of helping the officer arrest the criminal or the criminal in escaping.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Arrests 2 — Senora Fwy at RON Alternates Wind Farm — All protagonists — reward: No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)"
+    }
+   ],
+   "attrs": {
+    "location": "Senora Fwy at RON Alternates Wind Farm",
+    "available_for": "All protagonists",
+    "reward": "No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a police officer casing a criminal with the choice of helping the officer arrest the criminal or the criminal in escaping."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward (helping the police officer)\n$ 250 + 2 star wanted level (helping the criminal)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "RON Alternates Wind Farm"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "RON Alternates Wind Farm",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:atm-robbery",
+   "type": "random_event",
+   "name": "ATM Robbery",
+   "aliases": [],
+   "summary": "Random event at Los Santos / Blaine County. Available for: All protagonists. The player will find a pedestrian, having just used an ATM being robbed and requesting help. The player can then injure and/or kill the thief to retrieve the wallet before deciding on whether to return it to the owner. This event will occur on multiple occasions across the state.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "ATM Robbery — Los Santos / Blaine County — All protagonists — reward: A full special ability meter and 10% of the money withdrawn (returning the wallet)\n$ 500 - $ 2,000 (keeping the wallet)"
+    }
+   ],
+   "attrs": {
+    "location": "Los Santos / Blaine County",
+    "available_for": "All protagonists",
+    "reward": "A full special ability meter and 10% of the money withdrawn (returning the wallet)\n$ 500 - $ 2,000 (keeping the wallet)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a pedestrian, having just used an ATM being robbed and requesting help. The player can then injure and/or kill the thief to retrieve the wallet before deciding on whether to return it to the owner. This event will occur on multiple occasions across the state."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: A full special ability meter and 10% of the money withdrawn (returning the wallet)\n$ 500 - $ 2,000 (keeping the wallet)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Blaine County"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Blaine County",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:bike-theft-city-1",
+   "type": "random_event",
+   "name": "Bike Theft City 1",
+   "aliases": [],
+   "summary": "Random event at Little Bighorn Ave in Rancho. Available for: All protagonists. The player will see a criminal stealing a bicycle from Gray Nicholson with the player chasing and retrieving the bike for the owner.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Bike Theft City 1 — Little Bighorn Ave in Rancho — All protagonists — reward: +3 for the stamina statistic, an email from Nicholson and $ 100,000 in Animal Ark stocks."
+    }
+   ],
+   "attrs": {
+    "location": "Little Bighorn Ave in Rancho",
+    "available_for": "All protagonists",
+    "reward": "+3 for the stamina statistic, an email from Nicholson and $ 100,000 in Animal Ark stocks.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see a criminal stealing a bicycle from Gray Nicholson with the player chasing and retrieving the bike for the owner."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +3 for the stamina statistic, an email from Nicholson and $ 100,000 in Animal Ark stocks.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Rancho"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Rancho",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:bike-theft-city-2",
+   "type": "random_event",
+   "name": "Bike Theft City 2",
+   "aliases": [],
+   "summary": "Random event at Bridge St in Hawick. Available for: All protagonists. The player will see a criminal stealing a bicycle with the player chasing and retrieving the bike for the owner.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Bike Theft City 2 — Bridge St in Hawick — All protagonists — reward: +3 for the stamina stat."
+    }
+   ],
+   "attrs": {
+    "location": "Bridge St in Hawick",
+    "available_for": "All protagonists",
+    "reward": "+3 for the stamina stat.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see a criminal stealing a bicycle with the player chasing and retrieving the bike for the owner."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +3 for the stamina stat.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Hawick"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Hawick",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:border-patrol-1",
+   "type": "random_event",
+   "name": "Border Patrol 1",
+   "aliases": [],
+   "summary": "Random event at Mount Haan Rd n the Grand Senora Desert. Available for: All protagonists. A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Border Patrol 1 — Mount Haan Rd n the Grand Senora Desert — All protagonists — reward: No reward, although a maximum of $ 700 can be obtained in dropped money."
+    }
+   ],
+   "attrs": {
+    "location": "Mount Haan Rd n the Grand Senora Desert",
+    "available_for": "All protagonists",
+    "reward": "No reward, although a maximum of $ 700 can be obtained in dropped money.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward, although a maximum of $ 700 can be obtained in dropped money.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grand Senora Desert"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grand Senora Desert",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:border-patrol-2",
+   "type": "random_event",
+   "name": "Border Patrol 2",
+   "aliases": [],
+   "summary": "Random event at Tataviam Mountains. Available for: All protagonists. A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Border Patrol 2 — Tataviam Mountains — All protagonists — reward: No reward, although a maximum of $ 700 can be obtained in dropped money."
+    }
+   ],
+   "attrs": {
+    "location": "Tataviam Mountains",
+    "available_for": "All protagonists",
+    "reward": "No reward, although a maximum of $ 700 can be obtained in dropped money.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward, although a maximum of $ 700 can be obtained in dropped money.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Tataviam Mountains"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Tataviam Mountains",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:border-patrol-3",
+   "type": "random_event",
+   "name": "Border Patrol 3",
+   "aliases": [],
+   "summary": "Random event at Raton Canyon. Available for: All protagonists. A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Border Patrol 3 — Raton Canyon — All protagonists — reward: No reward, although a maximum of $ 700 can be obtained in dropped money."
+    }
+   ],
+   "attrs": {
+    "location": "Raton Canyon",
+    "available_for": "All protagonists",
+    "reward": "No reward, although a maximum of $ 700 can be obtained in dropped money.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "A group of rednecks driving Sanchez ' will ambush the player believing them to be foreign with the player needing to kill the group."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward, although a maximum of $ 700 can be obtained in dropped money.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Raton Canyon"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Raton Canyon",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:burial",
+   "type": "random_event",
+   "name": "Burial",
+   "aliases": [],
+   "summary": "Random event at North of Paleto Bay. Available for: All protagonists. The player will find two men about to bury Antonia Bottino alive with the player needing to kill the two men and drive her to meet Beppe.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Burial — North of Paleto Bay — All protagonists — reward: $ 60,000, full special bar and up to $ 600 in dropped money."
+    }
+   ],
+   "attrs": {
+    "location": "North of Paleto Bay",
+    "available_for": "All protagonists",
+    "reward": "$ 60,000, full special bar and up to $ 600 in dropped money.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find two men about to bury Antonia Bottino alive with the player needing to kill the two men and drive her to meet Beppe."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 60,000, full special bar and up to $ 600 in dropped money.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Paleto Bay"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Paleto Bay",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:bus-tour",
+   "type": "random_event",
+   "name": "Bus Tour",
+   "aliases": [],
+   "summary": "Random event at Vinewood Blvd in Downtown Vinewood. Available for: All protagonists. The player goes on a Vinewood Star Tours bus tour around the north of Los Santos.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Bus Tour — Vinewood Blvd in Downtown Vinewood — All protagonists — reward: No reward"
+    }
+   ],
+   "attrs": {
+    "location": "Vinewood Blvd in Downtown Vinewood",
+    "available_for": "All protagonists",
+    "reward": "No reward",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player goes on a Vinewood Star Tours bus tour around the north of Los Santos."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Downtown Vinewood"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Downtown Vinewood",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:car-theft-1",
+   "type": "random_event",
+   "name": "Car Theft 1",
+   "aliases": [],
+   "summary": "Random event at Grand Ocean Hwy in North Chumash. Available for: All protagonists. The player will see a woman who has her pink Peyote stolen and will need to retrieve her car.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Car Theft 1 — Grand Ocean Hwy in North Chumash — All protagonists — reward: +5 for the driving stat and a unique pink Peyote (if not returned)."
+    }
+   ],
+   "attrs": {
+    "location": "Grand Ocean Hwy in North Chumash",
+    "available_for": "All protagonists",
+    "reward": "+5 for the driving stat and a unique pink Peyote (if not returned).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see a woman who has her pink Peyote stolen and will need to retrieve her car."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +5 for the driving stat and a unique pink Peyote (if not returned).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "North Chumash"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "North Chumash",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:car-theft-2",
+   "type": "random_event",
+   "name": "Car Theft 2",
+   "aliases": [],
+   "summary": "Random event at Exceptionalists Way in Los Santos International Airport. Available for: All protagonists. The player will see Saeeda Kadam who has her dark red Rocoto stolen and will need to retrieve her car.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Car Theft 2 — Exceptionalists Way in Los Santos International Airport — All protagonists — reward: An email from Saeeda Kadam, a new suit, a unique dark red Rocoto (if not returned) or +5 for the driving stat (if returned)"
+    }
+   ],
+   "attrs": {
+    "location": "Exceptionalists Way in Los Santos International Airport",
+    "available_for": "All protagonists",
+    "reward": "An email from Saeeda Kadam, a new suit, a unique dark red Rocoto (if not returned) or +5 for the driving stat (if returned)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see Saeeda Kadam who has her dark red Rocoto stolen and will need to retrieve her car."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: An email from Saeeda Kadam, a new suit, a unique dark red Rocoto (if not returned) or +5 for the driving stat (if returned)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Los Santos International Airport"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Los Santos International Airport",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:chase-thieves-city-1",
+   "type": "random_event",
+   "name": "Chase Thieves City 1",
+   "aliases": [],
+   "summary": "Random event at Grapeseed Main St in Grapeseed. Available for: All protagonists. The player will see members of The Lost Brotherhood stealing a mans wallet before escaping in a Gang Burrito with the player needing to retrieve the wallet.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Chase Thieves City 1 — Grapeseed Main St in Grapeseed — All protagonists — reward: $ 250 (keeping the wallet) or $ 25 and a full special bar (returning the wallet)"
+    }
+   ],
+   "attrs": {
+    "location": "Grapeseed Main St in Grapeseed",
+    "available_for": "All protagonists",
+    "reward": "$ 250 (keeping the wallet) or $ 25 and a full special bar (returning the wallet)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see members of The Lost Brotherhood stealing a mans wallet before escaping in a Gang Burrito with the player needing to retrieve the wallet."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 250 (keeping the wallet) or $ 25 and a full special bar (returning the wallet)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grapeseed"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grapeseed",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:chase-thieves-city-2",
+   "type": "random_event",
+   "name": "Chase Thieves City 2",
+   "aliases": [],
+   "summary": "Random event at Route 68 in the Grand Senora Desert. Available for: All protagonists. The player will see members of The Lost Brotherhood stealing a mans wallet before escaping in a Gang Burrito with the player needing to retrieve the wallet.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Chase Thieves City 2 — Route 68 in the Grand Senora Desert — All protagonists — reward: $ 120 (keeping the wallet) or $ 12 and a full special bar (returning the wallet)"
+    }
+   ],
+   "attrs": {
+    "location": "Route 68 in the Grand Senora Desert",
+    "available_for": "All protagonists",
+    "reward": "$ 120 (keeping the wallet) or $ 12 and a full special bar (returning the wallet)",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will see members of The Lost Brotherhood stealing a mans wallet before escaping in a Gang Burrito with the player needing to retrieve the wallet."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 120 (keeping the wallet) or $ 12 and a full special bar (returning the wallet)."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grand Senora Desert"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grand Senora Desert",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:construction-accident",
+   "type": "random_event",
+   "name": "Construction Accident",
+   "aliases": [],
+   "summary": "Random event at Calais Ave in Little Seoul. Available for: All protagonists. The player will find a construction worker trapped in a Rubble after piping falls on top of the vehicle with the player needing to move them with a Dozer before the vehicle explodes.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Construction Accident — Calais Ave in Little Seoul — All protagonists — reward: +2 for the driving stat"
+    }
+   ],
+   "attrs": {
+    "location": "Calais Ave in Little Seoul",
+    "available_for": "All protagonists",
+    "reward": "+2 for the driving stat",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a construction worker trapped in a Rubble after piping falls on top of the vehicle with the player needing to move them with a Dozer before the vehicle explodes."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +2 for the driving stat."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Little Seoul"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Little Seoul",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:countryside-gang-fight",
+   "type": "random_event",
+   "name": "Countryside Gang Fight",
+   "aliases": [],
+   "summary": "Random event at Marina Dr at the Alamo Sea. Available for: All protagonists. The player will find a man in a shootout with members of The Lost Brotherhood. After saving the man the player must follow him to his car and kill a second group of gang members, which allows the man to leave.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Countryside Gang Fight — Marina Dr at the Alamo Sea — All protagonists — reward: $ 1,000"
+    }
+   ],
+   "attrs": {
+    "location": "Marina Dr at the Alamo Sea",
+    "available_for": "All protagonists",
+    "reward": "$ 1,000",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a man in a shootout with members of The Lost Brotherhood. After saving the man the player must follow him to his car and kill a second group of gang members, which allows the man to leave."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 1,000."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Alamo Sea"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Alamo Sea",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:countryside-robbery",
+   "type": "random_event",
+   "name": "Countryside Robbery",
+   "aliases": [],
+   "summary": "Random event at Route 68 in Harmony. Available for: All protagonists. The player will find the police shooting at some criminals. The player has the choice of allowing the criminals to be killed by the police, killing the criminals (earning a 2-star wanted level) or killing the police (earning a 3-star wanted level). The player can then steal the money the criminals had attempted to steal before losing the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Countryside Robbery — Route 68 in Harmony — All protagonists — reward: $ 10,000 (if both briefcases collected) or $ 5,000 (if one briefcase is collected, which causes the event to occur again)."
+    }
+   ],
+   "attrs": {
+    "location": "Route 68 in Harmony",
+    "available_for": "All protagonists",
+    "reward": "$ 10,000 (if both briefcases collected) or $ 5,000 (if one briefcase is collected, which causes the event to occur again).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find the police shooting at some criminals. The player has the choice of allowing the criminals to be killed by the police, killing the criminals (earning a 2-star wanted level) or killing the police (earning a 3-star wanted level). The player can then steal the money the criminals had attempted to steal before losing the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 10,000 (if both briefcases collected) or $ 5,000 (if one briefcase is collected, which causes the event to occur again).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Harmony"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Harmony",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:crash-rescue",
+   "type": "random_event",
+   "name": "Crash Rescue",
+   "aliases": [],
+   "summary": "Random event at Great Ocean Hwy in Mount Chiliad. Available for: All protagonists. The player will find Taliana Martinez as the only survivor in a car accident on the highway and will need to take her to a medically trained friend in Sandy Shores.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Crash Rescue — Great Ocean Hwy in Mount Chiliad — All protagonists — reward: Unlocks Taliana Martinez as a driver for heist missions."
+    }
+   ],
+   "attrs": {
+    "location": "Great Ocean Hwy in Mount Chiliad",
+    "available_for": "All protagonists",
+    "reward": "Unlocks Taliana Martinez as a driver for heist missions.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Taliana Martinez as the only survivor in a car accident on the highway and will need to take her to a medically trained friend in Sandy Shores."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: Unlocks Taliana Martinez as a driver for heist missions.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Mount Chiliad"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Mount Chiliad",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:deal-gone-wrong",
+   "type": "random_event",
+   "name": "Deal Gone Wrong",
+   "aliases": [],
+   "summary": "Random event at Chiliad Mountain State Wilderness. Available for: All protagonists. The player will find a number of men dead, likely from a shootout, and hear about a briefcase. Down a small hill the player will find another man, who threatens them but quickly dies, allowing them to take the briefcase of money. A group of criminals will attack the player and need to be killed to complete the event.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Deal Gone Wrong — Chiliad Mountain State Wilderness — All protagonists — reward: $ 25,000"
+    }
+   ],
+   "attrs": {
+    "location": "Chiliad Mountain State Wilderness",
+    "available_for": "All protagonists",
+    "reward": "$ 25,000",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a number of men dead, likely from a shootout, and hear about a briefcase. Down a small hill the player will find another man, who threatens them but quickly dies, allowing them to take the briefcase of money. A group of criminals will attack the player and need to be killed to complete the event."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 25,000."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Chiliad Mountain State Wilderness"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Chiliad Mountain State Wilderness",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:domestic",
+   "type": "random_event",
+   "name": "Domestic",
+   "aliases": [],
+   "summary": "Random event at Wild Oats Dr in Vinewood Hills. Available for: All protagonists. The player will find Castro Lagano being kicked out of his house by his wife and is required to take him tot he Los Santos Golf Club.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Domestic — Wild Oats Dr in Vinewood Hills — All protagonists — reward: $ 80 and unlocks Castro as a golfing opponent."
+    }
+   ],
+   "attrs": {
+    "location": "Wild Oats Dr in Vinewood Hills",
+    "available_for": "All protagonists",
+    "reward": "$ 80 and unlocks Castro as a golfing opponent.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Castro Lagano being kicked out of his house by his wife and is required to take him tot he Los Santos Golf Club."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 80 and unlocks Castro as a golfing opponent.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Vinewood Hills"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Vinewood Hills",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:drug-shootout",
+   "type": "random_event",
+   "name": "Drug Shootout",
+   "aliases": [],
+   "summary": "Random event at Mount Chiliad. Available for: Trevor Philips. Trevor Philips, at the end of a dirt road, will find a group of men at a farm protecting the marijuana crop. The player is required to kill them and steal a briefcase. Note that a marijuana leaf, rather than the dot system, will appear on the map. The event will also re-occur but only every in-game week with the monetary reward being random.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Drug Shootout — Mount Chiliad — Trevor Philips — reward: $ 40,000 to $ 100,000."
+    }
+   ],
+   "attrs": {
+    "location": "Mount Chiliad",
+    "available_for": "Trevor Philips",
+    "reward": "$ 40,000 to $ 100,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "Trevor Philips, at the end of a dirt road, will find a group of men at a farm protecting the marijuana crop. The player is required to kill them and steal a briefcase. Note that a marijuana leaf, rather than the dot system, will appear on the map. The event will also re-occur but only every in-game week with the monetary reward being random."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 40,000 to $ 100,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Mount Chiliad"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Mount Chiliad",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:drunk-driver-1",
+   "type": "random_event",
+   "name": "Drunk Driver 1",
+   "aliases": [],
+   "summary": "Random event at Aguja St in La Puerta. Available for: All protagonists. The player will find a man attempting to drive his drunk friend home with the player then required to drive him to his house on Alta Pl in Hawick.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Drunk Driver 1 — Aguja St in La Puerta — All protagonists — reward: $ 80."
+    }
+   ],
+   "attrs": {
+    "location": "Aguja St in La Puerta",
+    "available_for": "All protagonists",
+    "reward": "$ 80.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a man attempting to drive his drunk friend home with the player then required to drive him to his house on Alta Pl in Hawick."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 80.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "La Puerta"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "La Puerta",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:drunk-driver-2",
+   "type": "random_event",
+   "name": "Drunk Driver 2",
+   "aliases": [],
+   "summary": "Random event at Armadillo Ave in Sandy Shores. Available for: All protagonists. The player will find a drunk couple looking to get back to their motel with the player driving them back.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Drunk Driver 2 — Armadillo Ave in Sandy Shores — All protagonists — reward: $ 40."
+    }
+   ],
+   "attrs": {
+    "location": "Armadillo Ave in Sandy Shores",
+    "available_for": "All protagonists",
+    "reward": "$ 40.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a drunk couple looking to get back to their motel with the player driving them back."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 40.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Sandy Shores"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Sandy Shores",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:escape-paparazzi",
+   "type": "random_event",
+   "name": "Escape Paparazzi",
+   "aliases": [],
+   "summary": "Random event at Vinewood Blvd in Downtown Vinewood. Available for: All protagonists. The player will find Lacey Jonas looking to escape the paparazzi that surround her. The player must lose the paparazzi, and not kill them, and drive to her house in Vinewood Hills.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Escape Paparazzi — Vinewood Blvd in Downtown Vinewood — All protagonists — reward: $ 750."
+    }
+   ],
+   "attrs": {
+    "location": "Vinewood Blvd in Downtown Vinewood",
+    "available_for": "All protagonists",
+    "reward": "$ 750.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Lacey Jonas looking to escape the paparazzi that surround her. The player must lose the paparazzi, and not kill them, and drive to her house in Vinewood Hills."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 750.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Downtown Vinewood"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Downtown Vinewood",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:gang-intimidation",
+   "type": "random_event",
+   "name": "Gang Intimidation",
+   "aliases": [],
+   "summary": "Random event at El Rancho Blvd in El Burro Heights\nFudge Ln in El Burro Heights. Available for: All protagonists. The player will find a woman asking for help and, after following her, is ambushed by some criminals who are then killed.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Gang Intimidation — El Rancho Blvd in El Burro Heights\nFudge Ln in El Burro Heights — All protagonists — reward: $ 200 - $ 500 (dropped money)."
+    }
+   ],
+   "attrs": {
+    "location": "El Rancho Blvd in El Burro Heights\nFudge Ln in El Burro Heights",
+    "available_for": "All protagonists",
+    "reward": "$ 200 - $ 500 (dropped money).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a woman asking for help and, after following her, is ambushed by some criminals who are then killed."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 200 - $ 500 (dropped money).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "El Burro Heights"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "El Burro Heights",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:getaway-driver",
+   "type": "random_event",
+   "name": "Getaway Driver",
+   "aliases": [],
+   "summary": "Random event at Strawberry Ave in Strawberry. Available for: All protagonists. The player will find Patrick McReary and H robbing the Dollar Pills store. The player can help the two escape or kill them.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Getaway Driver — Strawberry Ave in Strawberry — All protagonists — reward: $ 1,000 and Patrick McReary unlocked for heist missions (helping the criminals) or between $ 800 - $ 2,000 (if criminals are killed, money dropped)."
+    }
+   ],
+   "attrs": {
+    "location": "Strawberry Ave in Strawberry",
+    "available_for": "All protagonists",
+    "reward": "$ 1,000 and Patrick McReary unlocked for heist missions (helping the criminals) or between $ 800 - $ 2,000 (if criminals are killed, money dropped).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Patrick McReary and H robbing the Dollar Pills store. The player can help the two escape or kill them."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 1,000 and Patrick McReary unlocked for heist missions (helping the criminals) or between $ 800 - $ 2,000 (if criminals are killed, money dropped).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Strawberry"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Strawberry",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:hitch-lift-1",
+   "type": "random_event",
+   "name": "Hitch Lift 1",
+   "aliases": [],
+   "summary": "Random event at Inseno Rd in Banham Canyon. Available for: All protagonists. The player will find Timm standing next to his broken down Schafter with the player needing to drive him to Los Santos International Airport in five in-game hours.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Hitch Lift 1 — Inseno Rd in Banham Canyon — All protagonists — reward: $ 100, +5 for the driving stat and advice on Tinkle stock for the BAWSAQ website (which can result in a 30% profit)."
+    }
+   ],
+   "attrs": {
+    "location": "Inseno Rd in Banham Canyon",
+    "available_for": "All protagonists",
+    "reward": "$ 100, +5 for the driving stat and advice on Tinkle stock for the BAWSAQ website (which can result in a 30% profit).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Timm standing next to his broken down Schafter with the player needing to drive him to Los Santos International Airport in five in-game hours."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 100, +5 for the driving stat and advice on Tinkle stock for the BAWSAQ website (which can result in a 30% profit).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Banham Canyon"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Banham Canyon",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:hitch-lift-2",
+   "type": "random_event",
+   "name": "Hitch Lift 2",
+   "aliases": [],
+   "summary": "Random event at North Calafia Way in Mount Chiliad. Available for: Franklin Clinton or Trevor Philips. The player will find Ursula attempting to hitchhike home with the player required to drive her home.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Hitch Lift 2 — North Calafia Way in Mount Chiliad — Franklin Clinton or Trevor Philips — reward: +5 for the driving stat and Ursula as a Booty Call."
+    }
+   ],
+   "attrs": {
+    "location": "North Calafia Way in Mount Chiliad",
+    "available_for": "Franklin Clinton or Trevor Philips",
+    "reward": "+5 for the driving stat and Ursula as a Booty Call.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find Ursula attempting to hitchhike home with the player required to drive her home."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +5 for the driving stat and Ursula as a Booty Call.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Mount Chiliad"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Mount Chiliad",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:hitch-lift-3",
+   "type": "random_event",
+   "name": "Hitch Lift 3",
+   "aliases": [],
+   "summary": "Random event at East Joshua Rd in San Chianski Mountain Range. Available for: All protagonists. The player will find a woman looking to hitchhike back to Los Santos with the player tasked with driving her to her boyfriend.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Hitch Lift 3 — East Joshua Rd in San Chianski Mountain Range — All protagonists — reward: +5 for the driving stat and a fight with her boyfriend."
+    }
+   ],
+   "attrs": {
+    "location": "East Joshua Rd in San Chianski Mountain Range",
+    "available_for": "All protagonists",
+    "reward": "+5 for the driving stat and a fight with her boyfriend.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a woman looking to hitchhike back to Los Santos with the player tasked with driving her to her boyfriend."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +5 for the driving stat and a fight with her boyfriend.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "San Chianski Mountain Range"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "San Chianski Mountain Range",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:hitch-lift-4",
+   "type": "random_event",
+   "name": "Hitch Lift 4",
+   "aliases": [],
+   "summary": "Random event at Route 68 in Great Chaparral. Available for: All protagonists. The player will find a bride running away from her wedding with the player then needing to lose or beat up the groom (without killing him) before driving her to her house on Kimble Hill Dr in Vinewood Hills.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Hitch Lift 4 — Route 68 in Great Chaparral — All protagonists — reward: No reward, although a maximum of $ 700 can be obtained in dropped money."
+    }
+   ],
+   "attrs": {
+    "location": "Route 68 in Great Chaparral",
+    "available_for": "All protagonists",
+    "reward": "No reward, although a maximum of $ 700 can be obtained in dropped money.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a bride running away from her wedding with the player then needing to lose or beat up the groom (without killing him) before driving her to her house on Kimble Hill Dr in Vinewood Hills."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward, although a maximum of $ 700 can be obtained in dropped money.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Great Chaparral"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Great Chaparral",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:luring-girl-into-alley",
+   "type": "random_event",
+   "name": "Luring Girl into Alley",
+   "aliases": [],
+   "summary": "Random event at Supply St in La Mesa. Available for: All protagonists. The player will find a woman asking for help and, after following her, is ambushed by the woman and a male accomplice. The player must then kill them.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Luring Girl into Alley — Supply St in La Mesa — All protagonists — reward: $ 10 - $ 50 (dropped money)."
+    }
+   ],
+   "attrs": {
+    "location": "Supply St in La Mesa",
+    "available_for": "All protagonists",
+    "reward": "$ 10 - $ 50 (dropped money).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a woman asking for help and, after following her, is ambushed by the woman and a male accomplice. The player must then kill them."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 10 - $ 50 (dropped money).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "La Mesa"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "La Mesa",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:mugging-1",
+   "type": "random_event",
+   "name": "Mugging 1",
+   "aliases": [],
+   "summary": "Random event at Forum Dr in Chamberlain Hills. Available for: All protagonists. The player will find a man being mugged in an alley off Forum Dr with the player needing to retrieve the wallet.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Mugging 1 — Forum Dr in Chamberlain Hills — All protagonists — reward: $ 200 (keeping the money) or $ 20 and a full special bar (if returned)."
+    }
+   ],
+   "attrs": {
+    "location": "Forum Dr in Chamberlain Hills",
+    "available_for": "All protagonists",
+    "reward": "$ 200 (keeping the money) or $ 20 and a full special bar (if returned).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a man being mugged in an alley off Forum Dr with the player needing to retrieve the wallet."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 200 (keeping the money) or $ 20 and a full special bar (if returned).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Chamberlain Hills"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Chamberlain Hills",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:mugging-2",
+   "type": "random_event",
+   "name": "Mugging 2",
+   "aliases": [],
+   "summary": "Random event at Meteor St in Hawick. Available for: All protagonists. The player will find a male assaulting a woman in an alleyway and is required to kill him before he kills the woman.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Mugging 2 — Meteor St in Hawick — All protagonists — reward: No reward."
+    }
+   ],
+   "attrs": {
+    "location": "Meteor St in Hawick",
+    "available_for": "All protagonists",
+    "reward": "No reward.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a male assaulting a woman in an alleyway and is required to kill him before he kills the woman."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Hawick"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Hawick",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:mugging-3",
+   "type": "random_event",
+   "name": "Mugging 3",
+   "aliases": [],
+   "summary": "Random event at Vespucci Blvd in Pillbox Hill. Available for: All protagonists. The player will find a man stealing the wallet of a pedestrian and must retrieve it.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Mugging 3 — Vespucci Blvd in Pillbox Hill — All protagonists — reward: $ 2,000 (keeping the money) or $ 200 and a full special bar (if returned)."
+    }
+   ],
+   "attrs": {
+    "location": "Vespucci Blvd in Pillbox Hill",
+    "available_for": "All protagonists",
+    "reward": "$ 2,000 (keeping the money) or $ 200 and a full special bar (if returned).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a man stealing the wallet of a pedestrian and must retrieve it."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 2,000 (keeping the money) or $ 200 and a full special bar (if returned).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Pillbox Hill"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Pillbox Hill",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:prisoner-lift-1",
+   "type": "random_event",
+   "name": "Prisoner Lift 1",
+   "aliases": [],
+   "summary": "Random event at North of Bolingbroke Penitentiary in the Grand Senora Desert. Available for: Franklin Clinton or Michael De Santa. The player will find a member of The Lost Brotherhood next to a crashed police vehicle and must then drive him to the Lost Brotherhood's hangout in East Vinewood but only after losing a one star wanted level.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Prisoner Lift 1 — North of Bolingbroke Penitentiary in the Grand Senora Desert — Franklin Clinton or Michael De Santa — reward: +5 for the driving stat."
+    }
+   ],
+   "attrs": {
+    "location": "North of Bolingbroke Penitentiary in the Grand Senora Desert",
+    "available_for": "Franklin Clinton or Michael De Santa",
+    "reward": "+5 for the driving stat.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a member of The Lost Brotherhood next to a crashed police vehicle and must then drive him to the Lost Brotherhood's hangout in East Vinewood but only after losing a one star wanted level."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +5 for the driving stat.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grand Senora Desert"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grand Senora Desert",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:prison-lift-2",
+   "type": "random_event",
+   "name": "Prison Lift 2",
+   "aliases": [],
+   "summary": "Random event at South of Bolingbroke Penitentiary in the Grand Senora Desert. Available for: All protagonists. The player will find an escaped prisoner asking for a lift away from the prison but will rob the player and attempt to escape with the player needing to kill the criminal.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Prison Lift 2 — South of Bolingbroke Penitentiary in the Grand Senora Desert — All protagonists — reward: No reward."
+    }
+   ],
+   "attrs": {
+    "location": "South of Bolingbroke Penitentiary in the Grand Senora Desert",
+    "available_for": "All protagonists",
+    "reward": "No reward.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find an escaped prisoner asking for a lift away from the prison but will rob the player and attempt to escape with the player needing to kill the criminal."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Grand Senora Desert"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Grand Senora Desert",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:rogue-altruists",
+   "type": "random_event",
+   "name": "Rogue Altruists",
+   "aliases": [],
+   "summary": "Random event at Baytree Canyon Rd. Available for: Franklin Clinton or Michael De Santa. The player will find two members of The Altruists cult attacking a woman and, after killing the cult members, drives the woman home.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Rogue Altruists — Baytree Canyon Rd — Franklin Clinton or Michael De Santa — reward: $ 80."
+    }
+   ],
+   "attrs": {
+    "location": "Baytree Canyon Rd",
+    "available_for": "Franklin Clinton or Michael De Santa",
+    "reward": "$ 80.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find two members of The Altruists cult attacking a woman and, after killing the cult members, drives the woman home."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 80.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Baytree Canyon Rd"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Baytree Canyon Rd",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:shop-robbery-1",
+   "type": "random_event",
+   "name": "Shop Robbery 1",
+   "aliases": [],
+   "summary": "Random event at Eastbourne Way in Rockford Hills. Available for: All protagonists. The player enters the Bob Mulét barbers and finds a robbery taking place. After the criminal leaves, the player must follow them in a vehicle and kill them to retrieve the money.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Shop Robbery 1 — Eastbourne Way in Rockford Hills — All protagonists — reward: $ 2,000 (keeping the money) or no reward (if returning the money)."
+    }
+   ],
+   "attrs": {
+    "location": "Eastbourne Way in Rockford Hills",
+    "available_for": "All protagonists",
+    "reward": "$ 2,000 (keeping the money) or no reward (if returning the money).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player enters the Bob Mulét barbers and finds a robbery taking place. After the criminal leaves, the player must follow them in a vehicle and kill them to retrieve the money."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 2,000 (keeping the money) or no reward (if returning the money).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Rockford Hills"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Rockford Hills",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:shop-robbery-2",
+   "type": "random_event",
+   "name": "Shop Robbery 2",
+   "aliases": [],
+   "summary": "Random event at Prosperity St Promenade in Del Perro. Available for: All protagonists. The player enters the Sub Urban store and finds a robbery taking place. After the criminal leaves, the player must follow them on foot and kill them to retrieve the money.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Shop Robbery 2 — Prosperity St Promenade in Del Perro — All protagonists — reward: $ 2,000 (keeping the money) or 25% off the next purchase (if returning the money)."
+    }
+   ],
+   "attrs": {
+    "location": "Prosperity St Promenade in Del Perro",
+    "available_for": "All protagonists",
+    "reward": "$ 2,000 (keeping the money) or 25% off the next purchase (if returning the money).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player enters the Sub Urban store and finds a robbery taking place. After the criminal leaves, the player must follow them on foot and kill them to retrieve the money."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 2,000 (keeping the money) or 25% off the next purchase (if returning the money).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Del Perro"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Del Perro",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:simeon-yetarian",
+   "type": "random_event",
+   "name": "Simeon Yetarian",
+   "aliases": [],
+   "summary": "Random event at Corner of Adam's Apple Blvd and Power St in Pillbox Hill. Available for: Franklin Clinton or Michael De Santa. The player enters Premium Deluxe Motorsport and confronts Simeon Yetarian who will then flee. The player can then kill Simeon or allow him to escape. This random event can only be completed between the missions Friend Request and The Jewel Store Job.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Simeon Yetarian — Corner of Adam's Apple Blvd and Power St in Pillbox Hill — Franklin Clinton or Michael De Santa — reward: No reward."
+    }
+   ],
+   "attrs": {
+    "location": "Corner of Adam's Apple Blvd and Power St in Pillbox Hill",
+    "available_for": "Franklin Clinton or Michael De Santa",
+    "reward": "No reward.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player enters Premium Deluxe Motorsport and confronts Simeon Yetarian who will then flee. The player can then kill Simeon or allow him to escape. This random event can only be completed between the missions Friend Request and The Jewel Store Job."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Pillbox Hill"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Pillbox Hill",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:snatched",
+   "type": "random_event",
+   "name": "Snatched",
+   "aliases": [],
+   "summary": "Random event at South Mo Milton Dr in Vinewood Hills. Available for: All protagonists. The player will find a woman being kidnapped by The Lost Brotherhood and must free the girl. The player will then be asked to drive her to Dara 's house in Chumash and will have to kill pursuing Lost gang members.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Snatched — South Mo Milton Dr in Vinewood Hills — All protagonists — reward: No reward."
+    }
+   ],
+   "attrs": {
+    "location": "South Mo Milton Dr in Vinewood Hills",
+    "available_for": "All protagonists",
+    "reward": "No reward.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a woman being kidnapped by The Lost Brotherhood and must free the girl. The player will then be asked to drive her to Dara 's house in Chumash and will have to kill pursuing Lost gang members."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: No reward.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Vinewood Hills"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Vinewood Hills",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:sports-bike-theft",
+   "type": "random_event",
+   "name": "Sports Bike Theft",
+   "aliases": [],
+   "summary": "Random event at North Rockford Dr in Richman. Available for: All protagonists. The player will find a man stealing a Bati 800 with the player required to retrieve it.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Sports Bike Theft — North Rockford Dr in Richman — All protagonists — reward: +5 for the driving stat (if returned) or a Bati 800 (if not returned)."
+    }
+   ],
+   "attrs": {
+    "location": "North Rockford Dr in Richman",
+    "available_for": "All protagonists",
+    "reward": "+5 for the driving stat (if returned) or a Bati 800 (if not returned).",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a man stealing a Bati 800 with the player required to retrieve it."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: +5 for the driving stat (if returned) or a Bati 800 (if not returned).."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Richman"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Richman",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:stag-do-running-man",
+   "type": "random_event",
+   "name": "Stag Do Running Man",
+   "aliases": [],
+   "summary": "Random event at Route 68 in Great Chaparral. Available for: All protagonists. The player will find a groom tied to an post on Route 68 and, after freeing him, will need to drive to his house on Banham Canyon Dr in Vinewood Hills, to his best man at Hookies on the Great Ocean Hwy and to the wedding at the St. Brigid Baptist Church in Paleto Bay in five in-game hours.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Stag Do Running Man — Route 68 in Great Chaparral — All protagonists — reward: Super Diamond."
+    }
+   ],
+   "attrs": {
+    "location": "Route 68 in Great Chaparral",
+    "available_for": "All protagonists",
+    "reward": "Super Diamond.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will find a groom tied to an post on Route 68 and, after freeing him, will need to drive to his house on Banham Canyon Dr in Vinewood Hills, to his best man at Hookies on the Great Ocean Hwy and to the wedding at the St. Brigid Baptist Church in Paleto Bay in five in-game hours."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: Super Diamond.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Great Chaparral"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Great Chaparral",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-1",
+   "type": "random_event",
+   "name": "Security Van 1",
+   "aliases": [],
+   "summary": "Random event at Corner of Alta St and Innocence Blvd in La Puerta. Available for: All protagonists. The player will need to steal some money being transferred by two security guards from the Globe Oil filling station, either by killing them before they enter the van or destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 1 — Corner of Alta St and Innocence Blvd in La Puerta — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Corner of Alta St and Innocence Blvd in La Puerta",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred by two security guards from the Globe Oil filling station, either by killing them before they enter the van or destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "La Puerta"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "La Puerta",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-2",
+   "type": "random_event",
+   "name": "Security Van 2",
+   "aliases": [],
+   "summary": "Random event at Vespucci Blvd in Little Seoul. Available for: All protagonists. The player will need to steal some money being transferred by two security guards from the Lucky Plucker restaurant, either by killing them before they enter the van or destroying the back door and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 2 — Vespucci Blvd in Little Seoul — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Vespucci Blvd in Little Seoul",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred by two security guards from the Lucky Plucker restaurant, either by killing them before they enter the van or destroying the back door and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Little Seoul"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Little Seoul",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-3",
+   "type": "random_event",
+   "name": "Security Van 3",
+   "aliases": [],
+   "summary": "Random event at Paleto Blvd in Paleto Bay. Available for: All protagonists. The player will need to steal some money being transferred by two security guards, either by killing them before they enter the van or destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 3 — Paleto Blvd in Paleto Bay — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Paleto Blvd in Paleto Bay",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred by two security guards, either by killing them before they enter the van or destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Paleto Bay"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Paleto Bay",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-4",
+   "type": "random_event",
+   "name": "Security Van 4",
+   "aliases": [],
+   "summary": "Random event at Adam's Apple Blvd in Little Seoul. Available for: All protagonists. The player will need to steal some money being transferred by two security guards, either by killing them before they enter the van or destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 4 — Adam's Apple Blvd in Little Seoul — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Adam's Apple Blvd in Little Seoul",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred by two security guards, either by killing them before they enter the van or destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Little Seoul"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Little Seoul",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-5",
+   "type": "random_event",
+   "name": "Security Van 5",
+   "aliases": [],
+   "summary": "Random event at Prosperity St in Vespucci Canals. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 5 — Prosperity St in Vespucci Canals — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Prosperity St in Vespucci Canals",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Vespucci Canals"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Vespucci Canals",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-6",
+   "type": "random_event",
+   "name": "Security Van 6",
+   "aliases": [],
+   "summary": "Random event at San Andreas Ave in Little Seoul. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 6 — San Andreas Ave in Little Seoul — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "San Andreas Ave in Little Seoul",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Little Seoul"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Little Seoul",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-7",
+   "type": "random_event",
+   "name": "Security Van 7",
+   "aliases": [],
+   "summary": "Random event at Chianski Passage in San Chianski Mountain Range. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 7 — Chianski Passage in San Chianski Mountain Range — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Chianski Passage in San Chianski Mountain Range",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "San Chianski Mountain Range"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "San Chianski Mountain Range",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-8",
+   "type": "random_event",
+   "name": "Security Van 8",
+   "aliases": [],
+   "summary": "Random event at Great Ocean Hwy in Tongva Hills. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 8 — Great Ocean Hwy in Tongva Hills — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Great Ocean Hwy in Tongva Hills",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Tongva Hills"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Tongva Hills",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-9",
+   "type": "random_event",
+   "name": "Security Van 9",
+   "aliases": [],
+   "summary": "Random event at El Rancho Blvd in Cypress Flats. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 9 — El Rancho Blvd in Cypress Flats — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "El Rancho Blvd in Cypress Flats",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "Cypress Flats"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "Cypress Flats",
+    "coord_precision": "area"
+   }
+  },
+  {
+   "id": "random_event:security-van-10",
+   "type": "random_event",
+   "name": "Security Van 10",
+   "aliases": [],
+   "summary": "Random event at Supply St in La Mesa. Available for: All protagonists. The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police.",
+   "verification": "curated",
+   "confidence": 0.75,
+   "sources": [
+    {
+     "source": "grandtheftwiki",
+     "url": "https://www.grandtheftwiki.com/Random_Events",
+     "title": "Random Events",
+     "retrieved_at": "2026-10-06",
+     "confidence": 0.75,
+     "excerpt": "Security Van 10 — Supply St in La Mesa — All protagonists — reward: $ 3,000 - $ 8,000."
+    }
+   ],
+   "attrs": {
+    "location": "Supply St in La Mesa",
+    "available_for": "All protagonists",
+    "reward": "$ 3,000 - $ 8,000.",
+    "counts_toward_100": "any 14 random events are required for 100%",
+    "repeatable": "not stated per event (the page notes most recur if ignored; some are once only)"
+   },
+   "sections": [
+    {
+     "kind": "details",
+     "title": "What happens",
+     "text": "The player will need to steal some money being transferred in a Securicar, by destroying the back doors, and then lose the police."
+    },
+    {
+     "kind": "reward",
+     "title": "Reward",
+     "text": "Reward listed by Grand Theft Wiki: $ 3,000 - $ 8,000.."
+    }
+   ],
+   "relations": [
+    {
+     "predicate": "available_to",
+     "to": "character:michael-de-santa"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:franklin-clinton"
+    },
+    {
+     "predicate": "available_to",
+     "to": "character:trevor-philips"
+    },
+    {
+     "predicate": "located_in",
+     "toName": "La Mesa"
+    },
+    {
+     "predicate": "contributes_to",
+     "to": "completion:100-percent",
+     "props": {
+      "rule": "any 14 of the random events"
+     }
+    }
+   ],
+   "location": {
+    "area": "La Mesa",
+    "coord_precision": "area"
+   }
+  }
+ ],
+ "completion": [],
+ "issues": [
+  "parsed 56 random events (page intro: \"Fifty seven random events appear in the original release\", plus three added in PS4/Xbox One/PC)"
+ ]
+}

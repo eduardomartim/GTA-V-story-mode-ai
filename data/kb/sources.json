@@ -50,7 +50,8 @@
     "base_url": "https://www.grandtheftwiki.com",
     "source_type": "wiki",
     "authority": 3,
-    "notes": "Reachable from automated tooling, so used to cross-check facts at curation time."
+    "notes": "Community wiki (content under CC BY-SA 3.0). HTML pages fetched politely (robots.txt, 10 s crawl-delay); item lists, infoboxes and tables are extracted with attribution.",
+    "license": "CC BY-SA 3.0"
   },
   {
     "id": "gtabase",
@@ -75,5 +76,14 @@
     "source_type": "community",
     "authority": 2,
     "notes": "Fan site; heist crew opinions (treated as opinion)."
+  },
+  {
+    "id": "esx-collectables",
+    "name": "esx_collectables (Mobius1, GitHub)",
+    "base_url": "https://github.com",
+    "source_type": "community",
+    "authority": 3,
+    "license": "GPL-3.0",
+    "notes": "Community-measured in-game coordinates of letter scraps, spaceship parts, nuclear waste, submarine pieces, hidden packages and Epsilon tracts (config.lua of a FiveM script). Positions only — no names or descriptions. Redistributed with attribution under GPL-3.0 (see DATA_LICENSES.md)."
   }
 ]

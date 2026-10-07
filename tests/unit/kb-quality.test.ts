@@ -12,7 +12,7 @@ function entity(over: Record<string, unknown> = {}) {
     sources: [{ source: "gta-wiki", url: "https://gta.fandom.com/wiki/Test" }], ...over,
   });
 }
-const withEntities = (...entities: ReturnType<typeof entity>[]): KnowledgeBase => ({ ...real, entities, assets: [], backlog: [] });
+const withEntities = (...entities: ReturnType<typeof entity>[]): KnowledgeBase => ({ ...real, entities, assets: [], backlog: [], completion: [] });
 
 describe("shipped knowledge base", () => {
   it("passes every data-quality rule", () => expect(errorsOf(real)).toEqual([]));
@@ -22,8 +22,8 @@ describe("shipped knowledge base", () => {
     expect(real.entities.every((e) => e.sources.length > 0)).toBe(true);
     expect(real.entities.filter((e) => e.type === "mission").every((e) => e.story_mode && !e.online_only)).toBe(true);
   });
-  it("covers all 79 story missions listed by the reference wiki", () => {
-    expect(real.entities.filter((e) => e.type === "mission")).toHaveLength(79);
+  it("covers all 79 story missions listed by the reference wiki (Strangers and Freaks / side missions are separate)", () => {
+    expect(real.entities.filter((e) => e.type === "mission" && !["stranger", "side"].includes(String(e.attrs.mission_type)))).toHaveLength(79);
   });
   it("keeps Online-only content isolated in online_boundary entities", () => {
     const online = real.entities.filter((e) => e.online_only);

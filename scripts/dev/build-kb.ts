@@ -398,7 +398,7 @@ const KEEP = new Set(["game_mechanic:special-abilities", "game_mechanic:heist-cr
 write("entities-mechanics.json", mechanics.filter((m) => KEEP.has(m.id)));
 
 write("assets.json", [
-  { id: "asset:map-san-andreas", title: "Schematic map of San Andreas (project artwork)", asset_type: "map", url: "/maps/san-andreas.svg", source: "GTA V Story AI project", license: "Original artwork, project-owned (not extracted from the game)", attribution: "Positions are approximate." },
+  { id: "asset:map-san-andreas", title: "Schematic map of San Andreas (project artwork)", asset_type: "map", url: "/maps/san-andreas.svg", source: "GTA V Story AI project", license: "Original drawing by the project author: hand-placed schematic outline, not game artwork and not derived from third-party data (the GPL-3.0 coastline is a separate dataset, see DATA_LICENSES.md)", attribution: "Positions are approximate." },
   ...[
     ["michael", "character:michael-de-santa", "Michael_De_Santa"],
     ["franklin", "character:franklin-clinton", "Franklin_Clinton"],

@@ -1,9 +1,13 @@
 import { MAP_VIEWBOX, gameToMap } from "./projection";
 
 /**
- * Original, schematic artwork of San Andreas (NOT extracted from the game; shapes are hand-placed and
- * deliberately simplified). One generator feeds both the React MapCard and the static
- * /public/maps/san-andreas.svg file, so they can never drift apart.
+ * Original, schematic drawing of San Andreas by the project author (NOT extracted from the game and NOT derived from
+ * third-party data): a hand-placed outline, lake, mountain and city block, deliberately simplified. One generator
+ * feeds both the React MapCard and the static /public/maps/san-andreas.svg file, so they can never drift apart.
+ *
+ * The more detailed coastline traced from the esx_collectables coordinates is a GPL-3.0 dataset
+ * (datasets/esx-collectables/land.json). It is NOT imported here, so it never enters the client bundle; the
+ * interactive map receives it at runtime from /api/map, with its licence notice.
  */
 type Pt = [number, number];
 

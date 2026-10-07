@@ -114,3 +114,39 @@ describe("GET /api/health", () => {
     expect(JSON.stringify(json)).not.toMatch(/key|secret|postgres:\/\//i);
   });
 });
+
+describe("GET /api/map", () => {
+  it("returns markers with a declared precision and no Online-only content", async () => {
+    const { GET: map } = await import("@/app/api/map/route");
+    const res = await map(new Request("http://localhost/api/map"));
+    expect(res.status).toBe(200);
+    const json = (await res.json()) as { markers: Array<{ id: string; precision: string; layer: string }> };
+    expect(json.markers.length).toBeGreaterThan(100);
+    expect(new Set(json.markers.map((m) => m.precision))).toEqual(new Set(["community", "approximate", "area"].filter((p) => json.markers.some((m) => m.precision === p))));
+    expect(json.markers.some((m) => m.id.startsWith("online_boundary:"))).toBe(false);
+  });
+
+  it("serves the GPL coastline at runtime together with the dataset licence notices", async () => {
+    const { GET: map } = await import("@/app/api/map/route");
+    const json = (await (await map(new Request("http://localhost/api/map"))).json()) as {
+      coastline: Array<Array<[number, number]>> | null; attribution: Array<{ dataset: string; licence: string; licenceUrl: string }>;
+    };
+    expect(json.coastline?.length).toBeGreaterThan(0);
+    expect(json.attribution.map((a) => `${a.dataset}:${a.licence}`)).toEqual(["grandtheftwiki:CC BY-SA 3.0", "esx-collectables:GPL-3.0"]);
+    expect(json.attribution.every((a) => a.licenceUrl.startsWith("https://"))).toBe(true);
+  });
+
+  it("rejects cross-site browser requests", async () => {
+    const { GET: map } = await import("@/app/api/map/route");
+    const res = await map(new Request("http://localhost/api/map", { headers: { "sec-fetch-site": "cross-site" } }));
+    expect(res.status).toBe(401);
+  });
+});
+
+describe("POST /api/chat language choice", () => {
+  it("accepts an explicit answer language and rejects unknown ones", async () => {
+    const ok = await post({ message: "Where is the Del Perro Pier?", lang: "pt" });
+    expect((await ok.json()).lang).toBe("pt");
+    expect((await post({ message: "oi", lang: "fr" })).status).toBe(400);
+  });
+});

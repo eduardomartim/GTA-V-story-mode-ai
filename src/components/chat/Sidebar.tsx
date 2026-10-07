@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { cn } from "@/lib/cn";
+import { TOPICS, useLang } from "@/lib/ui/i18n";
 
 export interface Health {
   ok: boolean;
@@ -8,15 +10,6 @@ export interface Health {
   embeddings: { model: string };
   database: { reachable: boolean; kind: string | null; entities: number; chunks: number };
 }
-
-const TOPICS: Array<[string, string]> = [
-  ["Missions & heists", "Show me all Lester missions"],
-  ["Collectibles", "How many Letter Scraps are there?"],
-  ["100% completion", "How do I get 100% completion?"],
-  ["Cheats (PC)", "What are the PC cheat codes?"],
-  ["Money & stocks", "How does the stock market work?"],
-  ["Endings", "Which ending is the best?"],
-];
 
 const LINKS: Array<[string, string]> = [
   ["Rockstar Support", "https://support.rockstargames.com/gta-v"],
@@ -31,22 +24,23 @@ export function SidebarContent({ health, spoilers, onSpoilers, onAsk, onNew }: {
   onAsk: (q: string) => void;
   onNew: () => void;
 }) {
+  const { lang, t } = useLang();
   return (
     <div className="flex h-full flex-col gap-5 overflow-y-auto p-4 scroll-thin">
       <button type="button" onClick={onNew} className="rounded-xl border border-line bg-raise px-3 py-2 text-sm font-medium transition hover:border-ember/60 hover:text-ember">
-        ＋ New conversation
+        {t("newConversation")}
       </button>
 
-      <section aria-label="Scope" className="rounded-xl border border-line bg-panel/70 p-3">
-        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-mute">Scope</p>
-        <p className="mt-1 text-sm text-bone">Story Mode only.</p>
-        <p className="mt-0.5 text-xs leading-snug text-mute">GTA Online content is detected and kept out of the answers.</p>
+      <section aria-label={t("scope")} className="rounded-xl border border-line bg-panel/70 p-3">
+        <p className="text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-mute">{t("scope")}</p>
+        <p className="mt-1 text-sm text-bone">{t("storyOnly")}</p>
+        <p className="mt-0.5 text-xs leading-snug text-mute">{t("scopeText")}</p>
       </section>
 
       <div className="flex items-center justify-between gap-3 rounded-xl border border-line bg-panel/70 p-3">
         <div>
-          <p id="spoiler-label" className="text-sm text-bone">Allow spoilers</p>
-          <p className="text-xs text-mute">Endings, deaths, twists</p>
+          <p id="spoiler-label" className="text-sm text-bone">{t("spoilers")}</p>
+          <p className="text-xs text-mute">{t("spoilersHint")}</p>
         </div>
         <button
           type="button" role="switch" aria-checked={spoilers} aria-labelledby="spoiler-label" onClick={() => onSpoilers(!spoilers)}
@@ -56,10 +50,12 @@ export function SidebarContent({ health, spoilers, onSpoilers, onAsk, onNew }: {
         </button>
       </div>
 
-      <nav aria-label="Topics">
-        <p className="mb-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-mute">Explore</p>
+      <Link href="/map" className="rounded-xl border border-line bg-panel/70 px-3 py-2 text-sm text-bone transition hover:border-ember/60 hover:text-ember">🗺 {t("openFullMap")}</Link>
+
+      <nav aria-label={t("explore")}>
+        <p className="mb-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-mute">{t("explore")}</p>
         <ul className="grid gap-1">
-          {TOPICS.map(([label, q]) => (
+          {TOPICS[lang].map(([label, q]) => (
             <li key={label}>
               <button type="button" onClick={() => onAsk(q)} className="w-full rounded-lg px-2.5 py-1.5 text-left text-sm text-bone transition hover:bg-raise hover:text-ember">{label}</button>
             </li>
@@ -67,16 +63,16 @@ export function SidebarContent({ health, spoilers, onSpoilers, onAsk, onNew }: {
         </ul>
       </nav>
 
-      <section aria-label="System status" className="mt-auto rounded-xl border border-line bg-panel/70 p-3 text-xs text-mute">
-        <p className="mb-1 text-[0.68rem] font-semibold uppercase tracking-[0.16em]">System</p>
+      <section aria-label={t("system")} className="mt-auto rounded-xl border border-line bg-panel/70 p-3 text-xs text-mute">
+        <p className="mb-1 text-[0.68rem] font-semibold uppercase tracking-[0.16em]">{t("system")}</p>
         {health ? (
           <dl className="grid grid-cols-[auto_1fr] gap-x-3 gap-y-0.5">
-            <dt>AI</dt><dd className="text-bone">{health.ai.configured ? `${health.ai.provider} · ${health.ai.model}` : "demo (no provider)"}</dd>
-            <dt>Knowledge</dt><dd className="text-bone">{health.database.entities > 0 ? `${health.database.entities} entities · ${health.database.chunks} chunks` : "empty — run npm run db:seed"}</dd>
-            <dt>Store</dt><dd className="text-bone">{health.database.kind === "pg" ? "PostgreSQL" : "PGlite (Postgres)"} + pgvector</dd>
+            <dt>{t("ai")}</dt><dd className="text-bone">{health.ai.configured ? `${health.ai.provider} · ${health.ai.model}` : t("demoNoProvider")}</dd>
+            <dt>{t("knowledge")}</dt><dd className="text-bone">{health.database.entities > 0 ? `${health.database.entities} entities · ${health.database.chunks} chunks` : t("emptyKb")}</dd>
+            <dt>{t("store")}</dt><dd className="text-bone">{health.database.kind === "pg" ? "PostgreSQL" : "PGlite (Postgres)"} + pgvector</dd>
             <dt>Embeddings</dt><dd className="truncate text-bone" title={health.embeddings.model}>{health.embeddings.model}</dd>
           </dl>
-        ) : <p>Checking…</p>}
+        ) : <p>{t("checking")}</p>}
         <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
           {LINKS.map(([label, href]) => (
             <li key={href}><a className="underline-offset-2 hover:text-ember hover:underline" href={href} target="_blank" rel="noopener noreferrer">{label} ↗</a></li>

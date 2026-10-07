@@ -79,7 +79,7 @@
   { "id": "col-07", "category": "collectibles", "question": "Como começo a coletar peças de submarino?", "expected_entities": ["collectible:submarine-pieces"], "expected_sources": [], "expected_answer_facts": ["sonar collections dock"] },
   { "id": "col-08", "category": "collectibles", "question": "How many stunt jumps do I need for 100%?", "expected_entities": ["collectible:stunt-jumps"], "expected_sources": ["gtabase"], "expected_answer_facts": ["25"] },
   { "id": "col-09", "category": "collectibles", "question": "Quantos knife flights preciso fazer para completar 100%?", "expected_entities": ["collectible:knife-flights"], "expected_sources": ["gtabase"], "expected_answer_facts": ["8"] },
-  { "id": "col-10", "category": "collectibles", "question": "Onde exatamente ficam todos os spaceship parts?", "expect": "unvalidated", "expected_entities": ["collectible:spaceship-parts"], "expected_sources": [], "expected_answer_facts": [] },
+  { "id": "col-10", "category": "collectibles", "question": "Onde exatamente ficam todos os spaceship parts?", "expected_entities": ["collectible:spaceship-parts"], "expected_sources": ["esx-collectables"], "expected_answer_facts": ["spaceship part #1", "spaceship part #50", "stab city"] },
 
   { "id": "loc-01", "category": "locations", "question": "Onde fica o Del Perro Pier?", "expected_entities": ["location:del-perro-pier"], "expected_sources": ["gta-wiki"], "expected_answer_facts": ["del perro"], "expected_cards": ["location", "map"] },
   { "id": "loc-02", "category": "locations", "question": "Where is the Vangelico jewelry store?", "expected_entities": ["location:vangelico-jewelry-store"], "expected_sources": ["gta-wiki"], "expected_answer_facts": ["rockford"], "expected_cards": ["location", "map"] },

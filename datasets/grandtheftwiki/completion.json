@@ -1,0 +1,1078 @@
+[
+ {
+  "id": "missions-complete-all-69-storyline-missions-which",
+  "category": "missions",
+  "label": "Complete all 69 storyline missions, which can be found here.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 69,
+  "required_count": 69,
+  "notes": "The 69 required story missions; the full mission list in this knowledge base has 79 entries because it also counts every setup, heist approach and ending separately.",
+  "target_ids": []
+ },
+ {
+  "id": "missions-complete-the-assassination-missions-for-lester",
+  "category": "missions",
+  "label": "Complete the assassination missions for Lester Crest.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": [
+   "character:lester-crest"
+  ]
+ },
+ {
+  "id": "missions-complete-14-out-of-the-57",
+  "category": "random_events",
+  "label": "Complete 14 out of the 57 (PS3/Xbox 360) or 60 (PS4/Xbox One/PC) Random Events.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 14,
+  "total_count": 60,
+  "notes": "(PS3/Xbox 360) (PS4/Xbox One/PC)",
+  "target_ids": [
+   "random_event:random-events-overview"
+  ]
+ },
+ {
+  "id": "sf-barry",
+  "category": "strangers_and_freaks",
+  "label": "Barry — Grass Roots - Franklin, Grass Roots - The Pickup, Grass Roots - The drag and Grass Roots - The Smoke-In",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 4,
+  "target_ids": [
+   "character:barry",
+   "mission:grass-roots-franklin",
+   "mission:grass-roots-the-pickup",
+   "mission:grass-roots-the-drag",
+   "mission:grass-roots-the-smoke-in"
+  ]
+ },
+ {
+  "id": "sf-beverly-felton",
+  "category": "strangers_and_freaks",
+  "label": "Beverly Felton — Paparazzo, Paparazzo - The Sex Tape, Paparazzo - The Partnership, Paparazzo - The Meltdown, Paparazzo - The Highness and Paparazzo - Reality Check",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 6,
+  "target_ids": [
+   "character:beverly-felton",
+   "mission:paparazzo",
+   "mission:paparazzo-the-sex-tape",
+   "mission:paparazzo-the-partnership",
+   "mission:paparazzo-the-meltdown",
+   "mission:paparazzo-the-highness",
+   "mission:paparazzo-reality-check"
+  ]
+ },
+ {
+  "id": "sf-dom-beasley",
+  "category": "strangers_and_freaks",
+  "label": "Dom Beasley — Risk Assessment, Liquidity Risk, Targeted Risk and Uncalculated Risk (requires all parachute jumps to be completed)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "notes": "requires all parachute jumps to be completed",
+  "required_count": 4,
+  "target_ids": [
+   "character:dom-beasley",
+   "mission:risk-assessment",
+   "mission:liquidity-risk",
+   "mission:targeted-risk",
+   "mission:uncalculated-risk"
+  ]
+ },
+ {
+  "id": "sf-peter-dreyfuss",
+  "category": "strangers_and_freaks",
+  "label": "Peter Dreyfuss — A Starlet in Vinewood (need to collect all Letter Scraps to be completed)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "notes": "need to collect all Letter Scraps to be completed",
+  "required_count": 1,
+  "target_ids": [
+   "character:peter-dreyfuss",
+   "mission:a-starlet-in-vinewood"
+  ]
+ },
+ {
+  "id": "sf-hao",
+  "category": "strangers_and_freaks",
+  "label": "Hao — Hao's street races",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": [
+   "character:hao"
+  ]
+ },
+ {
+  "id": "sf-maryann-quinn",
+  "category": "strangers_and_freaks",
+  "label": "MaryAnn Quinn — Exercising Demons - Franklin, Exercising Demons - Michael and Exercising Demons - Trevor.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 3,
+  "target_ids": [
+   "character:maryann-quinn",
+   "mission:exercising-demons-franklin",
+   "mission:exercising-demons-michael",
+   "mission:exercising-demons-trevor"
+  ]
+ },
+ {
+  "id": "sf-omega",
+  "category": "strangers_and_freaks",
+  "label": "Omega — Far Out and The Final Frontier",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "character:omega",
+   "mission:far-out",
+   "mission:the-final-frontier"
+  ]
+ },
+ {
+  "id": "sf-tonya-wiggins",
+  "category": "strangers_and_freaks",
+  "label": "Tonya Wiggins — Pulling Favors, Pulling Another Favor, Pulling Favors Again, Still Pulling Favors and Pulling One Last Favor",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 5,
+  "target_ids": [
+   "character:tonya-wiggins",
+   "mission:pulling-favors",
+   "mission:pulling-another-favor",
+   "mission:pulling-favors-again",
+   "mission:still-pulling-favors",
+   "mission:pulling-one-last-favor"
+  ]
+ },
+ {
+  "id": "hobbies-shooting-range",
+  "category": "hobbies_and_pastimes",
+  "label": "Shooting range: bronze medal or better in Handguns, Sub-machine guns, Assault rifles, Shotguns, Light machine guns, Heavy",
+  "required_count": 6,
+  "total_count": 6,
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": [
+   "hobby:shooting-range"
+  ]
+ },
+ {
+  "id": "hobbies-and-pastimes-play-9-holes-of-golf-and",
+  "category": "hobbies_and_pastimes",
+  "label": "Play 9 holes of golf and finish even or below par",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-win-at-tennis",
+  "category": "hobbies_and_pastimes",
+  "label": "Win at tennis",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-win-at-darts",
+  "category": "hobbies_and_pastimes",
+  "label": "Win at darts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-three-triathlons-third-pla",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all three triathlons (third place or better)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 3,
+  "required_count": 3,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-five-street-races-third",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all five Street Races (third place or better)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 5,
+  "required_count": 5,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-six-off-road-races-third",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all six Off-road Races (third place or better)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 6,
+  "required_count": 6,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-four-sea-races-third",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all four Sea Races (third place or better)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 4,
+  "required_count": 4,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-twelve-flight-school-lesso",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all twelve Flight School lessons (bronze medal or better)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 12,
+  "required_count": 12,
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-complete-all-parachute-jumps",
+  "category": "hobbies_and_pastimes",
+  "label": "Complete all Parachute Jumps",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "hobbies-and-pastimes-get-a-private-dance-at-the",
+  "category": "hobbies_and_pastimes",
+  "label": "Get a private dance at the Vanilla Unicorn strip club",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-purchase-any-five-properties",
+  "category": "miscellaneous",
+  "label": "Purchase any five properties",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 5,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-purchase-a-vehicle-from-a-website",
+  "category": "miscellaneous",
+  "label": "Purchase a vehicle from a website",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-collect-all-spaceship-parts",
+  "category": "miscellaneous",
+  "label": "Collect all Spaceship Parts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 50,
+  "target_ids": [
+   "collectible:spaceship-parts"
+  ]
+ },
+ {
+  "id": "miscellaneous-collect-all-letter-scraps",
+  "category": "miscellaneous",
+  "label": "Collect all Letter Scraps",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 50,
+  "target_ids": [
+   "collectible:letter-scraps"
+  ]
+ },
+ {
+  "id": "miscellaneous-walk-and-play-fetch-with-chop",
+  "category": "miscellaneous",
+  "label": "Walk and play fetch with Chop",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-complete-a-booty-call",
+  "category": "miscellaneous",
+  "label": "Complete a Booty Call",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-have-sex-with-a-prostitute",
+  "category": "miscellaneous",
+  "label": "Have sex with a prostitute",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-rob-a-store",
+  "category": "miscellaneous",
+  "label": "Rob a store",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-complete-25-under-the-bridge-challenges",
+  "category": "miscellaneous",
+  "label": "Complete 25 Under the Bridge challenges",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 25,
+  "target_ids": [
+   "collectible:under-the-bridge"
+  ]
+ },
+ {
+  "id": "miscellaneous-complete-8-knife-flights",
+  "category": "miscellaneous",
+  "label": "Complete 8 Knife Flights",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 15,
+  "required_count": 8,
+  "target_ids": [
+   "collectible:knife-flights"
+  ]
+ },
+ {
+  "id": "miscellaneous-complete-25-stunt-jumps",
+  "category": "miscellaneous",
+  "label": "Complete 25 Stunt jumps",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 25,
+  "target_ids": [
+   "collectible:stunt-jumps"
+  ]
+ },
+ {
+  "id": "miscellaneous-watch-a-film-at-the-cinema",
+  "category": "miscellaneous",
+  "label": "Watch a film at the cinema",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-visit-a-bar-with-a-friend",
+  "category": "miscellaneous",
+  "label": "Visit a bar with a friend",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-visit-a-strip-club-with-a",
+  "category": "miscellaneous",
+  "label": "Visit a strip club with a friend",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-play-darts-with-a-friend",
+  "category": "miscellaneous",
+  "label": "Play darts with a friend",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "miscellaneous-watch-a-movie-with-a-friend",
+  "category": "miscellaneous",
+  "label": "Watch a movie with a friend",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": []
+ },
+ {
+  "id": "sf-barry-x",
+  "category": "not_required",
+  "label": "Barry — Grass Roots - Michael and Grass Roots - Trevor",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "character:barry",
+   "mission:grass-roots-michael",
+   "mission:grass-roots-trevor"
+  ]
+ },
+ {
+  "id": "sf-epsilon-program",
+  "category": "not_required",
+  "label": "Epsilon Program — Seeking the Truth, Accepting the Truth, Assuming the Truth, Chasing the Truth, Bearing the Truth, Delivering the Truth, Exercising the Truth and Unknowing the Truth",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 8,
+  "target_ids": [
+   "activity:stranger-epsilon-program",
+   "mission:seeking-the-truth",
+   "mission:accepting-the-truth",
+   "mission:assuming-the-truth",
+   "mission:chasing-the-truth",
+   "mission:bearing-the-truth",
+   "mission:delivering-the-truth",
+   "mission:exercising-the-truth",
+   "mission:unknowing-the-truth"
+  ]
+ },
+ {
+  "id": "sf-rampages",
+  "category": "not_required",
+  "label": "Rampages — Rampage One, Rampage Two, Rampage Three, Rampage Four and Rampage Five",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 5,
+  "target_ids": [
+   "collectible:rampages",
+   "mission:rampage-one",
+   "mission:rampage-two",
+   "mission:rampage-three",
+   "mission:rampage-four",
+   "mission:rampage-five"
+  ]
+ },
+ {
+  "id": "sf-cletus-ewing",
+  "category": "not_required",
+  "label": "Cletus Ewing — Target Practice and Fair Game",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "character:cletus-ewing",
+   "mission:target-practice",
+   "mission:fair-game"
+  ]
+ },
+ {
+  "id": "sf-joe-and-josef",
+  "category": "not_required",
+  "label": "Joe and Josef — The Civil Border Patrol and An American Welcome",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "mission:the-civil-border-patrol",
+   "mission:an-american-welcome"
+  ]
+ },
+ {
+  "id": "sf-manuel",
+  "category": "not_required",
+  "label": "Manuel — Minute Man Blues",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": [
+   "character:manuel",
+   "mission:minute-man-blues"
+  ]
+ },
+ {
+  "id": "sf-maude-eccles",
+  "category": "not_required",
+  "label": "Maude Eccles — Special Bonds",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 1,
+  "target_ids": [
+   "character:maude-eccles",
+   "mission:special-bonds"
+  ]
+ },
+ {
+  "id": "sf-abigail-mathers",
+  "category": "not_required",
+  "label": "Abigail Mathers — Death at Sea and What Lies Beneath",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "character:abigail-mathers",
+   "mission:death-at-sea",
+   "mission:what-lies-beneath"
+  ]
+ },
+ {
+  "id": "sf-nigel-and-mrs-thornhill",
+  "category": "not_required",
+  "label": "Nigel and Mrs. Thornhill — Nigel and Mrs. Thornhill, Vinewood Souvenirs - Willie, Vinewood Souvenirs - Tyler, Vinewood Souvenirs - Kerry, Vinewood Souvenirs - Mark, Vinewood Souvenirs - Al Di Napoli and Vinewood Souvenirs - The Last Act",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 8,
+  "target_ids": [
+   "mission:nigel-and-mrs-thornhill",
+   "character:nigel",
+   "character:mrs-thornhill",
+   "mission:vinewood-souvenirs-willie",
+   "mission:vinewood-souvenirs-tyler",
+   "mission:vinewood-souvenirs-kerry",
+   "mission:vinewood-souvenirs-mark",
+   "mission:vinewood-souvenirs-al-di-napoli",
+   "mission:vinewood-souvenirs-the-last-act"
+  ]
+ },
+ {
+  "id": "sf-josh-bernstein",
+  "category": "not_required",
+  "label": "Josh Bernstein — Extra Commission, Closing the Deal, Surreal Estate and Breach of Contract",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 4,
+  "target_ids": [
+   "character:josh-bernstein",
+   "mission:extra-commission",
+   "mission:closing-the-deal",
+   "mission:surreal-estate",
+   "mission:breach-of-contract"
+  ]
+ },
+ {
+  "id": "sf-mrs-philips",
+  "category": "not_required",
+  "label": "Mrs. Philips — Mrs. Philips and Damaged Goods",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "required_count": 2,
+  "target_ids": [
+   "character:mrs-philips",
+   "mission:damaged-goods"
+  ]
+ },
+ {
+  "id": "not-required-the-last-one",
+  "category": "not_required",
+  "label": "The Last One",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-solving-the-murder-mystery-ps4-xbox-one-pc",
+  "category": "not_required",
+  "label": "Solving the Murder Mystery (PS4/Xbox One/PC only)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-the-wildlife-photography-challenge-ps4",
+  "category": "not_required",
+  "label": "Complete the Wildlife Photography Challenge (PS4/Xbox One/PC only)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-the-arms-trafficking-missions",
+  "category": "not_required",
+  "label": "Complete the Arms Trafficking missions",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-all-57-ps3-xbox-360-or",
+  "category": "not_required",
+  "label": "Complete all 57 (PS3/Xbox 360) or 60 (PS4/Xbox One/PC) random events.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 57,
+  "target_ids": [
+   "random_event:random-events-overview"
+  ]
+ },
+ {
+  "id": "not-required-get-gold-level-completion-on-all",
+  "category": "not_required",
+  "label": "Get Gold level completion on all missions and Strangers and Freaks missions.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-meeting-all-street-characters-and-soapboxxers",
+  "category": "not_required",
+  "label": "Meeting all street characters and soapboxxers",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-and-win-the-triathlon",
+  "category": "not_required",
+  "label": "Complete and win the Triathlon",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-and-win-all-street-races",
+  "category": "not_required",
+  "label": "Complete and win all Street races, all Off-road Races, all Sea Races and all Flight School lessons",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-compete-the-flight-school-with-gold",
+  "category": "not_required",
+  "label": "Compete the Flight School with gold medals",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-collect-all-nuclear-waste-barrels",
+  "category": "not_required",
+  "label": "Collect all Nuclear Waste barrels",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 30,
+  "required_count": 30,
+  "target_ids": [
+   "collectible:nuclear-waste"
+  ]
+ },
+ {
+  "id": "not-required-collect-all-submarine-parts",
+  "category": "not_required",
+  "label": "Collect all Submarine Parts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 30,
+  "required_count": 30,
+  "target_ids": [
+   "collectible:submarine-pieces"
+  ]
+ },
+ {
+  "id": "not-required-collect-all-epsilon-tracts",
+  "category": "not_required",
+  "label": "Collect all Epsilon Tracts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 10,
+  "required_count": 10,
+  "target_ids": [
+   "collectible:epsilon-tracts"
+  ]
+ },
+ {
+  "id": "not-required-eat-all-peyote-plants-ps4-xbox-one-pc",
+  "category": "not_required",
+  "label": "Eat all Peyote Plants (PS4/Xbox One/PC only)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 27,
+  "required_count": 27,
+  "target_ids": [
+   "collectible:peyote-plants"
+  ]
+ },
+ {
+  "id": "not-required-photograph-all-monkey-mosaics-ps4-xbox-one-pc",
+  "category": "not_required",
+  "label": "Photograph all Monkey Mosaics (PS4/Xbox One/PC only)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 50,
+  "target_ids": [
+   "collectible:monkey-mosaics"
+  ]
+ },
+ {
+  "id": "not-required-complete-all-50-stunt-jumps",
+  "category": "not_required",
+  "label": "Complete all 50 Stunt Jumps",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 50,
+  "target_ids": [
+   "collectible:stunt-jumps"
+  ]
+ },
+ {
+  "id": "not-required-complete-all-the-under-the-bridge",
+  "category": "not_required",
+  "label": "Complete all the Under the Bridge stunts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 50,
+  "required_count": 50,
+  "target_ids": [
+   "collectible:under-the-bridge"
+  ]
+ },
+ {
+  "id": "not-required-complete-all-the-knife-flight-stunts",
+  "category": "not_required",
+  "label": "Complete all the Knife Flight stunts",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 15,
+  "required_count": 15,
+  "target_ids": [
+   "collectible:knife-flights"
+  ]
+ },
+ {
+  "id": "not-required-complete-the-stunt-plane-trials-special",
+  "category": "not_required",
+  "label": "Complete the Stunt Plane Trials (Special & Collectors edition only)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-purchase-all-properties",
+  "category": "not_required",
+  "label": "Purchase all properties",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-complete-all-the-associated-missions-for",
+  "category": "not_required",
+  "label": "Complete all the associated missions for the properties",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-unlock-the-children-of-the-mountain",
+  "category": "not_required",
+  "label": "Unlock the Children of the Mountain test and receive the t-shirt.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-invest-in-the-stock-market",
+  "category": "not_required",
+  "label": "Invest in the stock market",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-shop-at-every-store",
+  "category": "not_required",
+  "label": "Shop at every store",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-rob-all-the-stores",
+  "category": "not_required",
+  "label": "Rob all the stores",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-purchase-all-weapons-and-modifications",
+  "category": "not_required",
+  "label": "Purchase all weapons and modifications",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-purchase-all-vehicle-modifications",
+  "category": "not_required",
+  "label": "Purchase all vehicle modifications",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-watch-all-three-films-capolavoro-meltdown",
+  "category": "not_required",
+  "label": "Watch all three films (Capolavoro, Meltdown and The Loneliest Robot in Great Britain)",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "total_count": 3,
+  "target_ids": []
+ },
+ {
+  "id": "not-required-go-hunting",
+  "category": "not_required",
+  "label": "Go hunting",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-perform-yoga",
+  "category": "not_required",
+  "label": "Perform yoga",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-attend-all-of-michael-s-therapy-sessions",
+  "category": "not_required",
+  "label": "Attend all of Michael's therapy sessions",
+  "protagonists": [
+   "Michael"
+  ],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-purchase-all-clothing-haircuts-and-tattoos",
+  "category": "not_required",
+  "label": "Purchase all clothing, haircuts and tattoos",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-watch-all-television-programs",
+  "category": "not_required",
+  "label": "Watch all television programs",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-ride-the-aerial-tramway",
+  "category": "not_required",
+  "label": "Ride the Aerial Tramway",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-use-a-car-wash",
+  "category": "not_required",
+  "label": "Use a Car Wash",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-use-the-fairground-rides-at-the",
+  "category": "not_required",
+  "label": "Use the fairground rides at the Del Perro Pier",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ },
+ {
+  "id": "not-required-defeat-all-tennis-and-golf-opponents",
+  "category": "not_required",
+  "label": "Defeat all tennis and golf opponents.",
+  "protagonists": [],
+  "source": "grandtheftwiki",
+  "url": "https://www.grandtheftwiki.com/Completion_in_GTA_V",
+  "status": "curated",
+  "target_ids": []
+ }
+]

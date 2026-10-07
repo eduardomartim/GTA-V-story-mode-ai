@@ -6,7 +6,8 @@ const TYPE_LABEL: Record<string, string> = { mission: "mission", heist: "heist",
 
 /** Turns a chunk into readable bullets: summary line first, remaining "key: value" facts as a compact tail. */
 function prettify(c: Candidate): string {
-  if (c.contentType !== "overview") return c.content.replace(/^[^:\n]+ — [^:\n]+: /, "");
+  // Only the generated entity overview has the "[type] — scope" header line; titled sections are plain text.
+  if (c.contentType !== "overview" || !/^[^\n]* \[[a-z_ ]+\] — /.test(c.content)) return c.content.replace(/^[^:\n]+ — [^:\n]+: /, "");
   const lines = c.content.split("\n").slice(1); // drop the "[type] — scope" header line
   const summary = lines[0] ?? "";
   const facts = lines
@@ -31,9 +32,9 @@ export function composeDemoAnswer(context: Candidate[], lang: Lang, gaps: string
     g.items.push({ c, label: i + 1 });
     groups.set(c.entityId, g);
   });
-  for (const group of [...groups.values()].slice(0, 3)) {
+  for (const group of [...groups.values()].slice(0, 4)) {
     lines.push(`### ${group.title}`);
-    for (const { c, label } of group.items.slice(0, 3)) lines.push(`- ${c.verification === "unverified" ? "⚠️ _unverified_ — " : ""}${clip(prettify(c), c.contentType === "list" ? 1600 : 520)} [S${label}]`);
+    for (const { c, label } of group.items.slice(0, 4)) lines.push(`- ${c.verification === "unverified" ? "⚠️ _unverified_ — " : ""}${clip(prettify(c), c.contentType === "list" ? 1600 : 520)} [S${label}]`);
     lines.push("");
   }
   return lines.join("\n").trim();
