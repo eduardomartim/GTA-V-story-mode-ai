@@ -3,7 +3,7 @@ import { embedQuery, getEmbeddingProvider } from "@/lib/ai/embeddings";
 import { log } from "@/lib/log";
 import type { EntityType } from "@/lib/kb/schema";
 import { contentTokens, normalize } from "@/lib/text";
-import { expandQuery } from "./glossary";
+import { CANONICAL_TERMS, expandQuery } from "./glossary";
 import type { Candidate, Intent, QueryAnalysis } from "./types";
 
 export interface RetrievalOptions {
@@ -260,7 +260,10 @@ export function edgeWeight(predicate: string, outbound: boolean, neighbourType: 
  */
 export async function nameMatches(db: Db, analysis: QueryAnalysis, expanded: string, anchors: string[]): Promise<Array<{ id: string; score: number }>> {
   const named = new Set(analysis.matches.flatMap((m) => m.alias.split(" ")));
-  const terms = [...new Set(topicalTerms(expanded).filter((t) => t.length >= 4 && !named.has(t) && !NAME_STOP.has(t)))].slice(0, 8);
+  // Short words are too ambiguous on their own, except the ones the canonical lexicon produced ("ovni" → "ufo").
+  const original = new Set(normalize(analysis.original).split(" "));
+  const lexicon = new Set((analysis.canonical ?? "").split(" ").filter((w) => w && !original.has(w)));
+  const terms = [...new Set(topicalTerms(expanded).filter((t) => (t.length >= 4 || lexicon.has(t) || CANONICAL_TERMS.has(t)) && !named.has(t) && !NAME_STOP.has(t)))].slice(0, 8);
   if (!terms.length) return [];
   const rows = await db.query<{ id: string; type: string; words: string[]; linked: boolean }>(
     `select e.id, e.type, regexp_split_to_array(lower(regexp_replace(e.name, '[^A-Za-z0-9]+', ' ', 'g')), ' ') as words,
@@ -404,6 +407,12 @@ export function assessEvidence(analysis: QueryAnalysis, ranked: Candidate[]): Ev
   const terms = [...new Set(topicalTerms(expandQuery(analysis.original)))];
   const explicitEntity = analysis.entities.length > 0 && ranked.some((c) => c.entityScore >= 1);
   if (explicitEntity) return { sufficient: true, reason: "entity-match", topicalTerms: terms };
+  // An entity found by a STRONG name match is entity evidence as well: its name carries ≥ 2 words of the question, or it
+  // is linked to an entity the user named, or it is the kind of thing the question asks about ("o OVNI" → the UFO
+  // easter eggs, "o apartamento da Debra" → the Debra's-apartment secrets). Weak one-word matches never get here
+  // (nameMatches drops them), so "Qual é a capital da França?" still has no evidence.
+  const nameEntity = ranked.slice(0, 12).some((c) => c.entityScore >= ENTITY_SCORE.nameStrong && c.via.includes("entity"));
+  if (nameEntity) return { sufficient: true, reason: "name-match", topicalTerms: terms };
   const inheritedEntity = analysis.inheritedEntities.length > 0 && ranked.some((c) => c.entityScore >= 0.85);
 
   const stem = (t: string) => t.slice(0, Math.max(4, Math.min(t.length, 6)));

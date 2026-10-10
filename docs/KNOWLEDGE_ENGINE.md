@@ -156,3 +156,42 @@ The pipeline writes its output **by licence**. See `DATA_LICENSES.md` and `src/l
 
 `loadKnowledgeBase()` reads `data/kb` first, then the datasets (both optional), and puts the split records back
 together. A test checks that this is lossless.
+
+## 7. Query quality v3 (planning, resolution and grounded answers)
+
+A functional audit of the published product found that the agent rarely hallucinated, but often answered a
+different question from the one asked. This round fixes the mechanisms behind that:
+
+| Problem | Cause | Mechanism now |
+|---|---|---|
+| Portuguese and community wording ("cartinhas", "OVNI", "q missão…") | Entity extraction only saw aliases; the PT→EN glossary fed retrieval alone | `canonicalizeQuery()` (`glossary.ts`) **replaces** phrases with the KB's English terms and reduces diminutives of lexicon words ("cartinhas" → "cartas"; "caminho" and "sozinho" are left alone). Entity extraction, intents and the planner read this canonical text; English passes unchanged |
+| Unknown names answered with unrelated evidence | No distinction between "not in the KB" and "nothing retrieved" | `resolution.ts` handles four cases: alias match, a confident near-miss (shown as "Interpretei X como Y"), a **named** mention with no match ("não encontrei uma missão correspondente a…", with similar names when there are some), and a generic noun with several referents ("Você quis dizer A, B ou C?"). Only a span written as a name (capitalised, "chamada X", or "do X" for secrets) may produce "not found". Ordinary words never do |
+| 100% questions got the whole checklist | One `completion` goal and one answer shape | `completion` has modes: **overview**, **part** (a category or label family), **count / counts** (one thing), plus `completion_fact` for plain counts. Numbers come from `collectibles` and `completion_requirements` rows, matched by target id or by the whole name as a phrase. A thing missing from the checklist reports the row of what it is tied to (Space Docker → Spaceship Parts) |
+| "Under the Bridge em Los Santos" → none | The area executor compared item areas only; "Los Santos" is also a *region* | `areaScope()` (`executors.ts`) covers the named places, the places inside them (`located_in`, two levels) and, when a name is a region, every item of that region. A word naming several places ("Vinewood") becomes a place group (`places`). Secrets and random events also match by their recorded location text |
+| Listings ignored constraints | The planner built type-only listings | Vehicle class (PT/EN class lexicon → roster classes; a class selects a vehicle listing only next to a vehicle noun, because "super", "militar" or "polícia" also describe cheats, missions and places), protagonist (random events and Strangers and Freaks), area scope and "ordem/order" (ordered mission list) are planner constraints that the SQL executors apply |
+| Compound questions answered the first part | One plan per question | `planClauses()` splits at interrogative boundaries in the user's own punctuation. Context fragments are joined to the next clause, and each clause gets its own intents. Pronouns and elliptical clauses ("quantos contam", "e contam") keep the subject; place constraints and protagonists are handled explicitly. A clause about an entity with no plan of its own becomes `entity_profile`, which answers the attribute asked (price, income, who can, time, reward) or says the KB does not record it |
+| Correct evidence refused | `assessEvidence` counted only explicitly named entities | A **strong** name match is entity evidence too: ≥ 2 question words in the name, or linked to a named entity, or of the kind asked about. One-word coincidences still are not, so "capital da França" stays refused |
+| Gap warnings out of context | A gap was shown when two words overlapped | Each gap has an **aspect** (rewards, unlocks, locations, statistics…), and is shown only when the question's intents match it. Two stale gap notes (random events, collectible locations) were updated to match the KB they describe |
+| Demo mode read as a dump | Chunks were grouped in rank order | Groups of the kind the question asks about lead, weak groups are dropped, repeated sentences are said once, and a missing attribute is stated first |
+
+Measured on the existing gates (gold sets unchanged): recall 93.2% → 93.2%, MRR 0.923 → 0.923, precision@k
+57.7% → 58.1%, source relevance 65.1% → 76.8%, groundedness 100% → 100%, regression 137/137, agent evaluation
+74/74 (precision 25.5% → 27.0%), hallucination 0%, Online contamination 0%.
+
+### Known limitations (left for a later round)
+
+- **Place families on common nouns:** a word shared by several place names becomes a place group. Common nouns
+  ("house", "beach", "store") also qualify, so "Which house can Michael buy?" scopes to every recorded house. Telling
+  a family name ("Vinewood") from a head noun needs its own design; the place group only narrows the scope and the
+  answer is still grounded.
+
+### Unresolved data issues (documented, not changed)
+
+These look wrong or inconsistent, but the project has no second source that would justify changing them:
+- **Hidden Packages:** the category record says 12; the community dataset has 13 positions.
+- **Mrs. Philips:** the mission's start location reads "Sandy Shores, Los Santos". Sandy Shores is in Blaine County, and the error came from extraction.
+- **Cinema Doppler:** "$132,000/week" comes from a single source, and the property listing shows it without a single-source caveat.
+- **Weapons:** some curated summaries say "price not validated" while the Grand Theft Wiki record has a cost (e.g. Heavy Sniper $9,500).
+- **Comet:** stored with vehicle class "sports" in lowercase. The class filter is case-insensitive, so this is cosmetic only.
+- **Great Chaparral:** its region is Los Santos County, yet it is linked `located_in` Blaine County.
+- **Missing place links:** many random events and easter eggs are not linked to their area by a relation. They are found by their location text instead, which can miss events described only by a road name.

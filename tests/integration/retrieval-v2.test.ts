@@ -91,9 +91,15 @@ describe("planner v2", () => {
     expect((await plan("What happens in the Altruists random event?")).goal).not.toBe("list_type");
   });
 
-  it("a romance word about a named non-protagonist is not the protagonists' hook-up listing", async () => {
-    expect((await plan("A Tracey tem namorado?")).goal).not.toBe("romance");
+  it("a romance word about a named non-protagonist is about THAT character, not the protagonists' hook-up listing", async () => {
+    // The relationship question is planned for Tracey herself (v3: romance focused on the named character)…
+    const p = await plan("A Tracey tem namorado?");
+    expect(p.character?.id).toBe("character:tracey-de-santa");
     expect((await plan("Como conseguir uma namorada pro Trevor?")).goal).toBe("romance");
+    // …and the answer is about Tracey, without the generic Ursula / Vanilla Unicorn listing.
+    const r = await runChat({ message: "A Tracey tem namorado?", provider: null });
+    expect(r.answer).toMatch(/Tracey/);
+    expect(r.answer).not.toMatch(/Ursula|Vanilla Unicorn/);
   });
 
   it("composite questions get secondary goals", async () => {

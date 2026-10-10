@@ -1,5 +1,6 @@
-import { normalize, tokenize } from "@/lib/text";
+import { contentTokens, normalize, tokenize } from "@/lib/text";
 import { expandQuery } from "./glossary";
+import { PROTAGONIST_IDS } from "./planner";
 import { topicalTerms } from "./retrieval";
 import type { Lang, QueryAnalysis } from "./types";
 
@@ -12,11 +13,18 @@ const VAGUE = /\b(isso|essa|esse|desse|dessa|aquilo|aquele|this|that|it|melhor|b
  * An under-specified question ("How do I unlock this?", "Which is the best?", "How much is it?") with no entity,
  * no inherited conversation context and nothing topical to retrieve on. Answering it would mean guessing, so we ask.
  */
+const PROTAGONISTS = new Set(Object.values(PROTAGONIST_IDS));
+
 export function needsClarification(a: QueryAnalysis): boolean {
+  // "Como faço isso com o Trevor?" with nothing earlier to point at: "isso" is unknown; the protagonist does not say what.
+  if (!a.inheritedEntities.length && a.entities.length && a.entities.every((e) => PROTAGONISTS.has(e.id)) && DEMONSTRATIVE.test(normalize(a.original)) && tokenize(a.original).length <= 7) return true;
   if (a.entities.length || a.inheritedEntities.length || a.onlineBoundary.length) return false;
   const terms = topicalTerms(expandQuery(a.original));
   const n = normalize(a.original);
   if (tokenize(a.original).length > 7) return false;
+  // Only a kind of thing and no name ("Qual missão?", "Which car?"): there is nothing specific to answer about.
+  const content = contentTokens(a.original);
+  if (content.length && content.length <= 2 && tokenize(a.original).length <= 4 && content.every((t) => CATEGORY.has(t))) return true;
   if (terms.length === 0) return VAGUE.test(n);
   // "Does this car exist in GTA 5?": only a kind of thing plus a demonstrative, nothing specific to look up.
   return DEMONSTRATIVE.test(n) && terms.every((t) => CATEGORY.has(t));

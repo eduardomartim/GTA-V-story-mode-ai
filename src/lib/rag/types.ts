@@ -34,6 +34,16 @@ export interface ChatTurn {
 
 export interface QueryAnalysis {
   original: string;
+  /** Normalised question with Portuguese / community wording replaced by the KB's canonical English phrases. */
+  canonical: string;
+  /** Mentions that look like a named mission/character/… but resolve to nothing (see resolution.ts). */
+  unresolved?: Array<{ span: string; type: string; typeLabel: { pt: string; en: string }; suggestions: EntityRef[] }>;
+  /** Near-miss names corrected to an entity ("paleto scor" → The Paleto Score). */
+  corrections?: Array<{ from: string; to: EntityRef }>;
+  /** Places sharing a name the user used on its own ("Vinewood" → East/West/Downtown Vinewood, Vinewood Hills). */
+  places?: EntityRef[];
+  /** Several plausible referents for a generic noun ("a casa", "o assalto") with none dominant. */
+  ambiguous?: { noun: string; candidates: EntityRef[] };
   /** Query rewritten with conversation focus, glossary-expanded. Used for retrieval only. */
   retrievalQuery: string;
   lang: Lang;

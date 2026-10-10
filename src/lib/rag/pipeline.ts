@@ -11,13 +11,13 @@ import { clarificationFor, needsClarification } from "./clarify";
 import { composeDemoAnswer } from "./demo";
 import { expandQuery } from "./glossary";
 import { suggestFollowUps } from "./followups";
-import { executeComposite, LOOKUP_GOALS, SYNTH_GOALS, type ExecResult } from "./executors";
-import { planQuery, secondaryGoals } from "./planner";
+import { ATTRIBUTES, executeComposite, LOOKUP_GOALS, SYNTH_GOALS, type ExecResult } from "./executors";
+import { planClauses, planQuery, secondaryGoals, type Plan } from "./planner";
 import { t, tf } from "./messages";
 import { SYSTEM_PROMPT, assembleContext, buildUserTurn } from "./prompt";
 import { assessEvidence, hybridRetrieve, rerank, topicalTerms } from "./retrieval";
 import { structuredLookups } from "./structured";
-import type { Candidate, CardData, ChatResult, ChatTurn, EntityRef, QueryAnalysis } from "./types";
+import type { Candidate, CardData, ChatResult, ChatTurn, EntityRef, Intent, QueryAnalysis } from "./types";
 import { analyzeQuery } from "./understanding";
 
 export interface ChatInput {
@@ -51,16 +51,52 @@ export function resetPipelineCaches(): void {
   backlogCache = undefined;
 }
 
+/**
+ * What each known gap is ABOUT, as the intents a question must have for the gap to bear on it. A gap about mission
+ * cash rewards says nothing to "where is X?"; source-availability notes (IGN, Fandom) are never a topical gap.
+ */
+const GAP_ASPECTS: Array<[RegExp, Intent[]]> = [
+  [/\b(ign|fandom)\b/, []],
+  [/money rewards|payouts?|post-story money/, ["mission_reward", "money", "heist_strategy"]],
+  [/unlock chains|stranger chains/, ["mission_unlock", "mission_requirements"]],
+  [/missable/, ["mission_help", "mission_walkthrough"]],
+  [/getaway vehicle|merryweather heist details/, ["heist_strategy", "mission_walkthrough"]],
+  [/console cheats/, ["cheat"]],
+  [/vehicle statistics/, ["vehicle_information"]],
+  [/weapon statistics|railgun/, ["weapon_information"]],
+  [/collectible locations|verified coordinates/, ["location_lookup", "map_request"]],
+  [/collectible totals|strangers 100/, ["100_percent_completion", "collectible_lookup"]],
+  [/random events/, ["random_event"]],
+  [/hobbies/, ["activity"]],
+  [/properties/, ["property"]],
+  [/version differences/, ["version_difference"]],
+];
+
 async function matchingBacklog(db: Db, analysis: QueryAnalysis): Promise<Array<{ topic: string; note: string }>> {
   const WEAK = new Set(["mission", "missions", "story", "mode", "game", "unlock", "requirements", "location", "where", "tell", "show", "vehicle"]);
   const terms = [...new Set(contentTokens(expandQuery(analysis.original)).filter((t) => t.length >= 4 && !WEAK.has(t)))];
   const ids = new Set([...analysis.entities, ...analysis.inheritedEntities].map((e) => e.id));
   const items = await backlog(db);
-  // A gap is relevant when it is attached to a discussed entity, or when at least two question terms occur in it (one stray word is not enough).
+  // A gap is relevant when it is attached to a discussed entity, or when at least two question terms occur in it (one
+  // stray word is not enough) — AND it is about what the question asks (its aspect matches the question's intents).
   return items
-    .filter((b) => (b.entity_id && ids.has(b.entity_id)) || terms.filter((t) => b.norm.includes(t)).length >= 2)
+    .filter((b) => {
+      const aspect = GAP_ASPECTS.find(([re]) => re.test(normalize(b.topic)))?.[1];
+      if (aspect && !aspect.some((i) => analysis.intents.includes(i))) return false;
+      return (b.entity_id && ids.has(b.entity_id)) || terms.filter((t) => b.norm.includes(t)).length >= 2;
+    })
     .slice(0, 3)
     .map((b) => ({ topic: b.topic, note: b.note }));
+}
+
+/** The user's own words for a normalised span (accents and case kept), for "I couldn't find …" messages. */
+function originalWords(original: string, span: string): string {
+  const words = original.split(/\s+/);
+  const want = span.split(" ");
+  for (let i = 0; i + want.length <= words.length; i++) {
+    if (want.every((w, j) => normalize(words[i + j] as string) === w)) return words.slice(i, i + want.length).join(" ").replace(/[?!.,;:]+$/, "");
+  }
+  return span;
 }
 
 /** Spoiler policy: level>=2 chunks are shown only if asked for, or if they belong to an entity the user is already discussing. */
@@ -91,7 +127,16 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
   if (input.allowSpoilers) analysis.wantsSpoilers = true;
   if (input.lang) analysis.lang = input.lang;
   const lang = analysis.lang;
-  const qplan = planQuery(analysis);
+  let qplan: Plan = planQuery(analysis);
+  // Compound questions: each clause gets its own plan; together they replace a whole-question plan that would only
+  // have answered the first part ("Quanto custa o Hookies, quem pode comprar e quanto ele rende?").
+  const clausePlans = planClauses(analysis);
+  if (clausePlans.length) {
+    qplan = { ...(clausePlans[0] as Plan), steps: [...(clausePlans[0] as Plan).steps, `compound question: ${clausePlans.length} parts`] };
+  }
+  const correctionNote = analysis.corrections?.length
+    ? `_${analysis.corrections.map((c) => (analysis.lang === "pt" && !input.lang) || input.lang === "pt" ? `Interpretei “${originalWords(analysis.original, c.from)}” como **${c.to.name}**.` : `I read “${originalWords(analysis.original, c.from)}” as **${c.to.name}**.`).join(" ")}_\n\n`
+    : "";
   const base = (over: Partial<ChatResult> & Pick<ChatResult, "answer" | "mode">): ChatResult => ({
     requestId, lang, cards: [], sources: [], followUps: [], spoiler: false,
     meta: { intents: analysis.intents, entities: [], retrievalCount: 0, latencyMs: Date.now() - started, plan: qplan.goal ? { goal: qplan.goal, steps: qplan.steps } : undefined },
@@ -111,6 +156,36 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
     return res;
   }
 
+  // ── A name the knowledge base does not have: say exactly that (not "no evidence", not loosely related rows), and
+  //    offer close names when there are some. "Not in this KB" is never presented as "does not exist in the game".
+  const unknown = (analysis.unresolved ?? [])[0];
+  if (unknown && !qplan.goal) {
+    const said = originalWords(analysis.original, unknown.span);
+    const label = unknown.typeLabel[lang];
+    const sugg = unknown.suggestions;
+    const lines = lang === "pt"
+      ? [`Não encontrei ${label} correspondente a **“${said}”** na base de conhecimento do Modo História.`,
+         sugg.length ? `Você quis dizer ${sugg.map((s) => `**${s.name}**`).join(" ou ")}?` : "Isso não quer dizer que não exista no jogo — só que não está registrado nesta base. Se puder, use o nome como aparece no jogo (em inglês)."]
+      : [`I couldn't find ${label} matching **“${said}”** in the Story Mode knowledge base.`,
+         sugg.length ? `Did you mean ${sugg.map((s) => `**${s.name}**`).join(" or ")}?` : "That does not mean it isn't in the game — only that it is not recorded here. If you can, use the name as it appears in the game."];
+    const res = base({ mode: sugg.length ? "clarify" : "no-evidence", answer: lines.join("\n\n"), followUps: sugg.map((s) => ({ label: s.name, query: lang === "pt" ? `Fale sobre ${s.name}` : `Tell me about ${s.name}` })) });
+    res.meta.latencyMs = Date.now() - started;
+    log("info", "chat", { requestId, mode: res.mode, reason: "unresolved-name", type: unknown.type, latencyMs: res.meta.latencyMs });
+    return res;
+  }
+  // ── A generic noun with several plausible referents ("Onde fica a casa?"): ask which one instead of picking one.
+  if (analysis.ambiguous && !qplan.goal) {
+    const names = analysis.ambiguous.candidates.map((c) => `**${c.name}**`);
+    const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} ${lang === "pt" ? "ou" : "or"} ${names[names.length - 1]}` : names.join("");
+    const answer = lang === "pt"
+      ? `“${originalWords(analysis.original, analysis.ambiguous.noun.split(" / ")[0] as string)}” pode se referir a mais de uma coisa na base. Você quis dizer ${list}?`
+      : `That can refer to more than one thing in the knowledge base. Did you mean ${list}?`;
+    const res = base({ mode: "clarify", answer, followUps: analysis.ambiguous.candidates.slice(0, 4).map((c) => ({ label: c.name, query: `${analysis.original.replace(/[?!.]+$/, "")} — ${c.name}` })) });
+    res.meta.latencyMs = Date.now() - started;
+    log("info", "chat", { requestId, mode: res.mode, reason: "ambiguous-referent", latencyMs: res.meta.latencyMs });
+    return res;
+  }
+
   // ── Under-specified question → ask for context instead of guessing (no retrieval, no LLM)
   if (!qplan.goal && needsClarification(analysis)) {
     const c = clarificationFor(lang);
@@ -126,8 +201,8 @@ export async function runChat(input: ChatInput): Promise<ChatResult> {
   let timings = { keywordMs: 0, vectorMs: 0, structuredMs: 0 };
   let exec: ExecResult = { candidates: [], cards: [], focus: [] };
   try {
-    const secondary = secondaryGoals(qplan, analysis);
-    if (secondary.length) qplan.steps.push(`secondary goals = ${secondary.join(", ")}`);
+    const secondary: Array<Plan["goal"] & string | Plan> = clausePlans.length ? clausePlans.slice(1) : secondaryGoals(qplan, analysis);
+    if (secondary.length) qplan.steps.push(`secondary goals = ${secondary.map((s) => (typeof s === "string" ? s : s.goal)).join(", ")}`);
     const [hybrid, listed, executed] = await Promise.all([hybridRetrieve(db, analysis), structuredLookups(db, analysis), qplan.goal ? executeComposite(db, qplan, secondary, lang) : Promise.resolve(exec)]);
     exec = executed;
     candidates = [...exec.candidates, ...listed, ...hybrid.candidates];
@@ -212,8 +287,14 @@ ${t("askVersion", lang)}` : "";
   const deterministic = qplan.goal && (LOOKUP_GOALS.has(qplan.goal) || (!provider && SYNTH_GOALS.has(qplan.goal)));
   if (deterministic && exec.answer?.length && exec.candidates.length) {
     const citations = resolveCitations(exec.answer.join("\n"), exec.candidates);
+    // Same version rule as generated answers: the structured answer is about version-scoped things (Peyote exists only
+    // on newer versions) and the user did not say which version they play → ask.
+    const scoped = (await db.query<{ v: string }>("select distinct unnest(versions) as v from entities where id = any($1::text[])", [exec.focus])).map((r) => r.v);
+    const execVersions = [...new Set([...exec.candidates.flatMap((c) => c.versions), ...scoped])];
+    const askExec = execVersions.length > 0 && !mentionsVersion;
     const res = base({
-      mode: "structured", answer: citations.text + noteOnline, cards: [...exec.cards, ...plan.cards.filter((c) => c.kind !== "map"), ...onlineCards], sources: citations.sources,
+      mode: "structured", answer: correctionNote + citations.text + (askExec ? `\n\n${t("askVersion", lang)}` : "") + noteOnline,
+      cards: [...exec.cards, ...plan.cards.filter((c) => c.kind !== "map"), ...(askExec ? [{ kind: "warning" as const, tone: "version" as const, title: t("versionTitle", lang), text: execVersions.join(" · ") }] : []), ...onlineCards], sources: citations.sources,
       followUps: suggestFollowUps(refs[0] && { id: refs[0].id, type: refs[0].type, name: refs[0].name }, analysis.intents, lang),
     });
     res.meta.entities = exec.focus.slice(0, 3);
@@ -240,7 +321,7 @@ ${t("askVersion", lang)}` : "";
     const entityFocus = plan.focus.length ? plan.focus : [locCard.entityId];
     const focusRef = refs.find((r) => r.id === entityFocus[0]) ?? refs[0];
     const res = base({
-      mode: "structured", answer: citations.text + noteVersion + noteOnline, cards: [...plan.cards, ...versionCards, ...onlineCards], sources: citations.sources,
+      mode: "structured", answer: correctionNote + citations.text + noteVersion + noteOnline, cards: [...plan.cards, ...versionCards, ...onlineCards], sources: citations.sources,
       followUps: suggestFollowUps(focusRef && { id: focusRef.id, type: focusRef.type, name: focusRef.name }, analysis.intents, lang),
     });
     res.meta.entities = entityFocus.slice(0, 3);
@@ -271,7 +352,17 @@ ${t("askVersion", lang)}` : "";
     }
   } else {
     mode = "demo";
-    answerText = composeDemoAnswer(context, lang, gapItems.map((g) => g.topic));
+    answerText = composeDemoAnswer(context, lang, gapItems.map((g) => g.topic), analysis.intents);
+    // Partially supported question: the entity is known but the attribute asked for ("quanto rende o Hookies?") is not
+    // in any of its chunks — say that first, instead of letting the entity's other facts look like an answer.
+    const attr = ATTRIBUTES.find((a) => a.ask.test(normalize(analysis.original)));
+    const subject = analysis.entities[0];
+    if (attr && subject && !context.some((c) => c.entityId === subject.id && attr.has.test(c.content))) {
+      const verb = normalize(analysis.original).match(/\b(?:quem pode|who can|character can|characters can|personagem pode) (\w+)/)?.[1];
+      const what = verb ? (lang === "pt" ? `quem pode ${verb}` : `who can ${verb}`) : lang === "pt" ? attr.pt : attr.en;
+      const missing = lang === "pt" ? `ℹ️ A base não registra ${what} — **${subject.name}**; abaixo, o que ela registra.` : `ℹ️ The knowledge base does not record ${what} — **${subject.name}**; below is what it does record.`;
+      answerText = answerText.replace(/^(.*\n\n)/, `$1${missing}\n\n`);
+    }
   }
 
   const citations = resolveCitations(answerText, context);
@@ -280,7 +371,7 @@ ${t("askVersion", lang)}` : "";
 
   const result: ChatResult = {
     requestId, lang, mode,
-    answer: citations.text + noteVersion + noteOnline,
+    answer: correctionNote + citations.text + noteVersion + noteOnline,
     cards: [...exec.cards, ...plan.cards, ...versionCards, ...onlineCards],
     sources: citations.sources,
     followUps: suggestFollowUps(focusRef && { id: focusRef.id, type: focusRef.type, name: focusRef.name }, analysis.intents, lang),

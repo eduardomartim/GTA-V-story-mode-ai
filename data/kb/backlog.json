@@ -44,7 +44,7 @@
   },
   {
     "topic": "Collectible locations",
-    "note": "Per-item locations (letter scraps, spaceship parts, submarine pieces, nuclear waste, peyote, monkey mosaics, epsilon tracts, hidden packages) are not recorded."
+    "note": "Per-item area-level descriptions exist for letter scraps (50), peyote plants (27) and Under the Bridge (50); community coordinates exist for spaceship parts, nuclear waste, submarine pieces, hidden packages, epsilon tracts and 50 letter-scrap positions (22 paired with a description). Stunt jumps, knife flights and monkey mosaics have no per-item data."
   },
   {
     "topic": "Collectible totals",
@@ -62,7 +62,7 @@
   {
     "topic": "Random events",
     "entity_id": "random_event:random-events-overview",
-    "note": "Per-event location, protagonist, reward, repeatability are not recorded (only names)."
+    "note": "Location, protagonist and reward are recorded for 56 of 57 random events (Grand Theft Wiki); whether each event repeats is not recorded per event (the source only notes that most recur if ignored and some happen once)."
   },
   {
     "topic": "Hobbies by protagonist",

@@ -2,7 +2,8 @@ import type { Db } from "@/lib/db/client";
 import { normalize } from "@/lib/text";
 import type { Candidate, QueryAnalysis } from "./types";
 
-const LIST_RE = /\b(todas?|todos|all|every|list|lista|listar|quais (sao|missoes)|which)\b/;
+// "Qual é a ordem das missões do Trevor?" asks for the same ordered list as "todas as missões do Trevor".
+const LIST_RE = /\b(todas?|todos|all|every|list|lista|listar|quais (sao|missoes)|which|ordem|order|sequencia|sequence|cronologi\w*)\b/;
 const FIRST_RE = /\b(primeir[ao]s?|first|earliest)\b/;
 const MISSION_WORD = /\b(missao|missoes|mission|missions)\b/;
 const MISSIONS_LIST_URL = "https://www.grandtheftwiki.com/Missions_in_GTA_V";

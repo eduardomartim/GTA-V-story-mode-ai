@@ -2,6 +2,7 @@ import type { Db } from "@/lib/db/client";
 import type { EntityType } from "@/lib/kb/schema";
 import { gameToMap } from "@/lib/map/projection";
 import { PROTAGONIST_HOMES, PROTAGONIST_IDS, type Goal, type Plan, type Protagonist } from "./planner";
+import { normalize } from "@/lib/text";
 import type { Candidate, CardData, Lang } from "./types";
 
 /**
@@ -150,21 +151,43 @@ async function nearest(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
   return { candidates, cards, answer, focus: [cat.id, ...rows.slice(0, 2).map((r) => r.entity_id)] };
 }
 
+/**
+ * Geographic scope of a question. Places nest (an area is located_in a city/county), items carry an area AND a region,
+ * and a few names are regions of the map themselves ("Los Santos", "Blaine County"). The scope is: the named places,
+ * every place inside them (located_in, two levels), and — when a named place is itself a region — that whole region.
+ */
+export async function areaScope(db: Db, plan: Plan): Promise<{ ids: string[]; names: string[]; regions: string[]; label: string } | undefined> {
+  const roots = [...(plan.area ? [plan.area] : []), ...(plan.areas ?? [])];
+  if (!roots.length) return undefined;
+  const ids = new Set(roots.map((r) => r.id));
+  for (let depth = 0; depth < 2; depth++) {
+    const inner = await db.query<{ id: string }>(
+      "select r.from_id as id from relationships r join entities e on e.id = r.from_id where r.predicate = 'located_in' and e.type = 'location' and r.to_id = any($1::text[])", [[...ids]]);
+    for (const r of inner) ids.add(r.id);
+  }
+  const names = (await db.query<{ name: string }>("select lower(name) as name from entities where id = any($1::text[])", [[...ids]])).map((r) => r.name);
+  const known = new Set((await db.query<{ region: string }>(
+    "select distinct lower(region) as region from collectible_items where region is not null union select distinct lower(region) from geo_points where region is not null")).map((r) => r.region));
+  const regions = roots.map((r) => r.name.toLowerCase()).filter((n) => known.has(n));
+  return { ids: [...ids], names, regions, label: roots.map((r) => r.name).join(" / ") };
+}
+
 async function inArea(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
   const cat = plan.category;
-  const area = plan.area;
-  if (!cat || !area) return EMPTY;
+  const scope = await areaScope(db, plan);
+  if (!cat || !scope) return EMPTY;
   const rows = await db.query<ItemRow>(
-    `${ITEM_SELECT} where ci.category_id = $1 and (lower(ci.area) = lower($2) or exists (select 1 from relationships r where r.from_id = ci.entity_id and r.predicate = 'located_in' and r.to_id = $3))
-      order by ci.number nulls last, e.name`, [cat.id, area.name, area.id]);
-  const title = lang === "pt" ? `${cat.name} em ${area.name}` : `${cat.name} in ${area.name}`;
+    `${ITEM_SELECT} where ci.category_id = $1 and (lower(ci.area) = any($2::text[]) or lower(ci.region) = any($3::text[])
+        or exists (select 1 from relationships r where r.from_id = ci.entity_id and r.predicate = 'located_in' and r.to_id = any($4::text[])))
+      order by ci.number nulls last, e.name`, [cat.id, scope.names, scope.regions, scope.ids]);
+  const title = lang === "pt" ? `${cat.name} em ${scope.label}` : `${cat.name} in ${scope.label}`;
   if (!rows.length) {
-    return { ...EMPTY, answer: [lang === "pt" ? `Não encontrei ${cat.name} registrados em ${area.name} na base de conhecimento.` : `I found no ${cat.name} recorded in ${area.name} in the knowledge base.`], focus: [cat.id] };
+    return { ...EMPTY, answer: [lang === "pt" ? `Não encontrei ${cat.name} registrados em ${scope.label} na base de conhecimento.` : `I found no ${cat.name} recorded in ${scope.label} in the knowledge base.`], focus: [cat.id] };
   }
   const candidates = await evidenceBlocks(db, rows, `${title} (${rows.length}):`, lang, cat.id, cat.name);
   const cards = [itemsCard(title, rows), mapOf(title, rows)].filter(Boolean) as CardData[];
   const answer = [`**${title} (${rows.length})**`, ...rows.map((r) => `- ${fmtItem(r, lang)} [S${candidates.findIndex((c) => c.content.includes(r.name)) + 1}]`)];
-  return { candidates, cards, answer, focus: [cat.id, area.id] };
+  return { candidates, cards, answer, focus: [cat.id, ...scope.ids.slice(0, 1)] };
 }
 
 async function listItems(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
@@ -210,6 +233,9 @@ async function romance(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
        from relationships r join entities e on e.id = r.from_id left join characters c on c.entity_id = e.id
       where r.predicate = 'hookup_with' order by e.name`);
   const target = plan.protagonist ? PROTAGONIST_IDS[plan.protagonist] : undefined;
+  const focusChar = plan.character;
+  if (focusChar && !rows.some((r) => r.from_id === focusChar.id)) return relationshipOf(db, focusChar, plan, lang);
+  if (focusChar) rows.splice(0, rows.length, ...rows.filter((r) => r.from_id === focusChar.id));
   const srcs = await sourcesOf(db, [...new Set(rows.map((r) => r.from_id))]);
   const who = (id: string) => (Object.entries(PROTAGONIST_IDS) as Array<[Protagonist, string]>).find(([, v]) => v === id)?.[0] ?? id;
   const people = new Map<string, { name: string; summary: string; home: string | null; with: string[]; evidence: string; kind: string }>();
@@ -239,8 +265,8 @@ async function romance(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
       : `- **${p.name}** — a *booty call* (casual hook-up), not dating. Only ${p.with.join(" or ")} can meet ${she ? "her" : "them"}${met.length ? ` (random encounter ${met.map((m) => m.name).join(", ")})` : ""}${phone ? `; after you take ${she ? "her" : "them"} home, ${she ? "she gives you her" : "they give you their"} number and can be called as a booty call` : ""}.${p.home ? ` Home: ${p.home}.` : ""}${forTarget ? "" : ` _(not available to ${plan.protagonist})_`} ${cite()}`);
   }
 
-  // 2. General rules recorded on places (e.g. Vanilla Unicorn strippers).
-  const rules = await db.query<{ entity_id: string; entity_name: string; entity_type: EntityType; content: string; source_id: string; source_url: string; source_title: string | null; name: string; authority: number; source_type: string }>(
+  // 2. General rules recorded on places (e.g. Vanilla Unicorn strippers) — not when the question is about one person.
+  const rules = focusChar ? [] : await db.query<{ entity_id: string; entity_name: string; entity_type: EntityType; content: string; source_id: string; source_url: string; source_title: string | null; name: string; authority: number; source_type: string }>(
     `select c.entity_id, e.name as entity_name, c.entity_type, c.content, c.source_id, c.source_url, c.source_title, s.name, s.authority, s.source_type
        from chunks c join entities e on e.id = c.entity_id join sources s on s.id = c.source_id
       where c.content_type = 'relationship' and c.online_only = false and c.entity_type <> 'character' and c.content ilike '%booty call%' limit 4`);
@@ -278,12 +304,47 @@ async function romance(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
   return { candidates, cards, answer: [head, ...lines], focus: [...people.keys()].slice(0, 3) };
 }
 
+/**
+ * A relationship question about someone with no hook-up evidence ("A Tracey é namorada do Trevor?"): say that no source
+ * describes it, and report what the sources DO record about that person's relationships (family ties, relationship text).
+ */
+async function relationshipOf(db: Db, who: { id: string; name: string }, plan: Plan, lang: Lang): Promise<ExecResult> {
+  const pt = lang === "pt";
+  const ties = await db.query<{ predicate: string; name: string }>(
+    "select r.predicate, e.name from relationships r join entities e on e.id = r.to_id where r.from_id = $1 and r.predicate in ('family_of','friend_of','works_for','enemy_of','owns') order by r.predicate, e.name limit 8", [who.id]);
+  const rel = (await db.query<{ content: string; source_id: string; source_url: string; source_title: string | null; name: string; authority: number; source_type: string }>(
+    "select c.content, c.source_id, c.source_url, c.source_title, s.name, s.authority, s.source_type from chunks c join sources s on s.id = c.source_id where c.entity_id = $1 and c.content_type = 'relationship' limit 1", [who.id]))[0];
+  const own = (await sourcesOf(db, [who.id])).get(who.id);
+  const summary = (await db.query<{ summary: string }>("select summary from entities where id = $1", [who.id]))[0]?.summary ?? "";
+  const candidates: Candidate[] = [];
+  const subject = plan.protagonist ?? (pt ? "um protagonista" : "a protagonist");
+  const answer = [pt
+    ? `**${who.name}**: nenhuma fonte da base descreve ${who.name} como namorada, namorado ou booty call de ${subject}.`
+    : `**${who.name}**: no source in the knowledge base describes ${who.name} as a girlfriend, boyfriend or booty call of ${subject}.`];
+  if (own) {
+    candidates.push(block(who.id, "character", who.name, `${who.name}: ${summary}${ties.length ? ` Relations: ${ties.map((t) => `${t.predicate.replace("_", " ")} ${t.name}`).join("; ")}.` : ""}`, own));
+    answer.push(`- ${summary.slice(0, 260)} [S1]`);
+    const family = ties.filter((t) => t.predicate === "family_of").map((t) => t.name);
+    if (family.length) answer.push(pt ? `- Família registrada: ${family.join(", ")}. [S1]` : `- Recorded family: ${family.join(", ")}. [S1]`);
+  }
+  if (rel) {
+    candidates.push(block(who.id, "character", who.name, rel.content, { source_id: rel.source_id, url: rel.source_url, title: rel.source_title, name: rel.name, authority: rel.authority, source_type: rel.source_type }));
+    answer.push(`- ${pt ? "O que a fonte registra sobre relacionamentos" : "What the source records about relationships"}: ${rel.content.replace(/^[^:\n]+: /, "").slice(0, 260)} [S${candidates.length}]`);
+  }
+  if (!candidates.length) return { ...EMPTY, answer, focus: [who.id] };
+  return { candidates, cards: [], answer, focus: [who.id] };
+}
+
 async function completion(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
   const reqs = await db.query<{ id: string; category: string; label: string; required_count: number | null; total_count: number | null; protagonists: string[]; target_ids: string[]; source_id: string; source_url: string; knowledge_status: string; notes: string | null }>(
     "select id, category, label, required_count, total_count, protagonists, target_ids, source_id, source_url, knowledge_status, notes from completion_requirements order by position");
   if (!reqs.length) return EMPTY;
   const src = (await db.query<SourceInfo>("select id as source_id, $1::text as url, null as title, name, authority, source_type from sources where id = $2", [reqs[0]?.source_url, reqs[0]?.source_id]))[0];
   if (!src) return EMPTY;
+  const sc = plan.completion;
+  // One fact about one thing ("Peyote conta para 100%?", "Quantos random events são necessários?").
+  if ((sc?.ask === "count" || sc?.ask === "counts") && sc.targets.length) return completionFact(db, plan, lang);
+  if (sc?.ask === "list" && !plan.protagonist) return await scopedCompletion(db, reqs, src, sc, lang);
   let scoped = reqs.filter((r) => r.category !== "not_required");
   let focusNote = "";
   if (plan.protagonist) {
@@ -323,6 +384,7 @@ async function completion(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
     hobbies_and_pastimes: ["Hobbies e passatempos", "Hobbies and pastimes"], miscellaneous: ["Diversos", "Miscellaneous"],
   };
   const answer = [pt ? `**Checklist de 100%** (o que é exigido × quantos existem) [S1]` : `**100% checklist** (what is required × how many exist) [S1]`];
+  if (sc?.progress) answer.push(pt ? "_Não tenho acesso ao seu progresso no jogo: abaixo está tudo o que o 100% exige, para você conferir o que já fez._" : "_I can't see your in-game progress: below is everything 100% requires, so you can check what you have done._");
   if (focusNote) answer.push(`- **${plan.protagonist}**: ${focusNote.replace(/^[A-Z][a-z]+: /, "")} [S1]`);
   for (const [cat, rs] of groups) {
     if (cat === "not_required") continue;
@@ -336,6 +398,170 @@ async function completion(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
     answer.push(pt ? `_Totais e exigidos podem diferir: ex. "${label}" (${partial.required_count} de ${partial.total_count})._` : `_Required and total can differ: e.g. "${label}" (${partial.required_count} of ${partial.total_count})._`);
   }
   return { candidates, cards, answer, focus: ["completion:100-percent"] };
+}
+
+type Req = { id: string; category: string; label: string; required_count: number | null; total_count: number | null; protagonists: string[]; target_ids: string[]; source_id: string; source_url: string; knowledge_status: string; notes: string | null };
+const COMPLETION_CAT: Record<string, [string, string]> = {
+  missions: ["Missões", "Missions"], strangers_and_freaks: ["Strangers and Freaks", "Strangers and Freaks"], random_events: ["Random events", "Random events"],
+  hobbies_and_pastimes: ["Hobbies e passatempos", "Hobbies and pastimes"], miscellaneous: ["Diversos", "Miscellaneous"], not_required: ["Não exigidos", "Not required"],
+};
+const reqLine = (r: Req) => `${r.label.replace(/\.$/, "")}${r.required_count != null ? ` (${r.required_count}${r.total_count != null && r.total_count !== r.required_count ? `/${r.total_count}` : ""})` : ""}`;
+
+/** One part of the checklist ("Quais hobbies contam?", "Quais coletáveis contam?"): every row of that part, and the optional ones. */
+let collectibleNameCache: string[] | undefined;
+async function collectibleNames(db: Db): Promise<string[]> {
+  if (!collectibleNameCache) {
+    const rows = await db.query<{ name: string }>("select name from entities where type = 'collectible'");
+    // Singular and plural forms ("Stunt Jumps" / "Stunt jump", "Submarine Pieces" / "Submarine Parts" in labels).
+    collectibleNameCache = [...new Set(rows.flatMap((r) => { const n = normalize(r.name); return [n, n.replace(/s$/, "")]; }).concat(["submarine parts", "nuclear waste barrels"]))];
+  }
+  return collectibleNameCache;
+}
+
+async function scopedCompletion(db: Db, reqs: Req[], src: SourceInfo, sc: NonNullable<Plan["completion"]>, lang: Lang): Promise<ExecResult> {
+  const inScope = (r: Req) => sc.categories.includes(r.category) || sc.labels.some((l) => r.label.toLowerCase().includes(l));
+  if (sc.labels.includes("collect")) {
+    // "Quais coletáveis contam?": rows that name a collectible category (not "Epsilon Program", not a stranger chain).
+    const names = (await collectibleNames(db)).map((x) => ` ${x} `);
+    const isCollectible = (r: Req) => ["miscellaneous", "not_required"].includes(r.category) && names.some((x) => ` ${normalize(r.label)} `.includes(x));
+    return finishScoped(reqs.filter((r) => r.category !== "not_required" && isCollectible(r)), reqs.filter((r) => r.category === "not_required" && isCollectible(r)), src, lang);
+  }
+  return finishScoped(reqs.filter((r) => r.category !== "not_required" && inScope(r)), reqs.filter((r) => r.category === "not_required" && inScope(r)), src, lang);
+}
+
+function finishScoped(required: Req[], optional: Req[], src: SourceInfo, lang: Lang): ExecResult {
+  const pt = lang === "pt";
+  if (!required.length && !optional.length) return EMPTY;
+  const part = [...new Set(required.map((r) => (COMPLETION_CAT[r.category] ?? [r.category, r.category])[pt ? 0 : 1]))].join(", ");
+  const content = `100% completion — ${part}:\n${required.map((r) => `- ${reqLine(r)}`).join("\n")}${optional.length ? `\nNot required:\n${optional.map((r) => `- ${reqLine(r)}`).join("\n")}` : ""}`;
+  const candidates = [block("completion:100-percent", "completion", "100% Completion", content, src)];
+  const answer = [
+    pt ? `**O que conta para 100% — ${part || "itens relacionados"}** (${required.length}) [S1]` : `**What counts for 100% — ${part || "related items"}** (${required.length}) [S1]`,
+    ...required.map((r) => `- ${reqLine(r)}`),
+    ...(optional.length ? ["", pt ? `**Não exigidos para 100%:** ${optional.map(reqLine).join("; ")} [S1]` : `**Not required for 100%:** ${optional.map(reqLine).join("; ")} [S1]`] : []),
+  ];
+  const groups = new Map<string, Req[]>();
+  for (const r of [...required, ...optional]) groups.set(r.category, [...(groups.get(r.category) ?? []), r]);
+  const cards: CardData[] = [{ kind: "completion", groups: [...groups].map(([category, rs]) => ({ category, items: rs.map((r) => ({ label: r.label, required: r.required_count ?? undefined, total: r.total_count ?? undefined })) })) }];
+  return { candidates, cards, answer, focus: ["completion:100-percent"] };
+}
+
+/** Checklist category that covers every entity of a kind ("any 14 random events", "all storyline missions"). */
+const KIND_CATEGORY: Partial<Record<string, string>> = { random_event: "random_events", hobby: "hobbies_and_pastimes", mission: "missions", heist: "missions" };
+
+/**
+ * One fact about one thing and 100%: how many exist, and whether / how many count. Numbers come from the collectible
+ * record and the 100% checklist rows (never from code); when the thing itself is not on the checklist, the checklist
+ * rows of what it is directly tied to are reported as related (Space Docker → requires Spaceship Parts).
+ */
+async function completionFact(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
+  const c = plan.completion;
+  if (!c?.targets.length) return EMPTY;
+  const pt = lang === "pt";
+  const candidates: Candidate[] = [];
+  const answer: string[] = [];
+  const cite = (cand: Candidate) => { candidates.push(cand); return `[S${candidates.length}]`; };
+  const reqSrc = async (r: Req): Promise<SourceInfo | undefined> =>
+    (await db.query<SourceInfo>("select id as source_id, $1::text as url, null as title, name, authority, source_type from sources where id = $2", [r.source_url, r.source_id]))[0];
+  for (const t of c.targets) {
+    const coll = (await db.query<{ total: number | null; counts_for_100: boolean | null; required: string | null }>(
+      "select total, counts_for_100, details->>'required_for_100' as required from collectibles where entity_id = $1", [t.id]))[0];
+    // Rows about this thing: explicit target, or its whole name as a phrase in the label ("Mr. Philips" must not match
+    // "Mrs. Philips"; "Peyote Plants" matches "Eat all Peyote Plants"). A category-level entity ("Strangers and Freaks",
+    // "Random Events") is answered by its checklist category.
+    const all = await db.query<Req>("select id, category, label, required_count, total_count, protagonists, target_ids, source_id, source_url, knowledge_status, notes from completion_requirements order by position");
+    const phrase = normalize(t.name).replace(/ overview$/, "");
+    const asCategory = Object.keys(COMPLETION_CAT).find((k) => k.replace(/_/g, " ") === phrase);
+    const has = (label: string) => ` ${normalize(label)} `.includes(` ${phrase} `);
+    let rows = asCategory
+      ? all.filter((r) => r.category === asCategory)
+      : all.filter((r) => r.target_ids.includes(t.id) || has(r.label));
+    let related: string | undefined;
+    if (!rows.length && KIND_CATEGORY[t.type]) rows = await db.query<Req>("select id, category, label, required_count, total_count, protagonists, target_ids, source_id, source_url, knowledge_status, notes from completion_requirements where category = $1 and cardinality(target_ids) <= 1 order by position limit 1", [KIND_CATEGORY[t.type]]);
+    if (!rows.length) {
+      const near = await db.query<Req & { via: string }>(
+        `select cr.id, cr.category, cr.label, cr.required_count, cr.total_count, cr.protagonists, cr.target_ids, cr.source_id, cr.source_url, cr.knowledge_status, cr.notes, e.name as via
+           from relationships r join entities e on e.id = case when r.from_id = $1 then r.to_id else r.from_id end
+           join completion_requirements cr on e.id = any(cr.target_ids)
+          where (r.from_id = $1 or r.to_id = $1) and r.predicate in ('requires','rewards','instance_of','part_of') order by cr.position limit 3`, [t.id]);
+      if (near.length) { rows = near; related = near[0]?.via; }
+    }
+    const own = (await sourcesOf(db, [t.id])).get(t.id);
+    // A pure count question ("Quantos Stunt Jumps existem?") gets the count, not the 100% rule it did not ask about.
+    const about100 = c.about100 !== false || c.ask !== "count";
+    const required = about100 ? rows.filter((r) => r.category !== "not_required") : [];
+    const optional = about100 ? rows.filter((r) => r.category === "not_required") : [];
+    const lines: string[] = [];
+    if (c.ask === "count") {
+      const total = coll?.total ?? required[0]?.total_count ?? optional[0]?.total_count ?? null;
+      if (total != null && own) lines.push(pt ? `**${t.name}**: existem **${total}** no jogo, segundo a base. ${cite(block(t.id, t.type, t.name, `${t.name}: ${total} in total.`, own))}` : `**${t.name}**: there are **${total}** in the game, according to the KB. ${cite(block(t.id, t.type, t.name, `${t.name}: ${total} in total.`, own))}`);
+      else lines.push(pt ? `**${t.name}**: a base não registra quantos existem.` : `**${t.name}**: the knowledge base does not record how many there are.`);
+    }
+    if (required.length) {
+      const r0 = required[0] as Req;
+      const s0 = await reqSrc(r0);
+      const tag = s0 ? cite(block("completion:100-percent", "completion", "100% Completion", `100% checklist: ${required.map(reqLine).join("; ")}.`, s0)) : "";
+      lines.push(related
+        ? (pt ? `**${t.name}** não aparece no checklist de 100%; o item ligado a ele conta: ${related} — "${reqLine(r0)}". ${tag}` : `**${t.name}** is not on the 100% checklist itself; the item it is tied to counts: ${related} — "${reqLine(r0)}". ${tag}`)
+        : (pt ? `**Conta para 100%**: ${required.map((r) => `"${reqLine(r)}"`).join("; ")}. ${tag}` : `**Counts for 100%**: ${required.map((r) => `"${reqLine(r)}"`).join("; ")}. ${tag}`));
+    } else if (optional.length) {
+      const s0 = await reqSrc(optional[0] as Req);
+      const tag = s0 ? cite(block("completion:100-percent", "completion", "100% Completion", `Not required for 100%: ${optional.map(reqLine).join("; ")}.`, s0)) : "";
+      lines.push(pt ? `**Não é exigido para 100%**: o checklist lista "${optional.map(reqLine).join("; ")}" entre os itens não obrigatórios. ${tag}` : `**Not required for 100%**: the checklist lists "${optional.map(reqLine).join("; ")}" among the optional items. ${tag}`);
+    } else if (about100 && coll?.counts_for_100 === false && own) {
+      lines.push(pt ? `**Não conta para 100%**, segundo a base. ${cite(block(t.id, t.type, t.name, `${t.name}: does not count for 100%.`, own))}` : `**Does not count for 100%**, according to the KB. ${cite(block(t.id, t.type, t.name, `${t.name}: does not count for 100%.`, own))}`);
+    } else if (c.ask === "counts") {
+      lines.push(pt ? `A base não registra se **${t.name}** conta para 100%.` : `The knowledge base does not record whether **${t.name}** counts for 100%.`);
+    }
+    if (coll?.required && required.length && !required.some((r) => String(r.required_count) === coll.required)) {
+      lines.push(pt ? `_O registro do item indica ${coll.required} exigidos; o checklist acima prevalece._` : `_The item record says ${coll.required} required; the checklist above prevails._`);
+    }
+    for (const l of lines) if (!answer.includes(l)) answer.push(l);
+  }
+  if (!candidates.length) return { ...EMPTY, answer, focus: c.targets.map((t) => t.id) };
+  return { candidates, cards: [], answer, focus: c.targets.map((t) => t.id) };
+}
+
+/** Attributes a clause can ask for, and the wording that shows a chunk states it. */
+export const ATTRIBUTES: Array<{ ask: RegExp; has: RegExp; pt: string; en: string }> = [
+  { ask: /\b(quanto custa|custa|custo|preco|price|cost|how much (is|does it cost))\b/, has: /(\$\s?[\d,]{3,}|\bprice\b|\bcosts?\b|\bpurchased? (by|for)\b)/i, pt: "o preço", en: "the price" },
+  { ask: /\b(rende|renda|rendimento|income|weekly|semana|lucro|earn\w*)\b/, has: /\b(weekly|per week|income|\/week|return of)\b/i, pt: "a renda semanal", en: "the weekly income" },
+  { ask: /\b(recompensa|o que (eu )?(ganho|ganha|recebo)|what do (i|you) get|rewards?)\b/, has: /\b(reward|becomes available|unlocks?|gives?)\b/i, pt: "a recompensa", en: "the reward" },
+  { ask: /\b((quem|qual personagem|quais personagens) pode(m)? (comprar|usar|fazer|jogar)|(who|which characters?) can (buy|use|do|play))\b/, has: /\b(buyable by|purchased by|can be (purchased|bought) by|available (for|to)|protagonists?:|only .* can)\b/i, pt: "quem pode", en: "who can" },
+  { ask: /\b(velocidade|speed|rapido|fast\w*)\b/, has: /\b(speed|mph|km\/h|top speed)\b/i, pt: "a velocidade", en: "the speed" },
+  { ask: /\b(dano|damage)\b/, has: /\bdamage\b/i, pt: "o dano", en: "the damage" },
+  { ask: /\b(horario|que horas|a que horas|what time|which time)\b/, has: /(\b\d{1,2}:\d{2}\b|\b\d{1,2} ?(am|pm)\b|\bat night\b|\bbetween \d)/i, pt: "o horário", en: "the time" },
+];
+
+/** What the KB says about one named entity, for one part of a compound question (where / who / what). */
+async function entityProfile(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
+  const t = plan.target;
+  if (!t) return EMPTY;
+  const chunks = await db.query<{ content: string; content_type: string; source_id: string; source_url: string; source_title: string | null; name: string; authority: number; source_type: string; verification: string }>(
+    `select c.content, c.content_type, c.source_id, c.source_url, c.source_title, s.name, s.authority, s.source_type, c.knowledge_status as verification
+       from chunks c join sources s on s.id = c.source_id where c.entity_id = $1 and c.online_only = false order by c.position limit 12`, [t.id]);
+  if (!chunks.length) return EMPTY;
+  const WHERE = /\b(location|located|takes place|starts? (at|from)|found|garage|how to get|home|lives?|mora)\b/i;
+  // Attribute clauses ("quanto custa", "quanto rende", "quem pode comprar") need a chunk that states that attribute.
+  // The patterns are written over normalized text ("preco", "horario"); the clause keeps the user's wording for display.
+  const clause = normalize(plan.clause ?? "");
+  const attr = ATTRIBUTES.find((a) => a.ask.test(clause));
+  const pick = attr ? chunks.find((c) => attr.has.test(c.content))
+    : plan.aspect === "where" ? chunks.find((c) => c.content_type === "location" || WHERE.test(c.content)) ?? chunks[0] : chunks[0];
+  const head0 = plan.clause ? `**${plan.clause.charAt(0).toUpperCase()}${plan.clause.slice(1)}?**` : `**${t.name}**`;
+  if (!pick) {
+    // Partially supported question: the KB knows the entity but not this attribute — say exactly that.
+    const verb = clause.match(/\b(?:quem pode|who can|character can|personagem pode) (\w+)/)?.[1];
+    const what = verb ? (lang === "pt" ? `quem pode ${verb}` : `who can ${verb}`) : (lang === "pt" ? attr?.pt ?? "esse dado" : attr?.en ?? "that");
+    return { ...EMPTY, answer: [head0, lang === "pt" ? `A base não registra ${what} — **${t.name}**.` : `The knowledge base does not record ${what} — **${t.name}**.`], focus: [t.id] };
+  }
+  const ch = pick;
+  const text = ch.content.replace(/^[^\n]*\[[a-z_ ]+\] — [^\n]*\n/, "").replace(/^[^:\n]+ — [^:\n]+: /, "");
+  const facts = text.split("\n").filter(Boolean);
+  const lead = (attr ? facts.find((l) => attr.has.test(l)) ?? facts[0] ?? "" : facts[0] ?? "").slice(0, 360);
+  const extra = plan.aspect === "where" ? facts.slice(1).filter((l) => WHERE.test(l)).slice(0, 2) : [];
+  const cand = block(t.id, t.type, t.name, ch.content, { source_id: ch.source_id, url: ch.source_url, title: ch.source_title, name: ch.name, authority: ch.authority, source_type: ch.source_type }, ch.verification);
+  return { candidates: [cand], cards: [], answer: [head0, `${lead} [S1]`, ...extra.map((l) => `- ${l.slice(0, 220)} [S1]`)], focus: [t.id] };
 }
 
 async function graphAround(db: Db, id: string, name: string, outPreds: string[], inPreds: string[], lang: Lang, heading: string): Promise<ExecResult> {
@@ -460,13 +686,22 @@ async function listType(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
   let rows: Row[] = [];
   let title = "";
   let note: string | undefined;
-  const area = plan.area;
-  const inArea = area ? `and exists (select 1 from relationships r where r.from_id = e.id and r.predicate in ('located_in','starts_at','located_at','takes_place_at') and r.to_id = $1)` : "";
-  const params = area ? [area.id] : [];
+  const scope = await areaScope(db, plan);
+  const area = plan.area ?? plan.areas?.[0];
+  const params: unknown[] = scope ? [scope.ids] : [];
+  const who = plan.protagonist;
   switch (listing.type) {
     case "random_event":
-      rows = await db.query<Row>(`select e.id, e.name, e.summary, re.details->>'available_for' as detail from random_events re join entities e on e.id = re.entity_id where e.online_only = false ${inArea} order by e.name`, params);
-      title = pt ? "Random events na base" : "Random events in the knowledge base";
+      // In an area: linked to it, or its recorded location names it ("Random event at Route 68 in Harmony").
+      rows = scope
+        ? await db.query<Row>(
+          `select e.id, e.name, e.summary, re.details->>'available_for' as detail from random_events re join entities e on e.id = re.entity_id
+            where e.online_only = false and (exists (select 1 from relationships r where r.from_id = e.id and r.predicate in ('located_in','starts_at','located_at','takes_place_at') and r.to_id = any($1::text[]))
+              or exists (select 1 from unnest($2::text[]) p where lower(coalesce(re.details->>'location', '')) ~ ('\\m' || p || '\\M'))) order by e.name`, [scope.ids, scope.names])
+        : await db.query<Row>(`select e.id, e.name, e.summary, re.details->>'available_for' as detail from random_events re join entities e on e.id = re.entity_id where e.online_only = false order by e.name`);
+      // Protagonist constraint: events the source lists for that protagonist or for all of them.
+      if (who) rows = rows.filter((r) => r.detail && (/all protagonists/i.test(r.detail) || new RegExp(`\\b${who}\\b`, "i").test(r.detail)));
+      title = who ? (pt ? `Random events que ${who} pode fazer` : `Random events ${who} can do`) : (pt ? "Random events na base" : "Random events in the knowledge base");
       { const n = await requiredFor(db, "random_events", "%random event%"); note = n == null ? undefined : pt ? `Para 100% são exigidos ${n} random events.` : `${n} random events are required for 100%.`; }
       break;
     case "property": {
@@ -506,25 +741,37 @@ async function listType(db: Db, plan: Plan, lang: Lang): Promise<ExecResult> {
              from vehicles v join entities e on e.id = v.entity_id
              join relationships r on r.from_id = e.id and r.predicate in ('located_at','found_at','located_in','starts_at')
              join entities p on p.id = r.to_id
-            where e.online_only = false ${area ? "and r.to_id = $1" : ""} group by e.id, e.name, e.summary order by e.name`, params);
+            where e.online_only = false ${scope ? "and r.to_id = any($1::text[])" : ""} group by e.id, e.name, e.summary order by e.name`, params);
         title = pt ? "Veículos com local documentado" : "Vehicles with a documented location";
         note = pt
           ? `Não tenho evidência suficiente para indicar veículos raros ou pontos de spawn${area ? ` perto de ${area.name}` : ""}: as fontes usadas listam os veículos do jogo (classe, fabricante), mas não onde aparecem. Esse dado está registrado como pendência.`
           : `I don't have enough evidence to point to rare vehicles or spawn points${area ? ` near ${area.name}` : ""}: the sources used list the game's vehicles (class, maker) but not where they spawn. This gap is logged.`;
         if (!rows.length) return { candidates: [], cards: [{ kind: "warning", tone: "unvalidated", title: pt ? "Sem dados de spawn" : "No spawn data", text: note }], answer: [note], focus: [] };
       } else {
-        rows = await db.query<Row>(`select e.id, e.name, e.summary, v.vehicle_class as detail from vehicles v join entities e on e.id = v.entity_id where e.online_only = false order by v.vehicle_class nulls last, e.name`);
-        title = pt ? "Veículos na base (roster do jogo)" : "Vehicles in the knowledge base (game roster)";
+        const classes = listing.vehicleClass ?? [];
+        rows = await db.query<Row>(
+          `select e.id, e.name, e.summary, v.vehicle_class as detail from vehicles v join entities e on e.id = v.entity_id
+            where e.online_only = false and (cardinality($1::text[]) = 0 or lower(v.vehicle_class) = any($1::text[])) order by v.vehicle_class nulls last, e.name`, [classes]);
+        title = classes.length
+          ? (pt ? `Veículos da classe ${classes.join(" / ")} na base` : `${classes.join(" / ")} class vehicles in the knowledge base`)
+          : (pt ? "Veículos na base (roster do jogo)" : "Vehicles in the knowledge base (game roster)");
       }
       break;
     }
     case "easter_egg":
-      rows = await db.query<Row>(`select e.id, e.name, e.summary, null as detail from entities e where e.type = 'easter_egg' and e.online_only = false ${inArea} order by e.name`, params);
+      rows = scope
+        ? await db.query<Row>(
+          `select e.id, e.name, e.summary, null as detail from entities e where e.type = 'easter_egg' and e.online_only = false
+             and (exists (select 1 from relationships r where r.from_id = e.id and r.predicate in ('located_in','starts_at','located_at','takes_place_at') and r.to_id = any($1::text[]))
+                  or exists (select 1 from unnest($2::text[]) p where lower(e.name || ' ' || e.summary) ~ ('\\m' || p || '\\M'))) order by e.name`, [scope.ids, scope.names])
+        : await db.query<Row>("select e.id, e.name, e.summary, null as detail from entities e where e.type = 'easter_egg' and e.online_only = false order by e.name");
       title = area ? (pt ? `Easter eggs e segredos em ${area.name}` : `Easter eggs and secrets at ${area.name}`) : (pt ? "Easter eggs e segredos na base" : "Easter eggs and secrets in the knowledge base");
       break;
     case "stranger_mission":
-      rows = await db.query<Row>(`select e.id, e.name, e.summary, m.details->>'for' as detail from missions m join entities e on e.id = m.entity_id where m.mission_type = 'stranger' order by m.details->>'for' nulls last, e.name`);
-      title = "Strangers and Freaks";
+      rows = await db.query<Row>(
+        `select e.id, e.name, e.summary, m.details->>'for' as detail from missions m join entities e on e.id = m.entity_id
+          where m.mission_type = 'stranger' and ($1::text is null or $1 = any(m.protagonists)) order by m.details->>'for' nulls last, e.name`, [who ?? null]);
+      title = who ? `Strangers and Freaks — ${who}` : "Strangers and Freaks";
       break;
   }
   if (!rows.length) {
@@ -560,6 +807,8 @@ export async function executePlan(db: Db, plan: Plan, lang: Lang): Promise<ExecR
     case "nearby_collectibles": return nearbyCollectibles(db, plan, lang);
     case "list_type": return listType(db, plan, lang);
     case "practical_plan": return practicalPlan(db, lang);
+    case "completion_fact": return completionFact(db, plan, lang);
+    case "entity_profile": return entityProfile(db, plan, lang);
     default: return EMPTY;
   }
 }
@@ -580,17 +829,27 @@ async function practicalPlan(db: Db, lang: Lang): Promise<ExecResult> {
  * Runs the primary goal and the secondary goals of a composite question and merges their evidence. Citation
  * markers of later results are renumbered so every [S#] still points at the right evidence block.
  */
-export async function executeComposite(db: Db, plan: Plan, secondary: Goal[], lang: Lang): Promise<ExecResult> {
+const strip = (l: string) => l.replace(/\[S\d+\]/g, "").trim();
+
+export async function executeComposite(db: Db, plan: Plan, secondary: Array<Goal | Plan>, lang: Lang): Promise<ExecResult> {
   let acc = await executePlan(db, plan, lang);
-  for (const goal of secondary) {
-    const next = await executePlan(db, { ...plan, goal, focusCharacter: acc.focus.find((id) => id.startsWith("character:")) }, lang);
+  for (const sub of secondary) {
+    // A goal re-uses the primary plan's constraints; a Plan (one clause of a compound question) brings its own.
+    const p: Plan = typeof sub === "string" ? { ...plan, goal: sub, focusCharacter: acc.focus.find((id) => id.startsWith("character:")) } : sub;
+    const next = await executePlan(db, p, lang);
+    // A clause answered by a sentence already given above points back to it instead of repeating it.
+    if (next.answer?.length && acc.answer?.length) {
+      const fresh = next.answer.filter((l, i) => i === 0 || !l.trim() || !acc.answer?.some((a) => strip(a) === strip(l)));
+      if (fresh.length === 1 && next.answer.length > 1) next.answer = [...fresh, lang === "pt" ? "_(respondido acima)_" : "_(answered above)_"];
+    }
     if (!next.candidates.length && !next.answer?.length) continue;
     const offset = acc.candidates.length;
     const shift = (line: string) => line.replace(/\[S(\d+)\]/g, (_m, n: string) => `[S${Number(n) + offset}]`);
     acc = {
       candidates: [...acc.candidates, ...next.candidates],
       cards: [...acc.cards, ...next.cards.filter((c) => !acc.cards.some((x) => x.kind === c.kind && JSON.stringify(x) === JSON.stringify(c)))],
-      answer: acc.answer || next.answer ? [...(acc.answer ?? []), ...(next.answer?.length ? ["", ...next.answer.map(shift)] : [])] : undefined,
+      // A fact two clauses both produce ("existem 50") is said once.
+      answer: acc.answer || next.answer ? [...(acc.answer ?? []), ...(next.answer?.length ? [...(acc.answer?.length ? [""] : []), ...next.answer.map(shift).filter((l) => !l.trim() || l.startsWith("_(") || !(acc.answer ?? []).some((a) => strip(a) === strip(l)))] : [])] : undefined,
       focus: [...new Set([...acc.focus, ...next.focus])],
     };
   }
@@ -603,4 +862,4 @@ export const LOOKUP_GOALS = new Set(["nearest", "in_area", "list_items", "item_l
  * Goals whose evidence is structured but whose answer benefits from synthesis: with an AI provider the LLM writes the
  * answer over that evidence; without one (demo mode) the structured, cited answer is returned as is.
  */
-export const SYNTH_GOALS = new Set(["romance", "character_location", "completion", "after_mission", "unlocked_by"]);
+export const SYNTH_GOALS = new Set(["romance", "character_location", "completion", "after_mission", "unlocked_by", "completion_fact", "entity_profile"]);
