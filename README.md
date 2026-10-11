@@ -1,5 +1,7 @@
 # GTA V Story Mode AI
 
+**Live Demo:** https://gta-v-story-mode-ai.vercel.app
+
 > **An AI agent specialised exclusively in Grand Theft Auto V Story Mode.** It answers practical gameplay questions from a curated knowledge base using hybrid retrieval (full-text + vector + structured SQL + entity relationships), source grounding and explicit, user-visible uncertainty.
 
 ![Empty state](docs/screenshots/01-empty-state-desktop.jpg)
